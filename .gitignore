@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Secrets — NEVER commit. Portal credentials live in Windows Credential Manager,
+# not here. Local runner .env holds only Supabase URL + service-role key +
+# Anthropic API key.
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+.vite/
+
+# Supabase local
+supabase/.branches
+supabase/.temp
+
+# Runner audit/screens scratch
+runner/.cache/
+*.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.log
