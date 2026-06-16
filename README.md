@@ -1,218 +1,366 @@
 # Prima Quote Agent
 
 Multi-insurer quote retrieval for the Prima CRM, triggerable from the CRM or via
-WhatsApp. FCA-regulated UK insurance brokerage.
+WhatsApp. Built for an FCA-regulated UK insurance brokerage.
 
-> **Status:** in-progress build. Schema (Part 1) and the `enqueue-quote-job`
-> Edge Function (Part 2) are in place. Remaining parts (runner, CRM UI,
-> WhatsApp, full README) follow the build order below.
+Request quotes from several insurer portals **in parallel** and get the results
+back both in the CRM (a live comparison table) and via WhatsApp.
+
+---
 
 ## Architecture
 
 Supabase Edge Functions are serverless and **cannot drive a browser/desktop**.
-We use a **job queue + local runner** pattern:
+So this uses a **job queue + local runner** pattern:
 
 ```
 Trigger (CRM button OR WhatsApp message)
-  -> Edge Function enqueues job(s)        (enqueue-quote-job / whatsapp-webhook)
+  -> Edge Function enqueues job(s)            (enqueue-quote-job / whatsapp-webhook)
   -> Supabase automation_jobs table
-  -> Windows runner polls, claims a job, drives the insurer portal (computer-use)
+  -> Windows runner polls, claims a job, drives the insurer portal (computer use)
   -> runner writes results + audit log back to Supabase
-  -> CRM shows live comparison; WhatsApp gets a summary reply
+  -> CRM shows the live comparison; WhatsApp gets a summary reply (notify-quote-results)
 ```
 
-**Hard rules (regulated):**
-- Never drive portals from an Edge Function.
-- Portal credentials live ONLY in Windows Credential Manager on the runner box —
-  never in the cloud, never in git.
-- Quote retrieval is **read + generate quote only** — never bind, pay, or submit
-  a purchase.
+The runner is a **shared core + per-workflow handlers** so future workflows
+(Acturis extraction, renewals) slot in without rework.
 
-## Layout
+### Hard rules (regulated — do not relax)
+
+- **Never drive portals from an Edge Function.** Edge functions only enqueue.
+- **Portal credentials live ONLY in Windows Credential Manager** on the runner
+  PC — never in the cloud, never in git, never sent to the LLM.
+- **Quote retrieval is read + generate-quote ONLY.** The runner never binds,
+  pays, or submits a purchase; anything resembling that → `needs_review`.
+- Confirm each insurer portal's terms **permit automated access** before routine
+  use (see [Compliance](#compliance--security)).
+
+---
+
+## Repository layout
 
 ```
 supabase/
-  migrations/   SQL schema, RLS, claim_next_job RPC, storage buckets
+  migrations/           SQL schema, RLS, claim_next_job RPC, storage buckets, WhatsApp
   functions/
-    _shared/    cors.ts, enqueue.ts (shared enqueue logic)
-    enqueue-quote-job/   CRM-triggered job enqueue
-    whatsapp-webhook/    WhatsApp verify + inbound receiver (intent parse)
+    _shared/            cors.ts, enqueue.ts (shared), whatsapp.ts (shared)
+    enqueue-quote-job/  CRM-triggered job enqueue
+    whatsapp-webhook/   WhatsApp verify + inbound receiver + intent.ts
     notify-quote-results/  batch-complete WhatsApp summary
-runner/         Windows local runner (core + handlers)
-  core/         queue, credentials, audit, computer-use loop
-  handlers/     quote-retrieval (only handler for now)
-src/            CRM front-end (React 18 + Vite + TS + Tailwind + shadcn-style UI)
-  components/ui/  hand-written shadcn-style primitives (no Radix dep)
+runner/                 Windows local runner (Node + TypeScript, strict)
+  src/core/             queue, credentials, audit, computer-use loop, supabase
+  src/handlers/         quote-retrieval (only handler for now)
+  src/index.ts          poll -> claim -> dispatch by job.type
+  src/setup-credentials.ts   one-time credential setup
+src/                    CRM front-end (React 18 + Vite + TS + Tailwind)
+  components/ui/        shadcn-style primitives (no Radix dependency)
   features/playbooks/   PortalPlaybookEditor
   features/quotes/      GetQuotes, QuoteComparison
 ```
 
-## Part 1 — schema
+---
 
-`supabase/migrations/20260616210000_init_automation.sql` creates:
+## Prerequisites
 
-- `organizations`, `profiles` — multi-tenant scoping (one brokerage = one org).
-- `policies` — CRM policy/risk records the agent quotes against.
-- `insurer_portals` — one row per insurer portal; `credential_key` NAMES the
-  Windows Credential Manager entry (not a secret).
-- `portal_playbooks` — versioned, append-only authoring of how to drive a portal
-  per product type. Never overwritten; each edit is a new version.
-- `automation_jobs` — the work queue.
-- `automation_audit_log` — per-step audit trail.
-- `claim_next_job(p_runner_id, p_job_type)` — atomic `FOR UPDATE SKIP LOCKED`
-  claim so multiple runners never grab the same job.
-- RLS scoping every table by the caller's org; private storage buckets
-  `portal-playbooks`, `portal-audit-screens`, `quote-docs`.
+| Where | Needs |
+|---|---|
+| Supabase | A project (free tier is fine to start), the `supabase` CLI |
+| CRM | Node.js LTS (≥ 20); a host for the static build (e.g. Vercel) |
+| WhatsApp | A Meta/Facebook Business account + WhatsApp Business Cloud API number |
+| Runner PC | **Windows**, Node.js LTS, Git, Visual Studio Build Tools (C++ workload), an Anthropic API key |
 
-Apply with the Supabase CLI:
+---
+
+## 1. Supabase setup
+
+### 1.1 Apply the migrations
 
 ```bash
-supabase db push       # or: supabase migration up
+supabase link --project-ref <your-ref>
+supabase db push     # applies both migrations in supabase/migrations/ in order
 ```
 
-## Part 2 — enqueue-quote-job
+This creates all tables + RLS, the atomic `claim_next_job` RPC, the three
+**private** storage buckets (`portal-playbooks`, `portal-audit-screens`,
+`quote-docs`), adds `automation_jobs` to the realtime publication, and installs
+the WhatsApp batch-completion trigger.
 
-Authenticated CRM users POST:
+### 1.2 Keys you'll need
 
-```jsonc
-// POST /functions/v1/enqueue-quote-job
-{
-  "policy_ref": "ABC123",      // OR provide "risk_data": { ... }
-  "portal_ids": ["<uuid>", "<uuid>"],
-  "product_type": "motor"      // optional; falls back to the policy's product_type
-}
-// -> 201 { batch_id, job_ids: [...], product_type, insurers: [...] }
+From **Project settings → API**:
+- **Project URL** and **anon key** → the CRM (`VITE_*`).
+- **service-role key** → the runner and the edge functions. This is the
+  "runner service role": it bypasses RLS so the runner can claim/update jobs and
+  insert audit rows. Treat it as a secret; never ship it to the browser.
+
+### 1.3 Seed the core data
+
+There's no admin UI for organisations / users / portals yet, so seed them once
+in the SQL editor. Create at least one org, link your staff login to it, and add
+your insurer portals and the policies you'll quote against.
+
+```sql
+-- 1. Organisation
+insert into organizations (name) values ('Prima Insurance')
+  returning id;  -- note the org_id
+
+-- 2. Link a staff auth user to the org (create the user first in
+--    Authentication → Users, then use their UUID here).
+insert into profiles (id, org_id, full_name)
+  values ('<auth-user-uuid>', '<org_id>', 'Anthony');
+
+-- 3. Insurer portals. credential_key NAMES the Windows Credential Manager entry
+--    on the runner PC — it is NOT a secret and holds no password.
+insert into insurer_portals (org_id, insurer_name, portal_url, credential_key) values
+  ('<org_id>', 'Aviva', 'https://broker.aviva.co.uk', 'prima-aviva'),
+  ('<org_id>', 'AXA',   'https://broker.axa.co.uk',   'prima-axa');
+
+-- 4. A policy/risk record so policy_ref lookups resolve. risk_data keys are the
+--    ones you reference in playbook field maps.
+insert into policies (org_id, policy_ref, product_type, risk_data) values
+  ('<org_id>', 'ABC123', 'motor', '{
+     "vehicle_reg": "AB12 CDE",
+     "driver_dob": "1985-04-12",
+     "postcode": "EC1A 1BB"
+   }'::jsonb);
 ```
 
-It creates one `pending` job per `portal_id`, all sharing a `batch_id`, and does
-**not** call Claude or touch portals. The enqueue rules live in
-`supabase/functions/_shared/enqueue.ts` so the WhatsApp webhook (Part 3) reuses
-them.
+Author the per-portal **playbooks** from the CRM (Playbook editor) once portals
+exist — see [Authoring a playbook](#authoring-a-portal-playbook).
 
-Deploy:
+---
+
+## 2. CRM front-end
 
 ```bash
+cp .env.example .env       # VITE_SUPABASE_URL + VITE_SUPABASE_ANON_KEY (public)
+npm install
+npm run dev                # local; or `npm run build` for a static bundle
+```
+
+The anon key is safe in the browser — RLS scopes every query to the signed-in
+user's org. Deploy the `dist/` build to any static host (Vercel works well; set
+the two `VITE_*` env vars there). Set `CRM_BASE_URL` (below) to the deployed URL
+so WhatsApp summaries can deep-link to the comparison.
+
+---
+
+## 3. Edge functions
+
+```bash
+# CRM calls this with the user's JWT — keep JWT verification on.
 supabase functions deploy enqueue-quote-job
+
+# Meta calls the webhook with NO Supabase JWT — disable JWT verification and
+# rely on the X-Hub-Signature-256 check instead.
+supabase functions deploy whatsapp-webhook --no-verify-jwt
+
+# Called by the DB trigger with the service-role key — keep JWT verification.
+supabase functions deploy notify-quote-results
 ```
 
-## Part 3 — Windows runner (core + quote-retrieval handler)
+Set the function secrets (`SUPABASE_URL` / `SUPABASE_SERVICE_ROLE_KEY` /
+`SUPABASE_ANON_KEY` are injected automatically):
 
-`runner/` is a strict-TypeScript Node app: **poll → claim → dispatch**.
+```bash
+supabase secrets set \
+  ANTHROPIC_API_KEY=sk-ant-... \
+  CRM_BASE_URL=https://crm.example.com \
+  WHATSAPP_VERIFY_TOKEN=<you choose this> \
+  WHATSAPP_APP_SECRET=<Meta app secret> \
+  WHATSAPP_TOKEN=<Cloud API access token> \
+  WHATSAPP_PHONE_NUMBER_ID=<your number's phone_number_id>
+```
 
-- `core/queue.ts` — claims jobs via the `claim_next_job` RPC and drives status
-  transitions (running / completed / needs_review / failed).
-- `core/credentials.ts` — reads portal username/password from **Windows
-  Credential Manager** (keytar) by `credential_key`. Never from env/git/Supabase.
-- `core/audit.ts` — at every step writes an `automation_audit_log` row and
-  uploads a screenshot to `portal-audit-screens`.
-- `core/computer-use.ts` — the shared screenshot → reason → act loop. Anthropic
-  SDK, model `claude-sonnet-4-6`. **Verified computer-use pairing for Sonnet 4.6:
-  tool type `computer_20251124` + beta header `computer-use-2025-11-24`** (the
-  older `computer_20250124` / `computer-use-2025-01-24` 400s on this model).
-  Input via `@nut-tree-fork/nut-js` (the maintained fork — the original
-  `@nut-tree/nut-js` is no longer on the public npm registry); screen capture via
-  `screenshot-desktop`.
-- `handlers/quote-retrieval.ts` — loads the portal + latest active playbook +
-  reference screenshots, builds the system prompt, and runs the loop. Credentials
-  are typed via a `type_secret` tool so the password is **never sent to the LLM**.
-  Extracts `{ premium_gross, premium_net, quote_ref, validity_date, excess,
-  outcome, notes }`. **REFERRED/DECLINED are valid outcomes, not failures.**
+Let the batch-completion trigger reach `notify-quote-results` (run once in SQL):
 
-**Hard-stop rules (regulated), enforced in the handler + system prompt:**
-- Never click bind/pay/confirm-purchase → `needs_review`.
-- A `field_map` field with no `risk_data` value → `needs_review` naming the
-  field (pre-flight check; never invents a value).
-- Live screen matches no `expected_screen` → `needs_review` (stale playbook).
+```sql
+alter database postgres set app.settings.edge_base_url    = 'https://<ref>.functions.supabase.co';
+alter database postgres set app.settings.service_role_key = '<service-role-key>';
+```
 
-Run it (on the Windows office PC):
+> If you'd rather not store the service-role key in a DB setting, drop the
+> trigger and instead schedule `notify-quote-results` from `pg_cron` (it already
+> no-ops on incomplete or already-notified batches).
+
+---
+
+## 4. WhatsApp Business Cloud API
+
+1. In **Meta for Developers**, create an app and add the **WhatsApp** product.
+2. Note your test/live number's **`phone_number_id`** and generate an **access
+   token** → `WHATSAPP_PHONE_NUMBER_ID` / `WHATSAPP_TOKEN`. For production use a
+   permanent (system-user) token, not the 24-hour test token.
+3. **App secret** (App settings → Basic) → `WHATSAPP_APP_SECRET` (used to verify
+   the `X-Hub-Signature-256` on every inbound POST).
+4. **Webhook**: set the callback URL to your deployed function
+   `https://<ref>.functions.supabase.co/whatsapp-webhook` and the **Verify
+   token** to the same value you set for `WHATSAPP_VERIFY_TOKEN`. Subscribe to
+   the **`messages`** field.
+5. **Sender allowlist**: only numbers in `whatsapp_senders` can trigger quotes.
+   Seed your approved number(s) (digits only, no `+`), mapped to the org and the
+   staff user who should receive replies:
+
+```sql
+insert into whatsapp_senders (org_id, phone, user_id, notify_default) values
+  ('<org_id>', '447700900123', '<auth-user-uuid>', true);
+```
+
+Then message the number something like *"quote policy ABC123 on Aviva and AXA"*.
+The webhook parses the intent, enqueues one job per insurer, and replies; when
+all jobs finish you get the summary.
+
+---
+
+## 5. Windows runner
+
+The runner drives the insurer portals from an office PC. It must stay **logged
+in and awake** while running.
+
+### 5.1 Prerequisites
+
+- **Node.js LTS** (≥ 20) and **Git**.
+- **Visual Studio Build Tools** with the **"Desktop development with C++"**
+  workload — `keytar` and `@nut-tree-fork/nut-js` are native modules and need it
+  to build on `npm install`.
+- Set the display **scaling to 100%** so screen coordinates map 1:1 with pixels.
+- **Antivirus/endpoint allowlist** the runner folder — synthetic mouse/keyboard
+  input can trip heuristics.
+- Keep the PC **logged in and awake** (disable sleep). For unattended use,
+  consider running it as a scheduled task / service that restarts on logon.
+
+> The runner uses `@nut-tree-fork/nut-js` — the maintained community fork — as
+> the original `@nut-tree/nut-js` is no longer on the public npm registry.
+
+### 5.2 Install & configure
 
 ```bash
 cd runner
-cp .env.example .env      # Supabase URL + service-role key + Anthropic key ONLY
-npm install               # native modules (keytar, nut-js) need VS Build Tools
-npm run setup-credentials # store each portal's login in Credential Manager
-npm run build && npm start
+cp .env.example .env        # Supabase URL + SERVICE-ROLE key + Anthropic key ONLY
+npm install                 # builds keytar / nut-js native modules
 ```
 
-## Part 4 — CRM front-end
+`.env` holds **only** cloud/runtime keys — never portal credentials:
 
-React 18 + Vite + TypeScript + Tailwind, with hand-written shadcn-style
-primitives (`src/components/ui/`) so there's no Radix dependency to install.
-Auth is email/password via Supabase; RLS scopes everything to the user's org.
+```
+SUPABASE_URL=...
+SUPABASE_SERVICE_ROLE_KEY=...
+ANTHROPIC_API_KEY=...
+# optional: ANTHROPIC_MODEL, POLL_INTERVAL_MS, MAX_ITERATIONS, RUNNER_ID
+```
 
-- **`PortalPlaybookEditor`** — pick a portal + product type, add ordered steps
-  (instruction + expected-screen label + field mappings), upload a reference
-  screenshot per step. **Save writes a NEW version** (prior versions are
-  deactivated, never overwritten) — history is kept for audit/rollback.
-- **`GetQuotes`** — on a policy reference, tick the active portals to quote and
-  fire `enqueue-quote-job` (parallel jobs, one `batch_id`).
-- **`QuoteComparison`** — subscribes to all jobs in the `batch_id` via Supabase
-  realtime; the table fills in live as each result lands (insurer, gross
-  premium, excess, outcome badge: quoted/referred/declined, needs-review amber),
-  with a signed-URL link to each quote doc when present.
-
-Run it:
+### 5.3 Store portal credentials (one-time)
 
 ```bash
-cp .env.example .env      # VITE_SUPABASE_URL + VITE_SUPABASE_ANON_KEY (public)
-npm install
-npm run dev               # or: npm run build
+npm run setup-credentials
 ```
 
-## Part 5 — WhatsApp
+This lists the active portals from Supabase and prompts (password hidden) for
+each one's username/password, writing them into the **Windows Credential
+Manager** under each portal's `credential_key`. Re-run it to update a password.
+Credentials never touch `.env`, git, Supabase, or the LLM.
 
-A second schema migration (`20260616220000_whatsapp.sql`) adds:
-- `whatsapp_senders` — the sender **allowlist** AND the phone → org/user map.
-  `phone` is digits only (E.164 without `+`).
-- `quote_batch_notifications` — insert-once dedupe (a batch is summarised once).
-- a batch-completion **trigger**: when all jobs in a batch are terminal, it
-  `pg_net`-POSTs the `batch_id` to `notify-quote-results` (best-effort; never
-  blocks the job update).
-
-**`whatsapp-webhook`** (`supabase/functions/whatsapp-webhook/`):
-- `GET` — Cloud API verification handshake (`hub.verify_token`).
-- `POST` — verifies the `X-Hub-Signature-256` HMAC over the raw body; only acts
-  on allowlisted senders; parses intent with **Claude Haiku 4.5** (strict
-  JSON-only) into `{ policy_ref, insurer_names[], product_type }`; maps insurer
-  names → active portal ids; **asks ONE clarifying question** if the policy_ref
-  is missing, no insurer matches, or a name is ambiguous — never guesses. On
-  success it reuses the shared `enqueue.ts` and replies
-  *"Getting quotes from … for …, I'll message results shortly."*
-
-**`notify-quote-results`** (`supabase/functions/notify-quote-results/`):
-- Composes a per-insurer summary (premium + excess, or REFERRED / DECLINED /
-  NEEDS REVIEW / FAILED), adds a CRM deep link, and sends it to the org's mapped
-  recipient. Dedupes via `quote_batch_notifications`.
-
-### Deploy & config (important)
+### 5.4 Run
 
 ```bash
-# WhatsApp is called by Meta with NO Supabase JWT — disable JWT verification and
-# rely on our own signature check:
-supabase functions deploy whatsapp-webhook --no-verify-jwt
-# Called by the DB trigger with the service-role key — keep JWT verification:
-supabase functions deploy notify-quote-results
-
-# Edge function secrets:
-supabase secrets set \
-  WHATSAPP_VERIFY_TOKEN=... WHATSAPP_APP_SECRET=... \
-  WHATSAPP_TOKEN=... WHATSAPP_PHONE_NUMBER_ID=... \
-  ANTHROPIC_API_KEY=... CRM_BASE_URL=https://crm.example.com
-# (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY are injected automatically.)
-
-# Let the batch-completion trigger reach the function (run once in SQL):
-#   alter database postgres set app.settings.edge_base_url = 'https://<ref>.functions.supabase.co';
-#   alter database postgres set app.settings.service_role_key = '<service-role-key>';
+npm run build && npm start  # or `npm run dev` while developing
 ```
 
-Then seed `whatsapp_senders` with your approved number(s) → org (and the staff
-`user_id` who should receive replies).
+The runner polls `claim_next_job` (atomic `FOR UPDATE SKIP LOCKED`, so you can
+scale to more than one runner later), drives the portal with Claude computer
+use (`claude-sonnet-4-6`, tool `computer_20251124`, beta
+`computer-use-2025-11-24`), writes a screenshot + audit row at every step, and
+sets the job to `completed` / `needs_review` / `failed`.
 
-## Build order
+---
+
+## Authoring a portal playbook
+
+In the CRM → **Playbook editor**:
+
+1. Pick the portal + product type.
+2. Add ordered **steps**: an instruction, an **expected-screen** label (so the
+   runner can tell when the playbook is stale), and **field mappings** — each
+   maps a portal field label to the `risk_data` key that supplies its value.
+3. Upload a **reference screenshot** per step (so Claude matches the live screen
+   against what it should look like).
+4. **Save** — this writes a **new version**. Prior versions are deactivated, not
+   overwritten, so the full history is kept for audit and rollback.
+
+The runner loads the latest active version for the product type at quote time.
+
+---
+
+## How a quote flows
+
+1. **Trigger** — CRM "Get quotes" (pick portals) or a WhatsApp message.
+2. **Enqueue** — one `automation_jobs` row per portal, sharing a `batch_id`.
+3. **Claim & run** — the runner claims a job, logs in (via the `type_secret`
+   tool so the password never reaches the LLM), follows the playbook, and
+   extracts `{ premium_gross, premium_net, quote_ref, validity_date, excess,
+   outcome, notes }`. `referred` / `declined` are valid outcomes, not failures.
+4. **Live comparison** — the CRM `QuoteComparison` table fills in via realtime.
+5. **Notify** — when every job in the batch is terminal, `notify-quote-results`
+   sends a one-line-per-insurer WhatsApp summary with a CRM deep link.
+
+---
+
+## Compliance & security
+
+- **Read + generate-quote only.** The runner is instructed and gated to stop
+  before any bind / pay / purchase control → `needs_review`.
+- **No invented data.** A playbook field with no matching `risk_data` value
+  stops the job (`needs_review`) naming the field — it never guesses.
+- **Stale-playbook safety.** If the live screen matches no expected screen, the
+  job stops for review rather than improvising.
+- **Full audit trail.** Every step writes an `automation_audit_log` row and a
+  screenshot to the private `portal-audit-screens` bucket.
+- **Credential isolation.** Portal logins live only in Windows Credential
+  Manager; the cloud and the LLM never see them.
+- **Automated-access terms.** Confirm each insurer portal's terms of use permit
+  automated access before routine use — some broker portals prohibit it.
+
+---
+
+## Environment variables
+
+**CRM (`.env`, public):**
+
+| Var | Purpose |
+|---|---|
+| `VITE_SUPABASE_URL` | Supabase project URL |
+| `VITE_SUPABASE_ANON_KEY` | Supabase anon key (RLS-scoped) |
+
+**Runner (`runner/.env`):**
+
+| Var | Purpose |
+|---|---|
+| `SUPABASE_URL` | Project URL |
+| `SUPABASE_SERVICE_ROLE_KEY` | Runner service role (bypasses RLS) |
+| `ANTHROPIC_API_KEY` | Computer-use loop |
+| `ANTHROPIC_MODEL` | optional (default `claude-sonnet-4-6`) |
+| `POLL_INTERVAL_MS` | optional (default `5000`) |
+| `MAX_ITERATIONS` | optional (default `40`) |
+| `RUNNER_ID` | optional runner identifier |
+
+**Edge function secrets:**
+
+| Var | Used by |
+|---|---|
+| `ANTHROPIC_API_KEY` | whatsapp-webhook (intent parse) |
+| `WHATSAPP_VERIFY_TOKEN` | whatsapp-webhook (GET verify) |
+| `WHATSAPP_APP_SECRET` | whatsapp-webhook (signature) |
+| `WHATSAPP_TOKEN` | whatsapp-webhook, notify-quote-results (send) |
+| `WHATSAPP_PHONE_NUMBER_ID` | whatsapp-webhook, notify-quote-results (send) |
+| `CRM_BASE_URL` | notify-quote-results (deep link) |
+
+---
+
+## Build order / status
 
 1. ✅ SQL migration + RPC + RLS + buckets
-2. ✅ enqueue-quote-job + shared enqueue module
+2. ✅ `enqueue-quote-job` + shared enqueue module
 3. ✅ Runner core + quote-retrieval handler
 4. ✅ PortalPlaybookEditor + GetQuotes + QuoteComparison
-5. ✅ WhatsApp webhook + intent parse + notify-results
-6. ⏳ README + setup-credentials (full)
+5. ✅ WhatsApp webhook + intent parse + notify-quote-results
+6. ✅ README + setup-credentials
