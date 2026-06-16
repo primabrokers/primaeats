@@ -36,6 +36,8 @@ supabase/
   functions/
     _shared/    cors.ts, enqueue.ts (shared enqueue logic)
     enqueue-quote-job/   CRM-triggered job enqueue
+    whatsapp-webhook/    WhatsApp verify + inbound receiver (intent parse)
+    notify-quote-results/  batch-complete WhatsApp summary
 runner/         Windows local runner (core + handlers)
   core/         queue, credentials, audit, computer-use loop
   handlers/     quote-retrieval (only handler for now)
@@ -157,11 +159,60 @@ npm install
 npm run dev               # or: npm run build
 ```
 
+## Part 5 — WhatsApp
+
+A second schema migration (`20260616220000_whatsapp.sql`) adds:
+- `whatsapp_senders` — the sender **allowlist** AND the phone → org/user map.
+  `phone` is digits only (E.164 without `+`).
+- `quote_batch_notifications` — insert-once dedupe (a batch is summarised once).
+- a batch-completion **trigger**: when all jobs in a batch are terminal, it
+  `pg_net`-POSTs the `batch_id` to `notify-quote-results` (best-effort; never
+  blocks the job update).
+
+**`whatsapp-webhook`** (`supabase/functions/whatsapp-webhook/`):
+- `GET` — Cloud API verification handshake (`hub.verify_token`).
+- `POST` — verifies the `X-Hub-Signature-256` HMAC over the raw body; only acts
+  on allowlisted senders; parses intent with **Claude Haiku 4.5** (strict
+  JSON-only) into `{ policy_ref, insurer_names[], product_type }`; maps insurer
+  names → active portal ids; **asks ONE clarifying question** if the policy_ref
+  is missing, no insurer matches, or a name is ambiguous — never guesses. On
+  success it reuses the shared `enqueue.ts` and replies
+  *"Getting quotes from … for …, I'll message results shortly."*
+
+**`notify-quote-results`** (`supabase/functions/notify-quote-results/`):
+- Composes a per-insurer summary (premium + excess, or REFERRED / DECLINED /
+  NEEDS REVIEW / FAILED), adds a CRM deep link, and sends it to the org's mapped
+  recipient. Dedupes via `quote_batch_notifications`.
+
+### Deploy & config (important)
+
+```bash
+# WhatsApp is called by Meta with NO Supabase JWT — disable JWT verification and
+# rely on our own signature check:
+supabase functions deploy whatsapp-webhook --no-verify-jwt
+# Called by the DB trigger with the service-role key — keep JWT verification:
+supabase functions deploy notify-quote-results
+
+# Edge function secrets:
+supabase secrets set \
+  WHATSAPP_VERIFY_TOKEN=... WHATSAPP_APP_SECRET=... \
+  WHATSAPP_TOKEN=... WHATSAPP_PHONE_NUMBER_ID=... \
+  ANTHROPIC_API_KEY=... CRM_BASE_URL=https://crm.example.com
+# (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY are injected automatically.)
+
+# Let the batch-completion trigger reach the function (run once in SQL):
+#   alter database postgres set app.settings.edge_base_url = 'https://<ref>.functions.supabase.co';
+#   alter database postgres set app.settings.service_role_key = '<service-role-key>';
+```
+
+Then seed `whatsapp_senders` with your approved number(s) → org (and the staff
+`user_id` who should receive replies).
+
 ## Build order
 
 1. ✅ SQL migration + RPC + RLS + buckets
 2. ✅ enqueue-quote-job + shared enqueue module
 3. ✅ Runner core + quote-retrieval handler
 4. ✅ PortalPlaybookEditor + GetQuotes + QuoteComparison
-5. ⏳ WhatsApp webhook + intent parse + notify-results
+5. ✅ WhatsApp webhook + intent parse + notify-results
 6. ⏳ README + setup-credentials (full)
