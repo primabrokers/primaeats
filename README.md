@@ -36,7 +36,9 @@ supabase/
   functions/
     _shared/    cors.ts, enqueue.ts (shared enqueue logic)
     enqueue-quote-job/   CRM-triggered job enqueue
-runner/         Windows local runner (core + handlers)  — not yet built
+runner/         Windows local runner (core + handlers)
+  core/         queue, credentials, audit, computer-use loop
+  handlers/     quote-retrieval (only handler for now)
 src/            CRM front-end (React + Vite + shadcn/ui) — not yet built
 ```
 
@@ -88,11 +90,50 @@ Deploy:
 supabase functions deploy enqueue-quote-job
 ```
 
+## Part 3 — Windows runner (core + quote-retrieval handler)
+
+`runner/` is a strict-TypeScript Node app: **poll → claim → dispatch**.
+
+- `core/queue.ts` — claims jobs via the `claim_next_job` RPC and drives status
+  transitions (running / completed / needs_review / failed).
+- `core/credentials.ts` — reads portal username/password from **Windows
+  Credential Manager** (keytar) by `credential_key`. Never from env/git/Supabase.
+- `core/audit.ts` — at every step writes an `automation_audit_log` row and
+  uploads a screenshot to `portal-audit-screens`.
+- `core/computer-use.ts` — the shared screenshot → reason → act loop. Anthropic
+  SDK, model `claude-sonnet-4-6`. **Verified computer-use pairing for Sonnet 4.6:
+  tool type `computer_20251124` + beta header `computer-use-2025-11-24`** (the
+  older `computer_20250124` / `computer-use-2025-01-24` 400s on this model).
+  Input via `@nut-tree-fork/nut-js` (the maintained fork — the original
+  `@nut-tree/nut-js` is no longer on the public npm registry); screen capture via
+  `screenshot-desktop`.
+- `handlers/quote-retrieval.ts` — loads the portal + latest active playbook +
+  reference screenshots, builds the system prompt, and runs the loop. Credentials
+  are typed via a `type_secret` tool so the password is **never sent to the LLM**.
+  Extracts `{ premium_gross, premium_net, quote_ref, validity_date, excess,
+  outcome, notes }`. **REFERRED/DECLINED are valid outcomes, not failures.**
+
+**Hard-stop rules (regulated), enforced in the handler + system prompt:**
+- Never click bind/pay/confirm-purchase → `needs_review`.
+- A `field_map` field with no `risk_data` value → `needs_review` naming the
+  field (pre-flight check; never invents a value).
+- Live screen matches no `expected_screen` → `needs_review` (stale playbook).
+
+Run it (on the Windows office PC):
+
+```bash
+cd runner
+cp .env.example .env      # Supabase URL + service-role key + Anthropic key ONLY
+npm install               # native modules (keytar, nut-js) need VS Build Tools
+npm run setup-credentials # store each portal's login in Credential Manager
+npm run build && npm start
+```
+
 ## Build order
 
 1. ✅ SQL migration + RPC + RLS + buckets
 2. ✅ enqueue-quote-job + shared enqueue module
-3. ⏳ Runner core + quote-retrieval handler
+3. ✅ Runner core + quote-retrieval handler
 4. ⏳ PortalPlaybookEditor + GetQuotes + QuoteComparison
 5. ⏳ WhatsApp webhook + intent parse + notify-results
-6. ⏳ README + setup-credentials
+6. ⏳ README + setup-credentials (full)

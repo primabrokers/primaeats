@@ -1,0 +1,34 @@
+{
+  "name": "prima-quote-runner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Windows local runner: polls Supabase automation_jobs and drives insurer portals via Claude computer use. Quote retrieval is read + generate-quote ONLY.",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "prima-runner": "dist/index.js",
+    "prima-setup-credentials": "dist/setup-credentials.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "setup-credentials": "tsx src/setup-credentials.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.69.0",
+    "@nut-tree-fork/nut-js": "^4.2.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5",
+    "keytar": "^7.9.0",
+    "screenshot-desktop": "^1.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}
