@@ -39,7 +39,10 @@ supabase/
 runner/         Windows local runner (core + handlers)
   core/         queue, credentials, audit, computer-use loop
   handlers/     quote-retrieval (only handler for now)
-src/            CRM front-end (React + Vite + shadcn/ui) — not yet built
+src/            CRM front-end (React 18 + Vite + TS + Tailwind + shadcn-style UI)
+  components/ui/  hand-written shadcn-style primitives (no Radix dep)
+  features/playbooks/   PortalPlaybookEditor
+  features/quotes/      GetQuotes, QuoteComparison
 ```
 
 ## Part 1 — schema
@@ -129,11 +132,36 @@ npm run setup-credentials # store each portal's login in Credential Manager
 npm run build && npm start
 ```
 
+## Part 4 — CRM front-end
+
+React 18 + Vite + TypeScript + Tailwind, with hand-written shadcn-style
+primitives (`src/components/ui/`) so there's no Radix dependency to install.
+Auth is email/password via Supabase; RLS scopes everything to the user's org.
+
+- **`PortalPlaybookEditor`** — pick a portal + product type, add ordered steps
+  (instruction + expected-screen label + field mappings), upload a reference
+  screenshot per step. **Save writes a NEW version** (prior versions are
+  deactivated, never overwritten) — history is kept for audit/rollback.
+- **`GetQuotes`** — on a policy reference, tick the active portals to quote and
+  fire `enqueue-quote-job` (parallel jobs, one `batch_id`).
+- **`QuoteComparison`** — subscribes to all jobs in the `batch_id` via Supabase
+  realtime; the table fills in live as each result lands (insurer, gross
+  premium, excess, outcome badge: quoted/referred/declined, needs-review amber),
+  with a signed-URL link to each quote doc when present.
+
+Run it:
+
+```bash
+cp .env.example .env      # VITE_SUPABASE_URL + VITE_SUPABASE_ANON_KEY (public)
+npm install
+npm run dev               # or: npm run build
+```
+
 ## Build order
 
 1. ✅ SQL migration + RPC + RLS + buckets
 2. ✅ enqueue-quote-job + shared enqueue module
 3. ✅ Runner core + quote-retrieval handler
-4. ⏳ PortalPlaybookEditor + GetQuotes + QuoteComparison
+4. ✅ PortalPlaybookEditor + GetQuotes + QuoteComparison
 5. ⏳ WhatsApp webhook + intent parse + notify-results
 6. ⏳ README + setup-credentials (full)
