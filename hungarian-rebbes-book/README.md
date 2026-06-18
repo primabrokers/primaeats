@@ -34,7 +34,7 @@ north-eastern Hungary. For each holy site we visit, you will find:
 | 2 | **Bodrogkeresztúr** (Kerestir) | R' Yeshaya Steiner — *R' Shayele Kerestirer* |
 | 3 | **Újfehértó** (Ratzfert) | R' Naftali Hertzka & R' Shalom Eliezer Halberstam |
 | 4 | **Csenger** | R' Asher Anshel Yungreis — *Menuchas Asher* |
-| 5 | **Mátészalka** | R' Yosef Rottenberg — the *Konsoner Rav* |
+| 5 | **Mátészalka** (region) | R' Yehosef Rottenberg — the *Kosoner Rav* (buried in Koson/Kászony, Ukraine — see note) |
 
 ---
 
@@ -42,14 +42,14 @@ north-eastern Hungary. For each holy site we visit, you will find:
 
 ## 1. Nagykálló — The Kalover Rebbe
 
-### R' Yitzchok Isaac Taub — the *Kalover Rebbe* (1751–1821)
+### R' Yitzchok Isaac Taub — the *Kalover Rebbe* (c. 1751–1821)
 *The first chassidic rebbe of Hungary — "the Sweet Singer of Israel"*
 
 **Who he was.** Rabbi Yitzchok Isaac (Yitzchok Eizik) Taub — affectionately
 "Reb Eizikel" — was the Rav of Nagykálló (Yiddish: *Kaliv / Kalov*), founder of
 the **Kaliv chassidic dynasty**, and is universally remembered as **the first
 chassidic rebbe in Hungary**, the progenitor of Hungarian Chassidism. He was born
-in 1751, the son of R' Moshe Yechezkel Taub. Chassidic tradition holds that the
+c. 1751, the son of R' Moshe Yechezkel Taub. Chassidic tradition holds that the
 family had Sephardi roots, having fled the Spanish Inquisition and settled in
 Szerencs (treat this ancestry as traditional rather than documented). (Sources:
 English & Hebrew Wikipedia; Kedem Auction House; DZsH Hungarian heritage site)
@@ -64,11 +64,20 @@ Hungarian soil. (Sources: English Wikipedia; Kaliv dynasty Wikipedia; chabad.org
 Hebrew Wikipedia. The shepherd-boy discovery is recounted as chassidic tradition.)
 
 **Dates.**
-- *Born:* 1751 (consensus of Wikipedia EN/HE, JewishGen, Wikidata), in Szerencs (or
-  Nagykálló). A variant of 1744 appears in some Geni records.
-- *Passing / yahrtzeit:* **7 Adar (Adar II) 5581 = 21 March 1821**.
-- *Age:* approximately **70** (Hebrew Wikipedia).
-- (Sources: English & Hebrew Wikipedia; JewishGen; Wikidata Q36362842)
+- *Born:* **c. 1751** (English Wikipedia, Hebrew Wikipedia, and the main Geni
+  profile all give 1751 / "c. 1751"), in Szerencs (or Nagykálló). *On the "1744"
+  variant:* verified to be an error, not a credible alternative — it appears only
+  in the lead sentence of the "Kaliv (Hasidic dynasty)" Wikipedia article, which
+  is internally contradicted by that same article's body ("Rabbi Taub (1751 – 7
+  Adar 2 … 1821)") and by every dedicated biography. A literal 1744 birth would
+  also make him ~77 at death, which no source supports. Print **c. 1751**; at most
+  footnote 1744 as an erroneous date in one Wikipedia lead.
+- *Passing / yahrtzeit:* **7 Adar (Adar II) 5581 = 21 March 1821** (identical
+  across English Wikipedia, Hebrew Wikipedia and Geni).
+- *Age:* approximately **70** (English & Hebrew Wikipedia; consistent with a
+  c. 1751 birth).
+- (Sources fetched in full June 2026: en.wikipedia.org/wiki/Yitzchak_Isaac_Taub;
+  he.wikipedia.org/wiki/יצחק_אייזיק_טאוב; Geni profile)
 
 **His sefarim.** Like many early chassidic masters, the Kalover Rebbe was not
 primarily an author — his legacy lives in his oral teachings and, above all, his
@@ -120,10 +129,13 @@ he composed himself. The ohel is a major pilgrimage site, especially around his
 yahrtzeit on 7 Adar, and features on Hungary's Jewish heritage routes. (Sources:
 Hebrew Wikipedia; DZsH; KosherTravelInfo)
 
-> *Research note:* the web-fetcher returned 403 on most pages, so this synthesises
-> cross-checked search summaries. To resolve before print: birth year 1751 vs.
-> 1744 (print 1751, footnote 1744); the *Beis Yitzchak* attribution; and the
-> Sephardi-ancestry and Baal-Shem-Tov-blessing traditions (label as legend).
+> *Verification note (June 2026, full-text re-check):* birth year **resolved** —
+> use **c. 1751**; "1744" confirmed to be an erroneous Wikipedia-lead date, not a
+> real variant. Death date and age confirmed. Still to confirm before print: the
+> *Beis Yitzchak* attribution (the name is shared by other authors); the
+> Sephardi-ancestry and Baal-Shem-Tov-blessing traditions remain labelled as
+> legend; and a clean verbatim lyric of "Szól a kakas már" could not be quoted
+> from a reliable full text, so the niggun is described, not quoted.
 
 ## 2. Bodrogkeresztúr — R' Shayele Kerestirer
 
@@ -181,16 +193,31 @@ Kerestir_** (Feldheim). (Sources: Kestenbaum &amp; Co.; Feldheim)
    the town had no fish, a large kosher fish is said to have been delivered to his
    home by a bird, so that he could honour the Shabbos. (Source: traditional)
 4. *The mice and the granary — and the famous "picture" segula (read carefully).*
-   The classic story tells of a Jew whose granary was overrun by mice; Reb Shayele
-   instructed that the mice be told, in his name, to leave — and they fled. From
-   this grew today's well-known custom of hanging Reb Shayele's portrait to keep
-   away rodents. **Provenance matters here:** the miracle anecdote is reported from
-   his lifetime, but its accuracy is questioned even by some of his descendants,
-   and a peer-reviewed study — *Sam Shuman, "Of Mice and Hasidic Men: Reb Shayele
-   as Populist Patron Saint," Jewish Quarterly Review 115:1 (2025): 99–135* —
-   argues that the *picture practice* as a widespread phenomenon is largely a
-   recent (late-20th/21st-century) development layered onto the older story, not a
-   documented lifetime custom. (Sources: Shuman 2025; lifeinisrael &amp; parsha blogs)
+   In the most consistently told version, a food-merchant's warehouse/granary was
+   overrun by mice. At his Motza'ei-Shabbos *melaveh malkah* Reb Shayele first
+   asked whether the local priest was kind or harsh to the Jews; told he was harsh,
+   he instructed the chossid to **tell the mice to go to the house of the priest
+   instead** — and the mice are said to have streamed off toward the priest's
+   estate. From this grew today's well-known custom of hanging Reb Shayele's
+   portrait to keep away rodents. (Wording verified against the popular full-text
+   accounts: *The Jewish Chronicle*, "The mice and the rabbi in the cupboard"; the
+   *lifeinisrael* blog, "Reb Shaya'le the Exterminator." The academic study renders
+   the same instruction — "tell the mice to go to the house of the priest instead"
+   — at Shuman 2025:100.)
+   **Provenance matters here.** The peer-reviewed study *Sam Shuman, "Of Mice and
+   Hasidic Men: Reb Shayele as Populist Patron Saint," Jewish Quarterly Review
+   115:1 (2025): 99–135* frames the protective-portrait practice as part of a
+   recent, transnational Hasidic-revival phenomenon and casts Reb Shayele as a
+   "populist patron saint of protection" (against police, inspectors and judges,
+   not only mice). *Honest limit on this claim:* the article's full text is
+   paywalled (Project MUSE / JSTOR returned a CAPTCHA/403), so we verified its
+   thesis and the quoted line via the abstract and page-cited secondary sources,
+   but could **not** confirm an explicit sentence dating when the picture custom
+   began — so we describe it as "recent/revival-era" rather than asserting a firm
+   date. Likewise, the claim that *descendants* dispute the story's accuracy traces
+   to the *lifeinisrael* blog, **not** to Shuman; Shuman documents a family feud
+   over the gravesite (2025:104 n.15), which is a different matter. (Sources:
+   Shuman 2025 [abstract + page-cited quotes]; thejc.com; lifeinisrael blog)
 5. *A baal yeshuos in his lifetime (traditional).* People streamed to him for
    blessings — health, children, parnassah — and many salvations were attributed
    to him. (Sources: chabad.org; Jerusalem Post, "My family's blessing from Reb
@@ -217,10 +244,15 @@ pilgrimages of Europe to this tiny village — roughly 10,000 by 2017 and report
 in the tens of thousands in recent years. (Sources: rebshayele.org; Mishpacha;
 Ami Magazine, 2024; JTA, Apr 2023; Jerusalem Post)
 
-> *Research note:* the web-fetcher was blocked during research, so the above is
-> cross-checked from multiple independent search summaries. Before print, confirm
-> the exact wording of the granary/mice story against the Besser biography and the
-> Shuman article, and verify the pilgrimage figure for the specific year cited.
+> *Verification note (June 2026, full-text re-check):* the granary/mice wording is
+> now confirmed against full-text popular accounts (*The Jewish Chronicle*;
+> *lifeinisrael*) and the page-cited academic article (Shuman 2025:100) — the
+> distinctive "send the mice to the priest's house" detail is consistent across
+> them. Death (3 Iyar 5685 / 27 April 1925) confirmed; birth year 1851 is the
+> common figure, though Wikipedia's own infobox says 1852 — minor and noted. The
+> Shuman article's full text is paywalled (MUSE/JSTOR blocked), so its precise
+> dating of the picture custom should be checked against pp. 99–110 with
+> institutional access before any "recent invention" claim is stated firmly.
 
 ## 3. Újfehértó — R' Naftali Hertzka & R' Shalom Eliezer Halberstam
 
@@ -232,7 +264,7 @@ Ami Magazine, 2024; JTA, Apr 2023; Jerusalem Post)
 > were different men of different families. Crucially for our visit: the **ohel in
 > Újfehértó belongs to Zilberman**; Halberstam, killed in Auschwitz, has no grave.
 
-### A) R' Naftali Hertzka Halevi Zilberman — the *Ratzferter Rav* (c. 1824–1897)
+### A) R' Naftali Hertzka Halevi Zilberman — the *Ratzferter Rav* (1820 or 1825 – 1897)
 
 **Who he was.** Rabbi Naftali Hertzka Halevi Zilberman ("Hertzkele Ratzferter"),
 Av Beis Din and rebbe of Ratzfert, born in the village of Máriapócs to Yaakov
@@ -244,17 +276,23 @@ He was appointed Rav of Ratzfert around 1840. (Sources: Hebrew Wikipedia /
 Hamichlol; National Library of Israel catalogue)
 
 **Dates.**
-- *Born:* **1820** (National Library of Israel) or **1824/1825** (Hebrew Wikipedia /
-  tribute sources) — a genuine discrepancy.
-- *Passing / yahrtzeit:* **9 Tishrei 5658 — Erev Yom Kippur, 1897** (consistent
-  across sources).
-- *Age:* roughly 72–77, depending on the birth year.
-- (Sources: NLI record; Hebrew Wikipedia; YWN/Williamsburg365 tribute)
+- *Born:* **a genuine discrepancy, confirmed on re-check.** The National Library
+  of Israel authority record gives **1820** (heading: *"זילברמן, נפתלי הירצקא בן
+  יעקב פרץ, מרצפרט, 1820-1897"*). The Hebrew encyclopedia *Hamichlol* gives
+  **5585 = 1825** explicitly: *"הוא נולד בכפר מאריאפוץ' שבהונגריה בשנת תקפ"ה"*
+  ("born in the village of Máriapócs, Hungary, in 5585"). So the gap is real:
+  **NLI 1820 vs. the Hebrew biographical tradition 1825** (~five years).
+- *Passing / yahrtzeit:* **9 Tishrei 5658 — Erev Yom Kippur, 1897** — confirmed by
+  every source (Hamichlol: *"נפטר בערב יום הכיפורים ה'תרנ"ח"*; zadikim.net register).
+- *Age:* roughly **72–77**, depending on the birth year.
+- (Sources fetched/decoded June 2026: NLI authority record; Hamichlol article
+  "רבי נפתלי הירצקא זילברמן"; zadikim.net)
 
-**His sefarim.** He authored **Sefer Zikhron Naftali (זכרון נפתלי)** — chiddushei
-Torah and stories — published posthumously by his grandson R' Shalom Segal Bailush.
-This is solid primary confirmation he is a documented figure (NLI catalogue;
-HebrewBooks.org #50772, full scan online).
+**His sefarim.** He authored **Sefer Zikhron Naftali (זכרון נפתלי)** — *chiddushei
+Torah ve-sippurim* (Torah novellae and stories) — published posthumously by his
+grandson **R' Shalom Segal Bailush (שלום סג"ל ביילוש)**. The NLI record confirms
+both the title and the grandson's editorship verbatim; the full scan is online at
+**HebrewBooks.org #50772**.
 
 **Stories from his lifetime.**
 1. *Sent by the Sanzer Rebbe.* The Divrei Chaim would direct petitioners needing a
@@ -264,10 +302,29 @@ HebrewBooks.org #50772, full scan online).
    HaYeshuos*, with many reported answered prayers for health, livelihood and
    especially shidduchim. (Source: YWN / Williamsburg365 tribute)
 
-> *Honesty note:* the granular miracle anecdotes live inside *Zikhron Naftali* and
-> in chassidic tradition rather than in independent English sources. No single
-> quotable *vort* of his could be sourced here; his Torah is preserved in *Zikhron
-> Naftali* (HebrewBooks #50772) and should be quoted directly from there.
+**His Torah.** A verbatim teaching of the Ratzferter Rav, recovered directly from
+the digitized *Zikhron Naftali* (HebrewBooks #50772, biographical/*hanhagot*
+section). He would expound the verse *"וְאָנֹכִי תוֹלַעַת וְלֹא אִישׁ"* — "and I am a
+worm and not a man" (Tehillim 22:7):
+
+> וְהָיָה רגיל לפרש מה שאמר דהע"ה "וְאָנֹכִי תוֹלַעַת וְלֹא אִישׁ", כי התולעת אין כחו אלא
+> בפה, ועכ"ז הוא שובר ארזים בכחו ע"י שאוכל באילן בשרשו עד שנופל כל האילן, כן אמירת
+> תהילים ממתיק הדינים בשרשם.
+
+*"The worm's strength is only in its mouth, yet by its strength it breaks cedars —
+for it eats into the tree at its root until the whole tree falls; so too the
+recitation of Tehillim sweetens the [harsh] judgments at their root."* The same
+page also preserves a note in his name on **Megillah 31b** (that *Atzeret*/Shavuos
+is itself a kind of *Rosh Hashanah* — a day of judgment "over the fruit of the
+tree"), alongside accounts of his humility and his refusal to be called "Rebbe."
+
+> *Sourcing caution:* this quotation was transcribed from the embedded OCR text
+> layer of the HebrewBooks scan (the page itself is a bitmap image). It reads
+> coherently and is genuinely from the sefer — it is **not** invented — but the
+> exact letters should be proofread against the page image (HebrewBooks #50772)
+> before final print, in case of OCR slips. The granular miracle anecdotes live
+> inside *Zikhron Naftali* and chassidic tradition rather than in independent
+> English sources.
 
 **His resting place today.** He is buried in the Jewish cemetery of **Ratzfert
 (Újfehértó)**, with an **ohel** over his grave. His descendants reportedly bought a
@@ -293,12 +350,22 @@ of Hungary. (Sources: Hebrew Wikipedia; Geni; Kedem Auctions [1897 Tarnów lette
 Jewish History Soundbites, "The Light of Sanz")
 
 **Dates.**
-- *Born:* **1862** (some sources 1861), on Chol HaMoed Pesach, in Sanz.
-- *Murdered:* **Auschwitz-Birkenau, 1944, Hy"d**, deported after the German invasion
-  of Hungary. Yahrtzeit given as **15 Sivan** (Hebrew Wikipedia) or **16 Sivan**
-  (other sources) 5704 = 6–7 June 1944; sources differ by a day.
+- *Born:* **Chol HaMoed Pesach 5622 = 1862** (Hebrew Wikipedia: *"נולד בחול המועד
+  פסח ה'תרכ"ב"*); **Geni gives 1861**, so the "some say 1861" variant is real.
+  *Birthplace:* commonly said to be **Sanz** (his father was the Sanzer Rav), but
+  none of the sources we could reach actually states a birth city — treat "born in
+  Sanz" as **plausible but unverified**.
+- *Murdered:* **Auschwitz-Birkenau, Sivan 5704 = June 1944, Hy"d**, deported after
+  the German invasion of Hungary. *Yahrtzeit — correction:* the draft had the
+  attribution backwards. **Hebrew Wikipedia actually gives 16 Sivan** (raw
+  wikitext: *"ט"ז בסיוון תש"ד"*); **HaMichlol gives 15 Sivan** (ט"ו); and at least
+  one source (a Jewish-history account) gives **17 Sivan**. The sources genuinely
+  split across **15, 16 and 17 Sivan 5704** with no dominant attestation; 5704
+  corresponds to **6–7 June 1944**. Recommend the book hedge ("15 or 16 Sivan
+  5704") rather than assert one day.
 - *Age:* approximately **82**.
-- (Sources: Hebrew Wikipedia; Geni; Jewish History Soundbites; VINnews)
+- (Sources fetched June 2026: he.wikipedia.org/wiki/שלום_אליעזר_הלברשטאם; HaMichlol;
+  Geni; Jewish History Soundbites; VINnews)
 
 **His sefarim.** He was renowned as a tzaddik and wonder-worker rather than as an
 author; many of his autograph letters survive at auction (valuable primary
@@ -306,15 +373,22 @@ sources), but no published sefer authored by him could be confirmed here — som
 his Torah and stories appear in later Sanz/Ratzfert compilations.
 
 **Stories from his lifetime.**
-1. *"Let me die like a Jew" — the tzitzis at Auschwitz.* An eyewitness, R' Shaya
-   Rosenblum, recounted that in Auschwitz the Rebbe asked for his tzitzis back —
-   *"Shayale, please give me back my tzitzis, let me die like a Jew with my tzitzis
-   on"* — then grasped his hand: *"Shaya, you will survive the war. You must tell
-   people what happened here!"* He walked into the gas chamber, the witness said,
-   "like he walked into Shacharis every morning, his face shining like the sun."
-   (Sources: VINnews, 14 Dec 2021; Mishpacha, "Tell the World!"; Jewish History
-   Soundbites) — *the best-documented account, and the origin of his "tell the
-   world" legacy.*
+1. *"Let me die like a Jew" — the tzitzis at Auschwitz.* The account traces to an
+   eyewitness, **R' Shaya Rosenblum** (relayed, per VINnews, by his son). As
+   printed verbatim in **VINnews, 14 Dec 2021** ("Eyewitness: The Son Of The Divrei
+   Chaim Went To Gas Chambers With His Tzitzis On"), the Rebbe asked for his tzitzis
+   back — *"Shayale, please give me back my tzitsis, let me die like a Jew with my
+   tzitsis on"* — then grasped his hand: *"Shaya, you will survive the war. You must
+   tell people what happened here!"* — and, the witness said, **"walked into the gas
+   chambers like he walked into Shacharis every morning, his face shining like the
+   sun."** (Quotes confirmed verbatim against VINnews — note their spelling
+   "tzitsis." *Caveat:* **Mishpacha, "Tell the World!"** is paywalled/403 and could
+   not be read in full; its snippets render the witness as "Shea Rosenbloom," use
+   "testify to the entire world," and may frame the garment as a *tallis* rather
+   than tzitzis — so do not quote Mishpacha as exact wording without obtaining the
+   article.) This is the best-documented account and the origin of his "tell the
+   world" legacy. (Sources: VINnews, 14 Dec 2021 [verbatim]; Mishpacha [snippets
+   only]; Jewish History Soundbites.)
 2. *The shrouds.* The night before deportation, his father the Divrei Chaim is said
    to have appeared to him in a dream, and he put on a kittel and tachrichim under
    his clothes for the journey. (Source: Jewish History Soundbites — traditional)
@@ -338,7 +412,7 @@ the trip. (Sources: Hebrew Wikipedia; Geni; VINnews; YWN/Williamsburg365)
 
 ## 4. Csenger — R' Asher Anshel Yungreis
 
-### R' Asher Anshel Yungreis — the *Menuchas Asher* (1806–1872/73)
+### R' Asher Anshel Yungreis — the *Menuchas Asher* (1806–1873)
 
 **Who he was.** Rabbi Asher Anshel ben Shmuel HaLevi Jungreis — known by the name
 of his sefer as the **Menuchas Asher**, and popularly as the **Csenger Rav** — was
@@ -353,10 +427,14 @@ Encyclopedia.com; Baltimore Jewish Life yahrtzeit essay)
 
 **His dynasty.** The Menuchas Asher founded a notable rabbinic line. Three of his
 sons held Hungarian rabbinates, his son R' Avraham HaLevi (d. 1904) succeeding him
-in Csenger. He was the **great-great-grandfather of Rebbetzin Esther Jungreis
-(1936–2016), founder of Hineni** — the line running Menuchas Asher → R' Avraham →
-R' Israel of Nádudvar → R' Avraham (Chief Rabbi of Szeged, Esther's father) →
-Esther. (Sources: Geni; Encyclopaedia Judaica)
+in Csenger. He is widely described as an ancestor (commonly
+"great-great-grandfather") of **Rebbetzin Esther Jungreis (1936–2016), founder of
+Hineni**, via the line Menuchas Asher → R' Avraham → R' Israel of Nádudvar →
+R' Avraham (Chief Rabbi of Szeged, Esther's father) → Esther. *Flag:* this exact
+genealogical degree could not be confirmed from Encyclopaedia Judaica or the Hebrew
+sources on re-check (none of them mention Esther Jungreis or Hineni); it is
+plausible — she married into the Jungreis rabbinic line — but should be verified
+against a genealogical record before print. (Sources: Geni; family tradition.)
 
 > *Disambiguation:* there are several rabbis named Asher Anshel Jungreis. A *later*
 > R' Asher Anshel HaLevi Jungreis (1875–1944), also Av Beis Din of Csenger, who
@@ -365,11 +443,19 @@ Esther. (Sources: Geni; Encyclopaedia Judaica)
 
 **Dates.**
 - *Born:* 1806, in Secze/Szécs.
-- *Passing / yahrtzeit:* **5 Kislev** — the year given as **1872** by Encyclopaedia
-  Judaica and **1873 (5634)** in the popular biography. This is a genuine,
-  unresolved discrepancy in the sources; the 5 Kislev date is consistent throughout.
+- *Passing / yahrtzeit:* **5 Kislev** — but the year resolves more cleanly than the
+  earlier draft implied. Encyclopaedia Judaica (and Encyclopedia.com, the same
+  article) give **1872**; Hebrew Wikipedia, HebrewBooks.org, Geni and the Baltimore
+  Jewish Life essay give **1873 (5634)**. Crucially, the two civil years map to
+  *different Hebrew years*, so this is not merely "the same 5 Kislev, different
+  year": **5 Kislev 5634 = 25 November 1873**, whereas **5 Kislev 5633 = 5 December
+  1872**. The weight of the Hebrew/chassidic sources is for **5 Kislev 5634 →
+  1873**, which makes the EJ "1872" most likely an off-by-one Hebrew-to-civil
+  slip. Recommend printing **1873 (5 Kislev 5634)**, footnoting EJ's 1872.
 - *Age:* approximately **66–67**.
-- (Sources: Encyclopaedia Judaica [1872]; Geni [1873]; Baltimore Jewish Life essay)
+- (Sources fetched June 2026: Encyclopaedia Judaica via Jewish Virtual Library
+  [1872]; Encyclopedia.com [1872]; Baltimore Jewish Life essay [1873]; Hebrew
+  Wikipedia + HebrewBooks + Geni [1873]; Hebcal date conversion)
 
 **His sefarim.**
 - **Menuchas Asher (מנוחת אשר)** — his major work, published posthumously by his
@@ -414,10 +500,14 @@ Hungarian/Oberland mould rather than a chassidic homilist. A recurring theme of 
 life, fittingly mirrored in the title *Menuchas Asher* ("the contentment of
 Asher"), was contentment with little and total devotion to Torah despite poverty.
 (Source: Encyclopaedia Judaica; thematic note from the popular biography)
-> *To flag for the book:* no verbatim dvar Torah from *Menuchas Asher* could be
-> sourced online. To include an authentic teaching, the printed sefer (available
-> in reprint from Judaica booksellers) should be consulted and quoted directly with
-> its location. We have deliberately not invented one.
+> *Verification note (June 2026):* still no verbatim dvar Torah from *Menuchas
+> Asher* could be retrieved. Both volumes are on HebrewBooks.org (#37507, #37508,
+> author listed "1806-1873") but the site returns HTTP 403 and the holdings are
+> image-only scans with no copyable text; Sefaria does not carry the sefer at all.
+> Unlike *Zikhron Naftali* (whose HebrewBooks scan happened to carry an OCR text
+> layer), these scans yielded nothing transcribable. To include an authentic
+> teaching, the printed sefer (available in reprint) must be consulted and quoted
+> with its location. We have deliberately not invented one.
 
 **His resting place today.** The Menuchas Asher is buried in the Jewish cemetery of
 **Csenger** (Szabolcs-Szatmár-Bereg county, near the Romanian border, in the
@@ -428,25 +518,35 @@ in the Holocaust — its Jews deported with the rest of Hungarian Jewry between 
 and July 1944, most murdered at Auschwitz-Birkenau. (Sources: YeshivaWorld;
 JewishGen Csenger Yizkor Book; USHMM)
 
-> *Research note:* several detailed sources blocked direct retrieval, so this
-> synthesises their indexed/summarised text. Key items to confirm before print: the
-> 1872 vs. 1873 death year, a verbatim teaching from the sefer, and any specific
-> named miracle account.
+> *Verification note (June 2026, full-text re-check):* death year **resolved** to
+> **1873 (5 Kislev 5634)** via Hebrew-to-civil conversion, with EJ's "1872" treated
+> as an off-by-one slip (footnote it). A verbatim teaching from the sefer remains
+> **unobtainable** (HebrewBooks scans are 403/image-only; Sefaria lacks it) and is
+> deliberately omitted rather than invented. The "amulets and cures" testimony is
+> Encyclopaedia Judaica's own wording; no specific named-individual miracle account
+> could be verified, so none is asserted.
 
-## 5. Mátészalka — R' Yosef Rottenberg, the Konsoner Rav
+## 5. Mátészalka — R' Yehosef Rottenberg, the Kosoner Rav
 
-> **⚠️ An identity/location question to resolve before the trip.** Research could
-> not confirm a "R' Yosef Rottenberg, Konsoner Rav" buried in **Mátészalka**. The
-> evidence consistently points to a real and well-documented figure — **R' Yehosef
-> (Yosef) Rottenberg of Koson, the *Kosoner* Rav** ("Konsoner" appears to be a
-> phonetic variant of "Kosoner") — but his seat and place of death were **Kosony /
-> Mezőkászony** (today Koson, Zakarpattia, Ukraine), *not* Mátészalka. No source
-> places any Rottenberg rebbe's grave in Mátészalka. The connection is only
-> *regional*: the dynasty operated in the Szabolcs-Szatmár area (the founder was
-> also Av Beis Din of Nyírtass, near Mátészalka) and there was a chassidic shtibl
-> in Mátészalka. **Please confirm which figure/site you intend** — it may be the
-> Kosoner Rav at Kosony, or a different Mátészalka tzaddik entirely. What follows
-> is the verified material on the Kosoner Rav, plus Mátészalka's community history.
+> **✓ Identity/location question — now resolved (June 2026 re-check).** The name
+> as originally listed ("R' Yosef Rottenberg, **Konsoner** Rav, **Mátészalka**")
+> conflates two things. The figure is real and correctly identified, but: (1)
+> **"Konsoner" is a phonetic corruption of "Kosoner"** — read **Kosoner Rav**; and
+> (2) **his seat and burial were NOT in Mátészalka.** Confirmed across English
+> Wikipedia ("Koson (Hasidic dynasty)"), Hebrew Wikipedia ("חסידות קוסון") and a
+> Koson-dynasty genealogy: the intended man is **R' Yehosef (Yosef) Rottenberg**,
+> founder of the **Koson** chassidic dynasty, who settled in and is **buried at
+> Koson / Kászony / Mezőkászony** (today Koson, Zakarpattia, **Ukraine**) — *not*
+> Mátészalka. **No source places any Rottenberg rebbe's grave in Mátészalka**
+> (searches turned up only later Kosoner descendants buried in Los Angeles and New
+> Jersey). The Mátészalka link is genuinely *regional only*: the founder had
+> earlier been Av Beis Din of **Nyírtass** (near Mátészalka), and Mátészalka had a
+> chassidic shtibl — but Mátészalka's own last rav was **R' Shalom Grünbaum**, not
+> a Rottenberg. **Decision needed for the itinerary:** to visit the Kosoner Rav's
+> kever the group must travel to **Koson, Ukraine**; if a Mátészalka grave is
+> intended instead, a different tzaddik is meant and we need the exact name. What
+> follows is the verified material on the Kosoner Rav, plus Mátészalka's community
+> history.
 
 ### R' Yehosef (Yosef) Rottenberg of Koson — the *Kosoner Rav* (1853–1911)
 
@@ -459,38 +559,57 @@ R' Meshulam Feish Segal-Lowy of Tosh) — his principal chassidic connection.
 (Sources: Wikipedia & Justapedia, "Koson (Hasidic dynasty)"; Geni; Hamodia)
 
 **Dates.**
-- *Born:* 1853, in Halych, Galicia.
-- *Passing:* 1911, in Kosony / Mezőkászony (one source gives 14 November 1911);
-  yahrtzeit reported as **23 Cheshvan** (single source — verify).
+- *Born:* **1853**, in **Halych (Halicz)**, Galicia. (A genealogy blog rendered a
+  variant year of 5573/1813, but that is internally inconsistent; 1853 is the
+  Wikipedia consensus.) Maternal descendant of the Zidichov dynasty.
+- *Passing:* **23 Cheshvan 5672 = 1911**, in Koson / Kászony / Mezőkászony, where
+  he is buried. The 23 Cheshvan yahrtzeit is now confirmed across English and
+  Hebrew Wikipedia and the Koson-dynasty genealogy (a stray snippet giving 6 Teves
+  5680/1919 is a minority outlier and rejected).
 - *Age:* approximately **58**.
-- (Sources: Wikipedia "Koson"; Geni — day-level dates are single-source, re-check)
+- (Sources fetched June 2026: en.wikipedia.org/wiki/Koson_(Hasidic_dynasty);
+  he.wikipedia.org/wiki/חסידות_קוסון; Koson-dynasty genealogy)
 
 **His sefarim.** **Bnei Shileishim (בני שלשים)** — his Torah work, the title by
-which he is known. A later dynasty volume, *Poras Yosef – Toldos Bnei Shileishim
-Koson*, is sold commercially. (Sources: Wikipedia "Koson"; Eichler's)
+which he is known; catalogued on HebrewBooks.org as **#58706** (*בני שלשים —
+רוטנברג, יוסף בן צבי הלוי*). Its confirmed internal structure: **"Yad Yosef"**
+(derashos for Shabbos HaGadol), **"Divrei Yosef"** (derashos for Shabbos Shuvah)
+and **"Eidus B'Yhosef"** (mussar for the Yamim Noraim). A later dynasty volume,
+*Poras Yosef – Toldos Bnei Shileishim Koson*, is sold commercially. (Sources:
+Koson-dynasty genealogy; HebrewBooks #58706; Eichler's)
 
-**Stories & Torah.** *No sourced, attributable story or verbatim teaching specific
-to this rebbe could be verified* — search sources state plainly that they "do not
-contain specific stories" about him. In keeping with the no-fabrication rule, none
-are supplied here. The responsible next step is to consult the dynasty's own
-biography *Poras Yosef / Toldos Bnei Shileishim* or Hamodia's "This Day in History"
-feature directly. (Documented dynasty context: large numbers of chassidim travelled
-to Koson for the festivals, and his son R' Yisroel Tzvi later founded the yeshiva
+**Stories & Torah.** *Still no sourced, attributable story or verbatim teaching
+specific to this rebbe could be retrieved* even with full-text access: HebrewBooks
+returns HTTP 403 for #58706 and the holdings are image-only scans (no extractable
+text layer, unlike *Zikhron Naftali*). In keeping with the no-fabrication rule,
+none are supplied here. The responsible next step is to consult the printed *Bnei
+Shileishim* (or the dynasty biography *Poras Yosef / Toldos Bnei Shileishim*)
+directly. (Documented dynasty context: large numbers of chassidim travelled to
+Koson for the festivals, and his son R' Yisroel Tzvi later founded the yeshiva
 *Ateres Tzvi* in Koson.)
 
-**Mátészalka — the Jewish community (verified).** An Orthodox community with Jewish
-records from 1784–85 (60 Jews), growing to 1,621 by 1930. A synagogue was built in
-1857; there was a Jewish school, a Talmud Torah, and near the synagogue a chassidic
-**shtibl** in its own building. Six rabbis served over its history; the last,
-R' Shalom Grünbaum, perished in the Holocaust (he was *not* a Rottenberg). In 1944
-Mátészalka held one of Hungary's large ghetto/transit camps; roughly 1,500 Jews
-were deported to Auschwitz, about 150 returning by 1946. (The actor Tony Curtis's
-grandparents are said to have worshipped at the Mátészalka synagogue.) There is a
-documented "Mátészalka New Jewish Cemetery" — a good place to check for whichever
-specific grave the trip targets. (Sources: JewishGen Pinkas Hakehillot Hungary,
-Mátészalka; English Wikipedia; ESJF cemetery survey)
+**Mátészalka — the Jewish community (verified).** Jewish records run from **1784–85**
+(JewishGen Pinkas Hakehillot), and near the synagogue stood a chassidic **shtibl**
+in its own building (confirmed verbatim in the Pinkas: *"Near the synagogue was a
+shtibl for Hassidim, which had its own building"*). The **synagogue was built in
+1857** (per Jewish Heritage Europe — note this date is *not* in the Pinkas or
+English Wikipedia). The town's **last rav, R' Shalom Grünbaum, perished in the
+Holocaust — he was *not* a Rottenberg.** In **1944** Mátészalka held one of the
+region's large ghetto/transit (concentration) camps, gathering on the order of
+17,000 Jews from the surrounding district before deportation to **Auschwitz**.
+The actor **Tony Curtis** (born Bernard Schwartz) had family roots here, and his
+daughter **Jamie Lee Curtis** helped fund restoration of the Mátészalka synagogue.
+*Correction:* the earlier draft's "Mátészalka New Jewish Cemetery" by that exact
+name **could not be confirmed** in any source on re-check — verify the cemetery's
+name on the ground if a Mátészalka grave is targeted. (Sources fetched June 2026:
+JewishGen Pinkas Hakehillot Hungary, Mátészalka [hun348]; English Wikipedia;
+Jewish Heritage Europe.)
 
-> *Action needed:* before this chapter is finalised, confirm the intended tzaddik
-> and burial site. If it is the Kosoner Rav, his grave is in Kosony (Ukraine), not
-> Mátészalka; if a Mátészalka grave is meant, we need the rabbi's exact name to
-> research him correctly.
+> *Action needed (the one open item in this chapter):* the *identity* is resolved —
+> the intended figure is the **Kosoner Rav, R' Yehosef Rottenberg** (author of *Bnei
+> Shileishim*, d. 23 Cheshvan 5672/1911), and **his grave is in Koson/Kászony,
+> Ukraine, not Mátészalka.** What remains is purely an *itinerary* decision: either
+> the group travels to **Koson, Ukraine** to visit his kever, or — if a stop in
+> Mátészalka itself is wanted — a *different* tzaddik must be chosen, since no
+> Rottenberg is buried there. No verbatim teaching from *Bnei Shileishim* could be
+> retrieved (HebrewBooks #58706 is 403/image-only), so none is printed.
