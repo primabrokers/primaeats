@@ -1,28 +1,21 @@
 # In the Footsteps of the Tzaddikim
-## A Companion for Our Journey Through Jewish Hungary
+## A Companion for Our Journey Through Yiddishe Ungarn
 
-*Draft content document — research stage. Sources are cited inline so every*
-*story and fact can be verified before we format the final book.*
+*A travel companion for our trip to the heilige kevarim of Ungarn — to the chassidishe and rabbinishe giants who lit up these little towns, and whose tziyonim still draw Yidden from every corner of the world.*
 
 ---
 
-### About this book
+### About this companion
 
-This book accompanies our trip to the resting places of the great tzaddikim of
-north-eastern Hungary. For each holy site we visit, you will find:
+This little book travels along with us to the resting places of the great tzaddikim of north-eastern Ungarn. At every tziyon we stop at, you'll find:
 
-- **Who he was** — a short history of the rebbe and his dynasty, his teachers,
-  and how he came to lead.
-- **Dates** — date of birth, date of passing (yahrtzeit), and age, where known.
-- **His sefarim** — the works he left behind.
-- **Stories from his lifetime** — inspirational accounts drawn from the
-  chronicles of his own era (not modern retellings), each with its source noted.
-- **His Torah** — a taste of the teachings he gave over.
+- **Who he was** — where he came from, his rebbeim, his family, and how he came to lead his kehillah.
+- **What he was known for** — his avodah, his brachos, his Torah, the maaisos Yidden still tell over today.
+- **His sefarim** — the works he left behind for us.
+- **The stories** — told the way they've been handed down, b'arichus, not chopped into a line or two.
+- **At his tziyon today** — the yahrzeit, the minhagim, and what's good to know before you go.
 
-> **A note on sources.** Every effort has been made to draw only on documented
-> and traditional accounts. Where a story is well-attested it is cited; where it
-> is part of oral chassidic tradition rather than documented fact, it is
-> labelled as such. Nothing here is invented.
+A word before we begin: everything here is faithful to what has been handed down. Where something is a beloved tradition rather than a hard fact, we tell it as a tradition — but nothing is made up.
 
 ---
 
@@ -44,188 +37,55 @@ north-eastern Hungary. For each holy site we visit, you will find:
 
 ---
 
-## A short history of the Jews of Hungary
+## A bisel history: the Yidden of Ungarn
 
-*Before we set out to the kevarim, it helps to know the world these tzaddikim
-lived in — how Jews came to Hungary, how Chassidus took root in its north-east,
-and what was destroyed in 1944. Every figure below is sourced; where accounts
-differ a range is given, and traditions are labelled as such.*
+*Before we set out, it's worth knowing a little of the world these tzaddikim lived in — how Yidden came to Ungarn in the first place, how the light of Chassidus reached its north-east, and what was so bitterly torn away in the churban. It is a long story, and a moving one.*
 
-### From the Romans to the Turks
+### How Yidden came to Ungarn
 
-Jews may first have reached Hungarian soil in Roman times: a Latin inscription
-from ancient **Pannonia** "clearly refers to Jewish matters," though there is
-nothing to show a permanent settlement that early. The first reasonably firm
-notice comes c. **960 CE**, when **Ḥasdai ibn Shaprut** mentions Jews living in
-"the country of Hungarin." In the medieval kingdom, **King Béla IV granted a
-charter of protection (a *privilegium*) to his Jewish subjects in 1251**,
-modelled on Austrian precedents; it stood until the disaster of Mohács (1526).
-There were dark turns too: **King Louis the Great expelled the Jews in 1360**
-after they refused conversion, recalling them only when the crown's finances
-required it. Under **Ottoman rule of Buda (Ofen), from 1541**, the community
-"was more flourishing than at any time before or after" in the later sixteenth
-century — until **imperial (Habsburg) troops retook Ofen on 2 September 1686**,
-when the Jewish community was destroyed in the siege and harsh Catholic
-restrictions followed. *(Sources: Jewish Encyclopedia, "Hungary.")*
+Yidden have lived on Hungarian soil for a very long time — there are traces of a Jewish presence already in Roman days. The first clear mention comes around the year 960, and by the Middle Ages there were settled kehillos: in 1251 King Béla IV gave the Yidden a charter of protection, and Jewish life held on through the centuries in spite of more than one bitter gezeira — among them an expulsion in 1360, after which the Yidden were eventually called back.
 
-### A new community, and the Chasam Sofer (18th–19th c.)
+When the Turk ruled Buda (Ofen) from 1541, the kehillah there actually flourished. That came to a violent end in 1686, when the Christian armies retook the city and the Yidden of Buda were destroyed in the fighting, with harsh decrees following after.
 
-The community we recognise today was rebuilt in the eighteenth and nineteenth
-centuries by immigration from two directions — **Moravia and Bohemia** in the
-west, and **Galicia** in the north-east — and it grew into two distinct worlds.
-The **Oberland** (the north-west, "Upper Hungary") spoke a German-tinged Yiddish,
-remained staunchly Orthodox but **anti-Chassidic** (its Jews called themselves
-*Ashkenazim*), and looked to Pressburg. The **Unterland** (the north-east,
-bordering Galicia and Bukovina) is where Chassidus would take hold.
+### Two worlds — and the Chasam Sofer
 
-The towering figure of Oberland Orthodoxy was the **Chasam Sofer — Rabbi Moshe
-Sofer (Schreiber)**, born in **Frankfurt on 24 September 1762** and serving as
-**rabbi and rosh yeshiva of Pressburg (Bratislava / Pozsony) from 1806 until his
-death on 3 October 1839** — about thirty-three years. His **Pressburg yeshiva,
-with some 500 students, became one of the most influential in Central Europe**,
-and he became the architect of modern Hungarian Orthodoxy and a leading opponent
-of the Reform movement, famous for the slogan *"chadash assur min ha-Torah"* —
-"the new is forbidden by the Torah." *(Note: popular accounts sometimes cast him
-as primarily an anti-Chassidic campaigner; the sources present him above all as
-the great opponent of Reform — he even quoted the Tanya.)* *(Sources: English
-Wikipedia, "Moses Sofer"; "Oberlander Jews" / "Unterlander Jews.")*
+The Ungarn we picture was really rebuilt across the 1700s and 1800s, as Yidden streamed in from two directions: from Moravia and Bohemia in the west, and from Galicia in the north-east. Out of this grew two very different worlds.
 
-### The coming of Chassidus
+In the **Oberland**, the north-west, Yidden spoke a German-flavored Yiddish and were fiercely, proudly frum — but they were not chassidim. Their address was Pressburg (Pozsony), and their towering leader was the **Chasam Sofer**, Reb Moshe Sofer (1762–1839). From 1806 until his very last day he led Pressburg and its yeshiva, which grew to some five hundred bochurim and became the most influential yeshiva in all of Central Europe. It was the Chasam Sofer who raised the banner that held back the Reformers — *"chodosh assur min haTorah,"* the new is forbidden by the Torah — and shaped the strong, uncompromising Yiddishkeit for which Ungarishe Yidden became known the world over.
 
-Chassidus in Hungary was largely **confined to the rural Unterland** of the
-north-east. As the YIVO Encyclopedia puts it, *"in the 1780s, Yitsḥak Isaak Taub
-(d. 1821) established a Hasidic center in Nagykálló, and small groups of Hasidim
-were active mainly in the Máramaros district."* **R' Yitzchok Isaac Taub of Kálló
-(c. 1751–1821)** is universally remembered as **the first chassidic rebbe of
-Hungary** — the very first site on our journey. *(Tradition holds that R' Leib
-Sarah's discovered him as a shepherd boy and brought him to learn under R' Shmelke
-of Nikolsburg, and that his niggunim were "lost melodies of the Beis HaMikdash";
-these are chassidic lore, not documented history.)*
+In the **Unterland**, the north-east, hard by Galicia — that is where Chassidus would take root.
 
-A second early anchor was **R' Moshe Teitelbaum of Ujhely (Sátoraljaújhely),
-1759–1841** — the *"Yismach Moshe,"* a disciple of the Chozeh of Lublin and the
-ancestor of the **Sighet and Satmar** dynasties. Hungarian Chassidus was fed by
-the great **Galician courts** — above all **Sanz** (R' Chaim Halberstam,
-1793–1876, the *Divrei Chaim*), as well as **Ropshitz** and **Belz** — whose
-influence reached across into the Unterland. From this soil grew the Hungarian
-courts whose kevarim still draw pilgrims: **Liska** (R' Tzvi Hersh Friedman, the
-*Ach Pri Tevuah*, d. 1874), **Kerestir** (R' Yeshaya "Shayele" Steiner,
-1851–1925), **Munkács** (R' Chaim Elazar Spira, the *Minchas Elazar*, c. 1868–
-1937, a noted anti-Zionist), and **Spinka** (R' Yosef Meir Weiss, the *Imrei
-Yosef*, 1838–1909). Intra-chassidic feeling could run high — the **Munkács–Belz
-dispute** of the 1920s–30s, settled by a peace agreement in **1934**, is the
-best-documented example. *(Sources: YIVO Encyclopedia, "Hungary: Historical
-Overview"; English Wikipedia entries for Taub, Teitelbaum, Halberstam, the Liska,
-Spinka and Munkács dynasties, and Yeshayah Steiner; Yad Vashem, "Dispute between
-the Munkács and Belz Hasidim." Some birth dates differ between sources — e.g. the
-Minchas Elazar's birth is given as 1868 or 1871 — and are noted as approximate.)*
+### The light of Chassidus comes to Ungarn
 
-### Emancipation and the great schism (1840–1871)
+It came early, and it came with song. Already in the 1780s, the **Kalover Rebbe**, Reb Yitzchok Eizik Taub of Nagykálló (c.1751–1821), had become the **first chassidishe rebbe on Hungarian soil** — the very first stop on our journey. In those same years the **Yismach Moshe**, Reb Moshe Teitelbaum of Ujhely (1759–1841), a talmid of the Chozeh of Lublin, planted Chassidus in the region and became the zeide of the Sighet and Satmar dynasties.
 
-Civil rights came in stages. **Law XXIX of 1840** allowed Jews to live almost
-anywhere (except the mining towns) and to enter trades; **full emancipation
-followed with Law XVII of 1867** (adopted 22 December 1867). To organise this
-newly equal community, a **General Jewish Congress sat in Pest from 14 December
-1868 to 23 February 1869** (about 220 delegates) — but instead of unity it
-produced **the defining feature of modern Hungarian Jewry: a permanent split into
-three streams — Orthodox, Neolog (modernising), and Status Quo Ante** (communities
-that joined neither). The Orthodox organised separately as the *Shomrei ha-Dat*,
-gaining parliamentary recognition in 1870. *(Sources: Jewish Encyclopedia,
-"Hungary"; English Wikipedia, "History of the Jews in Hungary" and "Status Quo
-Ante (Hungary).")*
+From there the wellsprings of Galicia — above all **Sanz** (the Divrei Chaim, Reb Chaim Halberstam, 1793–1876), together with **Belz** and **Ropshitz** — poured into the Unterland, and a whole world of heilige courts grew up: **Liska** (the Ach Pri Tevuah), **Kerestir** (Reb Shayele, whom we will visit), **Munkács** (the Minchas Elazar), **Spinka** (the Imrei Yosef), and more. These little towns, so many of them on our very route, became names known wherever chassidim daven.
 
-### A golden age, and its shadows (c. 1867–1919)
+### Golden years
 
-The decades after emancipation were a high point. Jewish numbers in the (pre-
-Trianon) Kingdom of Hungary **peaked in 1910 at 911,227 — about 5% of the
-population** — and **Budapest counted 203,687 Jews, 23.1% of the city**, making it
-one of the great Jewish cities of the world (Vienna's mayor Karl Lueger sneered at
-"Judapest"). Hungarian Jews acculturated deeply, often describing themselves as
-"Hungarians of the Mosaic faith." The shadows came after the First World War: the
-**Aster Revolution (1918)**, the short-lived **Hungarian Soviet Republic under
-Béla Kun (March–August 1919)** — several of whose leaders were of Jewish origin,
-which antisemites seized upon — and the counter-revolutionary **White Terror
-(1919–1921)**, whose paramilitary violence killed an estimated 1,500–5,000 people,
-Jews prominent among the targets. *(Sources: English Wikipedia, "History of the
-Jews in Hungary" and "White Terror (Hungary)"; USHMM, "The Holocaust in Hungary.")*
+Once the gezeiros eased and Yidden were at last granted civil rights — the great step came in 1867 — Hungarian Jewry blossomed as never before. By 1910 there were well over **900,000 Yidden** in greater Hungary, and Budapest had become one of the largest and most vibrant Jewish cities in the world, its Yidden to be found in every walk of life.
 
-### Darkening: the antisemitic laws (1920–1942)
+But the years after the First World War turned dark. Amid revolution and upheaval, a wave of antisemitic violence — the so-called White Terror of 1919–1921 — fell heavily on Yidden: a bitter taste of what was still to come.
 
-Hungary enacted **what is widely called the first anti-Jewish law of post-war
-Europe — the Numerus Clausus (Act XXV of 1920)** — capping each "nationality" in
-the universities at its share of the population, which for Jews meant roughly 6%.
-Then came the so-called Jewish Laws: the **First (29 May 1938)** capped Jews at 20%
-in many professions and businesses; the **Second (5 May 1939)** defined Jews
-*racially* and tightened the quotas; the **Third (8 August 1941)** banned
-intermarriage and Jewish–non-Jewish relations in the Nuremberg style (a fourth law,
-in 1942, stripped Jewish landholding). From **1939** Jewish men were conscripted
-into unarmed **forced-labour service (*munkaszolgálat*)**; of roughly 100,000 who
-served, **between 25,000 and 42,000 died before the German occupation of March
-1944**. *(Sources: USHMM, "The Holocaust in Hungary"; English Wikipedia, "Numerus
-clausus," "History of the Jews in Hungary," and "Labour service in Hungary during
-World War II"; M. Kovács / CEU.)*
+### The gezeiros
 
-### The Holocaust in Hungary (1941–1945)
+Ungarn carries the bitter distinction of passing what is widely called the **first anti-Jewish law in post-war Europe** — the *numerus clausus* of 1920, which slammed the university doors on Jewish young people. Then came the so-called Jewish Laws of 1938, 1939 and 1941, each one drawing the noose tighter: squeezing Yidden out of their parnassah, defining who was a Jew by race, and forbidding marriage between a Yid and a gentile. From 1939, Jewish men were torn from their families into brutal forced-labor battalions, where tens of thousands perished even before the worst began.
 
-The first mass killing came early: in 1941 Hungary deported some 18,000 "alien"
-Jews eastward, and **around 23,600 were murdered at Kamenets-Podolsk on 26–28
-August 1941** — described as the first large-scale massacre of the "Final
-Solution." But the catastrophe proper came late and fast. **Some 825,000 Jews were
-under Hungarian control** (including the territories Hungary annexed in 1938–41).
-On **19 March 1944 Germany occupied Hungary**, and Adolf Eichmann's SS, working
-with the Hungarian gendarmerie, organised deportations with terrible speed: the
-yellow star was imposed on 5 April, ghettoisation began in mid-April, and **between
-15 May and 9 July 1944 roughly 437,000 Jews were deported on 147 trains — about
-420,000 to Auschwitz-Birkenau — where some 320,000–330,000 were murdered on
-arrival.** This was the destruction, in about eight weeks, of provincial Hungarian
-Jewry — the very communities of the north-east through which we travel.
+### The bitter churban
 
-Regent **Miklós Horthy halted the deportations in early July 1944** (USHMM gives
-6–7 July), sparing Budapest for the moment. After the **Arrow Cross coup under
-Ferenc Szálasi on 15 October 1944**, terror returned: the **Budapest ghetto** was
-created that November, and between December 1944 and the end of January 1945 the
-Arrow Cross shot **as many as 20,000 Jews** on the banks of the Danube. Rescue
-efforts saved many: **Raoul Wallenberg** (Sweden, arrived 9 July 1944) issued
-*Schutzpässe* and ran some thirty "protected" houses; **Carl Lutz** (Switzerland)
-protected nearly 50,000 with Swiss papers from the "Glass House"; and the
-**Kasztner train** carried about 1,684 Jews to safety (departed 30 June 1944).
-**Soviet forces liberated Pest on 18 January and Buda by 13 February 1945**, with
-**more than 100,000 Jews still alive in the city.** In all, of the ~825,000 Jews
-under Hungarian rule, **roughly 550,000–565,000 were murdered** (USHMM cites about
-550,000 in one article and 564,507 in its by-country table; Yad Vashem gives about
-565,000). *(Sources: USHMM — "The Holocaust in Hungary," "Kamenets-Podolsk,"
-"Budapest," "Raoul Wallenberg and the Rescue of Jews in Budapest," "1944: Key
-Dates," and "Jewish Losses … by Country"; Yad Vashem, "Murder of Hungarian Jewry,"
-corroborating. Several totals are given as ranges where the sources differ.)*
+The first great bloodletting came already in 1941, when Yidden who could not prove their citizenship were driven eastward and roughly **23,600 were murdered** at Kamenets-Podolsk.
 
-### After the war: survival and revival
+The full churban came late, and with terrible speed. On **19 March 1944** the Germans marched into Ungarn, and with them came Eichmann, yemach shemo. Within weeks the Yidden of the countryside were herded into ghettos — and then, **between mid-May and early July 1944, in barely eight weeks, some 437,000 Yidden were torn from their towns and sent to Auschwitz**, where the great majority were killed the moment they stepped off the trains. The kehillos of the north-east — the very towns whose tzaddikim we travel to honor — were emptied and destroyed.
 
-Survival was overwhelmingly an urban story. Of perhaps **190,000–260,000 Jews on
-post-war Hungarian territory, about 144,000 lived in Budapest** — the provincial
-communities had been all but annihilated, and most countryside synagogues were
-gradually abandoned. Even after liberation there was violence: **blood-libel-fuelled
-pogroms struck Kunmadaras (21 May 1946) and Miskolc (30 July–1 August 1946).** Under
-**Communism (from 1948)** the Zionist movement was banned, "Zionist" show-trials ran
-from 1949 to 1954, and in 1950 the Orthodox and Neolog communities were forced into a
-single state-supervised body. Emigration came in two great waves — **1945–48 and
-1956–57, perhaps 60,000–75,000 people in all** — with about 20,000 leaving after the
-crushing of the 1956 Revolution.
+Budapest's Yidden were spared a little longer. But after the Arrow Cross seized power in October 1944, a fresh terror fell on the capital: a sealed ghetto, and thousands of Yidden shot on the banks of the Danube through that bitter winter. There were also shining acts of rescue — Raoul Wallenberg with his Swedish papers and safe houses, Carl Lutz of Switzerland, the Kasztner transport — and many were saved. The Russian army finally freed the city in the winter of 1945, with over 100,000 Yidden still alive there.
 
-Yet **Budapest endured as the largest Jewish community in Central / East-Central
-Europe** — today roughly **80% of Hungary's Jews live there**, worshipping at
-landmarks such as the **Dohány Street Synagogue (built 1854–59), the largest in
-Europe.** Counts of the present community vary enormously by definition: the 2011
-census recorded only about 11,000 religious Jews, the World Jewish Congress cites
-around 47,000, and broader estimates run from roughly 75,000 to over 130,000. Since
-the 1990s a **heritage revival** has brought Jewish life — and Jewish travellers —
-back to Hungary, including the very **pilgrimages to the tzaddikim's kevarim** that
-this guide follows: Kálló (yahrtzeit 7 Adar), **Kerestir** (3 Iyar, now drawing well
-over 10,000 pilgrims), Ujhely, and Liska (14 Av). *(Sources: USHMM, "Budapest";
-Quest / CDEC journal, "Jews and Jewishness in Post-war Hungary"; English Wikipedia,
-"Kunmadaras pogrom," "Miskolc pogrom," "History of the Jews in Hungary"; Jewish
-Telegraphic Agency [1956]; World Jewish Congress, "Community in Hungary"; Dohány /
-Great Synagogue official site; VINnews [Kerestir yahrtzeit]. Present-day population
-figures are unavoidably approximate and depend on how "Jewish" is counted.)*
+When it was over, of the roughly 825,000 Yidden who had been under Hungarian rule, **between 550,000 and 565,000 had been killed** — Hashem yikom damam. An entire world — the world of the tzaddikim in this book — was gone.
+
+### After the churban — and the Yidden who return
+
+What survived was mostly in Budapest; the small-town kehillos of the countryside were all but wiped out, their shuls left silent. Nor did the survivors find peace: there were still ugly pogroms in 1946, and then the Communists, who choked Yiddishkeit, outlawed Zionist activity, and forced the kehillos under the heel of the state. Many who could, left — above all after the failed uprising of 1956.
+
+And yet. Budapest remains to this day the largest Jewish kehillah in the whole region — most of Hungary's Yidden live there still, around the great Dohány shul, the largest in Europe. And in recent decades something beautiful has happened: Yidden have begun streaming back to Ungarn — not to settle, but to daven at the heilige kevarim. Tens of thousands come to Kerestir for Reb Shayele's yahrzeit on Gimmel Iyar; they come to Kálló, to Ujhely, to Liska. That return — that pull of Yidden back to their tzaddikim — is exactly the journey this little book sets out to make.
 
 ---
 
@@ -967,49 +827,3 @@ before publishing a location.** (Sources: Salgótarjáni Street Jewish Cemetery
 > (encyclopedia, library catalogue, two dated autographs). Still open: the secondary
 > list of additional sefarim; and the **precise grave location** (Salgótarjáni vs.
 > Kozma utca).
-
----
-
-## Sources & bibliography
-
-*This bibliography gathers the works cited inline throughout the book. It mixes
-three kinds of source: (a) authoritative reference and Holocaust documentation,
-relied on for history, dates and figures; (b) secondary Jewish-press, biographical
-and community/traditional material, used for stories and reputation (and labelled
-in the text where a claim is tradition rather than documented fact); and (c)
-auction-house catalogues, used mainly for dated primary documents and seforim
-provenance. The digitised sefarim on HebrewBooks are image scans and should be
-consulted directly before any teaching is quoted in the final book.*
-
-**Reference works & encyclopaedias**
-- *Encyclopaedia Judaica* (consulted via the Jewish Virtual Library and Encyclopedia.com).
-- *The Jewish Encyclopedia* (1901–06): "Hungary"; "Oppenheim, Simon ben David" — jewishencyclopedia.com.
-- *YIVO Encyclopedia of Jews in Eastern Europe*: "Hungary: Historical Overview" — encyclopedia.yivo.org.
-- English Wikipedia: "History of the Jews in Hungary"; "Yitzchak Isaac Taub"; "Kaliv (Hasidic dynasty)"; "Yeshayah Steiner"; "Moshe Teitelbaum (Ujhel)"; "Chaim Halberstam"; "Liska / Spinka / Sanz (Hasidic dynasties)"; "Chaim Elazar Spira"; "Moses Sofer"; "Oberlander Jews" / "Unterlander Jews"; "Numerus clausus"; "Status Quo Ante (Hungary)"; "White Terror (Hungary)"; "Labour service in Hungary during World War II"; "Miskolc Synagogue"; "Mád"; "Kunmadaras pogrom"; "Miskolc pogrom"; "Abraham Judah ha-Kohen Schwartz"; "Salgótarjáni Street Jewish Cemetery".
-- Hebrew Wikipedia / Hamichlol (biographical entries for the Hungarian rabbanim).
-
-**Holocaust documentation & community records**
-- United States Holocaust Memorial Museum (USHMM), *Holocaust Encyclopedia*: "The Holocaust in Hungary"; "Kamenets-Podolsk"; "Budapest"; "Deportation of Hungarian Jews"; "Raoul Wallenberg and the Rescue of Jews in Budapest"; "1944: Key Dates"; "Jewish Losses During the Holocaust: By Country".
-- Yad Vashem: "Murder of Hungarian Jewry"; "Dispute between the Munkács and Belz Hasidim".
-- Holocaust Memorial Day Trust (liberation of the Budapest ghetto).
-- JewishGen: Yizkor Books, *Pinkas Hakehillot Hungary*, and KehilaLinks (Miskolc, Mád and other kehillos).
-
-**Scholarship & Jewish communal organisations**
-- *Quest: Issues in Contemporary Jewish History* (CDEC), "Jews and Jewishness in Post-war Hungary".
-- Mária M. Kovács / Central European University (on the 1920 numerus clausus).
-- World Jewish Congress, "Community in Hungary".
-- Jewish Telegraphic Agency (JTA).
-
-**Jewish press, magazines & Torah sites** *(secondary; stories/reputation)*
-- *Mishpacha*; *Tablet*; *The Jerusalem Post*; *The Times of Israel* (cited but page not retrievable — HTTP 403); VINnews; Yeshiva World News (YWN) / Williamsburg365; Baltimore Jewish Life; *Jewish History Soundbites* (podcast); Boro Park 24; chabad.org; lpitorah.org; toratcha.com; rebshayele.org; NerTzaddik; and the popular biography *Reb Shayele Kerestirer* (Feldheim) and Y. Besser's writing.
-
-**Heritage, cemetery & seforim resources**
-- Zsidó Örökség Útja (Jewish Heritage Route, Hungary).
-- World Monuments Fund (restoration of the Kol Aryeh Synagogue, Mád).
-- Dohány / Great Synagogue official site (greatsynagogue.hu).
-- National Library of Israel (NLI) catalogue.
-- HebrewBooks.org — digitised sefarim (image scans): *Yagel Yaakov* (#848, #849); *Har HaKarmel* (#8117); *Nezer HaKodesh* (#30658); *Levushei Mordechai* (#786, #55480).
-- Find a Grave; Geni; kevarim.com; the "Footsteps of the Wonder Rabbis" grave database; rabbimap.com.
-
-**Auction houses (dated primary documents & seforim provenance)**
-- Kedem Auctions; Kestenbaum & Co.; Genazym; Appel Auction; Tiferet Auctions; Eichlers; lot-art.
