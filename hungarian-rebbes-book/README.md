@@ -34,7 +34,7 @@ north-eastern Hungary. For each holy site we visit, you will find:
 | 2 | **Bodrogkeresztúr** (Kerestir) | R' Yeshaya Steiner — *R' Shayele Kerestirer* |
 | 3 | **Újfehértó** (Ratzfert) | R' Naftali Hertzka & R' Shalom Eliezer Halberstam |
 | 4 | **Csenger** | R' Asher Anshel Yungreis — *Menuchas Asher* |
-| 5 | **Mátészalka** (region) | R' Yehosef Rottenberg — the *Kosoner Rav* (buried in Koson/Kászony, Ukraine — see note) |
+| 5 | **Mátészalka** | Community & Holocaust-memory site (old cemetery, ohel, restored synagogue) — no documented rebbe's kever; see note |
 
 ---
 
@@ -526,90 +526,78 @@ JewishGen Csenger Yizkor Book; USHMM)
 > Encyclopaedia Judaica's own wording; no specific named-individual miracle account
 > could be verified, so none is asserted.
 
-## 5. Mátészalka — R' Yehosef Rottenberg, the Kosoner Rav
+## 5. Mátészalka — a Holocaust-memory site (no documented rebbe's kever)
 
-> **✓ Identity/location question — now resolved (June 2026 re-check).** The name
-> as originally listed ("R' Yosef Rottenberg, **Konsoner** Rav, **Mátészalka**")
-> conflates two things. The figure is real and correctly identified, but: (1)
-> **"Konsoner" is a phonetic corruption of "Kosoner"** — read **Kosoner Rav**; and
-> (2) **his seat and burial were NOT in Mátészalka.** Confirmed across English
-> Wikipedia ("Koson (Hasidic dynasty)"), Hebrew Wikipedia ("חסידות קוסון") and a
-> Koson-dynasty genealogy: the intended man is **R' Yehosef (Yosef) Rottenberg**,
-> founder of the **Koson** chassidic dynasty, who settled in and is **buried at
-> Koson / Kászony / Mezőkászony** (today Koson, Zakarpattia, **Ukraine**) — *not*
-> Mátészalka. **No source places any Rottenberg rebbe's grave in Mátészalka**
-> (searches turned up only later Kosoner descendants buried in Los Angeles and New
-> Jersey). The Mátészalka link is genuinely *regional only*: the founder had
-> earlier been Av Beis Din of **Nyírtass** (near Mátészalka), and Mátészalka had a
-> chassidic shtibl — but Mátészalka's own last rav was **R' Shalom Grünbaum**, not
-> a Rottenberg. **Decision needed for the itinerary:** to visit the Kosoner Rav's
-> kever the group must travel to **Koson, Ukraine**; if a Mátészalka grave is
-> intended instead, a different tzaddik is meant and we need the exact name. What
-> follows is the verified material on the Kosoner Rav, plus Mátészalka's community
-> history.
+> **✓ Identity/location question — now resolved (June 2026 re-check), and it
+> changes this chapter.** The figure the itinerary originally named ("R' Yosef
+> Rottenberg, *Konsoner* Rav") is real but was **mis-located**. He is **R' Yehosef
+> Rottenberg, the *Kosoner* Rav** (author of *Bnei Shileishim*, founder of the
+> Koson dynasty, d. 23 Cheshvan 5672/1911) — and his seat and **grave are in Koson
+> / Kászony / Mezőkászony, today in Zakarpattia, UKRAINE**, not Hungary. Since our
+> trip stays **in Hungary**, his kever is not a stop on this route (it would mean
+> crossing into Ukraine). A short note on him is kept below for reference, because
+> the dynasty's earlier rabbinate at **Nyírtass** (near Mátészalka) is the only
+> reason the names ever became linked.
+>
+> **And here is the honest finding for Mátészalka itself:** after full-text
+> searching, **no famous, named tzaddik is documented as buried in Mátészalka.**
+> The town's old Jewish cemetery *does* have an **ohel and a special rabbis'
+> section**, and it *does* receive organised pilgrimage/heritage groups — but **no
+> source names whose ohel it is**, so we cannot responsibly build the chapter
+> around a "Mátészalka Rebbe." Treat this stop as a **Holocaust-memory and
+> community-heritage site**, not a kever-pilgrimage to a known master. (If a named
+> grave is wanted, it must be verified on the ground from the matzeva itself.)
 
-### R' Yehosef (Yosef) Rottenberg of Koson — the *Kosoner Rav* (1853–1911)
+### Mátészalka — the Jewish community (verified)
 
-**Who he was.** Grand Rabbi Yehosef Rottenberg of Koson, the **Kosoner Rebbe**,
-known after his sefer as the **Bnei Shileishim**, founder of the Koson chassidic
-dynasty. "Koson" is the town of Kosony / Mezőkászony. He was Av Beis Din of
-Mezőkászony and of **Nyírtass**, settling in Koson in 1897 as both Rav and Rebbe.
-He was a **son-in-law of the Tosh dynasty** (married to Sara Yittel, daughter of
-R' Meshulam Feish Segal-Lowy of Tosh) — his principal chassidic connection.
-(Sources: Wikipedia & Justapedia, "Koson (Hasidic dynasty)"; Geni; Hamodia)
+An Orthodox community with Jewish records from **1784–85**, with a Jewish school, a
+Talmud Torah, and — near the synagogue — a chassidic **shtibl** in its own building
+(confirmed verbatim in the JewishGen Pinkas: *"Near the synagogue was a shtibl for
+Hassidim, which had its own building"*). The **synagogue was built in 1857** (per
+Jewish Heritage Europe — note this date is *not* in the Pinkas or English
+Wikipedia). **Six rabbis served the community over its history; the last, R' Shalom
+(Frigyes) Grünbaum (1895–1944), perished in the Holocaust and has no local grave**
+— he was *not* a Rottenberg. In **1944** Mátészalka held one of the region's large
+ghetto/transit (concentration) camps, gathering many thousands of Jews from the
+surrounding district before deportation to **Auschwitz**. The actor **Tony Curtis**
+(born Bernard Schwartz) had family roots here, and his daughter **Jamie Lee Curtis**
+helped fund restoration of the Mátészalka synagogue.
 
-**Dates.**
-- *Born:* **1853**, in **Halych (Halicz)**, Galicia. (A genealogy blog rendered a
-  variant year of 5573/1813, but that is internally inconsistent; 1853 is the
-  Wikipedia consensus.) Maternal descendant of the Zidichov dynasty.
-- *Passing:* **23 Cheshvan 5672 = 1911**, in Koson / Kászony / Mezőkászony, where
-  he is buried. The 23 Cheshvan yahrtzeit is now confirmed across English and
-  Hebrew Wikipedia and the Koson-dynasty genealogy (a stray snippet giving 6 Teves
-  5680/1919 is a minority outlier and rejected).
-- *Age:* approximately **58**.
-- (Sources fetched June 2026: en.wikipedia.org/wiki/Koson_(Hasidic_dynasty);
-  he.wikipedia.org/wiki/חסידות_קוסון; Koson-dynasty genealogy)
+**The old Jewish cemetery (the actual pilgrimage point).** The International Jewish
+Cemetery Project survey records that the Hasidic-Orthodox old cemetery on Fellegvár
+Street holds 500–5,000 stones (last burial 1991), has **"special sections… for
+rabbis and children,"** and that **"there also is an ohel and a wooden
+coach-house,"** with the site **"frequently visited by organized Jewish group
+tours or pilgrimage groups."** Crucially, **the survey does not name the ohel's
+occupant**, and the only individually listed grave ("Spitzer, Chaim Meselem Feis")
+carries no dates and no indication of being a famous rebbe. (Sources fetched June
+2026: JewishGen Pinkas Hakehillot Hungary, Mátészalka [hun348]; cdp.jewishgen.org
+cemetery survey, Mátészalka; English Wikipedia; Jewish Heritage Europe;
+zsido.com on R' Grünbaum.)
 
-**His sefarim.** **Bnei Shileishim (בני שלשים)** — his Torah work, the title by
-which he is known; catalogued on HebrewBooks.org as **#58706** (*בני שלשים —
-רוטנברג, יוסף בן צבי הלוי*). Its confirmed internal structure: **"Yad Yosef"**
-(derashos for Shabbos HaGadol), **"Divrei Yosef"** (derashos for Shabbos Shuvah)
-and **"Eidus B'Yhosef"** (mussar for the Yamim Noraim). A later dynasty volume,
-*Poras Yosef – Toldos Bnei Shileishim Koson*, is sold commercially. (Sources:
-Koson-dynasty genealogy; HebrewBooks #58706; Eichler's)
+> *Honesty flags (do not print as fact without ground verification):* (1) the
+> occupant of the cemetery's ohel is **undocumented** in every source reached;
+> (2) a single unverified lead names a "Rav of Szalka," **R' Yechiel
+> Kahana(-Heller), d. 1862**, but "Szalka/Szolke/Salka" is ambiguous (several
+> places in historic Hungary/Slovakia carry that name) and the Geni/FamilySearch
+> records were JavaScript-walled and could not be confirmed — it may not be
+> *Máté*szalka at all. (3) The famous Teitelbaum tomb-pilgrimage ("Yismach Moshe")
+> is at **Sátoraljaújhely**, *not* Mátészalka — do not conflate them.
 
-**Stories & Torah.** *Still no sourced, attributable story or verbatim teaching
-specific to this rebbe could be retrieved* even with full-text access: HebrewBooks
-returns HTTP 403 for #58706 and the holdings are image-only scans (no extractable
-text layer, unlike *Zikhron Naftali*). In keeping with the no-fabrication rule,
-none are supplied here. The responsible next step is to consult the printed *Bnei
-Shileishim* (or the dynasty biography *Poras Yosef / Toldos Bnei Shileishim*)
-directly. (Documented dynasty context: large numbers of chassidim travelled to
-Koson for the festivals, and his son R' Yisroel Tzvi later founded the yeshiva
-*Ateres Tzvi* in Koson.)
+### Reference note — R' Yehosef (Yosef) Rottenberg of Koson, the *Kosoner Rav* (1853–1911)
 
-**Mátészalka — the Jewish community (verified).** Jewish records run from **1784–85**
-(JewishGen Pinkas Hakehillot), and near the synagogue stood a chassidic **shtibl**
-in its own building (confirmed verbatim in the Pinkas: *"Near the synagogue was a
-shtibl for Hassidim, which had its own building"*). The **synagogue was built in
-1857** (per Jewish Heritage Europe — note this date is *not* in the Pinkas or
-English Wikipedia). The town's **last rav, R' Shalom Grünbaum, perished in the
-Holocaust — he was *not* a Rottenberg.** In **1944** Mátészalka held one of the
-region's large ghetto/transit (concentration) camps, gathering on the order of
-17,000 Jews from the surrounding district before deportation to **Auschwitz**.
-The actor **Tony Curtis** (born Bernard Schwartz) had family roots here, and his
-daughter **Jamie Lee Curtis** helped fund restoration of the Mátészalka synagogue.
-*Correction:* the earlier draft's "Mátészalka New Jewish Cemetery" by that exact
-name **could not be confirmed** in any source on re-check — verify the cemetery's
-name on the ground if a Mátészalka grave is targeted. (Sources fetched June 2026:
-JewishGen Pinkas Hakehillot Hungary, Mátészalka [hun348]; English Wikipedia;
-Jewish Heritage Europe.)
-
-> *Action needed (the one open item in this chapter):* the *identity* is resolved —
-> the intended figure is the **Kosoner Rav, R' Yehosef Rottenberg** (author of *Bnei
-> Shileishim*, d. 23 Cheshvan 5672/1911), and **his grave is in Koson/Kászony,
-> Ukraine, not Mátészalka.** What remains is purely an *itinerary* decision: either
-> the group travels to **Koson, Ukraine** to visit his kever, or — if a stop in
-> Mátészalka itself is wanted — a *different* tzaddik must be chosen, since no
-> Rottenberg is buried there. No verbatim teaching from *Bnei Shileishim* could be
-> retrieved (HebrewBooks #58706 is 403/image-only), so none is printed.
+*Kept for disambiguation only — buried in Ukraine, not on this Hungary route.*
+Grand Rabbi Yehosef Rottenberg of Koson, the **Kosoner Rebbe**, known after his
+sefer as the **Bnei Shileishim**, founder of the Koson chassidic dynasty. Born
+**1853** in **Halych (Halicz)**, Galicia (maternal descendant of the Zidichov
+dynasty); Av Beis Din of **Nyírtass** and then of Mezőkászony, settling in Koson in
+1897 as both Rav and Rebbe; **son-in-law of the Tosh dynasty** (married to Sara
+Yittel, daughter of R' Meshulam Feish Segal-Lowy of Tosh). **Died 23 Cheshvan 5672
+= 1911, in Koson / Kászony / Mezőkászony, where he is buried** (today Koson,
+Zakarpattia, Ukraine). His sefer **Bnei Shileishim (בני שלשים)** is on
+HebrewBooks.org (#58706), structured as *"Yad Yosef"* (Shabbos HaGadol derashos),
+*"Divrei Yosef"* (Shabbos Shuvah derashos) and *"Eidus B'Yhosef"* (mussar for the
+Yamim Noraim). **No verbatim teaching could be retrieved** (HebrewBooks #58706
+returns 403 / image-only), so none is printed. (Sources: en.wikipedia.org/wiki/
+Koson_(Hasidic_dynasty); he.wikipedia.org/wiki/חסידות_קוסון; Koson-dynasty
+genealogy; HebrewBooks #58706.)
