@@ -44,7 +44,192 @@ north-eastern Hungary. For each holy site we visit, you will find:
 
 ---
 
-<!-- Section content will be inserted below as research completes. -->
+## A short history of the Jews of Hungary
+
+*Before we set out to the kevarim, it helps to know the world these tzaddikim
+lived in — how Jews came to Hungary, how Chassidus took root in its north-east,
+and what was destroyed in 1944. Every figure below is sourced; where accounts
+differ a range is given, and traditions are labelled as such.*
+
+### From the Romans to the Turks
+
+Jews may first have reached Hungarian soil in Roman times: a Latin inscription
+from ancient **Pannonia** "clearly refers to Jewish matters," though there is
+nothing to show a permanent settlement that early. The first reasonably firm
+notice comes c. **960 CE**, when **Ḥasdai ibn Shaprut** mentions Jews living in
+"the country of Hungarin." In the medieval kingdom, **King Béla IV granted a
+charter of protection (a *privilegium*) to his Jewish subjects in 1251**,
+modelled on Austrian precedents; it stood until the disaster of Mohács (1526).
+There were dark turns too: **King Louis the Great expelled the Jews in 1360**
+after they refused conversion, recalling them only when the crown's finances
+required it. Under **Ottoman rule of Buda (Ofen), from 1541**, the community
+"was more flourishing than at any time before or after" in the later sixteenth
+century — until **imperial (Habsburg) troops retook Ofen on 2 September 1686**,
+when the Jewish community was destroyed in the siege and harsh Catholic
+restrictions followed. *(Sources: Jewish Encyclopedia, "Hungary.")*
+
+### A new community, and the Chasam Sofer (18th–19th c.)
+
+The community we recognise today was rebuilt in the eighteenth and nineteenth
+centuries by immigration from two directions — **Moravia and Bohemia** in the
+west, and **Galicia** in the north-east — and it grew into two distinct worlds.
+The **Oberland** (the north-west, "Upper Hungary") spoke a German-tinged Yiddish,
+remained staunchly Orthodox but **anti-Chassidic** (its Jews called themselves
+*Ashkenazim*), and looked to Pressburg. The **Unterland** (the north-east,
+bordering Galicia and Bukovina) is where Chassidus would take hold.
+
+The towering figure of Oberland Orthodoxy was the **Chasam Sofer — Rabbi Moshe
+Sofer (Schreiber)**, born in **Frankfurt on 24 September 1762** and serving as
+**rabbi and rosh yeshiva of Pressburg (Bratislava / Pozsony) from 1806 until his
+death on 3 October 1839** — about thirty-three years. His **Pressburg yeshiva,
+with some 500 students, became one of the most influential in Central Europe**,
+and he became the architect of modern Hungarian Orthodoxy and a leading opponent
+of the Reform movement, famous for the slogan *"chadash assur min ha-Torah"* —
+"the new is forbidden by the Torah." *(Note: popular accounts sometimes cast him
+as primarily an anti-Chassidic campaigner; the sources present him above all as
+the great opponent of Reform — he even quoted the Tanya.)* *(Sources: English
+Wikipedia, "Moses Sofer"; "Oberlander Jews" / "Unterlander Jews.")*
+
+### The coming of Chassidus
+
+Chassidus in Hungary was largely **confined to the rural Unterland** of the
+north-east. As the YIVO Encyclopedia puts it, *"in the 1780s, Yitsḥak Isaak Taub
+(d. 1821) established a Hasidic center in Nagykálló, and small groups of Hasidim
+were active mainly in the Máramaros district."* **R' Yitzchok Isaac Taub of Kálló
+(c. 1751–1821)** is universally remembered as **the first chassidic rebbe of
+Hungary** — the very first site on our journey. *(Tradition holds that R' Leib
+Sarah's discovered him as a shepherd boy and brought him to learn under R' Shmelke
+of Nikolsburg, and that his niggunim were "lost melodies of the Beis HaMikdash";
+these are chassidic lore, not documented history.)*
+
+A second early anchor was **R' Moshe Teitelbaum of Ujhely (Sátoraljaújhely),
+1759–1841** — the *"Yismach Moshe,"* a disciple of the Chozeh of Lublin and the
+ancestor of the **Sighet and Satmar** dynasties. Hungarian Chassidus was fed by
+the great **Galician courts** — above all **Sanz** (R' Chaim Halberstam,
+1793–1876, the *Divrei Chaim*), as well as **Ropshitz** and **Belz** — whose
+influence reached across into the Unterland. From this soil grew the Hungarian
+courts whose kevarim still draw pilgrims: **Liska** (R' Tzvi Hersh Friedman, the
+*Ach Pri Tevuah*, d. 1874), **Kerestir** (R' Yeshaya "Shayele" Steiner,
+1851–1925), **Munkács** (R' Chaim Elazar Spira, the *Minchas Elazar*, c. 1868–
+1937, a noted anti-Zionist), and **Spinka** (R' Yosef Meir Weiss, the *Imrei
+Yosef*, 1838–1909). Intra-chassidic feeling could run high — the **Munkács–Belz
+dispute** of the 1920s–30s, settled by a peace agreement in **1934**, is the
+best-documented example. *(Sources: YIVO Encyclopedia, "Hungary: Historical
+Overview"; English Wikipedia entries for Taub, Teitelbaum, Halberstam, the Liska,
+Spinka and Munkács dynasties, and Yeshayah Steiner; Yad Vashem, "Dispute between
+the Munkács and Belz Hasidim." Some birth dates differ between sources — e.g. the
+Minchas Elazar's birth is given as 1868 or 1871 — and are noted as approximate.)*
+
+### Emancipation and the great schism (1840–1871)
+
+Civil rights came in stages. **Law XXIX of 1840** allowed Jews to live almost
+anywhere (except the mining towns) and to enter trades; **full emancipation
+followed with Law XVII of 1867** (adopted 22 December 1867). To organise this
+newly equal community, a **General Jewish Congress sat in Pest from 14 December
+1868 to 23 February 1869** (about 220 delegates) — but instead of unity it
+produced **the defining feature of modern Hungarian Jewry: a permanent split into
+three streams — Orthodox, Neolog (modernising), and Status Quo Ante** (communities
+that joined neither). The Orthodox organised separately as the *Shomrei ha-Dat*,
+gaining parliamentary recognition in 1870. *(Sources: Jewish Encyclopedia,
+"Hungary"; English Wikipedia, "History of the Jews in Hungary" and "Status Quo
+Ante (Hungary).")*
+
+### A golden age, and its shadows (c. 1867–1919)
+
+The decades after emancipation were a high point. Jewish numbers in the (pre-
+Trianon) Kingdom of Hungary **peaked in 1910 at 911,227 — about 5% of the
+population** — and **Budapest counted 203,687 Jews, 23.1% of the city**, making it
+one of the great Jewish cities of the world (Vienna's mayor Karl Lueger sneered at
+"Judapest"). Hungarian Jews acculturated deeply, often describing themselves as
+"Hungarians of the Mosaic faith." The shadows came after the First World War: the
+**Aster Revolution (1918)**, the short-lived **Hungarian Soviet Republic under
+Béla Kun (March–August 1919)** — several of whose leaders were of Jewish origin,
+which antisemites seized upon — and the counter-revolutionary **White Terror
+(1919–1921)**, whose paramilitary violence killed an estimated 1,500–5,000 people,
+Jews prominent among the targets. *(Sources: English Wikipedia, "History of the
+Jews in Hungary" and "White Terror (Hungary)"; USHMM, "The Holocaust in Hungary.")*
+
+### Darkening: the antisemitic laws (1920–1942)
+
+Hungary enacted **what is widely called the first anti-Jewish law of post-war
+Europe — the Numerus Clausus (Act XXV of 1920)** — capping each "nationality" in
+the universities at its share of the population, which for Jews meant roughly 6%.
+Then came the so-called Jewish Laws: the **First (29 May 1938)** capped Jews at 20%
+in many professions and businesses; the **Second (5 May 1939)** defined Jews
+*racially* and tightened the quotas; the **Third (8 August 1941)** banned
+intermarriage and Jewish–non-Jewish relations in the Nuremberg style (a fourth law,
+in 1942, stripped Jewish landholding). From **1939** Jewish men were conscripted
+into unarmed **forced-labour service (*munkaszolgálat*)**; of roughly 100,000 who
+served, **between 25,000 and 42,000 died before the German occupation of March
+1944**. *(Sources: USHMM, "The Holocaust in Hungary"; English Wikipedia, "Numerus
+clausus," "History of the Jews in Hungary," and "Labour service in Hungary during
+World War II"; M. Kovács / CEU.)*
+
+### The Holocaust in Hungary (1941–1945)
+
+The first mass killing came early: in 1941 Hungary deported some 18,000 "alien"
+Jews eastward, and **around 23,600 were murdered at Kamenets-Podolsk on 26–28
+August 1941** — described as the first large-scale massacre of the "Final
+Solution." But the catastrophe proper came late and fast. **Some 825,000 Jews were
+under Hungarian control** (including the territories Hungary annexed in 1938–41).
+On **19 March 1944 Germany occupied Hungary**, and Adolf Eichmann's SS, working
+with the Hungarian gendarmerie, organised deportations with terrible speed: the
+yellow star was imposed on 5 April, ghettoisation began in mid-April, and **between
+15 May and 9 July 1944 roughly 437,000 Jews were deported on 147 trains — about
+420,000 to Auschwitz-Birkenau — where some 320,000–330,000 were murdered on
+arrival.** This was the destruction, in about eight weeks, of provincial Hungarian
+Jewry — the very communities of the north-east through which we travel.
+
+Regent **Miklós Horthy halted the deportations in early July 1944** (USHMM gives
+6–7 July), sparing Budapest for the moment. After the **Arrow Cross coup under
+Ferenc Szálasi on 15 October 1944**, terror returned: the **Budapest ghetto** was
+created that November, and between December 1944 and the end of January 1945 the
+Arrow Cross shot **as many as 20,000 Jews** on the banks of the Danube. Rescue
+efforts saved many: **Raoul Wallenberg** (Sweden, arrived 9 July 1944) issued
+*Schutzpässe* and ran some thirty "protected" houses; **Carl Lutz** (Switzerland)
+protected nearly 50,000 with Swiss papers from the "Glass House"; and the
+**Kasztner train** carried about 1,684 Jews to safety (departed 30 June 1944).
+**Soviet forces liberated Pest on 18 January and Buda by 13 February 1945**, with
+**more than 100,000 Jews still alive in the city.** In all, of the ~825,000 Jews
+under Hungarian rule, **roughly 550,000–565,000 were murdered** (USHMM cites about
+550,000 in one article and 564,507 in its by-country table; Yad Vashem gives about
+565,000). *(Sources: USHMM — "The Holocaust in Hungary," "Kamenets-Podolsk,"
+"Budapest," "Raoul Wallenberg and the Rescue of Jews in Budapest," "1944: Key
+Dates," and "Jewish Losses … by Country"; Yad Vashem, "Murder of Hungarian Jewry,"
+corroborating. Several totals are given as ranges where the sources differ.)*
+
+### After the war: survival and revival
+
+Survival was overwhelmingly an urban story. Of perhaps **190,000–260,000 Jews on
+post-war Hungarian territory, about 144,000 lived in Budapest** — the provincial
+communities had been all but annihilated, and most countryside synagogues were
+gradually abandoned. Even after liberation there was violence: **blood-libel-fuelled
+pogroms struck Kunmadaras (21 May 1946) and Miskolc (30 July–1 August 1946).** Under
+**Communism (from 1948)** the Zionist movement was banned, "Zionist" show-trials ran
+from 1949 to 1954, and in 1950 the Orthodox and Neolog communities were forced into a
+single state-supervised body. Emigration came in two great waves — **1945–48 and
+1956–57, perhaps 60,000–75,000 people in all** — with about 20,000 leaving after the
+crushing of the 1956 Revolution.
+
+Yet **Budapest endured as the largest Jewish community in Central / East-Central
+Europe** — today roughly **80% of Hungary's Jews live there**, worshipping at
+landmarks such as the **Dohány Street Synagogue (built 1854–59), the largest in
+Europe.** Counts of the present community vary enormously by definition: the 2011
+census recorded only about 11,000 religious Jews, the World Jewish Congress cites
+around 47,000, and broader estimates run from roughly 75,000 to over 130,000. Since
+the 1990s a **heritage revival** has brought Jewish life — and Jewish travellers —
+back to Hungary, including the very **pilgrimages to the tzaddikim's kevarim** that
+this guide follows: Kálló (yahrtzeit 7 Adar), **Kerestir** (3 Iyar, now drawing well
+over 10,000 pilgrims), Ujhely, and Liska (14 Av). *(Sources: USHMM, "Budapest";
+Quest / CDEC journal, "Jews and Jewishness in Post-war Hungary"; English Wikipedia,
+"Kunmadaras pogrom," "Miskolc pogrom," "History of the Jews in Hungary"; Jewish
+Telegraphic Agency [1956]; World Jewish Congress, "Community in Hungary"; Dohány /
+Great Synagogue official site; VINnews [Kerestir yahrtzeit]. Present-day population
+figures are unavoidably approximate and depend on how "Jewish" is counted.)*
+
+---
+
+<!-- Site chapters follow. -->
 
 ## 1. Nagykálló — The Kalover Rebbe
 
