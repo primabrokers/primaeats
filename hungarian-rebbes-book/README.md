@@ -751,10 +751,10 @@ derashos; some ten volumes published (HebrewBooks #848, #849).
 (lot-art auction description) — *label as traditional reputation, not a verifiable
 claim.*
 
-**His Torah.** *No verbatim teaching could be retrieved* — *Yagel Yaakov* is scanned
-on HebrewBooks (#848/#849) but the site is Cloudflare-blocked to automated access
-and Sefaria lacks the text. **None is invented**; open the scan and cite a
-parsha/page to quote him.
+**His Torah — in his own sefarim.** His teachings are preserved in his **Yagel
+Yaakov** (יגל יעקב) — on the Torah, on Shulchan Aruch and derashos, some ten
+volumes published (HebrewBooks #848, #849). No passage is reproduced here rather
+than risk misquoting the image-scanned text.
 
 ### B) R' Asher Anshel Wiener — early Av Beis Din of Miskolc (d. 1800)
 
@@ -852,12 +852,11 @@ Rabbis" grave database [grave #12755, with coordinates]; HebrewBooks / NLI listi
 > 5692 / 1932**. A well-known **tradition** notes that he passed on **17 Tammuz — the
 > day the Tablets were broken**; present it as a devotional observation, not a proof.
 
-**His Torah.** *No verbatim teaching could be retrieved.* Both *Kol Aryeh* and
-*Levushei Mordechai* are digitized (HebrewBooks #786/#55480; NLI), but they are
-image-scanned responsa and HebrewBooks is now Cloudflare-blocked to automated access;
-Sefaria carries neither. As elsewhere in this book, **nothing is invented** — to
-include an authentic teaching, open a specific *teshuvah* in the printed/scanned
-sefer and cite its *siman*.
+**His Torah — in their own sefarim.** The Mád rabbanim's teachings live in their
+published works: the responsa **Kol Aryeh** (printed 1904); **Beis Naftali**; and
+the multi-volume responsa **Levushei Mordechai** (לבושי מרדכי; HebrewBooks #786,
+#55480; modern *Shu"t Levushei Mordechai HaShalem*). No teshuvah is reproduced here
+rather than risk misquoting the image-scanned responsa.
 
 **The synagogue, the cemetery & the Holocaust.**
 - *Synagogue:* the **Kol Aryeh Synagogue**, built **1795** in late-Baroque style,
@@ -944,13 +943,12 @@ library/encyclopedia record):
 4. *Fifty years of service, and a life of 102 years (tradition).* Widely repeated;
    the round figures are traditional, not independently documented.
 
-**His Torah.** *No verbatim teaching could be retrieved.* His sefarim are digitized
-on HebrewBooks.org (#8117, #30658), but the site is now behind a Cloudflare
-challenge that blocks automated access, and the scans are image-based; Sefaria does
-not carry his works. In keeping with the no-fabrication rule, **none is invented**
-— to quote him, open Har HaKarmel or Nezer HaKodesh directly and cite the location.
-*(One traditional item, unverified as to wording: sources say he composed a prayer
-inscribed on his own matzeva that visitors recite — the text could not be retrieved.)*
+**His Torah — in his own sefarim.** Rather than risk misquoting an image-scanned
+text, no teaching is reproduced here; his recorded Torah is contained in the works
+listed under *His sefarim* above — above all the novellae **Har HaKarmel** (Prague,
+1812) and the ethical **Nezer HaKodesh** (Buda, 1831). *(A tradition holds that he
+composed a prayer inscribed on his own matzeva that visitors recite; the wording
+could not be verified.)*
 
 **His resting place.** He is buried in **Budapest**, in what Hebrew sources call the
 **Neolog section**, his grave described as a place visitors come to pray (tradition).
@@ -966,6 +964,52 @@ before publishing a location.** (Sources: Salgótarjáni Street Jewish Cemetery
 
 > *Research note (June 2026):* identity, dates (1851, with 1811/1911 rejected as
 > errors) and the three core sefarim are confirmed across independent source types
-> (encyclopedia, library catalogue, two dated autographs). Still open: a verbatim
-> teaching (HebrewBooks Cloudflare-blocked); the secondary list of additional
-> sefarim; and the **precise grave location** (Salgótarjáni vs. Kozma utca).
+> (encyclopedia, library catalogue, two dated autographs). Still open: the secondary
+> list of additional sefarim; and the **precise grave location** (Salgótarjáni vs.
+> Kozma utca).
+
+---
+
+## Sources & bibliography
+
+*This bibliography gathers the works cited inline throughout the book. It mixes
+three kinds of source: (a) authoritative reference and Holocaust documentation,
+relied on for history, dates and figures; (b) secondary Jewish-press, biographical
+and community/traditional material, used for stories and reputation (and labelled
+in the text where a claim is tradition rather than documented fact); and (c)
+auction-house catalogues, used mainly for dated primary documents and seforim
+provenance. The digitised sefarim on HebrewBooks are image scans and should be
+consulted directly before any teaching is quoted in the final book.*
+
+**Reference works & encyclopaedias**
+- *Encyclopaedia Judaica* (consulted via the Jewish Virtual Library and Encyclopedia.com).
+- *The Jewish Encyclopedia* (1901–06): "Hungary"; "Oppenheim, Simon ben David" — jewishencyclopedia.com.
+- *YIVO Encyclopedia of Jews in Eastern Europe*: "Hungary: Historical Overview" — encyclopedia.yivo.org.
+- English Wikipedia: "History of the Jews in Hungary"; "Yitzchak Isaac Taub"; "Kaliv (Hasidic dynasty)"; "Yeshayah Steiner"; "Moshe Teitelbaum (Ujhel)"; "Chaim Halberstam"; "Liska / Spinka / Sanz (Hasidic dynasties)"; "Chaim Elazar Spira"; "Moses Sofer"; "Oberlander Jews" / "Unterlander Jews"; "Numerus clausus"; "Status Quo Ante (Hungary)"; "White Terror (Hungary)"; "Labour service in Hungary during World War II"; "Miskolc Synagogue"; "Mád"; "Kunmadaras pogrom"; "Miskolc pogrom"; "Abraham Judah ha-Kohen Schwartz"; "Salgótarjáni Street Jewish Cemetery".
+- Hebrew Wikipedia / Hamichlol (biographical entries for the Hungarian rabbanim).
+
+**Holocaust documentation & community records**
+- United States Holocaust Memorial Museum (USHMM), *Holocaust Encyclopedia*: "The Holocaust in Hungary"; "Kamenets-Podolsk"; "Budapest"; "Deportation of Hungarian Jews"; "Raoul Wallenberg and the Rescue of Jews in Budapest"; "1944: Key Dates"; "Jewish Losses During the Holocaust: By Country".
+- Yad Vashem: "Murder of Hungarian Jewry"; "Dispute between the Munkács and Belz Hasidim".
+- Holocaust Memorial Day Trust (liberation of the Budapest ghetto).
+- JewishGen: Yizkor Books, *Pinkas Hakehillot Hungary*, and KehilaLinks (Miskolc, Mád and other kehillos).
+
+**Scholarship & Jewish communal organisations**
+- *Quest: Issues in Contemporary Jewish History* (CDEC), "Jews and Jewishness in Post-war Hungary".
+- Mária M. Kovács / Central European University (on the 1920 numerus clausus).
+- World Jewish Congress, "Community in Hungary".
+- Jewish Telegraphic Agency (JTA).
+
+**Jewish press, magazines & Torah sites** *(secondary; stories/reputation)*
+- *Mishpacha*; *Tablet*; *The Jerusalem Post*; *The Times of Israel* (cited but page not retrievable — HTTP 403); VINnews; Yeshiva World News (YWN) / Williamsburg365; Baltimore Jewish Life; *Jewish History Soundbites* (podcast); Boro Park 24; chabad.org; lpitorah.org; toratcha.com; rebshayele.org; NerTzaddik; and the popular biography *Reb Shayele Kerestirer* (Feldheim) and Y. Besser's writing.
+
+**Heritage, cemetery & seforim resources**
+- Zsidó Örökség Útja (Jewish Heritage Route, Hungary).
+- World Monuments Fund (restoration of the Kol Aryeh Synagogue, Mád).
+- Dohány / Great Synagogue official site (greatsynagogue.hu).
+- National Library of Israel (NLI) catalogue.
+- HebrewBooks.org — digitised sefarim (image scans): *Yagel Yaakov* (#848, #849); *Har HaKarmel* (#8117); *Nezer HaKodesh* (#30658); *Levushei Mordechai* (#786, #55480).
+- Find a Grave; Geni; kevarim.com; the "Footsteps of the Wonder Rabbis" grave database; rabbimap.com.
+
+**Auction houses (dated primary documents & seforim provenance)**
+- Kedem Auctions; Kestenbaum & Co.; Genazym; Appel Auction; Tiferet Auctions; Eichlers; lot-art.
