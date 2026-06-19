@@ -91,739 +91,250 @@ And yet. Budapest remains to this day the largest Jewish kehillah in the whole r
 
 <!-- Site chapters follow. -->
 
-## 1. Nagykálló — The Kalover Rebbe
-
-### R' Yitzchok Isaac Taub — the *Kalover Rebbe* (c. 1751–1821)
-*The first chassidic rebbe of Hungary — "the Sweet Singer of Israel"*
-
-**Who he was.** Rabbi Yitzchok Isaac (Yitzchok Eizik) Taub — affectionately
-"Reb Eizikel" — was the Rav of Nagykálló (Yiddish: *Kaliv / Kalov*), founder of
-the **Kaliv chassidic dynasty**, and is universally remembered as **the first
-chassidic rebbe in Hungary**, the progenitor of Hungarian Chassidism. He was born
-c. 1751, the son of R' Moshe Yechezkel Taub. Chassidic tradition holds that the
-family had Sephardi roots, having fled the Spanish Inquisition and settled in
-Szerencs (treat this ancestry as traditional rather than documented). (Sources:
-English & Hebrew Wikipedia; Kedem Auction House; DZsH Hungarian heritage site)
-
-**How he became a rebbe.** As a boy he was discovered tending sheep by **R' Leib
-Sarah's** (a disciple of the Baal Shem Tov), who recognised his greatness, told
-his widowed mother he was destined to be a great tzaddik, and brought him to learn
-in **Nikolsburg under R' Shmuel Shmelke Horowitz**. He later became a close
-disciple of **R' Elimelech of Lizhensk**. Returning to Hungary, he was appointed
-rabbi of Nagykálló (c. 1781) and there established the first chassidic court on
-Hungarian soil. (Sources: English Wikipedia; Kaliv dynasty Wikipedia; chabad.org;
-Hebrew Wikipedia. The shepherd-boy discovery is recounted as chassidic tradition.)
-
-**Dates.**
-- *Born:* **c. 1751** (English Wikipedia, Hebrew Wikipedia, and the main Geni
-  profile all give 1751 / "c. 1751"), in Szerencs (or Nagykálló). *On the "1744"
-  variant:* verified to be an error, not a credible alternative — it appears only
-  in the lead sentence of the "Kaliv (Hasidic dynasty)" Wikipedia article, which
-  is internally contradicted by that same article's body ("Rabbi Taub (1751 – 7
-  Adar 2 … 1821)") and by every dedicated biography. A literal 1744 birth would
-  also make him ~77 at death, which no source supports. Print **c. 1751**; at most
-  footnote 1744 as an erroneous date in one Wikipedia lead.
-- *Passing / yahrtzeit:* **7 Adar (Adar II) 5581 = 21 March 1821** (identical
-  across English Wikipedia, Hebrew Wikipedia and Geni).
-- *Age:* approximately **70** (English & Hebrew Wikipedia; consistent with a
-  c. 1751 birth).
-- (Sources fetched in full June 2026: en.wikipedia.org/wiki/Yitzchak_Isaac_Taub;
-  he.wikipedia.org/wiki/יצחק_אייזיק_טאוב; Geni profile)
-
-**His sefarim.** Like many early chassidic masters, the Kalover Rebbe was not
-primarily an author — his legacy lives in his oral teachings and, above all, his
-*niggunim* (melodies). His autograph letters survive (e.g. a 1813 letter from
-"Kaliv," auctioned by Kedem). A collection of teachings titled *Beis Yitzchak* is
-sometimes attributed to him, but this could not be verified as a genuine work of
-*this* rebbe (the name is shared by other authors) — to be confirmed in a seforim
-catalogue before print. (Sources: English/Hebrew Wikipedia; Kedem Auction House)
-
-**Stories from his lifetime.**
-1. *The discovery of the shepherd boy.* R' Leib Sarah's met the young Isaac
-   shepherding in the fields and, seeing his future greatness, brought him to learn
-   in Nikolsburg. (Sources: English Wikipedia; Kaliv dynasty Wikipedia — chassidic
-   tradition)
-2. *"Szól a kakas már" — The Rooster Is Already Crowing.* His most famous niggun.
-   He is said to have learned the melody from a shepherd in the fields, "buying"
-   the song from him, and to have adapted it into a sacred song of longing for
-   redemption. It opens in Hungarian with a rooster crowing at dawn and a beautiful
-   bird in a green forest, and rises to a Hebrew cry for the rebuilding of the
-   Temple and Zion — *"Jibbone hamikdosh, ir Tziyon temaleh."* It is regarded today
-   as the unofficial anthem of Hungarian Jewry. (Sources: English Wikipedia;
-   chabad.org, "13 Facts About Hungarian Jews"; LyricsTranslate)
-3. *The proof that the songs come from the Temple.* He taught that the melodies he
-   heard among the nations were in truth lost songs of the Beis HaMikdash — the
-   *heichal haneginah*, the "chamber of song" — scattered in exile, which he
-   "found" and returned to Israel. The proof, he said: the gentile shepherd who
-   taught him a tune would forget it entirely the moment the Rebbe learned it — a
-   sign the song's true home was with the Jewish people. (Sources: Mishpacha,
-   "Until the Last Yid"; chabad.org)
-4. *"Erdő, erdő" — the song of the forest and the Shechina.* Another Hungarian-
-   rooted niggun, in which a shepherd's longing for his beloved is recast as
-   Israel's yearning for the Shechina exiled until the redemption. (Source:
-   Mishpacha / Kaliv dynasty material — treat the wording as a rendering of the
-   traditional lyric)
-
-**His Torah.**
-- *Every melody is rooted in the Temple service.* Song, for the Kalover Rebbe, was
-  not ornament but avodah: all true niggunim descend from the *heichal haneginah*
-  and can be elevated and "redeemed" back to holiness. (Sources: Mishpacha;
-  chabad.org)
-- *Serving God through joy, song and longing for redemption.* He carried forward
-  the teachings of R' Shmelke of Nikolsburg; his songs are themselves his "Torah,"
-  each a vessel of *kisufin* — yearning for the Geulah and the rebuilding of Zion.
-  (Sources: English Wikipedia; Mishpacha)
-
-**His resting place today.** The Rebbe is buried in the old Jewish cemetery of
-**Nagykálló**, where his **ohel** stands. His gravestone is said to bear an epitaph
-he composed himself. The ohel is a major pilgrimage site, especially around his
-yahrtzeit on 7 Adar, and features on Hungary's Jewish heritage routes. (Sources:
-Hebrew Wikipedia; DZsH; KosherTravelInfo)
-
-> *Verification note (June 2026, full-text re-check):* birth year **resolved** —
-> use **c. 1751**; "1744" confirmed to be an erroneous Wikipedia-lead date, not a
-> real variant. Death date and age confirmed. Still to confirm before print: the
-> *Beis Yitzchak* attribution (the name is shared by other authors); the
-> Sephardi-ancestry and Baal-Shem-Tov-blessing traditions remain labelled as
-> legend; and a clean verbatim lyric of "Szól a kakas már" could not be quoted
-> from a reliable full text, so the niggun is described, not quoted.
-
-## 2. Bodrogkeresztúr — R' Shayele Kerestirer
-
-### R' Yeshaya Steiner — *Reb Shayele Kerestirer* (1851–1925)
-
-**Who he was.** Rabbi Yeshaya (Yeshayahu) Steiner — known with deep affection by
-the Yiddish diminutive he himself preferred, *Reb Shayele* — was one of the most
-beloved tzaddikim Hungary ever knew, and the founder of the Kerestir chassidic
-line. He was born in 1851 in the village of Zboró (Zborov, near Bardejov, today
-in Slovakia) to R' Moshe and Hentsha Miriam Steiner. His father died when he was
-about three, and he grew up in poverty. (Sources: English Wikipedia, "Yeshayah
-Steiner"; Geni; Find a Grave; rebshayele.org)
-
-**How he became a rebbe.** At around twelve his mother sent him to learn under
-**R' Tzvi Hirsh Friedman of Liska (Olaszliszka)**, author of *Ach Pri Tevuah*,
-who took him as his personal attendant (*meshamesh*). This Liska bond defined him
-for life — he is famously said to have continued signing himself "Yeshaya ben
-Moshe, who used to serve the holy tzaddik of Liska." After R' Tzvi Hirsh's
-passing he drew close to **R' Chaim Halberstam of Sanz (the Divrei Chaim)** and
-later to **R' Mordechai of Nadvorna**. By tradition he was reluctant to accept
-the mantle of rebbe; it was the leading rebbes of his generation who pressed him
-to lead, and the Nadvorna Rebbe is said to have advised him to settle in
-**Kerestir (Bodrogkeresztúr)**, in the Tokaj wine region, where he became renowned
-as a tzaddik and *baal yeshuos*. (Sources: English Wikipedia; lpitorah.org;
-Kestenbaum &amp; Co. auction listing of a signed letter)
-
-**Dates.**
-- *Born:* 1851, in Zboró/Zborov. (Some traditional accounts give the day as 3 Iyar
-  — the same calendar date as his passing — but the year is the firmly documented
-  figure.)
-- *Passing / yahrtzeit:* **3 Iyar 5685 = 27 April 1925**, in Bodrogkeresztúr.
-- *Age:* approximately **73–74**.
-- (Sources: English Wikipedia; chabad.org; Find a Grave; yahrtzeit calendars)
-
-**His sefarim.** Reb Shayele is *not* primarily remembered as an author — his
-greatness lay in his person, his hospitality and his reputed wonders rather than
-in a written corpus. A small amount of his Torah and a few letters survive (signed
-letters on his letterhead appear at auction). The major modern work *about* him is
-R' Yisroel Besser's English biography, **_Reb Shayele: The Warmth and Wonder of
-Kerestir_** (Feldheim). (Sources: Kestenbaum &amp; Co.; Feldheim)
-
-**Stories from his lifetime.**
-
-1. *Boundless hospitality (his best-documented trait).* Reb Shayele's home was, in
-   effect, a continuous free kitchen. Any Jew — rich or poor, local or wandering —
-   was fed and given a bed without limit, and he would interrupt his own prayer or
-   study to see that a guest had a cold drink or a warm place to sleep. This is the
-   most independently attested feature of his life. (Sources: chabad.org; Tablet,
-   "Reb Shayala's Free Lunch"; Mishpacha; Besser)
-2. *The bag of rolls that did not empty (traditional/legendary).* It is told that
-   he distributed fresh rolls to the men in shul from a bag that should long have
-   been empty, the food multiplying as he gave it out. (Source: traditional;
-   Chassidic story collections / Besser)
-3. *The fish brought by a bird (traditional/legendary).* On an Erev Shabbos when
-   the town had no fish, a large kosher fish is said to have been delivered to his
-   home by a bird, so that he could honour the Shabbos. (Source: traditional)
-4. *The mice and the granary — and the famous "picture" segula (read carefully).*
-   In the most consistently told version, a food-merchant's warehouse/granary was
-   overrun by mice. At his Motza'ei-Shabbos *melaveh malkah* Reb Shayele first
-   asked whether the local priest was kind or harsh to the Jews; told he was harsh,
-   he instructed the chossid to **tell the mice to go to the house of the priest
-   instead** — and the mice are said to have streamed off toward the priest's
-   estate. From this grew today's well-known custom of hanging Reb Shayele's
-   portrait to keep away rodents. (Wording verified against the popular full-text
-   accounts: *The Jewish Chronicle*, "The mice and the rabbi in the cupboard"; the
-   *lifeinisrael* blog, "Reb Shaya'le the Exterminator." The academic study renders
-   the same instruction — "tell the mice to go to the house of the priest instead"
-   — at Shuman 2025:100.)
-   **Provenance matters here.** The peer-reviewed study *Sam Shuman, "Of Mice and
-   Hasidic Men: Reb Shayele as Populist Patron Saint," Jewish Quarterly Review
-   115:1 (2025): 99–135* frames the protective-portrait practice as part of a
-   recent, transnational Hasidic-revival phenomenon and casts Reb Shayele as a
-   "populist patron saint of protection" (against police, inspectors and judges,
-   not only mice). *Honest limit on this claim:* the article's full text is
-   paywalled (Project MUSE / JSTOR returned a CAPTCHA/403), so we verified its
-   thesis and the quoted line via the abstract and page-cited secondary sources,
-   but could **not** confirm an explicit sentence dating when the picture custom
-   began — so we describe it as "recent/revival-era" rather than asserting a firm
-   date. Likewise, the claim that *descendants* dispute the story's accuracy traces
-   to the *lifeinisrael* blog, **not** to Shuman; Shuman documents a family feud
-   over the gravesite (2025:104 n.15), which is a different matter. (Sources:
-   Shuman 2025 [abstract + page-cited quotes]; thejc.com; lifeinisrael blog)
-5. *A baal yeshuos in his lifetime (traditional).* People streamed to him for
-   blessings — health, children, parnassah — and many salvations were attributed
-   to him. (Sources: chabad.org; Jerusalem Post, "My family's blessing from Reb
-   Shayele"; Besser)
-6. *His humility (documented).* He used the diminutive "Shayale," tried to avoid
-   the title of rebbe, and identified himself by reference to having merely served
-   the Liska tzaddik. (Sources: English Wikipedia; lpitorah.org)
-
-**His Torah.** Reb Shayele taught more through conduct than through aphorism, and
-verbatim quotations are not well documented. What the sources reliably convey:
-*ahavas Yisrael* and *hachnasas orchim* as the very core of avodas Hashem — caring
-for a fellow Jew's bodily needs taking precedence even over his own prayer — and a
-radical humility embodied in his lifelong self-identification as the former
-servant of Liska. (Sources: chabad.org; Besser; English Wikipedia)
-> *A caution for the book:* popular web paraphrases of "sayings" of Reb Shayele
-> could not be traced to a documented source and are therefore left out.
-
-**His resting place today.** Reb Shayele is buried in the Jewish cemetery of
-**Bodrogkeresztúr**, his grave enclosed in an *ohel* rebuilt by his descendants to
-handle the crowds. His house was repurchased by the family (the Rubin line) in
-1997 and developed into a visitor complex with guest houses and a mikveh — today's
-"Reb Shayele's Guest House." His yahrtzeit, 3 Iyar, draws one of the great Jewish
-pilgrimages of Europe to this tiny village — roughly 10,000 by 2017 and reported
-in the tens of thousands in recent years. (Sources: rebshayele.org; Mishpacha;
-Ami Magazine, 2024; JTA, Apr 2023; Jerusalem Post)
-
-> *Verification note (June 2026, full-text re-check):* the granary/mice wording is
-> now confirmed against full-text popular accounts (*The Jewish Chronicle*;
-> *lifeinisrael*) and the page-cited academic article (Shuman 2025:100) — the
-> distinctive "send the mice to the priest's house" detail is consistent across
-> them. Death (3 Iyar 5685 / 27 April 1925) confirmed; birth year 1851 is the
-> common figure, though Wikipedia's own infobox says 1852 — minor and noted. The
-> Shuman article's full text is paywalled (MUSE/JSTOR blocked), so its precise
-> dating of the picture custom should be checked against pp. 99–110 with
-> institutional access before any "recent invention" claim is stated firmly.
-
-## 3. Újfehértó — R' Naftali Hertzka & R' Shalom Eliezer Halberstam
-
-> **Two distinct tzaddikim, often blurred together.** Ratzfert (Újfehértó) was home
-> to *two* unrelated holy men. **R' Naftali Hertzka Zilberman** was the town's rabbi
-> and rebbe in the 19th century (d. 1897). **R' Shalom Eliezer Halberstam**, the son
-> of the Divrei Chaim of Sanz, arrived only *after* Zilberman's death and founded
-> the Sanz-descended Ratzfert dynasty; he was murdered in Auschwitz in 1944. They
-> were different men of different families. Crucially for our visit: the **ohel in
-> Újfehértó belongs to Zilberman**; Halberstam, killed in Auschwitz, has no grave.
-
-### A) R' Naftali Hertzka Halevi Zilberman — the *Ratzferter Rav* (1820 or 1825 – 1897)
-
-**Who he was.** Rabbi Naftali Hertzka Halevi Zilberman ("Hertzkele Ratzferter"),
-Av Beis Din and rebbe of Ratzfert, born in the village of Máriapócs to Yaakov
-Peretz and Frumet. He was close to the **Divrei Chaim of Sanz** and to his son the
-**Shinaver Rav**; the Sanzer Rebbe would send those needing a *yeshuah* to him, and
-his fame as a *po'el yeshuos* (wonder-worker) grew until even non-Jews sought his
-blessing. His leadership arose from this reputation rather than a hereditary court.
-He was appointed Rav of Ratzfert around 1840. (Sources: Hebrew Wikipedia /
-Hamichlol; National Library of Israel catalogue)
-
-**Dates.**
-- *Born:* **a genuine discrepancy, confirmed on re-check.** The National Library
-  of Israel authority record gives **1820** (heading: *"זילברמן, נפתלי הירצקא בן
-  יעקב פרץ, מרצפרט, 1820-1897"*). The Hebrew encyclopedia *Hamichlol* gives
-  **5585 = 1825** explicitly: *"הוא נולד בכפר מאריאפוץ' שבהונגריה בשנת תקפ"ה"*
-  ("born in the village of Máriapócs, Hungary, in 5585"). So the gap is real:
-  **NLI 1820 vs. the Hebrew biographical tradition 1825** (~five years).
-- *Passing / yahrtzeit:* **9 Tishrei 5658 — Erev Yom Kippur, 1897** — confirmed by
-  every source (Hamichlol: *"נפטר בערב יום הכיפורים ה'תרנ"ח"*; zadikim.net register).
-- *Age:* roughly **72–77**, depending on the birth year.
-- (Sources fetched/decoded June 2026: NLI authority record; Hamichlol article
-  "רבי נפתלי הירצקא זילברמן"; zadikim.net)
-
-**His sefarim.** He authored **Sefer Zikhron Naftali (זכרון נפתלי)** — *chiddushei
-Torah ve-sippurim* (Torah novellae and stories) — published posthumously by his
-grandson **R' Shalom Segal Bailush (שלום סג"ל ביילוש)**. The NLI record confirms
-both the title and the grandson's editorship verbatim; the full scan is online at
-**HebrewBooks.org #50772**.
-
-**Stories from his lifetime.**
-1. *Sent by the Sanzer Rebbe.* The Divrei Chaim would direct petitioners needing a
-   salvation to R' Hertzkele, whose fame as a wonder-worker spread so widely that
-   even gentiles came for his blessing. (Source: Hebrew Wikipedia / Hamichlol)
-2. *The "Court of Salvations."* His grave in Ratzfert became known as the *Chatzar
-   HaYeshuos*, with many reported answered prayers for health, livelihood and
-   especially shidduchim. (Source: YWN / Williamsburg365 tribute)
-
-**His Torah.** A verbatim teaching of the Ratzferter Rav, recovered directly from
-the digitized *Zikhron Naftali* (HebrewBooks #50772, biographical/*hanhagot*
-section). He would expound the verse *"וְאָנֹכִי תוֹלַעַת וְלֹא אִישׁ"* — "and I am a
-worm and not a man" (Tehillim 22:7):
-
-> וְהָיָה רגיל לפרש מה שאמר דהע"ה "וְאָנֹכִי תוֹלַעַת וְלֹא אִישׁ", כי התולעת אין כחו אלא
-> בפה, ועכ"ז הוא שובר ארזים בכחו ע"י שאוכל באילן בשרשו עד שנופל כל האילן, כן אמירת
-> תהילים ממתיק הדינים בשרשם.
-
-*"The worm's strength is only in its mouth, yet by its strength it breaks cedars —
-for it eats into the tree at its root until the whole tree falls; so too the
-recitation of Tehillim sweetens the [harsh] judgments at their root."* The same
-page also preserves a note in his name on **Megillah 31b** (that *Atzeret*/Shavuos
-is itself a kind of *Rosh Hashanah* — a day of judgment "over the fruit of the
-tree"), alongside accounts of his humility and his refusal to be called "Rebbe."
-
-> *Sourcing caution:* this quotation was transcribed from the embedded OCR text
-> layer of the HebrewBooks scan (the page itself is a bitmap image). It reads
-> coherently and is genuinely from the sefer — it is **not** invented — but the
-> exact letters should be proofread against the page image (HebrewBooks #50772)
-> before final print, in case of OCR slips. The granular miracle anecdotes live
-> inside *Zikhron Naftali* and chassidic tradition rather than in independent
-> English sources.
-
-**His resting place today.** He is buried in the Jewish cemetery of **Ratzfert
-(Újfehértó)**, with an **ohel** over his grave. His descendants reportedly bought a
-house at the cemetery's edge with a kitchen for visitors and built a mikveh, and a
-**Ratzferter Beis Midrash** stands near the kever; in recent years a Hachnoses
-Sefer Torah on his yahrtzeit has drawn hundreds of pilgrims. **This ohel is the
-principal physical pilgrimage site in Újfehértó today.** (Sources: Hebrew
-Wikipedia; zadikim.net; YWN/Williamsburg365)
-
----
-
-### B) R' Shalom Eliezer Halberstam — the *Sanzer-Ratzferter*, Hy"d (1862–1944)
-
-**Who he was.** Rabbi Shalom Eliezer Halberstam, the **Ratzferter Rebbe**, founder
-of the Ratzfert chassidic dynasty — a branch of Sanz. He was the **youngest son of
-R' Chaim Halberstam, the Divrei Chaim of Sanz**; his brothers included the Shinaver
-Rav. His own signed letters read, "I am the son of the holy Rabbi of Sanz and
-brother of the holy Rabbi of Shinova." His father died when he was about 14, and he
-was raised and taught chiefly by his elder brother, the Shinaver Rav. After living
-in Tarnów, he emigrated to Hungary around 1899–1900, serving first in Téglás and
-then settling in **Ratzfert**, where for some forty years he led the Sanz chassidim
-of Hungary. (Sources: Hebrew Wikipedia; Geni; Kedem Auctions [1897 Tarnów letter];
-Jewish History Soundbites, "The Light of Sanz")
-
-**Dates.**
-- *Born:* **Chol HaMoed Pesach 5622 = 1862** (Hebrew Wikipedia: *"נולד בחול המועד
-  פסח ה'תרכ"ב"*); **Geni gives 1861**, so the "some say 1861" variant is real.
-  *Birthplace:* commonly said to be **Sanz** (his father was the Sanzer Rav), but
-  none of the sources we could reach actually states a birth city — treat "born in
-  Sanz" as **plausible but unverified**.
-- *Murdered:* **Auschwitz-Birkenau, Sivan 5704 = June 1944, Hy"d**, deported after
-  the German invasion of Hungary. *Yahrtzeit — correction:* the draft had the
-  attribution backwards. **Hebrew Wikipedia actually gives 16 Sivan** (raw
-  wikitext: *"ט"ז בסיוון תש"ד"*); **HaMichlol gives 15 Sivan** (ט"ו); and at least
-  one source (a Jewish-history account) gives **17 Sivan**. The sources genuinely
-  split across **15, 16 and 17 Sivan 5704** with no dominant attestation; 5704
-  corresponds to **6–7 June 1944**. Recommend the book hedge ("15 or 16 Sivan
-  5704") rather than assert one day.
-- *Age:* approximately **82**.
-- (Sources fetched June 2026: he.wikipedia.org/wiki/שלום_אליעזר_הלברשטאם; HaMichlol;
-  Geni; Jewish History Soundbites; VINnews)
-
-**His sefarim.** He was renowned as a tzaddik and wonder-worker rather than as an
-author; many of his autograph letters survive at auction (valuable primary
-sources), but no published sefer authored by him could be confirmed here — some of
-his Torah and stories appear in later Sanz/Ratzfert compilations.
-
-**Stories from his lifetime.**
-1. *"Let me die like a Jew" — the tzitzis at Auschwitz.* The account traces to an
-   eyewitness, **R' Shaya Rosenblum** (relayed, per VINnews, by his son). As
-   printed verbatim in **VINnews, 14 Dec 2021** ("Eyewitness: The Son Of The Divrei
-   Chaim Went To Gas Chambers With His Tzitzis On"), the Rebbe asked for his tzitzis
-   back — *"Shayale, please give me back my tzitsis, let me die like a Jew with my
-   tzitsis on"* — then grasped his hand: *"Shaya, you will survive the war. You must
-   tell people what happened here!"* — and, the witness said, **"walked into the gas
-   chambers like he walked into Shacharis every morning, his face shining like the
-   sun."** (Quotes confirmed verbatim against VINnews — note their spelling
-   "tzitsis." *Caveat:* **Mishpacha, "Tell the World!"** is paywalled/403 and could
-   not be read in full; its snippets render the witness as "Shea Rosenbloom," use
-   "testify to the entire world," and may frame the garment as a *tallis* rather
-   than tzitzis — so do not quote Mishpacha as exact wording without obtaining the
-   article.) This is the best-documented account and the origin of his "tell the
-   world" legacy. (Sources: VINnews, 14 Dec 2021 [verbatim]; Mishpacha [snippets
-   only]; Jewish History Soundbites.)
-2. *The shrouds.* The night before deportation, his father the Divrei Chaim is said
-   to have appeared to him in a dream, and he put on a kittel and tachrichim under
-   his clothes for the journey. (Source: Jewish History Soundbites — traditional)
-3. *The wonder-worker who hid his miracles.* For some forty years thousands thronged
-   to his Ratzfert court for blessings and yeshuos; many wonder-stories are told,
-   "though he tried to suppress them." (Sources: Jewish History Soundbites; tribute
-   summaries)
-
-**His Torah.** A teaching attributed to him is that *Mashiach will come b'hesech
-hada'as* — when least expected. His broader path was straight Sanz: ardent service,
-love of every Jew, and the tzaddik as a channel of blessing. (Sources: toratcha.com;
-Jewish History Soundbites; Hebrew Wikipedia)
-> *To flag for the book:* the exact wording of the "Mashiach" teaching and any
-> verbatim *vort* should be pulled from a Sanz/Ratzfert sefer before printing.
-
-**His resting place.** He has **no grave** — he was murdered in Auschwitz-Birkenau
-and his remains were never recovered. Pilgrims to "Ratzfert" visit **Zilberman's
-ohel and the restored beis midrash**, and there honour the memory of R' Shalom
-Eliezer Hy"d (and at Auschwitz, and on his yahrtzeit). This distinction matters for
-the trip. (Sources: Hebrew Wikipedia; Geni; VINnews; YWN/Williamsburg365)
-
-## 4. Csenger — R' Asher Anshel Yungreis
-
-### R' Asher Anshel Yungreis — the *Menuchas Asher* (1806–1873)
-
-**Who he was.** Rabbi Asher Anshel ben Shmuel HaLevi Jungreis — known by the name
-of his sefer as the **Menuchas Asher**, and popularly as the **Csenger Rav** — was
-born in 1806 in Secze (Szécs), Hungary, into a family of rabbinic distinction (he
-was a Levi). (Sources: Encyclopaedia Judaica, via Jewish Virtual Library; Geni)
-
-**How he became Rav of Csenger.** He studied under **R' Meir Eisenstadter (the
-"Maharam Asch")** and **R' Yaakov Koppel Altenkundstadt (Kunstadt) of Verbó**. He
-was accepted as Rav of Csenger at the age of 28 (1834) and served the community as
-Rav and Av Beis Din for some forty years. (Sources: Encyclopaedia Judaica;
-Encyclopedia.com; Baltimore Jewish Life yahrtzeit essay)
-
-**His dynasty.** The Menuchas Asher founded a notable rabbinic line. Three of his
-sons held Hungarian rabbinates, his son R' Avraham HaLevi (d. 1904) succeeding him
-in Csenger. He is widely described as an ancestor (commonly
-"great-great-grandfather") of **Rebbetzin Esther Jungreis (1936–2016), founder of
-Hineni**, via the line Menuchas Asher → R' Avraham → R' Israel of Nádudvar →
-R' Avraham (Chief Rabbi of Szeged, Esther's father) → Esther. *Flag:* this exact
-genealogical degree could not be confirmed from Encyclopaedia Judaica or the Hebrew
-sources on re-check (none of them mention Esther Jungreis or Hineni); it is
-plausible — she married into the Jungreis rabbinic line — but should be verified
-against a genealogical record before print. (Sources: Geni; family tradition.)
-
-> *Disambiguation:* there are several rabbis named Asher Anshel Jungreis. A *later*
-> R' Asher Anshel HaLevi Jungreis (1875–1944), also Av Beis Din of Csenger, who
-> perished in the Holocaust, is a **different person** and should not be confused
-> with the Menuchas Asher.
-
-**Dates.**
-- *Born:* 1806, in Secze/Szécs.
-- *Passing / yahrtzeit:* **5 Kislev** — but the year resolves more cleanly than the
-  earlier draft implied. Encyclopaedia Judaica (and Encyclopedia.com, the same
-  article) give **1872**; Hebrew Wikipedia, HebrewBooks.org, Geni and the Baltimore
-  Jewish Life essay give **1873 (5634)**. Crucially, the two civil years map to
-  *different Hebrew years*, so this is not merely "the same 5 Kislev, different
-  year": **5 Kislev 5634 = 25 November 1873**, whereas **5 Kislev 5633 = 5 December
-  1872**. The weight of the Hebrew/chassidic sources is for **5 Kislev 5634 →
-  1873**, which makes the EJ "1872" most likely an off-by-one Hebrew-to-civil
-  slip. Recommend printing **1873 (5 Kislev 5634)**, footnoting EJ's 1872.
-- *Age:* approximately **66–67**.
-- (Sources fetched June 2026: Encyclopaedia Judaica via Jewish Virtual Library
-  [1872]; Encyclopedia.com [1872]; Baltimore Jewish Life essay [1873]; Hebrew
-  Wikipedia + HebrewBooks + Geni [1873]; Hebcal date conversion)
-
-**His sefarim.**
-- **Menuchas Asher (מנוחת אשר)** — his major work, published posthumously by his
-  children in two parts (1876–1908): Talmudic novellae (chiddushim) and responsa
-  (she'eilos u-teshuvos). Modern reprints are arranged topically (on the Torah and
-  the festivals; on Shas).
-- **Likutei Menuchas Asher on Tehillim** — a collection of his glosses on Psalms.
-- His handwritten glosses on *Iyun Yaakov* (on Berachos) survive as a documented
-  manuscript artifact (sold at auction).
-- (Sources: Encyclopaedia Judaica; Eichlers; Tiferet Auctions, Lot 131)
-
-**Stories from his lifetime.**
-1. *The "miracle rabbi" sought from across Europe.* From around 1842 his
-   reputation as a *baal mofes* spread through Hungary and beyond; Encyclopaedia
-   Judaica records plainly that "from all quarters people turned to him for amulets
-   and cures from ailments," and childless couples came for his blessing. (Sources:
-   Encyclopaedia Judaica; Baltimore Jewish Life essay)
-2. *Charity out of his own poverty.* In his early Csenger years he endured severe
-   poverty, yet still supported widows, saw to the education and marriage of
-   orphans, and sent considerable sums to the Hungarian kollel in Eretz Yisrael —
-   a detail corroborated by Encyclopaedia Judaica. (Sources: Encyclopaedia Judaica;
-   Baltimore Jewish Life essay)
-3. *His final night (traditional).* On the night of 5 Kislev he finished Maariv as
-   usual, sat to give his regular Talmud shiur — reportedly on the passage of Moshe
-   Rabbeinu's ascent on high — then lay down and passed away peacefully in his
-   sleep, and was buried the next day in Csenger. (Source: Baltimore Jewish Life
-   essay — a popular biographical account, presented as tradition)
-4. *His grave as a place of answered prayers.* Since his passing, his kever in
-   Csenger has been known as a place where tefillos are accepted, with many
-   reporting yeshuos after visiting. (Sources: Baltimore Jewish Life; YeshivaWorld
-   yahrtzeit photo essay — pilgrimage tradition)
-
-> *Honesty about gaps:* beyond the general "amulets and cures" testimony in
-> Encyclopaedia Judaica, no specific named-individual miracle story could be
-> verified from an accessible reliable source — the detailed anecdotes live in the
-> Hebrew works *Niflaos Asher* and *Toldos Anshei Mofes*, which should be obtained
-> directly before printing any specific wonder-story.
-
-**His Torah.** *Menuchas Asher* is a work of lamdus (Talmudic analysis), responsa
-and Torah/moadim commentary — he was a halachic authority and *baal mofes* in the
-Hungarian/Oberland mould rather than a chassidic homilist. A recurring theme of his
-life, fittingly mirrored in the title *Menuchas Asher* ("the contentment of
-Asher"), was contentment with little and total devotion to Torah despite poverty.
-(Source: Encyclopaedia Judaica; thematic note from the popular biography)
-> *Verification note (June 2026):* still no verbatim dvar Torah from *Menuchas
-> Asher* could be retrieved. Both volumes are on HebrewBooks.org (#37507, #37508,
-> author listed "1806-1873") but the site returns HTTP 403 and the holdings are
-> image-only scans with no copyable text; Sefaria does not carry the sefer at all.
-> Unlike *Zikhron Naftali* (whose HebrewBooks scan happened to carry an OCR text
-> layer), these scans yielded nothing transcribable. To include an authentic
-> teaching, the printed sefer (available in reprint) must be consulted and quoted
-> with its location. We have deliberately not invented one.
-
-**His resting place today.** The Menuchas Asher is buried in the Jewish cemetery of
-**Csenger** (Szabolcs-Szatmár-Bereg county, near the Romanian border, in the
-Szatmár region). His grave is a recognised pilgrimage site, visited especially on
-the 5 Kislev yahrtzeit. The Csenger Jewish community, founded in the eighteenth
-century and built into a rabbinic centre under the Jungreis dynasty, was destroyed
-in the Holocaust — its Jews deported with the rest of Hungarian Jewry between May
-and July 1944, most murdered at Auschwitz-Birkenau. (Sources: YeshivaWorld;
-JewishGen Csenger Yizkor Book; USHMM)
-
-> *Verification note (June 2026, full-text re-check):* death year **resolved** to
-> **1873 (5 Kislev 5634)** via Hebrew-to-civil conversion, with EJ's "1872" treated
-> as an off-by-one slip (footnote it). A verbatim teaching from the sefer remains
-> **unobtainable** (HebrewBooks scans are 403/image-only; Sefaria lacks it) and is
-> deliberately omitted rather than invented. The "amulets and cures" testimony is
-> Encyclopaedia Judaica's own wording; no specific named-individual miracle account
-> could be verified, so none is asserted.
-
-## 5. Miskolc — the Avas Hill tzaddikim
-
-> **Three ohels on one hill.** Miskolc ("Mishkoltz") was one of the great Hungarian
-> Orthodox communities (organised c. 1765). On the **Avas Hill Jewish cemetery**
-> (established 1759) stand **three ohels**, over the graves of **R' Asher Anshel
-> Wiener** (d. 1800), **R' Meyer Rosenfeld** (d. 1908) and the chassidic tzaddik
-> **R' Chaim Mordechai Yaakov Gottlieb, the *Yagel Yaakov*** (d. 1936) — the three
-> figures around which this chapter is built. (Source: Zsidó Örökség Útja / Jewish
-> Heritage Route, Miskolc — the source for the three-ohel attribution.)
-
-### A) R' Chaim Mordechai Yaakov Gottlieb — the *Yagel Yaakov* (1876–1936)
-
-**Who he was.** A **Sanz-rooted chassidic tzaddik**, named after the **Divrei Chaim
-of Sanz** (his great-uncle), after R' Mordechai (dayan of Rimnov), and after his
-grandfather **R' Yankele of Boyan**. He served as dayan in **Borşa**, then rabbi in
-**Oberwischau (Vișeu de Sus)** and **Rozavlea**, and from **1926 until his death in
-1936** as **Av Beis Din of the Sephardic (chassidic) community of Miskolc**, where
-he is buried. (Sources: Genazym auction of his original rabbinic-appointment
-document; lot-art; kevarim.com.)
-
-**Dates.** *Born* **1876 (תרל"ו)**; *passing/yahrtzeit* **8 Tammuz 5696 = 1936**,
-buried Miskolc. (Sources: Genazym [doc dated 1876–1936]; kevarim/lot-art.)
-> *Flag:* one Hebrew snippet shows "1926/5686" — that is his **appointment** year,
-> not his petira; do not use it for death. His **teachers are reported variously**
-> (the Maharsham of Berezhany vs. R' Yoel Tzvi Ratte / R' Yosef of Spinka) — present
-> as "reported."
-
-**His sefarim.** **Yagel Yaakov (יגל יעקב)** — on the Torah, on Shulchan Aruch and
-derashos; some ten volumes published (HebrewBooks #848, #849).
-
-**Stories & reputation.** He was widely reputed a **baal mofes** (wonder-worker)
-(lot-art auction description) — *label as traditional reputation, not a verifiable
-claim.*
-
-**His Torah — in his own sefarim.** His teachings are preserved in his **Yagel
-Yaakov** (יגל יעקב) — on the Torah, on Shulchan Aruch and derashos, some ten
-volumes published (HebrewBooks #848, #849). No passage is reproduced here rather
-than risk misquoting the image-scanned text.
-
-### B) R' Asher Anshel Wiener — early Av Beis Din of Miskolc (d. 1800)
-
-Early rav of Miskolc and Borsod County (c. 1774–1800), of the Wiener rabbinic family
-said to trace to Prague. His grave is a venerated pilgrimage site, and his and his
-descendants' stones are preserved. He is the subject of an academic study ("The
-Memory of a Rabbinical Family in Miskolc and Oradea: Rabbi Asher Anshel Wiener
-(d. 1800) and His Sons" — abstract only; PDF inaccessible). (Sources: JewishGen
-Yizkor; Zsidó Örökség Útja.)
-
-### C) R' Meyer (Mór) Rosenfeld — Chief Orthodox Rabbi of Miskolc (1830–1908)
-
-Born 1830 in Brezová; Chief (Ashkenazi Orthodox) Rabbi of Miskolc from 1878/79 until
-his death in 1908; a student of **R' Ezekiel Baneth** of Nitra and **R' Jakob
-Fleissig**, earlier a prison chaplain at Leopoldov and 17 years rav in Nádudvar; an
-orator and author of halachic works, buried in an ohel on Avas Hill. (Sources:
-JewishGen Yizkor; Zsidó Örökség Útja.)
-
-> *Disambiguation (names that do NOT belong to Miskolc):* the **Ungar** rabbinic
-> family belongs to **Nitra**, not Miskolc; and the *Minchas Chinuch* (R' Yosef
-> Babad) was av beis din of **Tarnopol** in Galicia — **neither has a Miskolc
-> connection** and they should not appear in this chapter.
-
-**Stories & community.**
-- *The 1861–62 synagogue controversy (documented).* The Förster-designed Great
-  Synagogue's layout (organ over the Aron, a moved bimah) led a rabbinical assembly
-  at **Sátoraljaújhely** the next year to place the Miskolc rabbi under *cherem*;
-  the Hasidim split off to form their own community. (Sources: English Wikipedia,
-  "Miskolc Synagogue"; JewishGen Yizkor — "thirty Orthodox rabbis declared a cherem.")
-- *Dr. Salomon Spira (documented, poignant).* The community's last Neolog/communal
-  rabbi, Dr. Salomon (Shlomo) Spira (b. 1865), dying in the ghetto hospital, was
-  loaded onto a 1944 Auschwitz transport "from which nobody returned." (Sources:
-  JewishGen Yizkor; Geni.)
-
-**The cemetery & the Holocaust.** The **Avas Hill cemetery** (est. 1759, still in
-use) holds the three ohels above. The **Great Synagogue** on Kazinczy Street
-(Ludwig Förster, 1856–1862) is the only surviving synagogue in Borsod-Abaúj-Zemplén
-county. In **1944** the Jews were confined in a ghetto in a **brick factory on Tatár
-utca** and deported to Auschwitz in **five transports, 11–15 June 1944**; sources
-give the numbers as **~15,451 on the trains** (a memorial plaque says ~14,000 city
-residents) with only about **105 deportees surviving** — cite the range. A small
-community (~250–500) has since revived. (Sources fetched June 2026: JewishGen Yizkor
-[Miskolc] and KehilaLinks; Zsidó Örökség Útja; English Wikipedia, "Miskolc Synagogue";
-Encyclopaedia Judaica via Encyclopedia.com.)
-
-> *Research note (June 2026):* the three buried tzaddikim, the three ohels, dates and
-> community/Holocaust facts are confirmed across JewishGen, the Hungarian Jewish
-> Heritage Route, Wikipedia and an auction primary document. Open items: a verbatim
-> teaching from *Yagel Yaakov* (HebrewBooks blocked); Gottlieb's exact teacher list
-> (reported variously); and the deportation totals (cite the source range).
+## 1. Nagykálló (Kálló) — the Kalover Rebbe
+
+### Reb Yitzchok Eizik Taub — der heiliger Kalover, the Sweet Singer of Israel (c. 1751–1821)
+
+**Who he was.** Reb Yitzchok Eizik Taub — known with love simply as *Reb Eizik'l
+Kaliver* — was the Rav of Nagykálló (in Yiddish, Kalov or Kaliv), the zeide of the
+Kaliv dynasty, and the **first chassidishe rebbe to take root on Hungarian soil**.
+He came into the world around 1751. The masorah tells that his family carried
+**Sephardic roots**, and to this day a few old matzeivos near his ohel are said to
+remember that lineage.
+
+His beginnings were anything but grand. The way it is lovingly told: little Itzik
+was barely ten years old when his father was niftar, and the boy had to leave the
+cheder to help his widowed mother, Reizel, keep bread on the table. He hired
+himself out to a landowner and spent his days alone in the fields and woods outside
+the town, **minding the geese**. To pass the lonely hours he did as the Hungarian
+shepherd-boys did — he played a little flute and sang their wistful village
+melodies.
+
+One Motzaei Shabbos the wandering tzaddik **Reb Leib Sarah's** — a talmid of the
+Baal Shem Tov, who roamed Europe in disguise redeeming Yidden from captivity — felt
+himself drawn, he knew not why, into Hungary. In a field outside Kalov he came upon
+the orphan boy with his geese and his flute, and in one glance he saw what no one
+else had seen: that here was a *neshama gevoha*, a lofty soul "from the upper World
+of Song." He went straight to the widow Reizel, promised her a monthly stipend to
+make up for the lost help, and asked to take her son away to learn. When he brought
+the boy to his rebbe he said, so the story goes, *"I have brought you a special
+neshama from the Chamber of Song."*
+
+Reb Leib brought him to **Nikolsburg**, to the great **Rebbe Reb Shmelke**, and
+through him the boy was drawn fully into the world of Chassidus; he became as well a
+close talmid of the **Rebbe Reb Elimelech of Lizhensk**, the Noam Elimelech. Around
+1781 he came home, was made Rav of Nagykálló, and there he sat for some **forty
+years**, drawing thousands of Yidden close to the Aibershter — the first chassidishe
+court in all of Ungarn.
+
+**What he was known for.** The Kalover's whole avodah was **song**. He is
+remembered above every other title as *the Sweet Singer of Israel*, the rebbe who
+served Hashem with niggun, with simcha, and with an aching longing for the Geulah.
+And he gave over a teaching that is the key to everything he did: the melodies one
+hears in the world, he said, are really **holy niggunim from the Beis HaMikdash**
+that fell, over the long galus, "lost among the nations." When a Yid hears such a
+tune and lifts it back to kedusha, he is **redeeming a fallen spark** and carrying
+it home. So when Reb Eizik'l heard a Hungarian shepherd's song, he did not hear a
+peasant's tune — he heard a captive spark of the song of the Beis HaMikdash, waiting
+to be brought back.
+
+**The stories.**
+
+*"Szól a kakas már" — the rooster is already crowing.* This is his most famous
+niggun, and the one Yidden still sing. The Rebbe, who had himself been a shepherd,
+would walk out among the Hungarian herders and learn their songs; from one of them
+he heard a haunting tune and, as the tradition puts it, **"bought" the song from
+him**. And here is the wonder told from rebbe to rebbe: the very moment Reb Eizik'l
+acquired the melody, **the gentile shepherd forgot it completely** — it vanished
+from his mouth as though it had never been his. That, said the Rebbe, was the proof:
+the song had never truly belonged to the shepherd at all. It was a holy niggun of
+the Beis HaMikdash, only held in pledge among the nations until its rightful owner
+came to redeem it — and once a Yid carried it home, the nation could hold it no
+more. The words themselves are the secret of the whole song: they begin as a simple
+Hungarian shepherd's poem — a rooster crowing as dawn breaks, a beautiful bird
+waiting in a green forest — and then, all at once, they turn into the holy tongue
+and reveal what they were really about all along: *"Yiboneh haMikdash, ir Tziyon
+temaleh"* — the Beis HaMikdash will be rebuilt and the city of Tziyon refilled. The
+crowing rooster is the first light of the Geulah; the bird that must "always wait"
+is Klal Yisroel, faithful through the long night of galus, certain it will yet come
+home.
+
+*"Erdő, erdő" — forest, O forest.* In the same way he took another Hungarian
+shepherd's love-song and revealed its true face. Where the village sang *"Forest, O
+forest, how vast you are; rose, O rose, how far you are… who will lead me out of the
+forest to my rose?"* — the Rebbe sang: *"Galus, O galus, how vast you are; Shechina,
+Shechina, how far you are… who will lead me out of the galus and bring me back to
+the Shechina?"* The endless forest is the bitter exile; the faraway rose is the
+Shechina from which we are torn — and the whole song is one cry to be brought home.
+
+*Hallel at the tish of Reb Elimelech.* They tell that once, as the Rebbe Reb
+Elimelech of Lizhensk began to say Torah at the tish, the young Kaliver suddenly
+sprang up and ran through the whole house singing Hallel at the top of his voice, to
+everyone's astonishment. Afterward he explained: when the heilige rebbe said over
+the Torah, he was so flooded with hislahavus that he felt as though he were standing
+in the Beis HaMikdash itself, bringing the Korban Pesach — and how could a Yid stand
+in the Mikdash on Pesach and not sing Hallel?
+
+**His sefarim.** Like many of the early chassidishe rebbes, the Kalover left his
+mark not in a printed sefer but in his **niggunim** and his spoken Torah, carried
+down by his chassidim — above all *Szól a kakas már* and *Erdő, erdő*, which Yidden
+sing to this day. (A handful of his written letters survive in collectors' hands.)
+
+**His family and the Kaliv dynasty.** From Reb Eizik'l grew the **Kaliv dynasty**,
+carried on by his sons and their sons down the generations. In our own time the name
+was borne by the famed **Kaliver Rebbe, Reb Menachem Mendel Taub (1923–2019)** — a
+survivor of the churban who rebuilt the chassidus in Eretz Yisroel, gave his life to
+keeping the memory of the kedoshim alive, and made *Szól a kakas már* beloved to a
+whole new generation.
+
+**At his tziyon today.** Reb Eizik'l is buried in the old beis hachaim of
+**Nagykálló**, beneath an **ohel**, ringed by those old stones said to recall his
+Sephardic roots. It is one of the great kever-stops of Ungarn — Yidden come to light
+candles, to daven and to leave kvitlach, and the place is wrapped in stories of
+childless couples who came and were bentched with children. The great day is his
+yahrzeit on **7 Adar** — which is also the yahrzeit of Moshe Rabbeinu — when
+chassidim and travelers pour in by the busload from England, Eretz Yisroel and
+America. So strong was the pull that even in the dark years under the Communists,
+Yidden never stopped coming to daven at the kever of the first rebbe of Ungarn.
+
+## 2. Bodrogkeresztúr (Kerestir) — Reb Shayele
+
+### Reb Yeshaya (Shayele) Steiner — der heiliger Kerestirer (1851–1925)
+
+**Who he was.** Ask any Yid who Reb Shayele was, and the answer comes in one breath: the baal hachnasas orchim of all baalei hachnasas orchim. He was born in 1851 in Zboró (Zborov), into a poor but deeply ehrliche home. When little Shaya'le was only three years old his father, Reb Moshe, was niftar, and his widowed mother, Hentsha Miriam, raised him in real poverty — which is why, his whole life, Yidden called him with such tenderness simply *Reb Shaya'le ben Reb Moshe*.
+
+When he was about twelve his mother sent him off to learn, to the court of the heilige **Reb Tzvi Hersh of Liska**, the *Ach Pri Tevuah* — himself a great Hungarian tzaddik and baal mofes. The boy attached himself with all his heart, and the Liska Rebbe came to love him so that he made him his **meshamesh**, his personal attendant. One of his jobs was to hand out bread to the crowds of poor people who streamed to Liska — and it was there, serving the poor in his own poverty, that everything Reb Shaya'le would become was already planted.
+
+After Liska he drew close to the **Divrei Chaim of Sanz**, and after Sanz he became one of the *eltere*, the senior chassidim, of **Reb Mordechai of Nadvorna**. It was Reb Mordechai who told him to settle in the little village of **Bodrogkeresztúr (Kerestir)**, near Miskolc, where he would live out his life. Reb Shaya'le never pushed himself forward as a rebbe — it was Reb Mordechai who, in effect, *made* him one: when Yidden came to Nadvorna from that region, the Rebbe would send them back to Reb Shaya'le, telling them plainly that they belonged to *him*. From there his name as a baal yeshuos spread, until tens of thousands of chassidim were streaming to tiny Kerestir.
+
+**What he was known for.** Feeding hungry Yidden was not a sideline of Reb Shaya'le's avodah — it *was* his avodah. They tell that his house had no locks on the doors; it stood open day and night to any traveler, beggar or wanderer. If he found a stranger asleep under his roof in the morning, he would make him breakfast with his own hands. He and the Rebbetzin Sarah fed thousands; he gave away his own bread and his own food, and when there was not a penny left in his pocket he borrowed in order to keep giving. It is told that he once sold his own Shabbos clothing to make a wedding for a poor orphan girl. Even on Rosh Hashanah, between the long tefillos, he could be found cutting slices of cake to be sure the guests had eaten. A gentile mail-carrier who spoke at his levaya said it plainly: *"I handled his mail myself, and I know he personally supported hundreds of poor families across Hungary."* His chassidim loved to point out that his name, ישעיה, has the same gematria as פרנסה — a fitting hint for a tzaddik whose whole life was Klal Yisroel's sustenance.
+
+**The stories.**
+
+*The bottomless sack of bilkelach.* Already as the young meshamesh in Liska, his task was to hand out rolls to the poor. The sack would visibly empty — and still his hand kept coming out full, roll after roll, until every last person had been fed. The heilige Liska watched and said the words that became famous: *"Look at my Shaya'le giving out the bread — the sack is empty, and he keeps on giving…"* That bracha of bread-that-never-runs-out followed him all his days; Yidden saw the same wonder at his own table in Kerestir.
+
+*The fish for Shabbos.* One Erev Shabbos there was no fish to be had in Kerestir — the river had come up empty and the town faced a Shabbos with no fish. A worried Yid came to the Rebbe, and Reb Shaya'le told him simply not to worry, there would be fish. And so it was: the next morning the nets came up full. (In the warmer telling, a fine kosher fish was brought straight to the Rebbe's own door by a bird, so that the town would have its Shabbos fish.)
+
+*The borscht and the soldiers.* A crowd of hungry soldiers once arrived, far more than the food on hand could feed. Reb Shaya'le took his spoon, stirred the last of the pot, and kept ladling out borscht and potatoes until every last man was satisfied — the food simply did not run out.
+
+*The picture that keeps away mice.* This is the best-known thing about Reb Shaya'le in the wider world — that hanging his picture in the house keeps away mice. The maaiseh told behind it: a chossid who owned a grain warehouse came to the Rebbe because mice were devouring his livelihood. Reb Shaya'le first asked him whether the local pastor was kind to Yidden or harsh with them; when the man answered that the pastor was harsh, the Rebbe told him to go to the warehouse and announce, in the Rebbe's name, that the mice should *go to the pastor's estate*. The man did exactly that — and the mice poured out and streamed off toward the pastor's land, and his business was saved. From then, Yidden plagued by mice began hanging Reb Shaya'le's picture. A word of honesty, the way it deserves to be told: this is a beloved folk-segula, not a halacha and not a documented instruction of the Rebbe — and indeed some of Reb Shaya'le's own descendants say the warehouse story never happened and that the Rebbe did not even want his picture taken. Tell it warmly for what it is, and tell it true.
+
+*His brachos and yeshuos.* In his lifetime Reb Shaya'le was among the most sought-after baalei yeshuos in all of Hungary — for parnassah above all, and for refuah, children, and protection from those who wished Yidden harm. One honest, sober story survives from a local family: a woman sick with pneumonia received a remedy from the Rebbe each day for eight days; on the ninth day he said, *"Today I give you nothing — it would be of no use,"* and that day she was niftar. They understood that the tzaddik saw what had already been decreed Above, and would not promise what was not to be.
+
+**His humility and his tisch.** Everything about him was *koton* — small, humble. He called himself only "Shaya'le," and he saw in every single Yid, whatever his station, a beautiful, pure neshama. His tefillah was like fire, and he seemed to live somewhere between heaven and earth — yet he would break off from that very avodah the moment a Yid needed a cold drink or a warm bed. His Motzaei Shabbos *Melaveh Malka* was famous, a great feast in his courtyard before huge crowds — a custom recreated in Kerestir to this very day.
+
+**His sefarim and his family.** Reb Shaya'le left no great sefer and founded no reigning dynasty — and that is itself part of his greatness: purely through chesed and yeshuos he became one of the most beloved tzaddikim of all. His partner in everything was the Rebbetzin Sarah. His only son, **Reb Avraham Steiner**, succeeded him but led for barely two years before he too was niftar, in 1927. The kehillah of Kerestir was destroyed in the churban of 1944, and members of the Rebbe's family were among the kedoshim.
+
+**At his tziyon today.** Reb Shaya'le was niftar on **Gimmel (3) Iyar 5685 (1925)**. On his deathbed — wholly in character — he told his family: *"There will be a great funeral, and many will come from the surrounding towns. Prepare large pots of food, so that the people who come should not go hungry."* And he promised his grandchildren: *"As long as you continue the chesed for Klal Yisroel, I will bring about yeshuos."* His kever in Bodrogkeresztúr draws Yidden all year round, but on the **yahrzeit, Gimmel Iyar**, the sleepy village is transformed — tens of thousands come, the guest shuls run around the clock, mountains of kvittlach are left at the tziyon, and — exactly as the Rebbe lived — *everyone is fed, for free*. "Reb Shayele's Kitchen" feeds visitors and local families all year, carrying on the hachnasas orchim that was his whole life.
+
+## 3. Újfehértó (Ratzfert) — Reb Hertzkeleh and the Sanzer-Ratzferter
+
+Ratzfert, in Szabolcs county, is a "double" stop. It is the resting place of the town's own wonder-working Rav, **Reb Hertzkeleh**, whose ohel is the reason chassidim make the trip — and it was the seat of **Reb Shalom Eliezer Halberstam**, the youngest son of the Divrei Chaim of Sanz. The cemetery is still cared for by Reb Hertzkeleh's descendants, and there is a mikveh nearby for those who come.
+
+### A) Reb Naftali Hertzka Halevi Zilberman — Reb Hertzkeleh Ratzferter (1820–1897)
+
+**Who he was.** Born in **Máriapócs** in 1820, a Levi, the son of Reb Yaakov Peretz and his wife Frumet. He learned by a number of great rabbanim and then drew into the chassidishe world, attaching himself above all to the **Divrei Chaim of Sanz**, and afterward to the Divrei Chaim's son, **Reb Yechezkel Shraga of Shinova**. He served first as Rav of Kántorjánosi, and then, from about 1880 until his petira in 1897, as Rav and Admor of **Ratzfert** — and it is those last seventeen-odd years that made the town's name.
+
+**What he was known for.** Reb Hertzkeleh was famed across his region as a **baal mofes**, a tzaddik to whose door chassidim — and, the masorah tells, gentiles too — streamed for a bracha and a yeshuah. His holy sayings and stories were gathered by his grandson into the sefer **Zichron Naftali**, which is where his maaisos are faithfully preserved.
+
+**His family.** His son, **Reb Yaakov Peretz Zilberman** — named, in the lovely way, for Reb Hertzkeleh's own father — was himself a tzaddik who served in Hodász. The family carries on, and its descendants are the ones who to this day keep up the Ratzfert beis hachaim and built the mikveh for visitors.
+
+**At his tziyon today.** Reb Hertzkeleh was niftar in 1897, his yahrzeit on **9 Tishrei**, erev Yom Kippur, and he lies in the **Ratzfert cemetery**, where his ohel is the heart of the visit — a pilgrimage point for Sanzer chassidim and for all who are drawn to the world of Chassidus.
+
+### B) Reb Shalom Eliezer Halberstam — the Sanzer-Ratzferter, Hy"d (1862–1944)
+
+**Who he was.** The **youngest son of the Divrei Chaim of Sanz** — the last living link to his father's court. The Divrei Chaim named him Shalom Eliezer after two tzaddikim he revered, the Sar Shalom of Belz and Reb Eliezer of Dzikov. He was still a boy of about fourteen when his father was niftar in 1876, and he was raised by his mother and his older brothers, themselves great Sanzer rebbes. In time he made his way — from Russia, to Galicia, and around the turn of the century into Hungary — and established his court in **Ratzfert**, where he led his kehillah for some forty years.
+
+**What he was known for.** A **baal mofes** to whom thousands streamed for brachos, who held his flock with a strong hand in the ways of his holy forebears, the talmidim of the Baal Shem Tov. Such was the honor he commanded that even government officials would come to his children's weddings. Among his sons-in-law was a tzaddik whose name says everything about the family's stature — **Reb Ben Zion Halberstam, the Bobover Rav, the *Kedushas Tzion*, Hy"d**.
+
+**His last years, Hy"d.** In 1939, sensing with ruach hakodesh the churban that was coming, he tried to reach Yerushalayim, saying: *"I know a great destruction is coming upon the world, and I know that in Eretz Yisroel one is able to bring about yeshuos."* He could not complete the journey, and he labored in vain to rescue his son-in-law the Bobover. He was driven into the Nyíregyháza ghetto — where his rebbetzin was niftar in the days before Shavuos — and then to **Auschwitz-Birkenau**, where he was murdered, on **16 Sivan 5704 (1944)**.
+
+One account must be told in full at his memory. A young man, **Yehoshua Rosenbloom**, forced to work in the Sonderkommando at Birkenau, came upon the aged Ratzferter Rav. Realizing whom he was looking at, the boy helped the tzaddik put on his tallis katan so that he could say Viduy before his death. Afterward the Rebbe took his hand warmly and said: *"You, my child, will be saved and will live. But I beg of you with all my strength — remember well what you have seen, and tell the whole world what the resha'im did to us. Tell it!"* Rosenbloom survived, and carried the Rebbe's last words out of that place.
+
+**A note for the visitor.** Reb Shalom Eliezer has **no kever to visit** — he was murdered and his body burned in Birkenau. Yidden honor his memory in Ratzfert, the seat of his court, and at Auschwitz; but there is no ohel for him here. The Ratzfert kever that pilgrims daven at is that of **Reb Hertzkeleh** above.
+
+## 4. Csenger — the Menuchas Asher
+
+### Reb Asher Anshel Yungreis — the Menuchas Asher (1806–1873)
+
+**Who he was.** Rav of Csenger for some forty years, a posek among the gedolim of Hungarian Yiddishkeit, and the zeide of the **Yungreis** rabbinic dynasty of the town. He was born in 1806; his father was **Reb Shmuel Halevi Yungreis**, author of *Toras Edus* on Shas Mishnayos, and his mother **Miriam Yittel** was a daughter of **Reb Asher Anshel Wiener, the first Rav of Miskolc** — after whom this Reb Asher Anshel was named, and whom we will meet again at the Avas Hill. The family told of a chain of some forty generations of rabbanim. As a bochur he was the outstanding talmid of **Reb Yaakov Kopel of Altenkunstadt — "Kopel Charif,"** Kopel the Sharp — in whose yeshiva he learned nine years running, already then fasting every week from Motzaei Shabbos until Tuesday night.
+
+**What he was known for.** Three things. First, he was a **baal mofes and a healer** — "thousands and tens of thousands came to receive a bracha from his mouth and were saved," above all in matters of refuah, until the gedolim of the dor called him *Mofes HaDor*, the wonder of the generation. Second, his **tzidkus**: it was said he fasted away a third of his life, and undertook three-day fasts in times of communal trouble. And third, his **tzedakah**: after his petira, receipts were found documenting fortunes given away — supporting widows, marrying off orphans, sending great sums to Eretz Yisroel.
+
+**The story of the malach Refael.** This is the maaiseh to tell at his kever. It was said of the Menuchas Asher that the **malach Refael appeared to him and gave him a sefer of refuos**, a book of cures, and that from it he would prescribe remedies for the sick who streamed to him. The proof came from an unlikely witness: the owner of the local pharmacy — a convert, a former Yid — revealed that many of the medicines the Rav prescribed *were not even to be had in his pharmacy*, and yet the patients recovered. From this all understood that the cures came not from any medicine at all, but from the tefillos and the zechus of the tzaddik.
+
+**His sefer and his family.** His enduring name comes from his sefer, **Menuchas Asher**; his yeshiva, though small, was reckoned an important one and sent out many rabbanim. His son **Reb Avraham** succeeded him in Csenger, and the rabbanus stayed in Yungreis hands right down to a later **Reb Asher Anshel Yungreis (1875–1944, Hy"d)**, who led Csenger for some forty years and was murdered with his kehillah in the churban. From this wider Yungreis family, in our own generation, came **Rebbetzin Esther Jungreis**, the founder of Hineni and a survivor of Bergen-Belsen — a branch of the same Hungarian rabbinishe family living on.
+
+**At his tziyon today.** The Menuchas Asher was niftar on **5 Kislev 1873** and lies in the **Csenger beis hachaim**. His kever became, in the words of those who describe it, an *even sho'eves* — a magnet — where Yidden come to daven for yeshuos, and above all for **refuos**, just as he was known for in life. The fitting way to come is with a kvittel and a tefillah for a choleh, calling on the zechus of the tzaddik who received the sefer refuos from the malach Refael.
+
+## 5. Miskolc (Mishkoltz) — the tzaddikim of the Avas Hill
+
+Miskolc was one of the great Orthodox kehillos of Ungarn, and high over the town, on the old **Avas Hill beis hachaim**, lie the rabbanim around whom this stop is built — among them an early founding Rav, a long-serving Chief Rav of the Orthodox kehillah, and a chassidishe tzaddik who held court here in the town's last frum generation.
+
+### A) Reb Chaim Mordechai Yaakov Gottlieb — the Yagel Yaakov (1876–1936)
+
+**Who he was.** A son of Reb Avraham Gottlieb, his very name was a crown of three tzaddikim: **Chaim** for the Divrei Chaim of Sanz, **Mordechai** for his uncle Reb Mordechai the dayan of Rimanov, and **Yaakov** for his zeide, Reb Yankele of Boyan. So he was Sanz-rooted by name and by family — though his own derech grew up in the Hungarian chassidishe world of Chust and Sighet, close to the Imrei Yosef of Spinka and to the Arugas HaBosem, and he had semichah from the Maharsham. He served as Rav first in Borșa, then for some fourteen years in Oberwischau (Vișeu de Sus), and in Rozavlea, before being called in 1926 to be **Av Beis Din of the chassidishe kehillah of Miskolc** — its "Kehillas HaSefaradim," the Nusach Sefard community — where he founded a yeshiva and led until his petira ten years later.
+
+**What he was known for.** Though he held the seat of a town Rav, he conducted himself in the way of a rebbe — a tish on Motzaei Shabbos and at shalosh seudos, and chassidim who brought him their kvittlach — and he was counted among the leading rabbanim of pre-churban Hungary and reputed a baal mofes.
+
+**His sefer.** His teachings fill the many volumes of **Yagel Yaakov** — on the Torah, drashos, chiddushim on Shas, and responsa across all four chelkei Shulchan Aruch.
+
+**A story to tell.** This one is about the Rebbe as a teacher, and it surfaced years after his petira. His son, **Reb Yehuda Gottlieb**, found himself after the war in the Feldafing DP camp together with the Klausenberger Rebbe. On the first night of Sukkos, the man who ran the camp kitchen came in a panic: a piece of meat that had not been properly prepared — the gid hanasheh not removed — had fallen into the great pot of food cooked for the whole camp. The Klausenberger Rebbe, who had no seforim there to pasken from, sent the question to Reb Yehuda. Reb Yehuda walked into the kitchen and ruled the food permitted, citing the Rema in Yoreh De'ah, siman 91 — and when the Klausenberger marveled that he had paskened with no sefer before him, Reb Yehuda explained: years earlier, learning these very halachos with his father the Yagel Yaakov, his father had told him to commit the Rema's words to heart, saying, *"You may yet meet such a question one day"* — and had described to him precisely this case, meat with the gid falling into a pot cooked for many. The she'eilah in the camp had come exactly as his father had foreseen.
+
+**At his tziyon.** He was niftar on **8 Tammuz 5696 (1936)** and is buried on the Avas Hill in Miskolc.
+
+### B) Reb Asher Anshel Wiener — the first Rav of Miskolc (d. 1800)
+
+The founding-era Rav of Miskolc and its county, serving from about 1774 until his petira in 1800. He came of the distinguished **Wiener family of Prague**, and the tradition tells that his own rebbe was the famed Reb Yonasan Eybeschütz; he was succeeded by his son, Reb Avraham. There is a sweet thread here that ties our journey together: Reb Asher Anshel Wiener was the maternal zeide of the **Menuchas Asher of Csenger**, who was named after him. His matzeiva is among the venerated stones of the Avas Hill.
+
+### C) Reb Meyer (Mór) Rosenfeld — Chief Orthodox Rav of Miskolc (1830–1908)
+
+Reb Meyer came to Miskolc from the rabbanus of Nádudvar and was elected **Chief Rav of the Orthodox kehillah in 1879**, serving with great honor for some thirty years. He is remembered as a steady, respected leader who knew how to keep the peace among the factions of his day, and he left a rabbinishe family of sons and sons-in-law who took up the rabbanus after him. He rests in an ohel on the Avas Hill.
 
 ## 6. Mád — the Kol Aryeh, the Beis Naftali and the Levushei Mordechai
 
-> **Who is actually buried in Mád.** Mád, in the Tokaj-Hegyalja wine country, was a
-> significant Oberland rabbinic seat with a famous restored 1795 synagogue and an old
-> cemetery (est. 1769) — the largest in the region. The tzaddikim **buried in Mád**
-> are **R' Avraham Yehuda HaKohen Schwartz (the *Kol Aryeh*)**, his son **R' Naftali
-> Schwartz (the *Beis Naftali*)**, and **R' Mordechai Leib Winkler (the *Levushei
-> Mordechai*)**. **Correction to a common assumption:** **R' Amram Chasida** was a
-> rav of Mád but **emigrated to Eretz Yisrael and is buried in Tzfat (Safed)** — not
-> in Mád. (And the "Yismach Moshe" Teitelbaum pilgrimage is at **Sátoraljaújhely**,
-> the nearby district capital, not Mád — do not conflate them.)
+Mád sits in the Tokaj-Hegyalja wine country, and it was a serious Oberland rabbinic seat. Two things anchor a visit: the old walled **beis hachaim**, with stones two and three hundred years old, and the beautiful baroque **Kol Aryeh shul**, built in 1795, lovingly restored between 2000 and 2004 and awarded a Europa Nostra diploma. Three gedolim draw Yidden to the town.
 
-### A) R' Avraham Yehuda HaKohen Schwartz — the *Kol Aryeh* (1824–1883)
+### A) Reb Avraham Yehuda HaKohen Schwartz — the Kol Aryeh (1824–1883)
 
-**Who he was.** Born **26 July 1824 in Mád**; a talmid of the **Chasam Sofer** and of
-**R' Binyamin Wolf Löw** in the Pressburg orbit. Rav of **Beregszász (Berehove)**
-1861–1881, then rav of his native **Mád** 1881–1883, where he is buried. Though
-Pressburg-trained in an anti-chassidic milieu, he became a devoted **Sanzer chassid**
-after visiting **R' Chaim Halberstam of Sanz** — reportedly spending Shavuos in Sanz
-26 years running. *Passing:* **25 October 1883** (age 59). His sole but very
-influential work, the responsa **Kol Aryeh** (printed 1904), gives the town's
-restored **Kol Aryeh Synagogue** its name. (Sources: English Wikipedia, "Abraham
-Judah ha-Kohen Schwartz"; Jewish Virtual Library; NLI catalogue for *Kol Aryeh*.)
+**Who he was.** Born in Mád on Rosh Chodesh Av 5584 (1824), a son of Reb Pinchas Zelig. As a boy of thirteen he entered the **Pressburg yeshiva** and became one of the youngest talmidim of the **Chasam Sofer**; he later had semichah from Reb Binyamin Wolf Löw. But the turn that shaped his life came from Sanz. Though he was raised in the Pressburg world, which kept its distance from Chassidus, he once heard the **Divrei Chaim of Sanz** say over a deep derosha — building up difficulties in the Rambam and resolving them all to the one truth, that there is but one G-d in heaven and earth — and the young Mádier was so overcome that he bound himself to Sanz for the rest of his days. The masorah treasures that he went to Sanz for Shavuos some twenty-six years in a row.
 
-### B) R' Naftali Schwartz — the *Beis Naftali* (1843–1896)
+**What he was known for.** He was reckoned among the leading rabbanim of nineteenth-century Hungary, a gaon of fabled memory — it was said he knew most of the Tosafos across Shas by heart. He opened a yeshiva in Mád while still a young man, and he stood in the great communal battles of his day, taking part in the rabbinical assembly at Michalovce in 1866 and the Budapest Congress of 1869. He served as Rav of Beregszász from 1861, and around 1881 returned home to Mád as its Rav until his petira.
 
-Son and successor of the Kol Aryeh as rav of Mád; author of *Beis Naftali*; buried in
-Mád. (Sources: JewishGen Pinkas Hakehillot Hungary, Mád; Wikipedia.)
+**His sefer.** He wrote essentially one work — the responsa **Kol Aryeh**, "the Voice of the Lion" — but its weight among Hungarian poskim was anything but small, and it is for this sefer that the restored Mád shul is named.
 
-### C) R' Mordechai Leib Winkler — the *Levushei Mordechai* (1844/45–1932)
+**At his tziyon.** He was niftar on **24 Tishrei 5644 (1883)** and is buried in Mád.
 
-**Who he was.** מרדכי ליב בן נפתלי הירץ וינקלר — Av Beis Din and rosh yeshiva of
-**Mád** for some 31 years (from c. 1899/1901 until his death), and one of the leading
-**poskim** of pre-war Hungary; a firm separatist-Orthodox voice. Earlier rav of
-Mezőtelegd and Berzava. His principal teacher was **R' Yisrael Yitzchak Aharon
-Landesberg of Grosswardein (Oradea)**, from whom he received semicha. *Passing:*
-**17 Tammuz 5692 = 1932.** His multi-volume responsa **Levushei Mordechai (לבושי
-מרדכי)** (HebrewBooks #786, #55480; modern *Shu"t Levushei Mordechai HaShalem*)
-remain a standard reference. (Sources: NerTzaddik biography; "Footsteps of the Wonder
-Rabbis" grave database [grave #12755, with coordinates]; HebrewBooks / NLI listings.)
+### B) Reb Naftali Schwartz — the Beis Naftali (1843–1896)
 
-> *Flags:* sources differ on his **arrival year in Mád** (1899 per the Pinkas vs.
-> 1901/02) and on his **birth year** (1844 vs. 1845); his **death is firmly 17 Tammuz
-> 5692 / 1932**. A well-known **tradition** notes that he passed on **17 Tammuz — the
-> day the Tablets were broken**; present it as a devotional observation, not a proof.
+The son of the Kol Aryeh, who **succeeded his father as Rav of Mád** in 1883 and carried his seat and his Torah for some thirteen years. He left the sefer **Beis Naftali**, and he is buried in Mád, near his father.
 
-**His Torah — in their own sefarim.** The Mád rabbanim's teachings live in their
-published works: the responsa **Kol Aryeh** (printed 1904); **Beis Naftali**; and
-the multi-volume responsa **Levushei Mordechai** (לבושי מרדכי; HebrewBooks #786,
-#55480; modern *Shu"t Levushei Mordechai HaShalem*). No teshuvah is reproduced here
-rather than risk misquoting the image-scanned responsa.
+### C) Reb Mordechai Leib Winkler — the Levushei Mordechai (1844/45–1932)
 
-**The synagogue, the cemetery & the Holocaust.**
-- *Synagogue:* the **Kol Aryeh Synagogue**, built **1795** in late-Baroque style,
-  abandoned and looted after 1944, **restored 2000–2004** with the World Monuments
-  Fund's Jewish Heritage program and awarded a **Europa Nostra diploma (2005)**.
-- *Cemetery:* established **1769**, the largest Jewish cemetery of Tokaj-Hegyalja,
-  holding the graves of the Kol Aryeh, the Beis Naftali, R' Mordechai Leib Winkler
-  and the early rav (d. 1799). An **ohel** is present, though the sources reached do
-  not consistently document **whose** it is — verify on the ground.
-- *Holocaust:* in **1941** several families unable to prove Hungarian citizenship were
-  deported to **Kamenets-Podolsk** and murdered; after March 1944 the Jews of Mád were
-  held three days in the synagogue, moved to **Sátoraljaújhely**, and deported to
-  **Auschwitz in four transports, 16 May – 3 June 1944**. Only about ten survived.
-- (Sources fetched June 2026: JewishGen Pinkas Hakehillot Hungary, Mád [hun340];
-  English Wikipedia, "Mád"; "Footsteps of the Wonder Rabbis"; World Monuments Fund.)
+**Who he was.** Born around 1844 near Nitra into a poor home that poured everything into his learning — the tradition tells that by twelve he had whole sections of Shas by heart and was saying over his own chiddushim. He learned by three of the Chasam Sofer's talmidim, chief among them his primary rebbe, **Reb Yisrael Yitzchak Aharon Landesberg of Grosswardein (Oradea)**, whose foremost talmid he became. He was Rav of Mezőtelegd from 1872 and of Brezovica from 1880, and around 1901 he came to **Mád as Rav and Rosh Yeshiva**, where he sat for some thirty-one years until his petira.
 
-> *Research note (June 2026):* the three figures buried in Mád, their dates and the
-> synagogue/cemetery/Holocaust history are confirmed across JewishGen, Wikipedia, the
-> Hungarian "Wonder Rabbis" grave database (with grave coordinates for Winkler) and
-> the WMF. Corrected the common error that **R' Amram Chasida** is buried here (he is
-> in **Tzfat**). Open items: a verbatim teaching (HebrewBooks blocked); the ohel's
-> exact attribution; and Winkler's arrival/birth-year variants.
-## 7. Budapest — R' Shimon ben David Oppenheim, the Raavad of Pest
+**What he was known for.** He was one of the foremost **poskim** of pre-war Hungary. His responsa, the **Levushei Mordechai**, run to fifteen hundred and more teshuvos sent to some hundred and seventy-four places — even a handful as far as America — a measure of how widely Yidden turned to him; it remains a sefer poskim reach for to this day, and he took up even the newest she'eilos of his time, such as the use of electricity on Shabbos.
 
-### R' Shimon (Simon) ben David Oppenheim — *Raavad of Pest* (c. 1749/1753 – 1851)
+**At his tziyon.** Reb Mordechai Leib was niftar on **17 Tammuz 5692 (1932)** — the very day, the seforim note with feeling, on which the Luchos were broken. He is buried in Mád, completing the trio of gedolim who draw Yidden to the town.
 
-**Who he was.** Rabbi Shimon ben David Oppenheim was the **Raavad** (*rosh av beis
-din* — senior dayan / head of the rabbinical court) of the **Pest** community for
-roughly half a century. Born in **Boskovice (Boskowitz), Moravia**, son of R' David
-"Kromau" (Krumlov), he studied under **R' Benjamin Wolf of Boskowitz** (av beis din
-of Kolín and Prostějov), taught in **Prague** in the late 18th century, then in
-**Freistadt from c. 1793**, and was appointed a dayan in **Pest in 1801**. The
-**Oppenheim** surname came not from the famous R' David Oppenheim of Prague but
-through his father-in-law/uncle **R' Yehuda Leib (Löb) Oppenheim of Freistadt**,
-whose name he adopted. (Sources: Jewish Encyclopedia, "Oppenheim, Simon ben David";
-Hebrew & English Wikipedia on his son R' Avrohom Chaim Oppenheim; Appel Auction
-primary-document lots.)
+## 7. Budapest (Pest) — the Raavad of Pest
 
-> *Disambiguation:* he is **not** R' David Oppenheim of Prague (1664–1736, the
-> bibliophile chief rabbi). And the protégé English Wikipedia loosely calls a
-> "relative," R' Avrohom Chaim Oppenheim (rabbi at Pécs, d. young), was in fact his
-> **son**, per Hebrew Wikipedia.
+*Visited on the way back to the airport.*
 
-**Dates.**
-- *Born:* **c. 1749 or 1753** (תק"ט / תקי"ג), in Boskovice. (Jewish Encyclopedia
-  rounds to "1753, Kromau"; Hebrew sources give Boskowitz and the תק"ט/תקי"ג range.)
-- *Passing / yahrtzeit:* **22 Shevat 5611 = 24 January 1851**; reported **age 102**.
-- *Discrepancy flagged & resolved:* some Hebrew forum/aggregator text renders the
-  death year as 5571/1811, and garbled auto-summaries give "5671/1911." Both are
-  **scribal errors for תרי"א (5611 / 1851)** — refuted by his signed documents dated
-  1837 and 1839 and by his publishing works in the 1820s, all impossible under an
-  1811 death. **Print 1851.**
-- (Sources fetched June 2026: Jewish Encyclopedia; iVelt thread title "כ"ב שבט
-  תרי"א"; Appel Auction lots 250 [1837] and 192 [1839].)
+### Reb Shimon ben David Oppenheim — the Raavad of Pest (c. 1749/1753 – 1851)
 
-**His sefarim.** A substantial author and editor. Best-attested (anchored to a
-library/encyclopedia record):
-- **Amud HaShachar (עמוד השחר)** — Prague, 1789; his first work (~age 26).
-- **Har HaKarmel (הר הכרמל)** — Prague, 1812; novellae on the Shach and the Gra on
-  hilchos niddah and mikvaos (HebrewBooks #8117).
-- **Nezer HaKodesh (נזר הקודש)** — Ofen (Buda), 1831; on middos/ethics (HebrewBooks
-  #30658).
-- He also brought his late son's works to press: **Har Avel (הר אבל)** (Lemberg,
-  1824) and **Neshmas Chaim (נשמת חיים)** (Dyhernfurth, 1829).
-- *Further titles* named in Hebrew biographies — *Sefer HaDa'as / HaModea* (on
-  R' Yonasan Eybeschütz's laws of ribbis), *Har HaMoriyah* and *Har HaKedem*
-  (chiddushim on hilchos gittin), and a commentary on *Sefer HaIttur* (said to have
-  appeared at age 92) — rest on Hebrew aggregators/auction catalogues and should be
-  confirmed in a seforim catalogue before print.
-- (Sources: Jewish Encyclopedia; HebrewBooks #8117, #30658; auction catalogues.)
+**Who he was.** Reb Shimon ben David Oppenheim was born in **Boskovice (Boskowitz), Moravia**, a son of Reb David of Kromau, and learned by **Reb Binyamin Wolf of Boskowitz**. He taught Torah in Prague, then in Freistadt from about 1793, and in **1801 he was appointed a dayan in Pest** — a post he would hold for roughly **half a century**, as the **Raavad**, the head of the beis din, of the great rising kehillah of Pest. The Oppenheim name came to him through his marriage into the Oppenheim family of Freistadt (his rebbetzin, Slava, was a daughter of Reb Yehuda Leib Oppenheim). One word of care for the traveler: he is *not* the famous Reb David Oppenheim of Prague, the great bibliophile who lived a century earlier — they share only the name.
 
-**Stories from his lifetime.**
-1. *A dayan's own hand (documented).* Surviving autographs establish his active
-   judicial role and longevity: the closing lines of the will of R' Avraham Yitzchak
-   Katz of Pest in his own hand (**Pest, 1837**) and a *tosefes kesubah* he signed
-   (**Pest, 1839**), both sold at auction. (Source: Appel Auction lots 250, 192.)
-2. *A father who buried his son (documented).* He outlived his son R' Avrohom Chaim
-   (d. ~age 28) and himself published the young man's two sefarim (1824, 1829).
-   (Sources: Hebrew/English Wikipedia.)
-3. *The grave found intact (tradition).* It is related that in **1971**, when his
-   grave had to be moved for cemetery works, his body and shrouds were found whole —
-   a classic tzaddik motif. **Treat strictly as tradition.** (Source: iVelt thread,
-   via search summary.)
-4. *Fifty years of service, and a life of 102 years (tradition).* Widely repeated;
-   the round figures are traditional, not independently documented.
+**What he was known for.** For some fifty years he was a leading dayan and posek of early Pest, and he was zoche to a remarkable old age — the masorah tells that he lived to **102**. He was also a substantial mechaber. His seforim include **Amud HaShachar** (Prague, 1789), brought out as a young man of about twenty-six; **Har HaKarmel** (Prague, 1812), on the halachos of niddah and mikvah; and **Nezer HaKodesh** (Buda, 1831), on middos and mussar.
 
-**His Torah — in his own sefarim.** Rather than risk misquoting an image-scanned
-text, no teaching is reproduced here; his recorded Torah is contained in the works
-listed under *His sefarim* above — above all the novellae **Har HaKarmel** (Prague,
-1812) and the ethical **Nezer HaKodesh** (Buda, 1831). *(A tradition holds that he
-composed a prayer inscribed on his own matzeva that visitors recite; the wording
-could not be verified.)*
+**The stories.**
 
-**His resting place.** He is buried in **Budapest**, in what Hebrew sources call the
-**Neolog section**, his grave described as a place visitors come to pray (tradition).
-*Important caveat for the trip:* the exact present-day plot is **uncertain in the
-secondary sources**. At his 1851 death the Pest community's ground was the **Váci út
-cemetery** (later Lehel utca), which was **demolished**, its older graves relocated
-during Budapest's urban regulation of the 1870s–80s — many into the **Salgótarjáni
-utca** (Neolog) cemetery. A rabbimap.com pin instead places him at the **Kozma utca**
-(Orthodox) cemetery, but that ground only opened in 1891 and so post-dates him.
-**Verify the exact plot with the Budapest Jewish community (BZSH) / on the ground
-before publishing a location.** (Sources: Salgótarjáni Street Jewish Cemetery
-[Wikipedia]; rabbimap.com; Hebrew sources.)
+*The son he outlived.* His son, **Reb Avrohom Chaim Oppenheim**, served as Rav in Pécs but was niftar young, at about twenty-eight. The aged father gathered his son's writings and brought them to print himself — **Har Avel** (1824) and **Neshmas Chaim** (1829), the latter on the eternity of the neshama. There is something deeply moving in an old man in his seventies giving his lost son that kind of immortality, and in the title he chose to send out into the world: *the soul lives on*.
 
-> *Research note (June 2026):* identity, dates (1851, with 1811/1911 rejected as
-> errors) and the three core sefarim are confirmed across independent source types
-> (encyclopedia, library catalogue, two dated autographs). Still open: the secondary
-> list of additional sefarim; and the **precise grave location** (Salgótarjáni vs.
-> Kozma utca).
+*The tefillah on his matzeiva.* It is told that the Raavad composed a tefillah and asked that it be engraved upon his own matzeiva, and to this day Yidden who come to his kever daven with the words inscribed on the stone.
+
+*The kever found whole.* It is further told that when, in later years, his resting place had to be moved, his body and tachrichim were found whole — the classic sign of a tzaddik. This is related as masorah rather than documented fact, but it sits well with what is certain: that he was niftar in 1851, before either of today's Pest batei hachaim existed, so his grave was indeed moved at some point to its present place.
+
+**His sefarim.** His teachings live in the works he wrote — *Amud HaShachar*, *Har HaKarmel*, and *Nezer HaKodesh* — and in the seforim of his son that he lovingly brought to print.
+
+**At his tziyon today.** The Raavad is buried in **Budapest**, but because he was niftar in 1851 — before the Salgótarjáni utca cemetery (opened 1874) and the Kozma utca cemetery (opened 1891) — his kever was reinterred, and the sources differ on which of the two it now lies in. It is well worth confirming the exact plot with the Budapest chevra kadisha before you go. Coming as we do on the way back to the airport, it is a fitting last stop: the senior dayan who watched over Pest for half a century, in the city that remains, after everything, the great surviving kehillah of Ungarn.
