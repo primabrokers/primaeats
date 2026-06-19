@@ -34,14 +34,13 @@ north-eastern Hungary. For each holy site we visit, you will find:
 | 2 | **Bodrogkeresztúr** (Kerestir) | R' Yeshaya Steiner — *R' Shayele Kerestirer* |
 | 3 | **Újfehértó** (Ratzfert) | R' Naftali Hertzka & R' Shalom Eliezer Halberstam |
 | 4 | **Csenger** | R' Asher Anshel Yungreis — *Menuchas Asher* |
-| 5 | **Mátészalka** | Community & Holocaust-memory site (old cemetery, ohel, restored synagogue) — no documented rebbe's kever; see note |
-| 6 | **Budapest** (Pest) | R' Shimon ben David Oppenheim — *Raavad of Pest* |
-| 7 | **Miskolc** (Mishkoltz) | R' Chaim Mordechai Yaakov Gottlieb (*Yagel Yaakov*); R' Asher Anshel Wiener; R' Meyer Rosenfeld |
-| 8 | **Mád** | R' Avraham Yehuda Schwartz (*Kol Aryeh*); R' Naftali Schwartz (*Beis Naftali*); R' Mordechai Leib Winkler (*Levushei Mordechai*) |
+| 5 | **Miskolc** (Mishkoltz) | R' Chaim Mordechai Yaakov Gottlieb (*Yagel Yaakov*); R' Asher Anshel Wiener; R' Meyer Rosenfeld |
+| 6 | **Mád** | R' Avraham Yehuda Schwartz (*Kol Aryeh*); R' Naftali Schwartz (*Beis Naftali*); R' Mordechai Leib Winkler (*Levushei Mordechai*) |
+| 7 | **Budapest** (Pest) | R' Shimon ben David Oppenheim — *Raavad of Pest* (visited on the way back to the airport) |
 
-*(Sites 6–8 are added stops. Geographically Budapest is the gateway city; Miskolc*
-*and Mád sit in the Borsod / Tokaj-Hegyalja northeast, close to Bodrogkeresztúr,*
-*so they group naturally with site 2 when planning the driving order.)*
+*(Sites 1–4 and 6 sit in the Tokaj–Szabolcs northeast, the corridor from Kerestir*
+*eastward to Csenger; Miskolc lies just west of Kerestir. Budapest is the gateway*
+*city, visited on the return leg to the airport rather than on the eastern route.)*
 
 ---
 
@@ -533,173 +532,7 @@ JewishGen Csenger Yizkor Book; USHMM)
 > Encyclopaedia Judaica's own wording; no specific named-individual miracle account
 > could be verified, so none is asserted.
 
-## 5. Mátészalka — a Holocaust-memory site (no documented rebbe's kever)
-
-> **✓ Identity/location question — now resolved (June 2026 re-check), and it
-> changes this chapter.** The figure the itinerary originally named ("R' Yosef
-> Rottenberg, *Konsoner* Rav") is real but was **mis-located**. He is **R' Yehosef
-> Rottenberg, the *Kosoner* Rav** (author of *Bnei Shileishim*, founder of the
-> Koson dynasty, d. 23 Cheshvan 5672/1911) — and his seat and **grave are in Koson
-> / Kászony / Mezőkászony, today in Zakarpattia, UKRAINE**, not Hungary. Since our
-> trip stays **in Hungary**, his kever is not a stop on this route (it would mean
-> crossing into Ukraine). A short note on him is kept below for reference, because
-> the dynasty's earlier rabbinate at **Nyírtass** (near Mátészalka) is the only
-> reason the names ever became linked.
->
-> **And here is the honest finding for Mátészalka itself:** after full-text
-> searching, **no famous, named tzaddik is documented as buried in Mátészalka.**
-> The town's old Jewish cemetery *does* have an **ohel and a special rabbis'
-> section**, and it *does* receive organised pilgrimage/heritage groups — but **no
-> source names whose ohel it is**, so we cannot responsibly build the chapter
-> around a "Mátészalka Rebbe." Treat this stop as a **Holocaust-memory and
-> community-heritage site**, not a kever-pilgrimage to a known master. (If a named
-> grave is wanted, it must be verified on the ground from the matzeva itself.)
-
-### Mátészalka — the Jewish community (verified)
-
-An Orthodox community with Jewish records from **1784–85**, with a Jewish school, a
-Talmud Torah, and — near the synagogue — a chassidic **shtibl** in its own building
-(confirmed verbatim in the JewishGen Pinkas: *"Near the synagogue was a shtibl for
-Hassidim, which had its own building"*). The **synagogue was built in 1857** (per
-Jewish Heritage Europe — note this date is *not* in the Pinkas or English
-Wikipedia). **Six rabbis served the community over its history; the last, R' Shalom
-(Frigyes) Grünbaum (1895–1944), perished in the Holocaust and has no local grave**
-— he was *not* a Rottenberg. In **1944** Mátészalka held one of the region's large
-ghetto/transit (concentration) camps, gathering many thousands of Jews from the
-surrounding district before deportation to **Auschwitz**. The actor **Tony Curtis**
-(born Bernard Schwartz) had family roots here, and his daughter **Jamie Lee Curtis**
-helped fund restoration of the Mátészalka synagogue.
-
-**The old Jewish cemetery (the actual pilgrimage point).** The International Jewish
-Cemetery Project survey records that the Hasidic-Orthodox old cemetery on Fellegvár
-Street holds 500–5,000 stones (last burial 1991), has **"special sections… for
-rabbis and children,"** and that **"there also is an ohel and a wooden
-coach-house,"** with the site **"frequently visited by organized Jewish group
-tours or pilgrimage groups."** Crucially, **the survey does not name the ohel's
-occupant**, and the only individually listed grave ("Spitzer, Chaim Meselem Feis")
-carries no dates and no indication of being a famous rebbe. (Sources fetched June
-2026: JewishGen Pinkas Hakehillot Hungary, Mátészalka [hun348]; cdp.jewishgen.org
-cemetery survey, Mátészalka; English Wikipedia; Jewish Heritage Europe;
-zsido.com on R' Grünbaum.)
-
-> *Honesty flags (do not print as fact without ground verification):* (1) the
-> occupant of the cemetery's ohel is **undocumented** in every source reached;
-> (2) a single unverified lead names a "Rav of Szalka," **R' Yechiel
-> Kahana(-Heller), d. 1862**, but "Szalka/Szolke/Salka" is ambiguous (several
-> places in historic Hungary/Slovakia carry that name) and the Geni/FamilySearch
-> records were JavaScript-walled and could not be confirmed — it may not be
-> *Máté*szalka at all. (3) The famous Teitelbaum tomb-pilgrimage ("Yismach Moshe")
-> is at **Sátoraljaújhely**, *not* Mátészalka — do not conflate them.
-
-### Reference note — R' Yehosef (Yosef) Rottenberg of Koson, the *Kosoner Rav* (1853–1911)
-
-*Kept for disambiguation only — buried in Ukraine, not on this Hungary route.*
-Grand Rabbi Yehosef Rottenberg of Koson, the **Kosoner Rebbe**, known after his
-sefer as the **Bnei Shileishim**, founder of the Koson chassidic dynasty. Born
-**1853** in **Halych (Halicz)**, Galicia (maternal descendant of the Zidichov
-dynasty); Av Beis Din of **Nyírtass** and then of Mezőkászony, settling in Koson in
-1897 as both Rav and Rebbe; **son-in-law of the Tosh dynasty** (married to Sara
-Yittel, daughter of R' Meshulam Feish Segal-Lowy of Tosh). **Died 23 Cheshvan 5672
-= 1911, in Koson / Kászony / Mezőkászony, where he is buried** (today Koson,
-Zakarpattia, Ukraine). His sefer **Bnei Shileishim (בני שלשים)** is on
-HebrewBooks.org (#58706), structured as *"Yad Yosef"* (Shabbos HaGadol derashos),
-*"Divrei Yosef"* (Shabbos Shuvah derashos) and *"Eidus B'Yhosef"* (mussar for the
-Yamim Noraim). **No verbatim teaching could be retrieved** (HebrewBooks #58706
-returns 403 / image-only), so none is printed. (Sources: en.wikipedia.org/wiki/
-Koson_(Hasidic_dynasty); he.wikipedia.org/wiki/חסידות_קוסון; Koson-dynasty
-genealogy; HebrewBooks #58706.)
-
-## 6. Budapest — R' Shimon ben David Oppenheim, the Raavad of Pest
-
-### R' Shimon (Simon) ben David Oppenheim — *Raavad of Pest* (c. 1749/1753 – 1851)
-
-**Who he was.** Rabbi Shimon ben David Oppenheim was the **Raavad** (*rosh av beis
-din* — senior dayan / head of the rabbinical court) of the **Pest** community for
-roughly half a century. Born in **Boskovice (Boskowitz), Moravia**, son of R' David
-"Kromau" (Krumlov), he studied under **R' Benjamin Wolf of Boskowitz** (av beis din
-of Kolín and Prostějov), taught in **Prague** in the late 18th century, then in
-**Freistadt from c. 1793**, and was appointed a dayan in **Pest in 1801**. The
-**Oppenheim** surname came not from the famous R' David Oppenheim of Prague but
-through his father-in-law/uncle **R' Yehuda Leib (Löb) Oppenheim of Freistadt**,
-whose name he adopted. (Sources: Jewish Encyclopedia, "Oppenheim, Simon ben David";
-Hebrew & English Wikipedia on his son R' Avrohom Chaim Oppenheim; Appel Auction
-primary-document lots.)
-
-> *Disambiguation:* he is **not** R' David Oppenheim of Prague (1664–1736, the
-> bibliophile chief rabbi). And the protégé English Wikipedia loosely calls a
-> "relative," R' Avrohom Chaim Oppenheim (rabbi at Pécs, d. young), was in fact his
-> **son**, per Hebrew Wikipedia.
-
-**Dates.**
-- *Born:* **c. 1749 or 1753** (תק"ט / תקי"ג), in Boskovice. (Jewish Encyclopedia
-  rounds to "1753, Kromau"; Hebrew sources give Boskowitz and the תק"ט/תקי"ג range.)
-- *Passing / yahrtzeit:* **22 Shevat 5611 = 24 January 1851**; reported **age 102**.
-- *Discrepancy flagged & resolved:* some Hebrew forum/aggregator text renders the
-  death year as 5571/1811, and garbled auto-summaries give "5671/1911." Both are
-  **scribal errors for תרי"א (5611 / 1851)** — refuted by his signed documents dated
-  1837 and 1839 and by his publishing works in the 1820s, all impossible under an
-  1811 death. **Print 1851.**
-- (Sources fetched June 2026: Jewish Encyclopedia; iVelt thread title "כ"ב שבט
-  תרי"א"; Appel Auction lots 250 [1837] and 192 [1839].)
-
-**His sefarim.** A substantial author and editor. Best-attested (anchored to a
-library/encyclopedia record):
-- **Amud HaShachar (עמוד השחר)** — Prague, 1789; his first work (~age 26).
-- **Har HaKarmel (הר הכרמל)** — Prague, 1812; novellae on the Shach and the Gra on
-  hilchos niddah and mikvaos (HebrewBooks #8117).
-- **Nezer HaKodesh (נזר הקודש)** — Ofen (Buda), 1831; on middos/ethics (HebrewBooks
-  #30658).
-- He also brought his late son's works to press: **Har Avel (הר אבל)** (Lemberg,
-  1824) and **Neshmas Chaim (נשמת חיים)** (Dyhernfurth, 1829).
-- *Further titles* named in Hebrew biographies — *Sefer HaDa'as / HaModea* (on
-  R' Yonasan Eybeschütz's laws of ribbis), *Har HaMoriyah* and *Har HaKedem*
-  (chiddushim on hilchos gittin), and a commentary on *Sefer HaIttur* (said to have
-  appeared at age 92) — rest on Hebrew aggregators/auction catalogues and should be
-  confirmed in a seforim catalogue before print.
-- (Sources: Jewish Encyclopedia; HebrewBooks #8117, #30658; auction catalogues.)
-
-**Stories from his lifetime.**
-1. *A dayan's own hand (documented).* Surviving autographs establish his active
-   judicial role and longevity: the closing lines of the will of R' Avraham Yitzchak
-   Katz of Pest in his own hand (**Pest, 1837**) and a *tosefes kesubah* he signed
-   (**Pest, 1839**), both sold at auction. (Source: Appel Auction lots 250, 192.)
-2. *A father who buried his son (documented).* He outlived his son R' Avrohom Chaim
-   (d. ~age 28) and himself published the young man's two sefarim (1824, 1829).
-   (Sources: Hebrew/English Wikipedia.)
-3. *The grave found intact (tradition).* It is related that in **1971**, when his
-   grave had to be moved for cemetery works, his body and shrouds were found whole —
-   a classic tzaddik motif. **Treat strictly as tradition.** (Source: iVelt thread,
-   via search summary.)
-4. *Fifty years of service, and a life of 102 years (tradition).* Widely repeated;
-   the round figures are traditional, not independently documented.
-
-**His Torah.** *No verbatim teaching could be retrieved.* His sefarim are digitized
-on HebrewBooks.org (#8117, #30658), but the site is now behind a Cloudflare
-challenge that blocks automated access, and the scans are image-based; Sefaria does
-not carry his works. In keeping with the no-fabrication rule, **none is invented**
-— to quote him, open Har HaKarmel or Nezer HaKodesh directly and cite the location.
-*(One traditional item, unverified as to wording: sources say he composed a prayer
-inscribed on his own matzeva that visitors recite — the text could not be retrieved.)*
-
-**His resting place.** He is buried in **Budapest**, in what Hebrew sources call the
-**Neolog section**, his grave described as a place visitors come to pray (tradition).
-*Important caveat for the trip:* the exact present-day plot is **uncertain in the
-secondary sources**. At his 1851 death the Pest community's ground was the **Váci út
-cemetery** (later Lehel utca), which was **demolished**, its older graves relocated
-during Budapest's urban regulation of the 1870s–80s — many into the **Salgótarjáni
-utca** (Neolog) cemetery. A rabbimap.com pin instead places him at the **Kozma utca**
-(Orthodox) cemetery, but that ground only opened in 1891 and so post-dates him.
-**Verify the exact plot with the Budapest Jewish community (BZSH) / on the ground
-before publishing a location.** (Sources: Salgótarjáni Street Jewish Cemetery
-[Wikipedia]; rabbimap.com; Hebrew sources.)
-
-> *Research note (June 2026):* identity, dates (1851, with 1811/1911 rejected as
-> errors) and the three core sefarim are confirmed across independent source types
-> (encyclopedia, library catalogue, two dated autographs). Still open: a verbatim
-> teaching (HebrewBooks Cloudflare-blocked); the secondary list of additional
-> sefarim; and the **precise grave location** (Salgótarjáni vs. Kozma utca).
-
-## 7. Miskolc — the Avas Hill tzaddikim
+## 5. Miskolc — the Avas Hill tzaddikim
 
 > **Three ohels on one hill.** Miskolc ("Mishkoltz") was one of the great Hungarian
 > Orthodox communities (organised c. 1765). On the **Avas Hill Jewish cemetery**
@@ -788,7 +621,7 @@ Encyclopaedia Judaica via Encyclopedia.com.)
 > teaching from *Yagel Yaakov* (HebrewBooks blocked); Gottlieb's exact teacher list
 > (reported variously); and the deportation totals (cite the source range).
 
-## 8. Mád — the Kol Aryeh, the Beis Naftali and the Levushei Mordechai
+## 6. Mád — the Kol Aryeh, the Beis Naftali and the Levushei Mordechai
 
 > **Who is actually buried in Mád.** Mád, in the Tokaj-Hegyalja wine country, was a
 > significant Oberland rabbinic seat with a famous restored 1795 synagogue and an old
@@ -862,3 +695,92 @@ sefer and cite its *siman*.
 > the WMF. Corrected the common error that **R' Amram Chasida** is buried here (he is
 > in **Tzfat**). Open items: a verbatim teaching (HebrewBooks blocked); the ohel's
 > exact attribution; and Winkler's arrival/birth-year variants.
+## 7. Budapest — R' Shimon ben David Oppenheim, the Raavad of Pest
+
+### R' Shimon (Simon) ben David Oppenheim — *Raavad of Pest* (c. 1749/1753 – 1851)
+
+**Who he was.** Rabbi Shimon ben David Oppenheim was the **Raavad** (*rosh av beis
+din* — senior dayan / head of the rabbinical court) of the **Pest** community for
+roughly half a century. Born in **Boskovice (Boskowitz), Moravia**, son of R' David
+"Kromau" (Krumlov), he studied under **R' Benjamin Wolf of Boskowitz** (av beis din
+of Kolín and Prostějov), taught in **Prague** in the late 18th century, then in
+**Freistadt from c. 1793**, and was appointed a dayan in **Pest in 1801**. The
+**Oppenheim** surname came not from the famous R' David Oppenheim of Prague but
+through his father-in-law/uncle **R' Yehuda Leib (Löb) Oppenheim of Freistadt**,
+whose name he adopted. (Sources: Jewish Encyclopedia, "Oppenheim, Simon ben David";
+Hebrew & English Wikipedia on his son R' Avrohom Chaim Oppenheim; Appel Auction
+primary-document lots.)
+
+> *Disambiguation:* he is **not** R' David Oppenheim of Prague (1664–1736, the
+> bibliophile chief rabbi). And the protégé English Wikipedia loosely calls a
+> "relative," R' Avrohom Chaim Oppenheim (rabbi at Pécs, d. young), was in fact his
+> **son**, per Hebrew Wikipedia.
+
+**Dates.**
+- *Born:* **c. 1749 or 1753** (תק"ט / תקי"ג), in Boskovice. (Jewish Encyclopedia
+  rounds to "1753, Kromau"; Hebrew sources give Boskowitz and the תק"ט/תקי"ג range.)
+- *Passing / yahrtzeit:* **22 Shevat 5611 = 24 January 1851**; reported **age 102**.
+- *Discrepancy flagged & resolved:* some Hebrew forum/aggregator text renders the
+  death year as 5571/1811, and garbled auto-summaries give "5671/1911." Both are
+  **scribal errors for תרי"א (5611 / 1851)** — refuted by his signed documents dated
+  1837 and 1839 and by his publishing works in the 1820s, all impossible under an
+  1811 death. **Print 1851.**
+- (Sources fetched June 2026: Jewish Encyclopedia; iVelt thread title "כ"ב שבט
+  תרי"א"; Appel Auction lots 250 [1837] and 192 [1839].)
+
+**His sefarim.** A substantial author and editor. Best-attested (anchored to a
+library/encyclopedia record):
+- **Amud HaShachar (עמוד השחר)** — Prague, 1789; his first work (~age 26).
+- **Har HaKarmel (הר הכרמל)** — Prague, 1812; novellae on the Shach and the Gra on
+  hilchos niddah and mikvaos (HebrewBooks #8117).
+- **Nezer HaKodesh (נזר הקודש)** — Ofen (Buda), 1831; on middos/ethics (HebrewBooks
+  #30658).
+- He also brought his late son's works to press: **Har Avel (הר אבל)** (Lemberg,
+  1824) and **Neshmas Chaim (נשמת חיים)** (Dyhernfurth, 1829).
+- *Further titles* named in Hebrew biographies — *Sefer HaDa'as / HaModea* (on
+  R' Yonasan Eybeschütz's laws of ribbis), *Har HaMoriyah* and *Har HaKedem*
+  (chiddushim on hilchos gittin), and a commentary on *Sefer HaIttur* (said to have
+  appeared at age 92) — rest on Hebrew aggregators/auction catalogues and should be
+  confirmed in a seforim catalogue before print.
+- (Sources: Jewish Encyclopedia; HebrewBooks #8117, #30658; auction catalogues.)
+
+**Stories from his lifetime.**
+1. *A dayan's own hand (documented).* Surviving autographs establish his active
+   judicial role and longevity: the closing lines of the will of R' Avraham Yitzchak
+   Katz of Pest in his own hand (**Pest, 1837**) and a *tosefes kesubah* he signed
+   (**Pest, 1839**), both sold at auction. (Source: Appel Auction lots 250, 192.)
+2. *A father who buried his son (documented).* He outlived his son R' Avrohom Chaim
+   (d. ~age 28) and himself published the young man's two sefarim (1824, 1829).
+   (Sources: Hebrew/English Wikipedia.)
+3. *The grave found intact (tradition).* It is related that in **1971**, when his
+   grave had to be moved for cemetery works, his body and shrouds were found whole —
+   a classic tzaddik motif. **Treat strictly as tradition.** (Source: iVelt thread,
+   via search summary.)
+4. *Fifty years of service, and a life of 102 years (tradition).* Widely repeated;
+   the round figures are traditional, not independently documented.
+
+**His Torah.** *No verbatim teaching could be retrieved.* His sefarim are digitized
+on HebrewBooks.org (#8117, #30658), but the site is now behind a Cloudflare
+challenge that blocks automated access, and the scans are image-based; Sefaria does
+not carry his works. In keeping with the no-fabrication rule, **none is invented**
+— to quote him, open Har HaKarmel or Nezer HaKodesh directly and cite the location.
+*(One traditional item, unverified as to wording: sources say he composed a prayer
+inscribed on his own matzeva that visitors recite — the text could not be retrieved.)*
+
+**His resting place.** He is buried in **Budapest**, in what Hebrew sources call the
+**Neolog section**, his grave described as a place visitors come to pray (tradition).
+*Important caveat for the trip:* the exact present-day plot is **uncertain in the
+secondary sources**. At his 1851 death the Pest community's ground was the **Váci út
+cemetery** (later Lehel utca), which was **demolished**, its older graves relocated
+during Budapest's urban regulation of the 1870s–80s — many into the **Salgótarjáni
+utca** (Neolog) cemetery. A rabbimap.com pin instead places him at the **Kozma utca**
+(Orthodox) cemetery, but that ground only opened in 1891 and so post-dates him.
+**Verify the exact plot with the Budapest Jewish community (BZSH) / on the ground
+before publishing a location.** (Sources: Salgótarjáni Street Jewish Cemetery
+[Wikipedia]; rabbimap.com; Hebrew sources.)
+
+> *Research note (June 2026):* identity, dates (1851, with 1811/1911 rejected as
+> errors) and the three core sefarim are confirmed across independent source types
+> (encyclopedia, library catalogue, two dated autographs). Still open: a verbatim
+> teaching (HebrewBooks Cloudflare-blocked); the secondary list of additional
+> sefarim; and the **precise grave location** (Salgótarjáni vs. Kozma utca).
