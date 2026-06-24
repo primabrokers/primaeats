@@ -1,0 +1,156 @@
+openapi: 3.1.0
+info:
+  title: Lendaris Bridging Quote
+  description: >-
+    Produces an indicative bridging-loan illustration (gross/net loan, LTV,
+    fees, interest and total repayable) for the Lendaris GPT.
+  version: "1.0.0"
+servers:
+  # Replace <PROJECT_REF> with your Supabase project ref.
+  - url: https://<PROJECT_REF>.functions.supabase.co
+paths:
+  /bridging-quote:
+    post:
+      operationId: getBridgingQuote
+      summary: Calculate an indicative bridging-loan illustration
+      description: >-
+        Given a security property value, the amount required, and a term,
+        returns gross/net loan, LTV, a full fee breakdown, interest by type,
+        and the lump sum to redeem. Provide either net_advance (the cash the
+        borrower needs in hand) or gross_loan (the facility amount).
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/QuoteRequest"
+      responses:
+        "200":
+          description: An indicative illustration.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/QuoteResponse"
+        "400":
+          description: Invalid or uneconomic request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "401":
+          description: Missing or invalid API key.
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    QuoteRequest:
+      type: object
+      required: [property_value, term_months]
+      properties:
+        product:
+          type: string
+          description: >-
+            Product id from the rate card. One of: standard-bridge,
+            large-loan, second-charge. Defaults to standard-bridge.
+          enum: [standard-bridge, large-loan, second-charge]
+        property_value:
+          type: number
+          description: Open-market value of the security property, GBP.
+        net_advance:
+          type: number
+          description: >-
+            Net cash the borrower needs in hand, GBP. Provide this OR
+            gross_loan. Preferred.
+        gross_loan:
+          type: number
+          description: Gross loan / facility amount, GBP. Provide this OR net_advance.
+        term_months:
+          type: integer
+          description: Bridging term in whole months.
+        interest_type:
+          type: string
+          enum: [retained, rolled, serviced]
+          description: >-
+            How interest is handled. retained = deducted up front (default);
+            rolled = compounded and settled at redemption; serviced = paid
+            monthly.
+        monthly_rate_pct:
+          type: number
+          description: Override the product's monthly interest rate, percent per month.
+        arrangement_fee_pct:
+          type: number
+          description: Override the arrangement fee, percent of gross.
+        exit_fee_pct:
+          type: number
+          description: Override the exit fee, percent of gross.
+        broker_fee:
+          type: number
+          description: Broker fee, GBP, deducted from the advance.
+        valuation_fee:
+          type: number
+          description: Override the valuation fee, GBP.
+        legal_fee:
+          type: number
+          description: Override the lender legal fee, GBP.
+        admin_fee:
+          type: number
+          description: Override the admin fee, GBP.
+        title_insurance:
+          type: number
+          description: Title insurance, GBP.
+    QuoteResponse:
+      type: object
+      properties:
+        product_label:
+          type: string
+        quote:
+          type: object
+          properties:
+            currency: { type: string }
+            product: { type: string, nullable: true }
+            interestType:
+              type: string
+              enum: [retained, rolled, serviced]
+            termMonths: { type: integer }
+            monthlyRatePct: { type: number }
+            propertyValue: { type: number }
+            grossLoan: { type: number }
+            netAdvance: { type: number }
+            grossLTVPct: { type: number }
+            netLTVPct: { type: number }
+            maxLTVPct: { type: number, nullable: true }
+            ltvWithinLimit: { type: boolean, nullable: true }
+            fees:
+              type: object
+              properties:
+                arrangementFee: { type: number }
+                brokerFee: { type: number }
+                valuationFee: { type: number }
+                legalFee: { type: number }
+                adminFee: { type: number }
+                titleInsurance: { type: number }
+                exitFee: { type: number }
+                totalFees: { type: number }
+            interest:
+              type: object
+              properties:
+                type: { type: string }
+                retainedInterest: { type: number }
+                rolledInterest: { type: number }
+                monthlyInterest: { type: number }
+                totalInterest: { type: number }
+            monthlyPayment: { type: number }
+            totalRepayable: { type: number }
+            warnings:
+              type: array
+              items: { type: string }
+            disclaimer: { type: string }
+    Error:
+      type: object
+      properties:
+        error: { type: string }
+        code: { type: string }
+security:
+  - ApiKeyAuth: []
