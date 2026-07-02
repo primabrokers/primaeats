@@ -8,10 +8,10 @@ Scope: Trustpilot only — uk.trustpilot.com/review/helloprima.co.uk (exhaustive
 - **A Trustpilot page for primainsurance.co.uk (the broker) EXISTS** and carries exactly one review: a 1-star review dated 10 June 2026 written in the language of an aggrieved *motor policyholder* (policy dates, address-change charge, repeated chasing for proof of No Claims Bonus). The complaints match the pattern of Hello Prima's own 1-star reviews almost point-for-point. This is a **probable — not confirmed — instance of priority finding #7** (a review about Hello Prima posted to the broker's page). It cannot be confirmed from public data alone because the broker also arranges insurance. (TP-01)
 - **Trustpilot's own company search for "prima insurance" returns the broker's profile FIRST, above Hello Prima** (which appears 7th). A consumer who searches Trustpilot for "prima insurance" is shown the broker's page before the insurer's. Confirmed, screenshot + HTML preserved. (TP-03)
 - The broker's Trustpilot profile is claimed but populated with placeholder junk data — display name "aaa", address/city/postcode "a", email "a@gmail.com", phone "07891544866". Anyone landing on it gets no correct broker contact details, and no signal distinguishing it from Hello Prima. (TP-02)
-- **No review on either Trustpilot page contains the broker's phone numbers (0330 088 1135 / 0161 826 1620), the broker's email/domain, "wrong Prima", "different Prima", "another Prima" or any explicit statement of having contacted the wrong Prima.** 624 unique reviews (all 73 two-star English reviews, the 200 most recent one-star reviews, and every on-site keyword search: wrong/different/broker/phone/contact/number/email/claim/cancel/complaint/whatsapp) were extracted and machine-searched. This is a clear negative result and is stated as such. (Categories A–D: no direct evidence found on Trustpilot.)
+- **No review on either Trustpilot page contains the broker's phone numbers (0330 088 1135 / 0161 826 1620), the broker's email/domain, "wrong Prima", "different Prima", "another Prima" or any explicit statement of having contacted the wrong Prima.** 950 unique reviews (334 one-star, all 73 two-star English reviews, 543 three-to-five-star surfaced by keyword search; every on-site keyword search paginated in full: wrong/different/broker/phone/contact/number/email/claim/cancel/complaint/whatsapp) were extracted and machine-searched, including business replies. This is a clear negative result and is stated as such. (Categories A–D: no direct evidence found on Trustpilot.)
 - There is, however, **strong and repeated category-E evidence that Hello Prima customers cannot find a phone number and go searching for one** — including a customer who wrote that they "googled you" to find contact details (TP-05), and five separate reviews saying there is "no phone number" / "couldn't find a number" (TP-06 to TP-10). This directly supports the mechanism by which misdirected calls to Prima Insurance Brokers would occur; it does not by itself prove any call was misdirected.
 - Hello Prima's Trustpilot replies give its real contact number as **020 3318 9745** and email **help@helloprima.co.uk** (TP-07) — useful baseline: neither broker number ever appears in any Prima reply.
-- Consumers overwhelmingly do NOT know the insurer as "Hello Prima": of 624 unique reviews sampled, only **1** uses the name "Hello Prima", while 11 call it "Prima insurance" and the rest just "Prima". The Trustpilot business name is displayed simply as **"Prima"**. This materially supports search-journey ambiguity (category I context). (TP-19)
+- Consumers overwhelmingly do NOT know the insurer as "Hello Prima": of 950 unique reviews sampled, only **1** uses the name "Hello Prima", while 17 call it "Prima insurance", 9 "Prima car insurance", and the rest just "Prima". The Trustpilot business name is displayed simply as **"Prima"**. This materially supports search-journey ambiguity (category I context). (TP-19)
 - Substantial category E/H/F volume: 456 one-star + 73 two-star English reviews (of 5,524 English / 5,796 total; TrustScore 4.3). Recurring themes: no phone contact at weekends, chatbot/WhatsApp-only routes, difficulty changing car/address (MTA), cancellation threats over document uploads, and claims handled by third party "Broker Direct Plc" — the last of which causes customers to rail against "Prima Insurance and Broker Direct", blurring the word "broker" around the Prima brand (TP-15, TP-16).
 - Access limitation: Trustpilot shows a **login wall beyond page 10 of any filtered/paginated list**; per the no-login rule, reviews beyond the most recent 200 per star-filter could only be reached via keyword search (which was done for 11 terms, all pages captured). Evidence of the wall preserved.
 
@@ -87,7 +87,7 @@ Scope: Trustpilot only — uk.trustpilot.com/review/helloprima.co.uk (exhaustive
 - **HTML archive:** 2026-07-02_trustpilot_review-cooper-googled-you_672a07c45942a5011c8a3479.html
 - **Relevance:** High
 - **Direct or indirect:** Indirect (proves the search-elsewhere behaviour, not a misdial)
-- **Notes:** First-person confirmation that a Prima customer, unable to find "phone contact etc", resorted to Googling "Prima". This is the exact journey in which the broker's prominent SERP presence for "prima insurance" contact queries can capture Hello Prima customers. This does not prove the customer reached the wrong Prima — in this case they got through.
+- **Notes:** First-person confirmation that a Prima customer, unable to find "phone contact etc", resorted to Googling "Prima". This is the exact journey in which the broker's prominent SERP presence for "prima insurance" contact queries can capture Hello Prima customers. This does not prove the customer reached the wrong Prima — in this case they got through. A second Googling instance: reviewer Vannin (2 stars, published 2024-10-09, review id 67068a8f4b6ffe2d0e9d1213, verbatim excerpt): "I had an unentertaining chat with the 'bot' that couldn't understand the problem… I have since Googled and found the Prima link - use 'Prima Policy Document' in your search" — a customer driven to Google mid-policy because Prima's own channels failed (archived in 2026-07-02_trustpilot_helloprima_stars2_page3.html, with matching screenshot .png).
 
 ### TP-06 — "at first I couldn't find a number to actually speak to a person"
 - **Category:** E
@@ -294,12 +294,12 @@ Scope: Trustpilot only — uk.trustpilot.com/review/helloprima.co.uk (exhaustive
 
 ### TP-19 — Customers call the insurer "Prima" / "Prima insurance", almost never "Hello Prima"
 - **Category:** I (naming-ambiguity context)
-- **Source/platform:** Trustpilot corpus analysis (624 unique reviews extracted this session)
+- **Source/platform:** Trustpilot corpus analysis (950 unique reviews extracted this session)
 - **URL:** https://uk.trustpilot.com/review/helloprima.co.uk (all captured pages)
 - **Page title:** "Prima Reviews | Read Customer Service Reviews of helloprima.co.uk"
 - **Search query used:** machine scan of all extracted review texts
 - **Date/time accessed:** 2026-07-02 01:44 UTC
-- **Exact figures:** Of 624 unique reviews: "prima insurance" appears in 11; "prima car insurance" in 6; "hello prima"/"helloprima" in **1**. Trustpilot displays the business simply as "Prima".
+- **Exact figures:** Of 950 unique reviews: "prima insurance" appears in 17; "prima car insurance" in 9; "hello prima"/"helloprima" in **1**. Trustpilot displays the business simply as "Prima".
 - **Screenshot:** n/a (aggregate analysis; underlying pages all archived)
 - **HTML archive:** all 2026-07-02_trustpilot_helloprima_*.html files
 - **Relevance:** Medium
@@ -311,7 +311,7 @@ Scope: Trustpilot only — uk.trustpilot.com/review/helloprima.co.uk (exhaustive
 - **Source/platform:** Trustpilot (helloprima.co.uk + primainsurance.co.uk pages)
 - **URL:** all pages listed in this report
 - **Page title:** various (archived)
-- **Search query used:** machine grep of 624 unique extracted reviews + business replies for: 0330 088 1135 / 03300881135 / 0161 826 1620 / 01618261620 / "Prestwich" / "Bury New Road" / "Prima Insurance Brokers" / "Prima Financial" / "wrong Prima" / "different Prima" / "another Prima" / "not the same Prima" / "wrong company" / "rang|called|phoned the wrong"; plus Trustpilot on-site searches (?search=wrong ×2 pages, ?search=different ×3 pages) and Google web searches (site:trustpilot.com … "wrong number" / "wrong Prima" / "different Prima" / broker numbers).
+- **Search query used:** machine grep of 950 unique extracted reviews + business replies for: 0330 088 1135 / 03300881135 / 0161 826 1620 / 01618261620 / "Prestwich" / "Bury New Road" / "Prima Insurance Brokers" / "Prima Financial" / "wrong Prima" / "different Prima" / "another Prima" / "not the same Prima" / "wrong company" / "rang|called|phoned the wrong"; plus Trustpilot on-site searches (?search=wrong ×2 pages, ?search=different ×3 pages) and Google web searches (site:trustpilot.com … "wrong number" / "wrong Prima" / "different Prima" / broker numbers).
 - **Date/time accessed:** 2026-07-02 01:29–01:50 UTC
 - **Exact quote/snippet:** zero matches for all patterns above.
 - **Screenshot:** n/a (negative result across archived pages)
@@ -333,5 +333,6 @@ Scope: Trustpilot only — uk.trustpilot.com/review/helloprima.co.uk (exhaustive
 - The reviewer identity behind TP-01 ("customer") cannot be established from public data; confirmation that it concerns Hello Prima would require the reviewer's own evidence.
 
 ## Capture inventory (this agent)
-- Screenshots: all files matching 2026-07-02_trustpilot_* in prima_helloprima_evidence_pack/screenshots/ (main pages, 1–2 star pages 1–10, stars1 pages 1–10, stars2 pages 1–4, 11 keyword searches with all public pages, 2 company-search pages, 10 review permalinks, 1 login-wall proof).
-- HTML: matching files in prima_helloprima_evidence_pack/source_archive/.
+- 98 screenshots matching 2026-07-02_trustpilot_* in prima_helloprima_evidence_pack/screenshots/ (both companies' main pages, 1–2 star combined pages 1–10, stars=1 pages 1–10, stars=2 pages 1–4, 11 keyword searches paginated to every public page — wrong ×2, different ×3, broker ×1, phone ×10, contact ×8, number ×5, email ×10, claim ×10, cancel ×6, complaint ×2, whatsapp ×2 — 2 company-search results pages, 10 review permalinks, 1 login-wall proof).
+- 98 matching HTML files in prima_helloprima_evidence_pack/source_archive/.
+- 950 unique reviews (with business replies) machine-extracted from the archived HTML and scanned; rating mix of the sample: 334×1★, 73×2★, 55×3★, 80×4★, 408×5★.
