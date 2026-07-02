@@ -77,7 +77,7 @@ All positive occurrences of 0161 826 1620 / 01618261620 found anywhere: primains
 - HTML archive: 2026-07-02_primainsurance_terms-conditions.html
 - Relevance: High (baseline)
 - Direct or indirect: Direct
-- Notes: This is the only substantive indexed source of the 0161 number besides directories. Notably it is the broker's **complaints** line — a customer googling "Prima insurance complaints number" can land here (relevant to Agent 1a/搜索 journey work).
+- Notes: This is the only substantive indexed source of the 0161 number besides directories. Notably it is the broker's **complaints** line — a customer googling "Prima insurance complaints number" can land here (relevant to the search-journey workstream).
 
 ### NUM-03 — Baseline: Hello Prima's published contact details (live help centre)
 - Category: M (baseline context)
