@@ -14,7 +14,8 @@ as positives.
 | `contact_complaints_review.md` | Review/social/forum findings: contact difficulty, wrong-Prima mentions, claims/cancellation/complaints routing |
 | `aggregator_investigation.md` | Go.Compare, CtM, Confused, MSM, Quotezone etc. — exact branding and contact details shown |
 | `search_journey_report.md` | What a consumer sees for the six key searches; 26-query rank data; Maps and AI layers |
-| `agent_reports/` | Full per-workstream reports (11 workstreams; findings carry IDs cited by the documents above) |
+| `agent_reports/` | Full per-workstream reports (11 workstreams; findings carry IDs cited by the documents above). Note: the Reddit/forums workstream (RED-) was terminated early — its report covers only preserved captures |
+| `pdf/` | PDF renderings of every document above |
 | `screenshots/` | 415+ full-page PNG captures, named `YYYY-MM-DD_source_query_shortdesc.png` |
 | `source_archive/` | 428+ raw HTML copies matching the screenshots |
 

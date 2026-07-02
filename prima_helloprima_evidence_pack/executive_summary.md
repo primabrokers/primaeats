@@ -7,10 +7,12 @@
 - **The insurer** — Prima Subsidiary Ltd, trading as "Prima" / "Hello Prima" (helloprima.co.uk, FCA FRN 1031191, London; phone 020 3318 9745)
 
 **Method and scale:** Only lawful, publicly accessible sources; no logins, no paywall
-bypass, no contact with third parties. 10 of 11 workstream reports complete (the
-Reddit/forums workstream will be appended when it completes); **415+ screenshots** and
-**428+ HTML source archives** preserved in `screenshots/` and `source_archive/`;
-full per-finding detail in `agent_reports/` and `evidence_register.csv`.
+bypass, no contact with third parties. 11 workstream reports; **415+ screenshots** and
+**430+ HTML/JSON source archives** preserved in `screenshots/` and `source_archive/`;
+full per-finding detail in `agent_reports/` and `evidence_register.csv`. Note: the
+Reddit/forums workstream was terminated early by the operator — its report covers only
+preserved Reddit captures; MSE, PistonHeads, Mumsnet, CAG and LegalBeagles remain
+unswept (RED-05).
 
 ---
 

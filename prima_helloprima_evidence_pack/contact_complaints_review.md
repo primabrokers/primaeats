@@ -2,8 +2,9 @@
 
 **Date:** 2 July 2026. Detail: `agent_reports/agent2a_trustpilot.md` (TP-),
 `agent_reports/agent2b_other_reviews.md` (REV-), `agent_reports/agent4_social_media.md`
-(SOC-). The Reddit/forums workstream (RED-) was still completing at the time of writing
-and its report will be appended at `agent_reports/agent3_reddit_forums.md`.
+(SOC-), `agent_reports/agent3_reddit_forums.md` (RED- — note: that workstream was
+terminated early by the operator; its report covers only the Reddit material preserved
+before termination, and MSE/PistonHeads/Mumsnet/CAG/LegalBeagles remain unswept).
 
 ---
 
@@ -70,6 +71,12 @@ results are dominated by the broker's contact details (see
 - Hello Prima claims are handled by third party **Broker Direct Plc**; 1★ reviewers rail
   against "Prima Insurance and Broker Direct", blurring the word "broker" around the
   Prima brand (TP-15, TP-16; corroborated by a Mar 2025 archived review, WB-12).
+- Reddit corroboration (independent platform): *"I called Prima and pressed 3 to
+  register a non fault accident. I didn't realise but I had been put through to a third
+  party claims management company called BD Elite"* (r/CarTalkUK, 30 Apr 2025, RED-01);
+  a second poster: *"They tried to push me towards a 3rd party claims management
+  company called BD Elite… pressuring me to sign a credit agreement"* (RED-03); *"Prima
+  have literally washed their hands of it"* (RED-02).
 - claimsnumber.com (an admitted independent claims-management company) publishes "Prima
   Car Insurance Accident Claim Contact Phone Number 0333 006 4465" — neither Prima's
   number (AGG-09, AI-12); prima.theclaimscentre.net (Bolton 01204 numbers) also ranks
@@ -108,4 +115,6 @@ results are dominated by the broker's contact details (see
 
 Trustpilot login wall beyond page 10 of any filtered list (evidence preserved); Yelp,
 Facebook reviews, Cylex, Yably bot-blocked; Google web search CAPTCHA-blocked (Google
-Maps accessible). Reddit/forums report pending.
+Maps accessible); Reddit native search bot-blocked (Wayback + API used). The forums
+workstream was terminated before sweeping MSE, PistonHeads, Mumsnet, CAG, LegalBeagles
+and AVForums — those remain unchecked (RED-05).
