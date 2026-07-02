@@ -1,0 +1,1581 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Preconnect to Google Fonts to speed up font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <!-- Preload the Material Symbols font style and then apply it -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lte IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v27.9 (Yoast SEO v27.9) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<title>Prima Financial Services Ltd - BIBA</title>
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="BIBA">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@BIBAbroker">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/www.biba.org.uk\/#website","url":"https:\/\/www.biba.org.uk\/","name":"BIBA","description":"UK’s leading general insurance intermediary organisation representing the interests of insurance brokers, intermediaries and their customers.","publisher":{"@id":"https:\/\/www.biba.org.uk\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.biba.org.uk\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/www.biba.org.uk\/#organization","name":"BIBA","url":"https:\/\/www.biba.org.uk\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.biba.org.uk\/#\/schema\/logo\/image\/","url":"https:\/\/www.biba.org.uk\/wp-content\/uploads\/2024\/07\/BIBA_logo_heroblue_rgb.jpg","contentUrl":"https:\/\/www.biba.org.uk\/wp-content\/uploads\/2024\/07\/BIBA_logo_heroblue_rgb.jpg","width":1619,"height":1063,"caption":"BIBA"},"image":{"@id":"https:\/\/www.biba.org.uk\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/BIBAFindInsurance\/","https:\/\/x.com\/BIBAbroker","https:\/\/www.instagram.com\/bibabroker\/","https:\/\/www.instagram.com\/find.insurance\/","https:\/\/www.linkedin.com\/company\/758135\/"]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+    <!-- Google Ads - Loads only after consent -->
+    <script type="text/plain" data-cli-class="cli-blocker-script" data-cli-category="advertisement" data-cli-script-type="advertisement" data-cli-block="true" data-cli-element-position="head">
+        (function() {
+            function getCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for(var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+            
+            function hasAdvertisementConsent() {
+                var adCookie = getCookie('cookielawinfo-checkbox-advertisement');
+                return adCookie === 'yes';
+            }
+            
+            function loadGoogleAds() {
+                // Prevent duplicate loading
+                if (window.dataLayer && window.gtag) {
+                    return;
+                }
+                
+                // Load gtag.js
+                var script1 = document.createElement('script');
+                script1.async = true;
+                script1.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16700027413';
+                document.head.appendChild(script1);
+                
+                // Initialize gtag
+                window.dataLayer = window.dataLayer || [];
+                window.gtag = function(){window.dataLayer.push(arguments);};
+                window.gtag('js', new Date());
+                window.gtag('config', 'AW-16700027413');
+            }
+            
+            // Check consent on page load
+            if (hasAdvertisementConsent()) {
+                loadGoogleAds();
+            } else {
+                // Listen for consent changes
+                var checkConsent = function() {
+                    if (hasAdvertisementConsent()) {
+                        loadGoogleAds();
+                        return true;
+                    }
+                    return false;
+                };
+                
+                // Check immediately
+                if (!checkConsent()) {
+                    // Check periodically for consent (when user accepts)
+                    var checkInterval = setInterval(function() {
+                        if (checkConsent()) {
+                            clearInterval(checkInterval);
+                        }
+                    }, 500);
+                    
+                    // Stop checking after 60 seconds
+                    setTimeout(function() {
+                        clearInterval(checkInterval);
+                    }, 60000);
+                }
+            }
+        })();
+    </script>
+    <style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*wp_block_styles_on_demand_placeholder:6a45c2a18a87b*/
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id="wp-block-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer." }
+/*# sourceURL=wp-block-styles-placeholder-inline-css */
+</style>
+<style id="wp-global-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer." }
+/*# sourceURL=wp-global-styles-placeholder-inline-css */
+</style>
+<link rel="stylesheet" id="cookie-law-info-css" href="https://www.biba.org.uk/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-public.css?ver=2.3.9" media="all">
+<link rel="stylesheet" id="cookie-law-info-gdpr-css" href="https://www.biba.org.uk/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-gdpr.css?ver=2.3.9" media="all">
+<style id="cookie-law-info-gdpr-inline-css">
+.cli-modal-content, .cli-tab-content { background-color: #ffffff; }.cli-privacy-content-text, .cli-modal .cli-modal-dialog, .cli-tab-container p, a.cli-privacy-readmore { color: #000000; }.cli-tab-header { background-color: #f2f2f2; }.cli-tab-header, .cli-tab-header a.cli-nav-link,span.cli-necessary-caption,.cli-switch .cli-slider:after { color: #000000; }.cli-switch .cli-slider:before { background-color: #ffffff; }.cli-switch input:checked + .cli-slider:before { background-color: #ffffff; }.cli-switch .cli-slider { background-color: #e3e1e8; }.cli-switch input:checked + .cli-slider { background-color: #28a745; }.cli-modal-close svg { fill: #000000; }.cli-tab-footer .wt-cli-privacy-accept-all-btn { background-color: #00acad; color: #ffffff}.cli-tab-footer .wt-cli-privacy-accept-btn { background-color: #00acad; color: #ffffff}.cli-tab-header a:before{ border-right: 1px solid #000000; border-bottom: 1px solid #000000; }
+/*# sourceURL=cookie-law-info-gdpr-inline-css */
+</style>
+<link rel="stylesheet" id="njt-notibar-frontend-css" href="https://www.biba.org.uk/wp-content/plugins/notibar/assets/frontend/css/notibar.css?ver=abe88c1e15f95a322e95" media="all">
+<link rel="stylesheet" id="select2-style-css" href="https://www.biba.org.uk/wp-content/themes/biba/public/css/select2.min.css?ver=7.0" media="all">
+<link rel="stylesheet" id="slick-style-css" href="https://www.biba.org.uk/wp-content/themes/biba/public/css/slick.css?ver=7.0" media="all">
+<link rel="stylesheet" id="bootstrap-datepicker-style-css" href="https://www.biba.org.uk/wp-content/themes/biba/public/libs/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css?ver=7.0" media="all">
+<link rel="stylesheet" id="biba-custom-css-css" href="https://www.biba.org.uk/wp-content/themes/biba/public/css/app.css?ver=1782383860" media="all">
+<link rel="stylesheet" id="searchwp-live-search-css" href="https://www.biba.org.uk/wp-content/plugins/searchwp-live-ajax-search/assets/styles/style.min.css?ver=1.8.7" media="all">
+<style id="searchwp-live-search-inline-css">
+.searchwp-live-search-result .searchwp-live-search-result--title a {
+  font-size: 16px;
+}
+.searchwp-live-search-result .searchwp-live-search-result--price {
+  font-size: 14px;
+}
+.searchwp-live-search-result .searchwp-live-search-result--add-to-cart .button {
+  font-size: 14px;
+}
+
+/*# sourceURL=searchwp-live-search-inline-css */
+</style>
+<script id="jquery-core-js" src="https://www.biba.org.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.biba.org.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="cookie-law-info-js-extra">
+var Cli_Data = {"nn_cookie_ids":[],"non_necessary_cookies":[],"cookielist":{"necessary":{"id":2683,"status":true,"priority":0,"title":"Necessary","strict":true,"default_state":false,"ccpa_optout":false,"loadonstart":false},"advertisement":{"id":3679,"status":true,"priority":1,"title":"Advertisement","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false},"analytics":{"id":2686,"status":true,"priority":0,"title":"Analytics","strict":false,"default_state":true,"ccpa_optout":false,"loadonstart":false}},"ajax_url":"https://www.biba.org.uk/wp-admin/admin-ajax.php","current_lang":"en","security":"4f68e21c5c","eu_countries":["GB"],"geoIP":"disabled","use_custom_geolocation_api":"","custom_geolocation_api":"https://geoip.cookieyes.com/geoip/checker/result.php","consentVersion":"1","strictlyEnabled":["necessary","obligatoire"],"cookieDomain":"","privacy_length":"250","ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","ccpaType":"gdpr","triggerDomRefresh":"","secure_cookies":""};
+var log_object = {"ajax_url":"https://www.biba.org.uk/wp-admin/admin-ajax.php"};
+//# sourceURL=cookie-law-info-js-extra
+</script>
+<script id="cookie-law-info-js" src="https://www.biba.org.uk/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/js/cookie-law-info-public.js?ver=2.3.9"></script>
+<script id="auth.js-js-extra">
+var auth = {"ajaxurl":"https://www.biba.org.uk/wp-admin/admin-ajax.php","nonce":"4f37894cf3"};
+//# sourceURL=auth.js-js-extra
+</script>
+<script id="auth.js-js" src="https://www.biba.org.uk/wp-content/themes/biba/public/js/auth.js?ver=1782383388"></script>
+<link rel="https://api.w.org/" href="https://www.biba.org.uk/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.biba.org.uk/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 7.0">
+<!-- Stream WordPress user activity plugin v4.2.0 -->
+<!-- Google Tag Manager -->
+<script type="text/plain" data-cli-class="cli-blocker-script" data-cli-category="analytics" data-cli-script-type="analytics" data-cli-block="true" data-cli-block-if-ccpa-optout="false" data-cli-element-position="head">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KGKV8CS');</script>
+<!-- End Google Tag Manager --><link rel="icon" href="https://www.biba.org.uk/wp-content/uploads/2023/02/cropped-BIBA_-_Favicon_-_Square-32x32.png" sizes="32x32">
+<link rel="icon" href="https://www.biba.org.uk/wp-content/uploads/2023/02/cropped-BIBA_-_Favicon_-_Square-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://www.biba.org.uk/wp-content/uploads/2023/02/cropped-BIBA_-_Favicon_-_Square-180x180.png">
+<meta name="msapplication-TileImage" content="https://www.biba.org.uk/wp-content/uploads/2023/02/cropped-BIBA_-_Favicon_-_Square-270x270.png">
+<script src="https://www.biba.org.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.0" defer=""></script></head>
+
+<body class="blog wp-custom-logo wp-theme-biba travel-smarter-this-summer-biba page-travel-smarter-this-summer-biba single-find-insurance" style="padding-top: 90px !important;">
+<div class="topbar d-none d-lg-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-end">
+                <ul class="nav justify-content-end">
+                    
+                    
+                    <li class="nav-item">
+                        <a href="#reciteme" class="nav-link accessibility-tools">Accessibility Tools</a>
+                    </li>
+
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hover-overlay"></div>
+<div class="header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-7 col-lg-3 col-xxl-2">
+                <div class="logo">
+                                        <a href="https://www.biba.org.uk">
+                        <img src="https://www.biba.org.uk/wp-content/uploads/2022/07/logo.svg" width="195" height="auto" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-5 col-lg-9 col-xxl-10 d-flex justify-content-end">
+                <div class="navigation d-lg-flex justify-content-end align-items-center">
+                    <ul class="nav flex-column flex-lg-row flex-xxl-nowrap" id="primary-menu">
+
+                                                        
+                                                                                                            <li class="has-child-tier1" data-menu="sub-1">
+                                            <a href="https://www.biba.org.uk/about-biba/" class="has-child-menu" aria-expanded="false">
+                                                <span>About BIBA</span>
+                                                <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                            </a>
+
+                                            <ul class="sub-menu sub-menu-tier1">
+                                                <li class="active">
+                                                    <a href="#" class="child-menu-back">
+                                                        <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                        <span>Back</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.biba.org.uk/about-biba/">About BIBA</a>
+                                                </li>
+                                                
+                                                                                                                                                                    <li><a href="https://www.biba.org.uk/about-biba/our-team/" target="_self">Our Team</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/about-biba/associates-affiliates/" target="_self">Partners, Associates &amp; Affiliates</a></li>
+                                                        
+                                                                                                                                                                        <li class="has-child-tier2">
+                                                                <a href="https://www.biba.org.uk/about-biba/governance-social-responsibility/" class="has-child-menu">
+                                                                    <span>Governance &amp; Responsibility</span>
+                                                                    <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-inline">
+                                                                </a>
+                                                                <ul class="sub-menu sub-menu-tier2">
+                                                                    <li class="active">
+                                                                        <a href="#" class="child-menu-back">
+                                                                            <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                                            <span>Back</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://www.biba.org.uk/about-biba/governance-social-responsibility/">Governance &amp; Responsibility</a>
+                                                                    </li>
+                                                                                                                                                <li><a href="https://insurance.biba.org.uk/governance/" target="_self">Our Board &amp; Advisory Board Members</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/esg/" target="_self">ESG</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/about-biba/governance-social-responsibility/wellbeing/" target="_self">Wellbeing</a></li>
+                                                                                                                                        </ul>
+                                                            </li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/about-biba/our-mission-statement/" target="_self">Our Mission Statement</a></li>
+                                                        
+                                                                                                                                                                        <li class="has-child-tier2">
+                                                                <a href="https://www.biba.org.uk/about-biba/policy-advocacy/" class="has-child-menu">
+                                                                    <span>Policy &amp; Advocacy</span>
+                                                                    <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-inline">
+                                                                </a>
+                                                                <ul class="sub-menu sub-menu-tier2">
+                                                                    <li class="active">
+                                                                        <a href="#" class="child-menu-back">
+                                                                            <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                                            <span>Back</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://www.biba.org.uk/about-biba/policy-advocacy/">Policy &amp; Advocacy</a>
+                                                                    </li>
+                                                                                                                                                <li><a href="https://www.biba.org.uk/signposting-access-to-insurance/" target="_self">Signposting</a></li>
+                                                                                                                                        </ul>
+                                                            </li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/careers-apprenticeships/" target="_self">Careers &amp; Apprenticeships</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/early_careers/" target="_self">Early careers</a></li>
+                                                        
+                                                                                                </ul>
+                                        </li>
+                                                                        
+                                                            
+                                                            
+                                                                                                            <li class="has-child-tier1" data-menu="sub-2">
+                                            <a href="https://www.biba.org.uk/membership/" class="has-child-menu" aria-expanded="false">
+                                                <span>Membership</span>
+                                                <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                            </a>
+
+                                            <ul class="sub-menu sub-menu-tier1">
+                                                <li class="active">
+                                                    <a href="#" class="child-menu-back">
+                                                        <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                        <span>Back</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.biba.org.uk/membership/">Membership</a>
+                                                </li>
+                                                
+                                                                                                                                                                    <li class="has-child-tier2">
+                                                                <a href="https://www.biba.org.uk/support/" class="has-child-menu">
+                                                                    <span>Support</span>
+                                                                    <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-inline">
+                                                                </a>
+                                                                <ul class="sub-menu sub-menu-tier2">
+                                                                    <li class="active">
+                                                                        <a href="#" class="child-menu-back">
+                                                                            <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                                            <span>Back</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://www.biba.org.uk/support/">Support</a>
+                                                                    </li>
+                                                                                                                                                <li><a href="https://www.biba.org.uk/regulation-compliance-support/" target="_self">Regulation &amp; Compliance Support</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/technical-support/" target="_self">Technical Support</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/pi-hub/" target="_self">PI Hub</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/broker-assess/" target="_self">Broker Assess</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/support/markel-legal-advice/" target="_self">Markel Legal Advice</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/claims-dispute-advocacy/" target="_self">Claims Dispute Advocacy</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/worldwide-broker-network-arrangement/" target="_self">Worldwide Broker Network</a></li>
+                                                                                                                                        </ul>
+                                                            </li>
+                                                        
+                                                                                                                                                                        <li class="has-child-tier2">
+                                                                <a href="https://www.biba.org.uk/knowledge/" class="has-child-menu">
+                                                                    <span>Knowledge</span>
+                                                                    <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-inline">
+                                                                </a>
+                                                                <ul class="sub-menu sub-menu-tier2">
+                                                                    <li class="active">
+                                                                        <a href="#" class="child-menu-back">
+                                                                            <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                                            <span>Back</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://www.biba.org.uk/knowledge/">Knowledge</a>
+                                                                    </li>
+                                                                                                                                                <li><a href="https://www.biba.org.uk/guides-resources/" target="_self">Guides &amp; Resources</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/technical-updates/" target="_self">Technical Updates</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/webinar/" target="_self">Recorded Webinars</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/regulation-updates/" target="_self">Regulation Updates</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/good-practice-guide/" target="_self">Good Practice Guide</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/the-biba-compliance-manual/" target="_self">The Compliance Manual </a></li>
+                                                                                                                                        </ul>
+                                                            </li>
+                                                        
+                                                                                                                                                                        <li class="has-child-tier2">
+                                                                <a href="https://www.biba.org.uk/biba-schemes-facilities/" class="has-child-menu">
+                                                                    <span>BIBA Schemes &amp; Facilities</span>
+                                                                    <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-inline">
+                                                                </a>
+                                                                <ul class="sub-menu sub-menu-tier2">
+                                                                    <li class="active">
+                                                                        <a href="#" class="child-menu-back">
+                                                                            <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                                            <span>Back</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://www.biba.org.uk/biba-schemes-facilities/">BIBA Schemes &amp; Facilities</a>
+                                                                    </li>
+                                                                                                                                                <li><a href="https://www.biba.org.uk/biba-schemes/" target="_self">BIBA Schemes</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/biba-facilities/" target="_self">BIBA Facilities</a></li>
+                                                                                                                                        </ul>
+                                                            </li>
+                                                        
+                                                                                                                                                                        <li class="has-child-tier2">
+                                                                <a href="https://www.biba.org.uk/get-involved/" class="has-child-menu">
+                                                                    <span>Get Involved</span>
+                                                                    <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-inline">
+                                                                </a>
+                                                                <ul class="sub-menu sub-menu-tier2">
+                                                                    <li class="active">
+                                                                        <a href="#" class="child-menu-back">
+                                                                            <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                                            <span>Back</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://www.biba.org.uk/get-involved/">Get Involved</a>
+                                                                    </li>
+                                                                                                                                                <li><a href="https://www.biba.org.uk/regional-committees/" target="_self">Regional Committees</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/technical-committees/" target="_self">Technical Committees</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/young-brokers/" target="_self">Young Brokers</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/careers-apprenticeships/" target="_self">Careers &amp; Apprenticeships</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/industry-claims-working-group/" target="_self">Industry Claims Working Group</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/the-talent-toolkit" target="_self">Talent Toolkit | Resources </a></li>
+                                                                                                                                        </ul>
+                                                            </li>
+                                                        
+                                                                                                </ul>
+                                        </li>
+                                                                        
+                                                            
+                                                            
+                                                                                                            <li class="has-child-tier1" data-menu="sub-3">
+                                            <a href="https://www.biba.org.uk/news-publication/" class="has-child-menu" aria-expanded="false">
+                                                <span>News &amp; Publications</span>
+                                                <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                            </a>
+
+                                            <ul class="sub-menu sub-menu-tier1">
+                                                <li class="active">
+                                                    <a href="#" class="child-menu-back">
+                                                        <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                        <span>Back</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.biba.org.uk/news-publication/">News &amp; Publications</a>
+                                                </li>
+                                                
+                                                                                                                                                                    <li><a href="https://www.biba.org.uk/press-releases/" target="_self">Press Releases</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/publication/" target="_self">Publications</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/latest-news/" target="_self">Latest news</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/technical-updates/" target="_self">Technical Updates</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/regulation-updates/" target="_self">Regulation Updates</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/webinar/" target="_self">Webinars</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/manifesto-and-consultations/" target="_self">Manifesto and Consultations</a></li>
+                                                        
+                                                                                                </ul>
+                                        </li>
+                                                                        
+                                                            
+                                                            
+                                                                                                            <li class="has-child-tier1" data-menu="sub-4">
+                                            <a href="https://www.biba.org.uk/events/" class="has-child-menu" aria-expanded="false">
+                                                <span>Events</span>
+                                                <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                            </a>
+
+                                            <ul class="sub-menu sub-menu-tier1">
+                                                <li class="active">
+                                                    <a href="#" class="child-menu-back">
+                                                        <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                        <span>Back</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.biba.org.uk/events/">Events</a>
+                                                </li>
+                                                
+                                                                                                                                                                    <li><a href="https://insurance.biba.org.uk/events/list" target="_blank">Calendar of Events</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="http://www.thebibaconference.org.uk/" target="_blank">Conference</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="https://www.biba.org.uk/bibas-2026-regional-tour-knowledge-forums/" target="_blank">Tour of the Regions</a></li>
+                                                        
+                                                                                                                                                                        <li><a href="https://insurance.biba.org.uk/events/list?start_date=today&amp;combine=webinar" target="_blank">Upcoming Webinars</a></li>
+                                                        
+                                                                                                                                                                        <li class="has-child-tier2">
+                                                                <a href="https://www.biba.org.uk/awards/" class="has-child-menu">
+                                                                    <span>Awards</span>
+                                                                    <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-right.svg" width="6" height="12" alt="" class="d-inline">
+                                                                </a>
+                                                                <ul class="sub-menu sub-menu-tier2">
+                                                                    <li class="active">
+                                                                        <a href="#" class="child-menu-back">
+                                                                            <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-nav-arrow-left.svg" width="6" height="12" alt="" class="d-block d-lg-none">
+                                                                            <span>Back</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://www.biba.org.uk/awards/">Awards</a>
+                                                                    </li>
+                                                                                                                                                <li><a href="https://www.biba.org.uk/awards/young-broker-of-the-year/" target="_self">Young Broker of the Year</a></li>
+                                                                                                                                                    <li><a href="https://www.biba.org.uk/awards/journalist-and-media-awards/" target="_self">Journalist and Media Awards</a></li>
+                                                                                                                                        </ul>
+                                                            </li>
+                                                        
+                                                                                                </ul>
+                                        </li>
+                                                                        
+                                                            
+                                                            
+                                                                                                            <li><a href="https://www.biba.org.uk/contact/" target="_self">Contact Us</a></li>
+                                                                        
+                                                            
+                                                </ul>
+                    <ul class="nav-button-list d-flex align-items-center list-unstyled mb-0">
+                        <li class="d-none d-lg-block"><a href="#" class="search search-trigger" aria-expanded="false" aria-controls="search-form"><img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-search.svg" width="18" height="18" aria-role="button" aria-label="Search" role="presentation"></a></li>
+
+                                                    <li>
+                                <a href="#" id="btn-login" class="btn btn-outline btn-login" data-bs-toggle="modal" data-bs-target="#modal-login">
+                                    <span>LOGIN</span>
+                                </a>
+                            </li>
+                                                                            <li>
+                                <a href="https://www.biba.org.uk/find-insurance/" class="btn btn-primary btn-insurance">
+                                    <span>FIND INSURANCE</span>
+                                </a>
+                            </li>
+                                            </ul>
+
+                                        <div class="topbar d-block d-lg-none">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 d-flex flex-column justify-content-start justify-content-lg-end">
+                                                                        
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="mobile-search d-block d-lg-none">
+                    <a href="#" class="search search-trigger">
+                        <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-search.svg" width="18" height="18" class="d-block">
+                    </a>
+                </div>
+
+                
+                <div class="menu-hamburger d-block d-lg-none">
+					<span></span>
+				</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fullwidth-submenu">
+                        <div class="submenu-item submenu-item-about-biba" data-sub="sub-1">
+                    <div class="container">
+                        <div class="submenu-box d-flex">
+
+                            
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/about-biba/our-team/" target="_self"><span>Our Team</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/about-biba/associates-affiliates/" target="_self"><span>Partners, Associates &amp; Affiliates</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item item-sub">
+                                            <a href="https://www.biba.org.uk/about-biba/governance-social-responsibility/"><span>Governance &amp; Responsibility</span></a>
+
+                                                                                            <ul>
+                                                
+                                                    <li><a href="https://insurance.biba.org.uk/governance/" target="_self"><span>Our Board &amp; Advisory Board Members</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/esg/" target="_self"><span>ESG</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/about-biba/governance-social-responsibility/wellbeing/" target="_self"><span>Wellbeing</span></a></li>
+
+                                                                                                </ul>
+                                                                                        
+                                        </div>
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/about-biba/our-mission-statement/" target="_self"><span>Our Mission Statement</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item item-sub">
+                                            <a href="https://www.biba.org.uk/about-biba/policy-advocacy/"><span>Policy &amp; Advocacy</span></a>
+
+                                                                                            <ul>
+                                                
+                                                    <li><a href="https://www.biba.org.uk/signposting-access-to-insurance/" target="_self"><span>Signposting</span></a></li>
+
+                                                                                                </ul>
+                                                                                        
+                                        </div>
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/careers-apprenticeships/" target="_self"><span>Careers &amp; Apprenticeships</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/early_careers/" target="_self"><span>Early careers</span></a>
+                                        </div>
+                                        
+                                    
+                                                            
+                        </div>
+                    </div>
+                </div>
+                            <div class="submenu-item submenu-item-membership" data-sub="sub-2">
+                    <div class="container">
+                        <div class="submenu-box d-flex">
+
+                            
+                                                                            <div class="item item-sub">
+                                            <a href="https://www.biba.org.uk/support/"><span>Support</span></a>
+
+                                                                                            <ul>
+                                                
+                                                    <li><a href="https://www.biba.org.uk/regulation-compliance-support/" target="_self"><span>Regulation &amp; Compliance Support</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/technical-support/" target="_self"><span>Technical Support</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/pi-hub/" target="_self"><span>PI Hub</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/broker-assess/" target="_self"><span>Broker Assess</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/support/markel-legal-advice/" target="_self"><span>Markel Legal Advice</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/claims-dispute-advocacy/" target="_self"><span>Claims Dispute Advocacy</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/worldwide-broker-network-arrangement/" target="_self"><span>Worldwide Broker Network</span></a></li>
+
+                                                                                                </ul>
+                                                                                        
+                                        </div>
+                                    
+                                
+                                                                            <div class="item item-sub">
+                                            <a href="https://www.biba.org.uk/knowledge/"><span>Knowledge</span></a>
+
+                                                                                            <ul>
+                                                
+                                                    <li><a href="https://www.biba.org.uk/guides-resources/" target="_self"><span>Guides &amp; Resources</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/technical-updates/" target="_self"><span>Technical Updates</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/webinar/" target="_self"><span>Recorded Webinars</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/regulation-updates/" target="_self"><span>Regulation Updates</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/good-practice-guide/" target="_self"><span>Good Practice Guide</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/the-biba-compliance-manual/" target="_self"><span>The Compliance Manual </span></a></li>
+
+                                                                                                </ul>
+                                                                                        
+                                        </div>
+                                    
+                                
+                                                                            <div class="item item-sub">
+                                            <a href="https://www.biba.org.uk/biba-schemes-facilities/"><span>BIBA Schemes &amp; Facilities</span></a>
+
+                                                                                            <ul>
+                                                
+                                                    <li><a href="https://www.biba.org.uk/biba-schemes/" target="_self"><span>BIBA Schemes</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/biba-facilities/" target="_self"><span>BIBA Facilities</span></a></li>
+
+                                                                                                </ul>
+                                                                                        
+                                        </div>
+                                    
+                                
+                                                                            <div class="item item-sub">
+                                            <a href="https://www.biba.org.uk/get-involved/"><span>Get Involved</span></a>
+
+                                                                                            <ul>
+                                                
+                                                    <li><a href="https://www.biba.org.uk/regional-committees/" target="_self"><span>Regional Committees</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/technical-committees/" target="_self"><span>Technical Committees</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/young-brokers/" target="_self"><span>Young Brokers</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/careers-apprenticeships/" target="_self"><span>Careers &amp; Apprenticeships</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/industry-claims-working-group/" target="_self"><span>Industry Claims Working Group</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/the-talent-toolkit" target="_self"><span>Talent Toolkit | Resources </span></a></li>
+
+                                                                                                </ul>
+                                                                                        
+                                        </div>
+                                    
+                                                            
+                        </div>
+                    </div>
+                </div>
+                            <div class="submenu-item submenu-item-news-publications" data-sub="sub-3">
+                    <div class="container">
+                        <div class="submenu-box d-flex">
+
+                            
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/press-releases/" target="_self"><span>Press Releases</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/publication/" target="_self"><span>Publications</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/latest-news/" target="_self"><span>Latest news</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/technical-updates/" target="_self"><span>Technical Updates</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/regulation-updates/" target="_self"><span>Regulation Updates</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/webinar/" target="_self"><span>Webinars</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/manifesto-and-consultations/" target="_self"><span>Manifesto and Consultations</span></a>
+                                        </div>
+                                        
+                                    
+                                                            
+                        </div>
+                    </div>
+                </div>
+                            <div class="submenu-item submenu-item-events" data-sub="sub-4">
+                    <div class="container">
+                        <div class="submenu-box d-flex">
+
+                            
+                                                                            <div class="item">
+                                            <a href="https://insurance.biba.org.uk/events/list" target="_blank"><span>Calendar of Events</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="http://www.thebibaconference.org.uk/" target="_blank"><span>Conference</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://www.biba.org.uk/bibas-2026-regional-tour-knowledge-forums/" target="_blank"><span>Tour of the Regions</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item">
+                                            <a href="https://insurance.biba.org.uk/events/list?start_date=today&amp;combine=webinar" target="_blank"><span>Upcoming Webinars</span></a>
+                                        </div>
+                                        
+                                    
+                                
+                                                                            <div class="item item-sub">
+                                            <a href="https://www.biba.org.uk/awards/"><span>Awards</span></a>
+
+                                                                                            <ul>
+                                                
+                                                    <li><a href="https://www.biba.org.uk/awards/young-broker-of-the-year/" target="_self"><span>Young Broker of the Year</span></a></li>
+
+                                                
+                                                    <li><a href="https://www.biba.org.uk/awards/journalist-and-media-awards/" target="_self"><span>Journalist and Media Awards</span></a></li>
+
+                                                                                                </ul>
+                                                                                        
+                                        </div>
+                                    
+                                                            
+                        </div>
+                    </div>
+                </div>
+                            <div class="submenu-item submenu-item-5" data-sub="sub-5">
+                    <div class="container">
+                        <div class="submenu-box d-flex">
+
+                                                        
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+    <!-- SEARCH FORM -->
+    <div id="search-form" class="search-field">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <form action="/" method="GET" class="search-form d-flex">
+                    <input type="text" name="s" value="" placeholder="Find events, resources, pages and more…" style="">
+                    <input type="submit" value="" class="submit" style="">
+                </form>
+            </div>
+        </div>
+    </div>
+</div></div><div class="banner-section banner-find-insurance " style="background-image:url(' https://www.biba.org.uk/wp-content/uploads/2026/01/2026-01-01-FIS-Website-Banner-20-YRS-scaled.jpg ');">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-10 offset-xl-1">
+                <p class="text-secondary fw-bold">FIND INSURANCE SERVICE</p>
+                <h2 class="fs-46 lh-60">Call us on <a href="tel:03709501790" class="text-nowrap">0370 950 1790</a></h2>
+                <p class="description mb-3">Our dedicated team of experts can help you find insurance 
+Monday to Friday 9:00am - 6:00pm</p>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="biba-broker-slug" value="prima-financial-services-ltd" style="">
+<div class="content-area content-find-insurance-single display_content_logo_overlay py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-10 offset-xl-1 pb-5" id="broker-content"><article class="post-565983 page type-page status-publish has-post-thumbnail hentry" id="post-565983">
+    <div class="entry-content">
+        <div class="row">
+                        <div class="col-12">
+                <a href="#" class="back-to-results" onclick="history.back()"><span class="icon-back"></span>Back to results</a>
+                <h2 class="broker-name mb-5">Prima Financial Services Ltd</h2>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-5 col-xxl-4">
+
+                
+                <h3>Main Contact Information</h3>
+                <div class="contact-info" id="broker-details">
+                                        <a href="http://primaprotect.co.uk" target="_blank" class="website broker-single-web text-break" data-broker-name="Prima Financial Services Ltd">http://primaprotect.co.uk</a>
+                    
+                    <a href="mailto:anthony@primainsurance.co.uk" class="email broker-single-email" data-broker-name="Prima Financial Services Ltd">anthony@primainsurance.co.uk</a>
+                    <a href="tel:01618261620" class="telno broker-single-phone" data-broker-name="Prima Financial Services Ltd">01618261620</a>
+
+                    
+                </div>
+            </div>
+
+                        <div class="col-12 col-md-6 col-lg-7 col-xxl-8 ps-xxl-4">
+                <div class="contact-info mt-0 mt-md-5 pt-0 pt-md-1">
+                    <div class="address fw-500">
+                    Bury New Road<br>                                                                        Prestwich<br>                        Greater Manchester<br>                        M25 9JY<br>                    </div>
+                </div>
+            </div>
+                        
+        </div>
+    </div>
+</article>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    let searchTermFromLocalStorage = window.localStorage.getItem('fis-search-term');
+    window.dataLayer.push({
+        'event': 'single_broker_term',
+        'brokerName': 'Prima Financial Services Ltd',
+        'insuranceSearchTerm': searchTermFromLocalStorage !== null ? searchTermFromLocalStorage : null
+    });
+    window.localStorage.removeItem("fis-search-term");
+</script>
+</div>
+        </div>
+    </div>
+</div>
+<!-- Form Modal -->
+<div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="modalFormLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <span class="material-symbols-outlined btn-close" data-bs-dismiss="modal" aria-label="Close">close</span>
+      <div class="modal-body">
+        <div id="campaign-form">
+            
+                <div class="gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework" data-form-theme="gravity-theme" data-form-index="0" id="gform_wrapper_1"><div id="gf_1" class="gform_anchor" tabindex="-1"></div>
+                        <div class="gform_heading">
+                            <h2 class="gform_title">Didn't find the cover you were looking for today?</h2>
+                            <p class="gform_description"></p><p>Our dedicated team of experts is here to help and can connect you with a specialist broker.</p><p>Just let us know your name and the best way to reach you and book a call morning or afternoon Monday to Friday.</p><p></p>
+							<p class="gform_required_legend">"<span class="gfield_required gfield_required_asterisk">*</span>" indicates required fields</p>
+                        </div><form method="post" enctype="multipart/form-data" target="gform_ajax_frame_1" id="gform_1" action="/find-insurance/broker-directory/prima-financial-services-ltd/#gf_1" data-formid="1" novalidate="">
+                        <div class="gform-body gform_body"><div id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below validation_below"><div id="field_1_8" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"><label class="gfield_label gform-field-label" for="input_1_8">URL</label><div class="ginput_container"><input name="input_8" id="input_1_8" type="text" value="" autocomplete="new-password" style=""></div><div class="gfield_description" id="gfield_description_1_8">This field is for validation purposes and should be left unchanged.</div></div><div id="field_1_1" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"><label class="gfield_label gform-field-label" for="input_1_1">Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class="ginput_container ginput_container_text"><input name="input_1" id="input_1_1" type="text" value="" class="large" placeholder="Your name" aria-required="true" aria-invalid="false" style=""></div></div><div id="field_1_3" class="gfield gfield--type-phone gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"><label class="gfield_label gform-field-label" for="input_1_3">Contact number<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class="ginput_container ginput_container_phone"><input name="input_3" id="input_1_3" type="tel" value="" class="large" placeholder="Your UK contact number" aria-required="true" aria-invalid="false" style=""></div></div><div id="field_1_7" class="gfield gfield--type-email gfield--width-full field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"><label class="gfield_label gform-field-label" for="input_1_7">Email</label><div class="ginput_container ginput_container_email">
+                            <input name="input_7" id="input_1_7" type="email" value="" class="large" placeholder="Your email address" aria-invalid="false" style="">
+                        </div></div><div id="field_1_4" class="gfield gfield--type-date gfield--input-type-datepicker gfield--datepicker-no-icon gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"><label class="gfield_label gform-field-label" for="input_1_4">Preferred Date and Time</label><div class="ginput_container ginput_container_date">
+                            <input name="input_4" id="input_1_4" type="text" value="" class="datepicker gform-datepicker dmy datepicker_no_icon gdatepicker-no-icon hasDatepicker initialized" placeholder="dd/mm/yyyy" aria-describedby="input_1_4_date_format" aria-invalid="false" style="">
+                            <span id="input_1_4_date_format" class="screen-reader-text">DD slash MM slash YYYY</span>
+                        </div>
+                        <input type="hidden" id="gforms_calendar_icon_input_1_4" class="gform_hidden" value="https://www.biba.org.uk/wp-content/plugins/gravityforms/images/datepicker/datepicker.svg" style=""></div><div id="field_1_6" class="gfield gfield--type-select gfield--width-half time-field field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"><label class="gfield_label gform-field-label screen-reader-text" for="input_1_6"></label><div class="ginput_container ginput_container_select"><select name="input_6" id="input_1_6" class="large gfield_select" aria-invalid="false"><option value="AM">AM</option><option value="PM">PM</option></select></div></div></div></div>
+        <div class="gform-footer gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" onclick="gform.submission.handleButtonClick(this);" data-submission-type="submit" value="Submit" style=""> <input type="hidden" name="gform_ajax" value="form_id=1&amp;title=1&amp;description=1&amp;tabindex=0&amp;theme=gravity-theme&amp;styles=[]&amp;hash=703c69e9698c49f0040a2ffd27cac3f8" style="">
+            <input type="hidden" class="gform_hidden" name="gform_submission_method" data-js="gform_submission_method_1" value="iframe" style="">
+            <input type="hidden" class="gform_hidden" name="gform_theme" data-js="gform_theme_1" id="gform_theme_1" value="gravity-theme" style="">
+            <input type="hidden" class="gform_hidden" name="gform_style_settings" data-js="gform_style_settings_1" id="gform_style_settings_1" value="[]" style="">
+            <input type="hidden" class="gform_hidden" name="is_submit_1" value="1" style="">
+            <input type="hidden" class="gform_hidden" name="gform_submit" value="1" style="">
+            
+            <input type="hidden" class="gform_hidden" name="gform_currency" data-currency="GBP" value="F1mm+q1XV4udkPxsohtFB7ZW4OjtDHMy2wHrx9W4fYp9nKiPZm6Baf60L7GSwf+IaebmLhiqenk5i9o3tQM+KcwAe3X4FwO3RmKrd742t45RhDU=" style="">
+            <input type="hidden" class="gform_hidden" name="gform_unique_id" value="" style="">
+            <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsImE1MjdmZTdlMjgwNTYzZjUxZDhhOTc2MzQ3MGU3NDUxIl0=" style="">
+            <input type="hidden" autocomplete="off" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0" style="">
+            <input type="hidden" autocomplete="off" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1" style="">
+            <input type="hidden" name="gform_field_values" value="" style="">
+            
+        </div>
+                        </form>
+                        </div><span id="gform_visibility_test_1"></span>
+		                <iframe style="display:none;width:0px;height:0px;" src="about:blank" name="gform_ajax_frame_1" id="gform_ajax_frame_1" title="This iframe contains the logic required to handle Ajax powered Gravity Forms."></iframe>
+		                <script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://www.biba.org.uk/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://www.biba.org.uk/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+
+    <div class="footer-col">
+        <div class="container">
+            <div class="row">
+                <div class="col-footer-menu col-footer-logo mb-3 mb-xl-0">
+                                        <a href="https://www.biba.org.uk" class="footer-logo"><img src="https://www.biba.org.uk/wp-content/uploads/2022/07/logo-white.svg" width="200" height="126" alt=""></a>
+                </div>
+
+                                        <div class="col-footer-menu mb-3 mb-md-0">
+
+                                                            <a href="https://www.biba.org.uk/about-biba/" target="_self" class="title">About BIBA</a>
+                                                                                                <a href="https://www.biba.org.uk/about-biba/our-team/" target="_self">Our Team</a>
+                                                                    <a href="https://www.biba.org.uk/about-biba/associates-affiliates/" target="_self">Partners, Associates &amp; Affiliates</a>
+                                                                    <a href="https://www.biba.org.uk/about-biba/our-mission-statement/" target="_self">Our Mission Statement</a>
+                                                                    <a href="https://www.biba.org.uk/about-biba/governance-social-responsibility/" target="_self">Governance &amp; Social Responsibility</a>
+                                                                    <a href="https://www.biba.org.uk/about-biba/policy-advocacy/" target="_self">Policy &amp; Advocacy</a>
+                                                    </div>
+                                        <div class="col-footer-menu mb-3 mb-md-0">
+
+                                                            <a href="https://www.biba.org.uk/support/" target="_self" class="title">Support</a>
+                                                                                                <a href="https://www.biba.org.uk/regulation-compliance-support/" target="_self">Regulation &amp; Compliance Support</a>
+                                                                    <a href="https://www.biba.org.uk/technical-support/" target="_self">Technical Support</a>
+                                                                    <a href="https://www.biba.org.uk/pi-hub/" target="_self">PI Hub</a>
+                                                                    <a href="https://www.biba.org.uk/broker-assess/" target="_self">Broker Assess</a>
+                                                                    <a href="https://www.biba.org.uk/careers-apprenticeships/" target="_self">Careers &amp; Apprenticeships</a>
+                                                                    <a href="https://www.biba.org.uk/support/markel-legal-advice/" target="_self">Markel Legal Advice</a>
+                                                                    <a href="https://www.biba.org.uk/claims-dispute-advocacy/" target="_self">Claims Dispute Advocacy</a>
+                                                                    <a href="https://www.biba.org.uk/worldwide-broker-network-arrangement/" target="_self">Worldwide Broker Network</a>
+                                                    </div>
+                                        <div class="col-footer-menu mb-3 mb-md-0">
+
+                                                            <a href="https://www.biba.org.uk/knowledge/" target="_self" class="title">Knowledge</a>
+                                                                                                <a href="https://www.biba.org.uk/guides-resources/" target="_self">Guides &amp; Resources</a>
+                                                                    <a href="https://www.biba.org.uk/technical-updates/" target="_self">Technical Updates</a>
+                                                                    <a href="https://www.biba.org.uk/webinar/" target="_self">Webinars</a>
+                                                                    <a href="https://www.biba.org.uk/regulation-updates/" target="_self">Regulation Updates</a>
+                                                                    <a href="https://www.biba.org.uk/good-practice-guide/" target="_self">Good Practice Guide</a>
+                                                    </div>
+                                        <div class="col-footer-menu mb-3 mb-md-0">
+
+                                                            <a href="https://www.biba.org.uk/biba-schemes-facilities/" target="_self" class="title">BIBA Schemes &amp; Facilities</a>
+                                                                                                <a href="https://www.biba.org.uk/biba-schemes/" target="_self">BIBA Schemes</a>
+                                                                    <a href="https://www.biba.org.uk/biba-facilities/" target="_self">BIBA Facilities</a>
+                                                    </div>
+                                        <div class="col-footer-menu mb-3 mb-md-0">
+
+                                                            <a href="https://www.biba.org.uk/get-involved/" target="_self" class="title">Get Involved</a>
+                                                                                                <a href="https://www.biba.org.uk/regional-committees/" target="_self">Regional Committees</a>
+                                                                    <a href="https://www.biba.org.uk/technical-committees/" target="_self">Technical Committees</a>
+                                                                    <a href="https://www.biba.org.uk/young-brokers/" target="_self">Young Brokers Committee</a>
+                                                    </div>
+                            </div>
+        </div>
+    </div>
+</footer>
+<div id="copyright-and-logos" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xxl-6">
+                <div class="footer-nav1 mb-2">
+                    <ul class="d-flex align-items-center flex-wrap flex-md-nowrap">
+                                                            <li><a href="https://insurance.biba.org.uk/join-biba" target="_blank">Join BIBA</a></li>
+                                                            <li><a href="https://insurance.biba.org.uk/member-check" target="_blank">Check Member Status</a></li>
+                                                            <li><a href="https://www.biba.org.uk/members/goodpractice/role-responsibilities-insurance-broker-key-legislation-impacting-brokers/1-biba-code-conduct/" target="_self">BIBA Code of Conduct</a></li>
+                                            </ul>
+                </div>
+                <div class="footer-nav2">
+                    <ul class="d-flex p-0 m-0 flex-wrap flex-md-nowrap">
+                                                            <li>
+                                        <a href="https://www.biba.org.uk/terms-conditions/" target="_self">Terms &amp; Conditions</a>
+                                    </li>
+                                                            <li>
+                                        <a href="https://www.biba.org.uk/privacy-policy/" target="_self">Privacy Policy</a>
+                                    </li>
+                                                            <li>
+                                        <a href="https://www.biba.org.uk/cookie-policy/" target="_self">Cookie Policy</a>
+                                    </li>
+                                                            <li>
+                                        <a href="https://www.biba.org.uk/complaints/" target="_self">Complaints</a>
+                                    </li>
+                                                            <li>
+                                        <a href="https://www.biba.org.uk/accessibility/" target="_self">Accessibility</a>
+                                    </li>
+                                                            <li>
+                                        <a href="https://www.biba.org.uk/downloads/" target="_self">Downloads</a>
+                                    </li>
+                                                            <li>
+                                        <a href="https://www.biba.org.uk/sitemap/" target="_self">Sitemap</a>
+                                    </li>
+                                            </ul>
+                </div>
+                <div class="copyright">
+                    BIBA © 2022 Company No. 1293232                </div>
+            </div>
+            <div class="col-12 col-xxl-6 d-flex align-items-center justify-content-center justify-content-xxl-end mt-4 mt-xxl-0">
+                <div class="social-list mt-1">
+                                                                            <a href="https://www.linkedin.com/company/biba/?viewAsMember=true" class="px-1"><img src="https://www.biba.org.uk/wp-content/uploads/2025/06/LINKEDIN-ICON-RGB-BLUE-CIRCLE.png" width="auto" height="30" alt=""></a>
+                                                                            <a href="https://www.facebook.com/BIBAFindInsurance/?notif_id=1635956828055609&amp;notif_t=aymt_simplified_make_page_post&amp;ref=notif" class="px-1"><img src="https://www.biba.org.uk/wp-content/uploads/2025/06/FACEBOOK-ICON-RGB-BLUE-CIRCLE.png" width="auto" height="30" alt=""></a>
+                                                                            <a href="https://www.youtube.com/user/BIBAbroker" class="px-1"><img src="https://www.biba.org.uk/wp-content/uploads/2025/06/YouTube-ICON-RGB-BLUE-CIRCLE.png" width="auto" height="30" alt=""></a>
+                                                                            <a href="https://www.instagram.com/bibabroker/" class="px-1"><img src="https://www.biba.org.uk/wp-content/uploads/2025/06/INSTAGRAM-ICON-RGB-BLUE-CIRCLE.png" width="auto" height="30" alt=""></a>
+                                                                            <a href="https://www.flickr.com/photos/114663076@N05/" class="px-1"><img src="https://www.biba.org.uk/wp-content/uploads/2025/06/FLICKR-ICON-RGB-BLUE-CIRCLE.png" width="auto" height="30" alt=""></a>
+                                                                            <a href="https://www.ncsc.gov.uk/cyberessentials/overview" class="px-1"><img src="https://www.biba.org.uk/wp-content/uploads/2025/06/cyberEssentials_PLUS.png" width="auto" height="45" alt=""></a>
+                                                                            <a href="https://www.woodlandtrust.org.uk/" class="px-1"><img src="https://www.biba.org.uk/wp-content/uploads/2025/06/13672-Corporate-membership-logo-refresh-full-colour.jpg" width="auto" height="40" alt=""></a>
+                    
+                    <div class="awards-text">
+                        <p><strong>BEST ASSOCIATION EVENT</strong> | Conference &amp; Events Awards | Winner ’23, ’24 &amp; 2025<br>
+<strong>SPECIALIST COVERAGE AWARDS</strong> | National insurance award | Winner 2024<br>
+<strong>BEST MEMBERSHIP SUPPORT</strong> | Association Excellence Award | Winner 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SEARCH FORM -->
+<form method="post" id="login-form-modal" action="/admin/members/login" class="login-form form-modal-login">
+    <input type="hidden" id="return" name="return" value="" style="">
+    <input type="hidden" name="_token" value="Z3CKmlokbRJnPTrW9V0KR6gg4PTtIio6RPKOeym1" style="">
+    <input type="hidden" id="referrer" name="referrer" value="https://staging.biba.org.uk/members/litmus-analysis/" style="">
+    <div class="modal modal-login fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </div>
+                <div class="modal-body">
+                                            <h2 class="fs-24 fs-md-36">Member Login</h2>
+                    
+                    <div class="field">
+                        <label for="username" class="visually-hidden form-label">Username</label>
+                        <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-username.svg" width="16" height="auto" alt="Username" class="field-icon" aria-hidden="true">
+                        <input type="text" id="username" value="" placeholder="Username" style="">
+                    </div>
+                    <div class="field">
+                        <label for="password" class="visually-hidden form-label">Password</label>
+                        <img src="https://www.biba.org.uk/wp-content/themes/biba/public/images/icon-password.svg" width="16" height="auto" alt="Password" class="field-icon" aria-hidden="true">
+                        <input type="password" id="password" value="" placeholder="Password" style="">
+                    </div>
+                    <div id="error-messages" class="alert alert-danger" style="display: none"></div>
+                    <a href="https://insurance.biba.org.uk/user/password" class="forgot-password fs-16">Forgot Password?</a>
+
+                    <div class="button-wrap mt-3 mt-md-3 d-flex justify-content-between align-items-center">
+                        <a href="https://insurance.biba.org.uk/register-user" class="register-link fs-16">Register to access website</a>
+                        <button type="submit" id="btn-login-form" href="#" class="btn btn-secondary">Login</button>
+                    </div>
+                </div>
+                <div class="modal-footer d-flex align-items-center justify-content-start justify-content-md-center">
+                    <div class="modal-footer-bg"></div>
+                    <div class="content m-0">
+                        <h3>Why become a member?</h3>
+<p>A range of member benefits and additional savings.</p>
+<p>If you don’t already have your own log in please click Register and follow the process.</p>
+
+                        <div class="button-wrap d-flex flex-column flex-md-row justify-content-center">
+                            
+                                <a href="https://insurance.biba.org.uk/register-user" target="_self" class="btn btn-primary btn-register">Register</a>
+                            
+                            
+                                <a href="https://www.biba.org.uk/membership/" target="_self" class="btn btn-secondary btn-member">Membership Benefits</a>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<div id="njt-notibar-slot" role="status" aria-live="polite" style="content-visibility: visible;"><div class="njt-nofi-container-content njt-nofi-visible" role="status" aria-live="polite" data-bar-id="e423589c-c2b0-4af3-8d75-4e0c4cb2070b"><div class="njt-nofi-container" data-position="fixed" data-placement="top"><div class="njt-nofi-notification-bar" style="--njt-bar-bg:#FFC327;--njt-bar-color:#000000;"><div class="njt-nofi-content njt-nofi-content-desktop" style="max-width:2000px;justify-content:center;text-align:center;font-size:16px;"><div class="njt-nofi-text">We are temporarily unable to take AMEX payments on our website, please email membership@biba.org.uk if you wish to raise any concerns.  
+<p>Sorry for any inconvenience caused.</p></div></div><button class="njt-nofi-close" type="button" aria-label="Close"><svg class="njt-nofi-close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 386.667 386.667" width="14" height="14" aria-hidden="true"><path d="m386.667 45.564-45.564-45.564-147.77 147.769-147.769-147.769-45.564 45.564 147.769 147.769-147.769 147.77 45.564 45.564 147.769-147.769 147.769 147.769 45.564-45.564-147.768-147.77z" fill="currentColor"></path></svg></button></div></div></div></div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/biba/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+    <script>
+        var serviceUrl = "//api.reciteme.com/asset/js?key=";
+        var serviceKey = "95825f10274a3060469020e0b036ee33163f5935";
+        var options = {"Tracker":{"Ga":{"enabled":true}},"Docreader":{"endpoint":"https:\/\/docreader.reciteme.com\/doc\/url?q="},"autoEnable":0};
+        var autoLoad = false;
+        var enableFragment = "#reciteEnable";
+        var reciteIsLoaded = [], frag = !1;
+        window.location.hash === enableFragment && (frag = !0);
+
+        function loadReciteScript(c, b) {
+            var a = document.createElement("script");
+            a.type = "text/javascript";
+            a.readyState ? a.onreadystatechange = function() {
+                if ("loaded" == a.readyState || "complete" == a.readyState) a.onreadystatechange = null, void 0 != b && b()
+            } : void 0 != b && (a.onload = function() {
+                b()
+            });
+            a.src = c;
+            document.getElementsByTagName("head")[0].appendChild(a)
+        }
+
+        function _rc(c) {
+            c += "=";
+            for (var b = document.cookie.split(";"), a = 0; a < b.length; a++) {
+                for (var d = b[a];
+                    " " == d.charAt(0);) d = d.substring(1, d.length);
+                if (0 == d.indexOf(c)) return d.substring(c.length, d.length)
+            }
+            return null
+        }
+
+        function loadReciteService(c) {
+            for (var b = serviceUrl + serviceKey, a = 0; a < reciteIsLoaded.length; a++)
+                if (reciteIsLoaded[a] == b) return;
+            reciteIsLoaded.push(b);
+            loadReciteScript(serviceUrl + serviceKey, function() {
+                "function" === typeof _reciteLoaded && _reciteLoaded();
+                "function" == typeof c && c();
+                Recite.load(options);
+                Recite.Event.subscribe("Recite:load", function() {
+                    Recite.enable()
+                })
+            })
+        }
+
+        function loadReciteMe() {
+            "true" == _rc("Recite.Persist") && loadReciteService();
+            (autoLoad && "false" != _rc("Recite.Persist") || frag) && loadReciteService();
+
+            var reciteMeButtons = document.querySelectorAll("[href='#reciteme']");
+            for (var i = 0; i < reciteMeButtons.length; i++) {
+                var reciteMeButton = reciteMeButtons[i];
+                if (reciteMeButton) {
+                    reciteMeButton.addEventListener("click", function () {
+                        // Sync the toolbar with the translate button:
+                        // we may need to store the page lang when recite is loaded
+                        // so that we can restore it when we close ...
+                        var storedLang = localStorage.getItem("user_lang");
+                        if(storedLang != undefined ){
+                            localStorage.setItem('launch_language' , storedLang);
+                        }
+                        loadReciteService();
+                    });
+                }
+            }
+        }
+
+        if(document.addEventListener) {
+            document.addEventListener("DOMContentLoaded", function(event) {
+                loadReciteMe();
+            });
+        } else {
+            loadReciteMe();
+        }
+
+        
+        function _reciteLoaded() {
+            
+            function _syncLanguage() {
+                var lang = Recite.Preferences.get('language');
+                var storedLang = localStorage.getItem("user_lang");
+                if (lang != storedLang) {
+                    localStorage.setItem("user_lang", lang);
+                }               
+            }
+
+            function _resetLang() {
+                //we should set the stored lang back to what it was when recite loaded..
+                var launchLang = localStorage.getItem('launch_language');
+                if( launchLang != undefined ){
+                    localStorage.setItem("user_lang" , launchLang);
+                }
+                else{
+                    localStorage.removeItem("user_lang");
+                }
+            }
+
+            // Recite.Event.subscribe('Preferences:load', _syncLanguage);
+            // Recite.Event.subscribe('Preferences:set', _syncLanguage);
+            // Recite.Event.subscribe('Preferences:reset', _syncLanguage);
+            // Recite.Event.subscribe('Controls:loaded', function () {
+            //     Recite.Sizzle('[data-language="default"]')[0].addEventListener("click", function () {
+            //         localStorage.removeItem("user_lang");
+            //     });
+            // });
+            Recite.Event.subscribe('Recite:disable', _resetLang);
+
+                    }
+
+        
+
+        // Translation Buttons:
+        // Add translation to data-translate attributed element click events:
+        var translateButtons = document.querySelectorAll("[data-translate]");
+        for (var i = 0; i < translateButtons.length; i++) {
+            translateButtons[i].addEventListener('click', function (e) {
+                //update the non prefernces lang val here...
+                var langCode = this.getAttribute("data-translate");
+                if( langCode && langCode != undefined ){
+                    // Do we want clicks on the in page lang selector
+                    // that take place with recite open
+                    // to be recalled 
+                    // when recite closes?
+                    // localStorage.setItem('launch_language' , langCode );
+                    _handleTranslation( langCode );
+                }
+                
+                e.preventDefault();
+                e.stopPropagation();
+
+                return false;
+            }, false);
+        }
+
+        // Check for and handle stored language:
+        if (_rc("Recite.Persist") === "false" || _rc("Recite.Persist") === null || _rc("Recite.Persist") == "null") {
+            var storedLang = localStorage.getItem("user_lang");
+            if (storedLang != "undefined") {
+                _handleTranslation(storedLang);
+            }
+        }
+
+        // Handle a translation:
+        var reciteLoading = false;
+        function _handleTranslation(lang) {
+            if (lang === null || lang == "null" || lang == _getDocLang())
+                return;
+
+            if (typeof (Recite) != "undefined") {
+                reciteLoading = false;
+                localStorage.setItem("user_lang", lang);
+                Recite.Language.Translate.translate(document.getElementsByTagName("body")[0], lang);
+                if(Recite.isEnabled() ){
+                    Recite.Preferences.set('language', lang);
+                }
+            } else {
+                //check that we haven’t already requested this -
+                if (!reciteLoading) {
+                    loadAndTranslate(lang);
+                }
+            }
+        }
+
+        // Load ReciteMe core and schedule an initial translation:
+        function loadAndTranslate(lang) {
+            reciteLoading = true;
+            loadReciteScript(serviceUrl + serviceKey, function () {
+                _handleTranslation(lang); //this is in the script load callback so no ‘looping’
+            });
+        }
+
+        // Assess the default language of the page:
+        function _getDocLang() {
+            var html = document.getElementsByTagName("html");
+            if (html[0].hasAttribute("lang")) {
+                return html[0].getAttribute("lang");
+            }
+            var body = document.getElementsByTagName("body");
+            if (body[0].hasAttribute("lang")) {
+                return body[0].getAttribute("lang");
+            }
+            return null;
+        }
+    </script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGKV8CS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->    <!-- Zendesk Widget - Loads only after consent -->
+    <script type="text/plain" data-cli-class="cli-blocker-script" data-cli-category="analytics" data-cli-script-type="analytics" data-cli-block="true" data-cli-element-position="body">
+        (function() {
+            function getCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for(var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+            
+            function hasAnalyticsConsent() {
+                var analyticsCookie = getCookie('cookielawinfo-checkbox-analytics');
+                return analyticsCookie === 'yes';
+            }
+            
+            function loadZendesk() {
+                // Check if already loaded
+                if (document.getElementById('ze-snippet')) {
+                    return;
+                }
+                
+                var script = document.createElement('script');
+                script.id = 'ze-snippet';
+                script.src = 'https://static.zdassets.com/ekr/snippet.js?key=ea81b48b-d4b5-4913-b5d0-c79a0d2d9106';
+                document.body.appendChild(script);
+            }
+            
+            // Check consent on page load
+            if (hasAnalyticsConsent()) {
+                loadZendesk();
+            } else {
+                // Listen for consent changes
+                var checkConsent = function() {
+                    if (hasAnalyticsConsent()) {
+                        loadZendesk();
+                        return true;
+                    }
+                    return false;
+                };
+                
+                // Check immediately
+                if (!checkConsent()) {
+                    // Check periodically for consent (when user accepts)
+                    var checkInterval = setInterval(function() {
+                        if (checkConsent()) {
+                            clearInterval(checkInterval);
+                        }
+                    }, 500);
+                    
+                    // Stop checking after 60 seconds
+                    setTimeout(function() {
+                        clearInterval(checkInterval);
+                    }, 60000);
+                }
+            }
+        })();
+    </script>
+            <style>
+            .searchwp-live-search-results {
+                opacity: 0;
+                transition: opacity .25s ease-in-out;
+                -moz-transition: opacity .25s ease-in-out;
+                -webkit-transition: opacity .25s ease-in-out;
+                height: 0;
+                overflow: hidden;
+                z-index: 9999995; /* Exceed SearchWP Modal Search Form overlay. */
+                position: absolute;
+                display: none;
+            }
+
+            .searchwp-live-search-results-showing {
+                display: block;
+                opacity: 1;
+                height: auto;
+                overflow: auto;
+            }
+
+            .searchwp-live-search-no-results {
+                padding: 3em 2em 0;
+                text-align: center;
+            }
+
+            .searchwp-live-search-no-min-chars:after {
+                content: "Continue typing";
+                display: block;
+                text-align: center;
+                padding: 2em 2em 0;
+            }
+        </style>
+                <script>
+            var _SEARCHWP_LIVE_AJAX_SEARCH_BLOCKS = true;
+            var _SEARCHWP_LIVE_AJAX_SEARCH_ENGINE = 'default';
+            var _SEARCHWP_LIVE_AJAX_SEARCH_CONFIG = 'default';
+        </script>
+        <div class="wt-cli-cookie-bar-container" data-nosnippet="true" style="display: block;"><!--googleoff: all--><div id="cookie-law-info-bar" role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="wt-cli-cookie-banner" data-cli-geo-loc="0" style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: inherit; inset: auto 30px 30px auto; width: 445px; height: auto; max-height: 1160px; overflow: auto; position: fixed; box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px; box-sizing: border-box; display: block;" class="wt-cli-cookie-bar" data-template-id="cli-style-v3" data-cli-type="widget"><div class="cli-wrapper"><span id="wt-cli-cookie-banner"><div class="wt-cli-template cli-style-v3"><div class="h3">Our use of cookies</div>We use necessary cookies to make our site work (for example, to manage your session). We’d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking “Accept”, you consent to the use of ALL the cookies. However you may visit Cookie Settings to provide a controlled consent.<div class="cli-bar-btn_container"><a id="wt-cli-accept-all-btn" tabindex="0" role="button" style="color: rgb(255, 255, 255); background-color: rgb(15, 20, 60);" data-cli_action="accept_all" class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button">Accept all cookies</a> <a id="wt-cli-reject-btn" tabindex="0" role="button" style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); background-color: rgb(72, 79, 132);" class="wt-cli-element medium cli-plugin-button cli-plugin-main-button cookie_action_close_header_reject cli_action_button" data-cli_action="reject">Accept essential cookies only</a></div><div class="h3 separator">Necessary cookies</div>Necessary cookies enable core functionality on our website such as security, network management, and accessibility. You may disable these by changing your browser settings, but this may affect how the website functions.<div class="h3 separator">Analytics cookies</div>We use analytics cookies so we can keep track of the number of visitors to various parts of the site and understand how our website is used. You can customize your analytics cookie preferences using the Cookie Settings button above. For more information on how these cookies work please see our <a id="wt-cli-policy-link" tabindex="0" href="https://www.biba.org.uk/cookie-policy/" style="color: rgb(10, 10, 10);" target="_blank" class="wt-cli-element wt-cli-element cli-plugin-main-link">Cookie policy</a>.<div class="h3 separator">Advertisement cookies</div>We use advertisement cookies to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads, measure ad performance, and enable remarketing. You can customize your advertisement cookie preferences using the Cookie Settings button below or Save and close if you are satisfied.<div class="cli-bar-btn_container separator"><a id="wt-cli-settings-btn" tabindex="0" role="button" style="margin: 0px 5px 0px 0px; color: rgb(51, 51, 51); background-color: rgb(222, 223, 224);" class="wt-cli-element medium cli-plugin-button cli-plugin-main-button cli_settings_button">Cookie Settings</a><a role="button" tabindex="0" class="wt-cli-element cli_action_button cli-accept-button medium cli-plugin-button green" data-cli_action="accept">Save and close</a></div></div></span></div></div><div tabindex="0" id="cookie-law-info-again" style="display: none; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); position: fixed; font-family: inherit; width: auto; bottom: 0px; right: 100px;"><span id="cookie_hdr_showagain">Manage consent</span></div><div class="cli-modal" id="cliSettingsPopup" role="dialog" aria-labelledby="wt-cli-privacy-title" tabindex="-1" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+    <div class="cli-modal-content cli-bar-popup">
+      <button aria-label="Close" type="button" class="cli-modal-close" id="cliModalClose">
+      <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+      <span class="wt-cli-sr-only">Close</span>
+      </button>
+        <div class="cli-modal-body">
+
+    <div class="wt-cli-element cli-container-fluid cli-tab-container">
+        <div class="cli-row">
+                            <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                    <div class="cli-privacy-overview">
+                        <h4 id="wt-cli-privacy-title">Privacy Overview</h4>                        <div class="cli-privacy-content">
+                            <div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the ...</div>
+                        </div>
+                        <a id="wt-cli-privacy-readmore" tabindex="0" role="button" class="cli-privacy-readmore" data-readmore-text="Show more" data-readless-text="Show less"></a>                    </div>
+                </div>
+                        <div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container" role="tablist">
+
+                
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-necessary" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-necessary" aria-controls="wt-cli-tab-necessary" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+                                Necessary                            </a>
+                                                                                        <div class="wt-cli-necessary-checkbox">
+                                    <input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-necessary" aria-label="Necessary" data-id="checkbox-necessary" checked="checked" style="">
+                                    <label class="form-check-label" for="wt-cli-checkbox-necessary"> Necessary </label>
+                                </div>
+                                <span class="cli-necessary-caption">
+                                    Always Enabled                                </span>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-necessary" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-necessary" class="cli-tab-pane cli-fade" data-id="necessary">
+                            <div class="wt-cli-cookie-description">Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-analytics</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Analytics".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-functional</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-necessary</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category "Necessary".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-others</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Other.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-performance</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">viewed_cookie_policy</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.</td></tr></tbody></table></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-advertisement" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-advertisement" aria-controls="wt-cli-tab-advertisement" class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab">
+                                Advertisement                            </a>
+                                                                                        <div class="cli-switch">
+                                    <input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-advertisement" aria-label="advertisement" data-id="checkbox-advertisement" role="switch" aria-controls="wt-cli-tab-link-advertisement" aria-labelledby="wt-cli-tab-link-advertisement" style="">
+                                    <label for="wt-cli-checkbox-advertisement" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">advertisement</span></label>
+                                </div>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-advertisement" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-advertisement" class="cli-tab-pane cli-fade" data-id="advertisement">
+                            <div class="wt-cli-cookie-description">Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies help track visitors across websites and collect information to provide customized ads, measure ad performance, and enable marketing.
+
+</div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-analytics" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-analytics" aria-controls="wt-cli-tab-analytics" class="cli-nav-link cli-settings-mobile" data-target="analytics" data-toggle="cli-toggle-tab">
+                                Analytics                            </a>
+                                                                                        <div class="cli-switch">
+                                    <input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-analytics" aria-label="analytics" data-id="checkbox-analytics" role="switch" aria-controls="wt-cli-tab-link-analytics" aria-labelledby="wt-cli-tab-link-analytics" checked="checked" style="">
+                                    <label for="wt-cli-checkbox-analytics" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">analytics</span></label>
+                                </div>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-analytics" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-analytics" class="cli-tab-pane cli-fade" data-id="analytics">
+                            <div class="wt-cli-cookie-description">Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+</div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cli-modal-footer">
+    <div class="wt-cli-element cli-container-fluid cli-tab-container">
+        <div class="cli-row">
+            <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                <div class="cli-tab-footer wt-cli-privacy-overview-actions">
+                                            
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay cli-show"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--></div>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			cli_cookiebar_settings='{"animate_speed_hide":"500","animate_speed_show":"500","background":"rgb(255, 255, 255)","border":"#b1a6a6c2","border_on":false,"button_1_button_colour":"rgb(88, 91, 130)","button_1_button_hover":"rgb(88, 91, 130)","button_1_link_colour":"#fff","button_1_as_button":true,"button_1_new_win":false,"button_2_button_colour":"rgba(0, 0, 0, 0)","button_2_button_hover":"rgba(0, 0, 0, 0)","button_2_link_colour":"#0a0a0a","button_2_as_button":false,"button_2_hidebar":false,"button_2_nofollow":false,"button_3_button_colour":"rgb(72, 79, 132)","button_3_button_hover":"rgb(72, 79, 132)","button_3_link_colour":"rgb(255, 255, 255)","button_3_as_button":true,"button_3_new_win":false,"button_4_button_colour":"rgb(222, 223, 224)","button_4_button_hover":"rgb(222, 223, 224)","button_4_link_colour":"#333333","button_4_as_button":true,"button_7_button_colour":"rgb(15, 20, 60)","button_7_button_hover":"rgb(15, 20, 60)","button_7_link_colour":"#fff","button_7_as_button":true,"button_7_new_win":false,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"accept_close_reload":false,"reject_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333333","show_once_yn":false,"show_once":"10000","logging_on":true,"as_popup":false,"popup_overlay":true,"bar_heading_text":"","cookie_bar_as":"widget","cookie_setting_popup":true,"accept_all":false,"js_script_blocker":false,"popup_showagain_position":"bottom-right","widget_position":"right","button_1_style":[],"button_2_style":[],"button_3_style":[["border-color","rgb(255, 255, 255)"]],"button_4_style":[["margin","0px 5px 0px 0px"]],"button_5_style":[["background-color","rgba(0, 0, 0, 0)"]],"button_7_style":[],"accept_close_page_navigation":false}';
+		/* ]]> */
+		</script>
+		<script id="pages_find-insurance-single.js-js-extra">
+var fis = {"ajaxurl":"https://www.biba.org.uk/wp-admin/admin-ajax.php","nonce":"6738448eeb"};
+//# sourceURL=pages_find-insurance-single.js-js-extra
+</script>
+<script id="pages_find-insurance-single.js-js" src="https://www.biba.org.uk/wp-content/themes/biba/public/js/pages/find-insurance-single.js?ver=1782383388"></script>
+<script id="njt-notibar-frontend-js-before">
+window.njtNotibarData = {"bars":[{"id":"e423589c-c2b0-4af3-8d75-4e0c4cb2070b","name":"My notification bar","enabled":true,"order":0,"content":{"text":"We are temporarily unable to take AMEX payments on our website, please email membership@biba.org.uk if you wish to raise any concerns.  \n<p>Sorry for any inconvenience caused.<\/p>","textMobile":"<strong>We are sorry but our website is experiencing some technical issues, and we are working to resolve these as quickly as possible.   This is connected to the national outage of the Cloud Flare service which is impacting many other websites.\n\n<p>If you have an urgent enquiry, please use the following contacts\n\n<p>For BIBA members - 0344 7700 266\n\n<p>For our Find Insurance Service \u2013 0370 950 1790\n\n<p>For press enquiries please email \u2013 bibacomms@biba.org.uk<\/strong>","mobileSeparate":false,"button":{"enabled":false,"text":"","url":"","fontWeight":500,"newWindow":true},"buttonMobile":{"enabled":true,"text":"","url":"","fontWeight":400,"newWindow":true}},"style":{"bgColor":"#FFC327","textColor":"#000000","btnBgColor":"#1919cf","btnTextColor":"#ffffff","fontSize":16,"alignment":"center","contentWidth":2000,"positionType":"fixed","placement":"top"},"display":{"devices":["desktop","mobile"],"pageLogic":"all","pageIds":["home_page"],"postLogic":"all","postIds":[],"cptTypes":[],"cptLogic":"all","cptIds":[],"audience":"all","roles":[],"userIds":[]},"behavior":{"hideCloseButton":"close","reopenAfterDays":1},"schedule":{"enabled":false,"useClientTime":false,"startAt":"","endAt":"","dailyWindow":{"enabled":false,"start":"","end":""},"daysOfWeek":[0,1,2,3,4,5,6]}}],"global":{"displayMode":"single","rotationIntervalSeconds":5,"rotationPauseOnHover":true,"rotationOrder":"sequential"},"ctx":{"pageId":0,"postId":0,"isHome":true,"isSingleProduct":false,"theme":"British Insurance Brokers Association","serverNow":1782960305,"serverWeekday":4,"serverHHMM":"02:45","currentCptType":"","currentObjectId":0}};
+//# sourceURL=njt-notibar-frontend-js-before
+</script>
+<script id="njt-notibar-frontend-js" src="https://www.biba.org.uk/wp-content/plugins/notibar/build/frontend.js?ver=abe88c1e15f95a322e95"></script>
+<script id="select2-js-js" src="https://www.biba.org.uk/wp-content/themes/biba/public/js/select2.min.js?ver=4.0.13"></script>
+<script id="moment-js-js" src="https://www.biba.org.uk/wp-content/themes/biba/public/libs/moment.min.js?ver=4.0.13"></script>
+<script id="slick-js-js" src="https://www.biba.org.uk/wp-content/themes/biba/public/js/slick.js?ver=4.0.13"></script>
+<script id="bootstrap-datepicker-js-js" src="https://www.biba.org.uk/wp-content/themes/biba/public/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js?ver=1782383388"></script>
+<script id="biba-custom-js-js" src="https://www.biba.org.uk/wp-content/themes/biba/public/js/app.js?ver=1782383860"></script>
+<script id="pages_login.js-js" src="https://www.biba.org.uk/wp-content/themes/biba/public/js/pages/login.js?ver=1782383388"></script>
+<script id="swp-live-search-client-js-extra">
+var searchwp_live_search_params = [];
+searchwp_live_search_params = {"ajaxurl":"https:\/\/www.biba.org.uk\/wp-admin\/admin-ajax.php","origin_id":0,"config":{"default":{"engine":"default","input":{"delay":300,"min_chars":3},"results":{"position":"bottom","width":"auto","offset":{"x":0,"y":5}},"spinner":{"lines":12,"length":8,"width":3,"radius":8,"scale":1,"corners":1,"color":"#424242","fadeColor":"transparent","speed":1,"rotate":0,"animation":"searchwp-spinner-line-fade-quick","direction":1,"zIndex":2000000000,"className":"spinner","top":"50%","left":"50%","shadow":"0 0 1px transparent","position":"absolute"}}},"msg_no_config_found":"No valid SearchWP Live Search configuration found!","aria_instructions":"When autocomplete results are available use up and down arrows to review and enter to go to the desired page. Touch device users, explore by touch or with swipe gestures."};;
+//# sourceURL=swp-live-search-client-js-extra
+</script>
+<script id="swp-live-search-client-js" src="https://www.biba.org.uk/wp-content/plugins/searchwp-live-ajax-search/assets/javascript/dist/script.min.js?ver=1.8.7"></script>
+<script id="wp-dom-ready-js" src="https://www.biba.org.uk/wp-includes/js/dist/dom-ready.min.js?ver=a06281ae5cf5500e9317"></script>
+<script id="wp-hooks-js" src="https://www.biba.org.uk/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://www.biba.org.uk/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://www.biba.org.uk/wp-includes/js/dist/a11y.min.js?ver=af934e5259bc51b8718e"></script>
+<script id="gform_json-js" defer="defer" src="https://www.biba.org.uk/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.4"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","file_uploaded":"File uploaded","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://www.biba.org.uk/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2,"code":"GBP"},"base_url":"https://www.biba.org.uk/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://www.biba.org.uk/wp-content/plugins/gravityforms/images/spinner.svg","version_hash":"9fe441395de8ba6649549850bdb20f07","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer="defer" src="https://www.biba.org.uk/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.10.4"></script>
+<script id="jquery-ui-core-js" src="https://www.biba.org.uk/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"></script>
+<script id="jquery-ui-datepicker-js" src="https://www.biba.org.uk/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3"></script>
+<script id="gform_datepicker_legacy-js" defer="defer" src="https://www.biba.org.uk/wp-content/plugins/gravityforms/js/datepicker-legacy.min.js?ver=2.10.4"></script>
+<script id="gform_datepicker_init-js" defer="defer" src="https://www.biba.org.uk/wp-content/plugins/gravityforms/js/datepicker.min.js?ver=2.10.4"></script>
+<script id="gform_placeholder-js" defer="defer" src="https://www.biba.org.uk/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.4"></script>
+<script id="gform_gravityforms_utils-js" defer="defer" src="https://www.biba.org.uk/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=3f278756f0a3032bed328ff6a9f6c01d"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer="defer" src="https://www.biba.org.uk/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=7c651d0ba638ce98b9c65141edddd567"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"9fe441395de8ba6649549850bdb20f07"},"ajax":{"ajaxurl":"https://www.biba.org.uk/wp-admin/admin-ajax.php","ajax_submission_nonce":"c77795daba","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://www.biba.org.uk/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"d61210addb"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer="defer" src="https://www.biba.org.uk/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=301fdc9aa6144168f3b854c4c2c8f6d3"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.biba.org.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.0"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://www.biba.org.uk/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a149f80d8de05292',t:'MTc4Mjk1NjcwNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+
+<p id="a11y-speak-intro-text" class="a11y-speak-intro-text" style="position:absolute;margin:-1px;padding:0;height:1px;width:1px;overflow:hidden;clip-path:inset(50%);border:0;word-wrap:normal !important;" hidden="">Notifications</p><div id="a11y-speak-assertive" class="a11y-speak-region" style="position:absolute;margin:-1px;padding:0;height:1px;width:1px;overflow:hidden;clip-path:inset(50%);border:0;word-wrap:normal !important;" aria-live="assertive" aria-relevant="additions text" aria-atomic="true"></div><div id="a11y-speak-polite" class="a11y-speak-region" style="position:absolute;margin:-1px;padding:0;height:1px;width:1px;overflow:hidden;clip-path:inset(50%);border:0;word-wrap:normal !important;" aria-live="polite" aria-relevant="additions text" aria-atomic="true"></div><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div><meta name="description" content="The British Insurance Brokers' Association (BIBA) is the UK's leading insurance intermediary organisation."></body></html>
