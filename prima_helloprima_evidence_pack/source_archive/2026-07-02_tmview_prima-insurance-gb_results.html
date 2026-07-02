@@ -1,0 +1,887 @@
+<!DOCTYPE html><html lang="en"><head><link rel="stylesheet" href="DetailsDS.mobile.f8b9ac96.css"><link rel="stylesheet" href="index.c7f3c73e.css"><script type="text/javascript" async="" defer="" src="//stats.euipo.europa.eu/piwik.js"></script><script src="index.53f487fe.js"></script><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>TMView</title><meta name="description" content="TMView"><meta name="author" content=""><style type="text/css">.__react_component_tooltip {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  padding: 8px 21px;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}
+.__react_component_tooltip.allow_hover, .__react_component_tooltip.allow_click {
+  pointer-events: auto;
+}
+.__react_component_tooltip::before, .__react_component_tooltip::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.__react_component_tooltip.show {
+  opacity: 0.9;
+  margin-top: 0;
+  margin-left: 0;
+  visibility: visible;
+}
+.__react_component_tooltip.place-top::before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-bottom::before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-left::before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  right: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-right::before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  left: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip .multi-line {
+  display: block;
+  padding: 2px 0;
+  text-align: center;
+}</style><style data-emotion=""></style><meta name="appVersion" content=""><style data-styled="active" data-styled-version="5.3.3"></style><link href="https://www.tmdn.org/tmview/TMResults.30c7b970.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/TMResults.30c7b970.js"></script><link href="https://www.tmdn.org/tmview/Header.mobile.f9f4fd7e.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/Header.mobile.f9f4fd7e.js"></script><link href="https://www.tmdn.org/tmview/Header.0c18852a.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/Header.0c18852a.js"></script><link href="https://www.tmdn.org/tmview/Footer.924f023d.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/Footer.924f023d.js"></script><link href="https://www.tmdn.org/tmview/TMResults.6bebe8d2.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/TMResults.6bebe8d2.js"></script><link href="https://www.tmdn.org/tmview/TMResults.c542bc19.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/TMResults.c542bc19.js"></script><link href="https://www.tmdn.org/tmview/TMResults.mobile.4e7e0600.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/TMResults.mobile.4e7e0600.js"></script><link href="https://www.tmdn.org/tmview/TMResults.mobile.e51133d2.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/TMResults.mobile.e51133d2.js"></script><link href="https://www.tmdn.org/tmview/Home.mobile.dd140a35.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/Home.mobile.dd140a35.js"></script><link href="https://www.tmdn.org/tmview/Home.mobile.edf8a4bb.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/Home.mobile.edf8a4bb.js"></script><link href="https://www.tmdn.org/tmview/TMResults.5ee4035e.js" rel="preload" as="script"><script async="" type="text/javascript" src="https://www.tmdn.org/tmview/TMResults.5ee4035e.js"></script><style type="text/css" data-rbd-always="0"> [data-rbd-drag-handle-context-id="0"] { 
+          -webkit-touch-callout: none;
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
+          touch-action: manipulation;
+         } [data-rbd-droppable-context-id="0"] { overflow-anchor: none; } </style><style type="text/css" data-rbd-dynamic="0"> [data-rbd-drag-handle-context-id="0"] { 
+      cursor: -webkit-grab;
+      cursor: grab;
+     }  </style></head><body> <div id="main"><div height="100%" class="sc-dkPtRN kDIQOW sc-kJpAUB iKYHsk"><div class="sc-kiIyQV cnlazw"><div size="2" data-test-id="test-loader" class="sc-cLpAjG ljRYcv"></div></div><div class="Toastify"></div><header class="sc-kdneuM evwZtp"><div class="sc-dlVxhl hdFydZ header-content"><div class="sc-DWqcv cuuJFQ"><div class="sc-iaUyqC igyjQT"><a class="sc-lcepkR gyUaAe"><img alt="image" src="https://www.tmdn.org/tmview/TMview-logo.82b305f0.svg" class="sc-brSvTw jUeOvN logoHeader"></a></div><div class="sc-ZOtfp yWSds"><div class="sc-gsNilK leoZZA"></div><div class="sc-fvxzrP cupJNC"><div class="sc-ZOtfp yWSds"><div class="sc-bhiFeW llqKSQ"><button type="button" class="sc-ksdxgE htIyHx sc-jNhWkn sc-dqhCBx kmPIPb drMIkH is-default"><i class="sc-jRQBWg hHChEU button-icon"></i></button><button type="button" class="sc-ksdxgE htIyHx sc-jNhWkn sc-dqhCBx kmPIPb drMIkH is-default"><i class="sc-jRQBWg MidnD button-icon"></i></button><button type="button" class="sc-ksdxgE htIyHx sc-jNhWkn sc-dqhCBx kmPIPb drMIkH is-default"><i class="sc-jRQBWg ddplDc button-icon"></i></button></div></div><div class="sc-ZOtfp yWSds"><a class="sc-lcepkR gyUaAe" href="#/tmview/help">Help</a></div><div class="sc-ZOtfp yWSds" style="margin-top: 1px;"><div data-test-id="test-language-selector-div" class="sc-fFeiMQ LHZrf dropdown-parent sc-iQLbEm gBhCQT"><button type="button" data-test-id="language-selector-button" class="sc-ksdxgE lfcPIF"><span class="sc-egiyK kQqUBH button-title">English (en)</span><i class="sc-jRQBWg cascoQ button-icon"></i></button><div data-test-id="test-language-selector-div" class="sc-fotOHu lfFNcH dropdown-options"><div class="options-options"><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="عربي (ar)" id="0">عربي (ar)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Български (bg)" id="1">Български (bg)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Bosanski (bs)" id="2">Bosanski (bs)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Ceština (cs)" id="3">Ceština (cs)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Dansk (da)" id="4">Dansk (da)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Deutsch (de)" id="5">Deutsch (de)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Ελληνικά (el)" id="6">Ελληνικά (el)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="English (en)" id="7">English (en)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Español (es)" id="8">Español (es)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Eesti keel (et)" id="9">Eesti keel (et)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Suomi (fi)" id="10">Suomi (fi)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Français (fr)" id="11">Français (fr)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Hrvatski (hr)" id="12">Hrvatski (hr)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Magyar (hu)" id="13">Magyar (hu)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Icelandic (is)" id="14">Icelandic (is)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Italiano (it)" id="15">Italiano (it)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="日本語 (ja)" id="16">日本語 (ja)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="ქართული (ka)" id="17">ქართული (ka)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="한국어 (ko)" id="18">한국어 (ko)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Lietuviu kalba (lt)" id="19">Lietuviu kalba (lt)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Latviešu valoda (lv)" id="20">Latviešu valoda (lv)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Crnogorski (me)" id="21">Crnogorski (me)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="македонски јазик (mk)" id="22">македонски јазик (mk)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Malti (mt)" id="23">Malti (mt)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Nederlands (nl)" id="24">Nederlands (nl)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Norsk (no)" id="25">Norsk (no)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Polski (pl)" id="26">Polski (pl)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Português (pt)" id="27">Português (pt)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Româna (ro)" id="28">Româna (ro)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Pусский (ru)" id="29">Pусский (ru)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Slovenčina (sk)" id="30">Slovenčina (sk)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Slovenšcina (sl)" id="31">Slovenšcina (sl)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Shqip (sq)" id="32">Shqip (sq)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Српски (sr)" id="33">Српски (sr)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Svenska (sv)" id="34">Svenska (sv)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Türkçe (tr)" id="35">Türkçe (tr)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="Українська (uk)" id="36">Українська (uk)</a><a class="sc-lcepkR gyUaAe sc-bXTejn jIyIjf" title="中文 (zh)" id="37">中文 (zh)</a></div></div></div></div><div class="sc-ZOtfp geopvU"><div><button type="button" data-test-id="sign-in-button" class="sc-ksdxgE jGBBUI sc-jNhWkn kmPIPb" style="text-align: left;"><span class="sc-egiyK kQqUBH button-title">Sign in</span></button><button type="button" data-test-id="sign-up-button" class="sc-ksdxgE jGBBUI sc-jNhWkn kmPIPb" style="text-align: left;"><span class="sc-egiyK kQqUBH button-title">Register</span></button></div></div></div></div></div></div></header><div content="true" class="sc-dkPtRN dYpvky sc-kJpAUB fCWlFE"><div class="sc-dlVxhl hdFydZ"><div class="sc-dkPtRN kNoshY"><div class="sc-jRyozQ kHZKIa"><div class="sc-gsNilK aksEL"><div><div direction="column" class="sc-ZOtfp jhMpbM"><div class="sc-fjHZBf dTJUlY"><div data-for="edit-search-button-tooltip" data-tip="true" class="sc-dkPtRN dSeTvc" currentitem="false"><button type="button" data-test-id="edit-search-button" class="sc-ksdxgE fNDUAU sc-hJhJFJ sc-kmiuhe yCPTX kKUUcs"><span class="sc-gKclnd ifyfbH button-icon"><i content="&quot;\e921&quot;" color="rgb(28, 117, 188)" class="sc-iCfMLu YBwRF"></i><i content="&quot;\e97c&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu gWdKBA"></i></span></button><div class="__react_component_tooltip te4ba1d7a-8333-4327-aec2-1c60d5f98db2 place-bottom type-dark" id="edit-search-button-tooltip" data-id="tooltip"><style>
+  	.te4ba1d7a-8333-4327-aec2-1c60d5f98db2 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-top {
+        margin-top: -10px;
+    }
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-bottom {
+        margin-top: 10px;
+    }
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-left {
+        margin-left: -10px;
+    }
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-right {
+        margin-left: 10px;
+    }
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .te4ba1d7a-8333-4327-aec2-1c60d5f98db2.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div>Edit Search</div></div></div><div data-for="search-description-tooltip" data-test-id="search-description" data-tip="true" class="sc-dkPtRN kRHkfY sc-bMPrwj erNaKX" currentitem="false"><div class="sc-dkPtRN boGfNc sc-bMPrwj iGBmjz"><div class="sc-dkPtRN kNoshY sc-bMPrwj eSDIWK search-description-text"><u><span><span class="sc-ddCuvZ jFNArg">Offices: </span><span class="sc-gVFfnG cfIjpC">GB</span><span class="sc-ddCuvZ jFNArg">; </span></span></u></div></div><div class="__react_component_tooltip te2e8dda8-38e2-4d84-94c7-96bf7a753ad3 place-right type-dark" id="search-description-tooltip" data-id="tooltip"><style>
+  	.te2e8dda8-38e2-4d84-94c7-96bf7a753ad3 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-top {
+        margin-top: -10px;
+    }
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-bottom {
+        margin-top: 10px;
+    }
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-left {
+        margin-left: -10px;
+    }
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-right {
+        margin-left: 10px;
+    }
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .te2e8dda8-38e2-4d84-94c7-96bf7a753ad3.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-dkPtRN kNoshY sc-bxYNtK ejHXUv"><div class="sc-cKAQkk imWWBi"><div data-test-id="search-value" class="sc-GEbAx bgpUHU search-criteria-row"><div class="sc-jUosCB hAowCz search-criteria-label"><strong>Offices: </strong>:</div><div class="sc-jUosCB iyQHIg"><span>GB</span></div></div></div></div></div></div></div><div class="sc-gsNilK gXvjjT"></div></div><div direction="row" class="sc-ZOtfp llCYug"><div class="sc-LQqIQ dpqybk"><form class="sc-lbhJGD dxZseV"><div><div class="sc-dkPtRN kNoshY sc-eHyqeh qpwSH"><div class="sc-ZOtfp yWSds"><div class="sc-wAsCI izcirm">Trade mark name:</div><fieldset class="sc-bBHHxi CFHhs"><div class="label-block"><legend class="sc-crHmcD hQjDeh"><span class="sc-egiyK kQqUBH"></span></legend></div><div class="sc-dkPtRN VVvQw sc-jgrJph gCfehb input-block"><div class="sc-ZOtfp yWSds"><div class="sc-inrDdN kCukgu"><div class="sc-fFeiMQ LHZrf dropdown-parent sc-igcPbY hGhkMq criteriaButton"><button type="button" data-test-id="selected_basic_search_criteria_c" class="sc-ksdxgE lfcPIF"><span class="sc-egiyK kQqUBH button-title">Contains</span><i class="sc-jRQBWg cascoQ button-icon"></i></button><div data-test-id="selected_basic_search_criteria_c-options" class="sc-fotOHu hwYPGQ dropdown-options"><div class="options-options"><button type="button" id="0" data-test-id="basic_search_criteria_w" class="sc-ksdxgE htIyHx is-default">Word</button><button type="button" id="1" data-test-id="basic_search_criteria_b" class="sc-ksdxgE htIyHx is-default">Begins with</button><button type="button" id="2" data-test-id="basic_search_criteria_e" class="sc-ksdxgE htIyHx is-default">Ends with</button><button type="button" id="3" data-test-id="basic_search_criteria_f" class="sc-ksdxgE htIyHx is-default">Fuzzy search</button><button type="button" id="4" data-test-id="basic_search_criteria_i" class="sc-ksdxgE htIyHx is-default">Is</button></div></div></div><div class="sc-dkPtRN kNoshY sc-eaPPdL jUqeKE"><div class="sc-jibziO DSAKz"><div class="rbt sc-cxVPaa bDvDFh sc-dTBbbW FhAVh" tabindex="-1" style="outline: none; position: relative;"><div style="display: flex; flex: 1 1 0%; height: 100%; position: relative;"><input autocomplete="off" placeholder="Type trade mark name" type="text" data-test-id="basic-search-input" maxlength="100" aria-autocomplete="both" aria-expanded="false" aria-haspopup="listbox" role="combobox" class="rbt-input-main form-control rbt-input" value="prima insurance" style=""><input aria-hidden="true" class="rbt-input-hint" readonly="" tabindex="-1" value="" style="background-color: transparent; border-color: transparent; box-shadow: none; color: rgba(0, 0, 0, 0.35); left: 0px; pointer-events: none; position: absolute; top: 0px; width: 100%;"></div><div class="rbt-aux"><button type="button" class="sc-ksdxgE fNDUAU button-clear" style="pointer-events: auto;"><i class="sc-jRQBWg fhxybt button-icon"></i></button></div></div></div><div data-for="help-search-tm-name-tooltipx" data-tip="true"><div class="__react_component_tooltip tde91dd27-1ebb-4303-a01d-62df4ad4983c place-right type-dark" id="help-search-tm-name-tooltip" data-id="tooltip"><style>
+  	.tde91dd27-1ebb-4303-a01d-62df4ad4983c {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-top {
+        margin-top: -10px;
+    }
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-bottom {
+        margin-top: 10px;
+    }
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-left {
+        margin-left: -10px;
+    }
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-right {
+        margin-left: 10px;
+    }
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tde91dd27-1ebb-4303-a01d-62df4ad4983c.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><strong>help_search_tm_name_title</strong><p class="sc-iqseJM idUaBr">help_search_tm_name<br></p></div></div></div></div><button type="button" data-test-id="search-button" class="sc-ksdxgE gPlxdT sc-hzuobC bOHBAF">Search</button></div></div><span class="sc-egiyK sc-khQegj kQqUBH cyfIls"></span><span class="sc-egiyK sc-hUpaCq kQqUBH cxaKxG"></span><span class="sc-egiyK sc-gSQFLo kQqUBH hJswLT"></span></fieldset></div></div></div></form></div><div class="sc-dkPtRN dGTjBn"><div data-for="results-save-button-tooltip" data-tip="true" currentitem="false"><button disabled="" type="button" data-test-id="save-search-button" class="sc-ksdxgE dBGcDO sc-hJhJFJ sc-ezHVNJ fkMVAy jFTEEV"><i class="sc-jRQBWg fgPVCe button-icon"></i>Save this search</button><div class="__react_component_tooltip te7dc249f-4f5e-461f-a22e-542de7673433 place-bottom type-dark" id="results-save-button-tooltip" data-id="tooltip" style="max-height: 14137px;"><style>
+  	.te7dc249f-4f5e-461f-a22e-542de7673433 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.te7dc249f-4f5e-461f-a22e-542de7673433.place-top {
+        margin-top: -10px;
+    }
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-bottom {
+        margin-top: 10px;
+    }
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-left {
+        margin-left: -10px;
+    }
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-right {
+        margin-left: 10px;
+    }
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .te7dc249f-4f5e-461f-a22e-542de7673433.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div style="pointer-events: auto;"><span><span>You need to </span><span><button class="sc-gGCDDS bOTwMN">Login</button></span><span>/</span><span><button class="sc-gGCDDS bOTwMN">Register</button></span></span></div></div></div><div data-for="share-email-button-tooltip" data-tip="true" class="sc-dkPtRN cyZqAU sc-gNDVjn cWaOiN" currentitem="false"><button type="button" data-test-id="share-email-button" class="sc-ksdxgE dBGcDO sc-hJhJFJ sc-ezHVNJ fkMVAy jFTEEV share-button"><span class="sc-gKclnd ifyfbH button-icon"><i content="&quot;\e957&quot;" color="rgb(0, 148, 68)" class="sc-iCfMLu edCxEn"></i><i content="&quot;\e994&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu cSiKdt"></i></span>Share by email</button><div class="__react_component_tooltip t0490e017-c33c-4a77-b79a-b064344ed88b place-bottom type-dark" id="share-email-button-tooltip" data-id="tooltip"><style>
+  	.t0490e017-c33c-4a77-b79a-b064344ed88b {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t0490e017-c33c-4a77-b79a-b064344ed88b.place-top {
+        margin-top: -10px;
+    }
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-bottom {
+        margin-top: 10px;
+    }
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-left {
+        margin-left: -10px;
+    }
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-right {
+        margin-left: 10px;
+    }
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t0490e017-c33c-4a77-b79a-b064344ed88b.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div>Share by email</div></div></div><div data-for="search-wipo-button-tooltip" data-tip="true" class="sc-dkPtRN cyZqAU sc-gNDVjn cWaOiN" currentitem="false"><div><button type="button" data-test-id="search-wipo-button" class="sc-ksdxgE fNDUAU sc-hJhJFJ sc-ezHVNJ fkMVAy jFTEEV"><img alt="image" src="https://www.tmdn.org/tmview/TMview_WIPO_button.1c4d7134.svg" class="sc-brSvTw jUeOvN"></button></div><div class="__react_component_tooltip tf0ad5cf8-767a-4a99-982e-1b23c2726b3e place-bottom type-dark" id="search-wipo-button-tooltip" data-id="tooltip"><style>
+  	.tf0ad5cf8-767a-4a99-982e-1b23c2726b3e {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-top {
+        margin-top: -10px;
+    }
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-bottom {
+        margin-top: 10px;
+    }
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-left {
+        margin-left: -10px;
+    }
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-right {
+        margin-left: 10px;
+    }
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tf0ad5cf8-767a-4a99-982e-1b23c2726b3e.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div>WIPO Global Brand DB</div></div></div></div></div></div></div></div><div class="sc-kOyqGX kFYgXD"><div class="sc-eVmaCL bBsPzq"><div class="sticky--inner" style="left: 0px; right: 0px;"><div class="sc-gWaPwi hUmJWJ"><div class="sc-ZOtfp dckojy"><div data-for="export-results-button-tooltip" data-tip="true" class="sc-dkPtRN dSeTvc" currentitem="false"><div data-test-id="test-export-button" class="sc-fFeiMQ dXFkbn dropdown-parent sc-lhMiDA sc-URNzB hdivVU jvxNuC"><button disabled="" type="button" data-for="export-results-button-tooltip" data-test-id="test-export-main-button" class="sc-ksdxgE dyfqtr is-ghost"><span class="sc-gKclnd ifyfbH button-icon"><i content="&quot;\e922&quot;" color="rgb(0, 148, 68)" class="sc-iCfMLu dFuwzd"></i><i content="&quot;\e97d&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu eaYPkz"></i></span><span class="sc-egiyK kQqUBH button-title">Export</span></button><div data-test-id="test-export-button" class="sc-fotOHu dRFozn dropdown-options"><div class="options-options"><button type="button" data-test-id="pdf-button" id="0" class="sc-ksdxgE htIyHx sc-cVEUmN iFCxo is-default"><span class="sc-egiyK kQqUBH button-title">Export to PDF</span></button><button type="button" data-test-id="xls-button" id="1" class="sc-ksdxgE htIyHx sc-cVEUmN iFCxo is-default"><span class="sc-egiyK kQqUBH button-title">Export to Excel</span></button><button type="button" data-test-id="doc-button" id="2" class="sc-ksdxgE htIyHx sc-cVEUmN iFCxo is-default"><span class="sc-egiyK kQqUBH button-title">Export to Word</span></button></div></div></div><div class="__react_component_tooltip t7651c382-7266-4ac3-a2f4-53e507dc6234 place-bottom type-dark" id="export-results-button-tooltip" data-id="tooltip"><style>
+  	.t7651c382-7266-4ac3-a2f4-53e507dc6234 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t7651c382-7266-4ac3-a2f4-53e507dc6234.place-top {
+        margin-top: -10px;
+    }
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-bottom {
+        margin-top: 10px;
+    }
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-left {
+        margin-left: -10px;
+    }
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-right {
+        margin-left: 10px;
+    }
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t7651c382-7266-4ac3-a2f4-53e507dc6234.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-dkPtRN kNoshY sc-ksDcAU eWYukH"><strong>Export</strong></div></div></div><div data-for="compare-button-tooltip" data-tip="true" class="sc-dkPtRN dSeTvc" currentitem="false"><button disabled="" type="button" data-test-id="test-compare-main-button" class="sc-ksdxgE dyfqtr sc-hJhJFJ fkMVAy is-ghost"><span class="sc-gKclnd ifyfbH button-icon"><i content="&quot;\e919&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu gsmvRK"></i><i content="&quot;\e978&quot;" color="rgb(255, 255, 255)" class="sc-iCfMLu knFJeZ"></i><i content="&quot;\e979&quot;" color="rgb(255, 255, 255)" class="sc-iCfMLu dnOHyI"></i><i content="&quot;\e97a&quot;" color="rgb(126, 65, 145)" class="sc-iCfMLu fNnVXA"></i><i content="&quot;\e97b&quot;" color="rgb(126, 65, 145)" class="sc-iCfMLu bmXWun"></i></span><span class="sc-egiyK kQqUBH button-title">Compare</span></button><div class="__react_component_tooltip te1dd8be5-00fe-44c3-a35a-64897e8c5d05 place-bottom type-dark" id="compare-button-tooltip" data-id="tooltip"><style>
+  	.te1dd8be5-00fe-44c3-a35a-64897e8c5d05 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-top {
+        margin-top: -10px;
+    }
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-bottom {
+        margin-top: 10px;
+    }
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-left {
+        margin-left: -10px;
+    }
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-right {
+        margin-left: 10px;
+    }
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .te1dd8be5-00fe-44c3-a35a-64897e8c5d05.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-dkPtRN kNoshY sc-ksDcAU eWYukH"><strong>Compare</strong><p class="sc-iqseJM idUaBr">The number of trade marks selected for comparison must be between 2 and 9<br></p></div></div></div><div><div><div data-for="alert-button-tooltip-undefined" data-tip="true" currentitem="false"><div class="sc-bdvvtL dbyBpJ"><button disabled="" type="button" class="sc-ksdxgE dyfqtr sc-hJhJFJ fkMVAy is-ghost"><span class="sc-gKclnd ifyfbH button-icon"><i content="&quot;\e900&quot;" color="rgb(248, 175, 65)" class="sc-iCfMLu DiGoc"></i><i content="&quot;\e974&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu jTACGH"></i><i content="&quot;\e975&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu kyZnyq"></i><i content="&quot;\e976&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu gpfKid"></i></span><span class="sc-egiyK kQqUBH button-title">Alerts</span></button></div><div class="__react_component_tooltip t5313f1fb-926c-4f02-b00f-75847dd9be29 place-bottom type-dark" id="alert-button-tooltip-undefined" data-id="tooltip" style="max-height: 14137px;"><style>
+  	.t5313f1fb-926c-4f02-b00f-75847dd9be29 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t5313f1fb-926c-4f02-b00f-75847dd9be29.place-top {
+        margin-top: -10px;
+    }
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-bottom {
+        margin-top: 10px;
+    }
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-left {
+        margin-left: -10px;
+    }
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-right {
+        margin-left: 10px;
+    }
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t5313f1fb-926c-4f02-b00f-75847dd9be29.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div style="pointer-events: auto;"><strong>Alerts</strong><div><span><span>You need to </span><span><button class="sc-gGCDDS bOTwMN">Login</button></span><span>/</span><span><button class="sc-gGCDDS bOTwMN">Register</button></span></span></div></div></div></div></div></div><div><div><div data-for="tag-button-tooltip-undefined" data-tip="true" currentitem="false"><div class="sc-bdvvtL dbyBpJ"><button disabled="" type="button" class="sc-ksdxgE dyfqtr sc-hJhJFJ fkMVAy is-ghost"><span class="sc-gKclnd ifyfbH button-icon"><i content="&quot;\e95c&quot;" color="rgb(248, 129, 37)" class="sc-iCfMLu hbcBno"></i><i content="&quot;\e996&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu doFUcL"></i></span><span class="sc-egiyK kQqUBH button-title">Tags</span></button></div><div class="__react_component_tooltip tcd0e51f7-4e39-49f5-aa28-5b6718f0a603 place-bottom type-dark" id="tag-button-tooltip-undefined" data-id="tooltip" style="max-height: 14137px;"><style>
+  	.tcd0e51f7-4e39-49f5-aa28-5b6718f0a603 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-top {
+        margin-top: -10px;
+    }
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-bottom {
+        margin-top: 10px;
+    }
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-left {
+        margin-left: -10px;
+    }
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-right {
+        margin-left: 10px;
+    }
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tcd0e51f7-4e39-49f5-aa28-5b6718f0a603.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div style="pointer-events: auto;"><strong>Tags</strong><div><span><span>You need to </span><span><button class="sc-gGCDDS bOTwMN">Login</button></span><span>/</span><span><button class="sc-gGCDDS bOTwMN">Register</button></span></span></div></div></div></div></div></div><div class="sc-gsNilK iLzmxn"></div><div class="sc-gsNilK ePShrw"></div></div><div class="sc-ZOtfp bedWbw"><div class="sc-hXLIYv SCtNW"><div></div></div></div><div class="sc-ZOtfp irqhpq"><button type="button" data-for="results-action-button-tooltip" data-tip="Statistics view" data-test-id="gallery-stats-button" class="sc-ksdxgE dyfqtr is-ghost" currentitem="false"><span class="sc-gKclnd ifyfbH button-icon"><i content="&quot;\e95a&quot;" color="rgb(28, 117, 188)" class="sc-iCfMLu iNgIni"></i><i content="&quot;\e995&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu hhNrVY"></i></span><span class="sc-egiyK kQqUBH button-title">Statistics view</span></button><div class="sc-eJRTFu hntlHJ vertical"></div><div class="sc-ZOtfp hlIjyT view-mode-selector"><button type="button" data-for="results-action-button-tooltip" data-tip="List view" data-test-id="gallery-list-thin-button" class="sc-ksdxgE bBTIO sc-cVEUmN sc-dLPVTQ iFCxo bBcxA is-hoverable" currentitem="false"><span class="sc-gKclnd ifyfbH button-icon"><i content="&quot;\e938&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu cNAEBx"></i><i content="&quot;\e98b&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu jvjywa"></i><i content="&quot;\e98c&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu fLCwyz"></i><i content="&quot;\e98d&quot;" color="rgb(28, 117, 188)" class="sc-iCfMLu bGRQpY"></i><i content="&quot;\e98e&quot;" color="rgb(28, 117, 188)" class="sc-iCfMLu eoNGDB"></i><i content="&quot;\e98f&quot;" color="rgb(28, 117, 188)" class="sc-iCfMLu dzlIDy"></i></span><span class="sc-egiyK kQqUBH button-title">List view</span></button><button type="button" data-for="results-action-button-tooltip" data-tip="Gallery view" data-test-id="gallery-grid-button" class="sc-ksdxgE bBTIO sc-cVEUmN sc-dLPVTQ iFCxo bBcxA is-hoverable" currentitem="false"><span class="sc-gKclnd ifyfbH button-icon"><i content="&quot;\e930&quot;" color="rgb(28, 117, 188)" class="sc-iCfMLu kHIYgd"></i><i content="&quot;\e97e&quot;" color="rgb(28, 117, 188)" class="sc-iCfMLu fDSptK"></i><i content="&quot;\e97f&quot;" color="rgb(28, 117, 188)" class="sc-iCfMLu fGqxBN"></i><i content="&quot;\e980&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu hjnsWk"></i><i content="&quot;\e981&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu rlamB"></i><i content="&quot;\e982&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu eTgQgq"></i><i content="&quot;\e983&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu hjTpHL"></i><i content="&quot;\e984&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu fGcisg"></i><i content="&quot;\e985&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu kdvzht"></i></span><span class="sc-egiyK kQqUBH button-title">Gallery view</span></button><div class="__react_component_tooltip tec27e887-0b0f-4a9a-8b3d-f780223f0f6a place-bottom type-dark" id="results-action-button-tooltip" data-id="tooltip"><style>
+  	.tec27e887-0b0f-4a9a-8b3d-f780223f0f6a {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-top {
+        margin-top: -10px;
+    }
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-bottom {
+        margin-top: 10px;
+    }
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-left {
+        margin-left: -10px;
+    }
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-right {
+        margin-left: 10px;
+    }
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tec27e887-0b0f-4a9a-8b3d-f780223f0f6a.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div class="sc-eJRTFu hntlHJ vertical"></div><div class="sc-fFeiMQ dXFkbn dropdown-parent sc-bJcRwn gGfUhb"><button type="button" data-test-id="edit-table" class="sc-ksdxgE dyfqtr is-ghost"><span class="sc-gKclnd ifyfbH button-icon"><i content="&quot;\e956&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu kfJONp"></i><i content="&quot;\e992&quot;" color="rgb(0, 158, 226)" class="sc-iCfMLu ceMQNZ"></i><i content="&quot;\e993&quot;" color="rgb(45, 48, 54)" class="sc-iCfMLu kDsuNC"></i></span><span class="sc-egiyK kQqUBH button-title">Edit columns</span></button><div class="sc-fotOHu hwYPGQ dropdown-options"><div class="options-options"><div class="sc-uWCef bTlVKx"><div data-rbd-droppable-id="columnsConf" data-rbd-droppable-context-id="0"><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="markImageURI" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="markImageURI" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox" checked="">Graphic representation</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="tmName" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="tmName" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox" checked="">Trade mark name</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="tProtection" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="tProtection" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox">Designated territory</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="applicationDate" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="applicationDate" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox" checked="">Application date</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="niceClass" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="niceClass" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox" checked="">Goods and Services</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="tradeMarkStatus" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="tradeMarkStatus" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox" checked="">Trade mark status</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="tmOffice" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="tmOffice" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox" checked="">Trade mark office</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="applicationNumber" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="applicationNumber" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox" checked="">Application number</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="registrationNumber" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="registrationNumber" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox">Registration number</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="applicantName" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="applicantName" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox" checked="">Applicant name</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="tradeMarkType" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="tradeMarkType" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox">Trade mark type</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="viennaCodes" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="viennaCodes" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox">Vienna code</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="oppositionPeriodStart" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="oppositionPeriodStart" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox">Opposition period</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="oppositionDeadLine" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="oppositionDeadLine" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox">Opposition deadline</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="registrationDate" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="registrationDate" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox">Registration date</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div><div><div class="edit-row" data-rbd-draggable-context-id="0" data-rbd-draggable-id="seniorityClaimed" tabindex="0" role="button" aria-describedby="rbd-hidden-text-0-hidden-text-0" data-rbd-drag-handle-draggable-id="seniorityClaimed" data-rbd-drag-handle-context-id="0" draggable="false"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox">Seniority claimed</label></div><i class="sc-jRQBWg hwCjTV"></i></div></div></div></div></div><div class="options-footer"><div class="sc-gsNilK hzsKlQ"><div class="sc-ZOtfp eehkDE"><button type="button" name="forceClose" class="sc-ksdxgE jzvnVe sc-cVEUmN sc-ojmzf iFCxo iVUFcm is-default"><span class="sc-egiyK kQqUBH button-title">Cancel</span></button><div class="sc-gsNilK fzVTqr"></div><button type="button" name="forceClose" class="sc-ksdxgE jzvnVe is-default"><span class="sc-egiyK kQqUBH button-title">Apply</span></button></div></div></div></div></div><div class="sc-eJRTFu hntlHJ vertical"></div><button type="button" class="sc-ksdxgE fNDUAU"><i class="sc-jRQBWg cxTVTM button-icon"></i></button></div></div></div></div><div></div></div></div><div><div class="sc-gdWVyK iKsuUh"><div class="sc-gCEpsI hSgHeg"><div data-test-id="test-filters-start-div" class="sc-gsNilK aksEL"><div class="sc-ZOtfp dYTqSQ"><div data-test-id="test-filter-form" class="sc-fvOMhg ywOdR"><div class="sc-ZOtfp jahxnO"><button type="button" data-test-id="test-filters-main-button" class="sc-ksdxgE fNDUAU"><i class="sc-jRQBWg cjEzLO button-icon"></i></button></div><div class="sc-gsNilK cilXHs"></div></div></div></div></div><div class="sc-hzbjYJ fiCzmK"><div class="sc-dkPtRN kNoshY sc-dGXBhE gJIwme"><div class="sc-dkPtRN kNoshY sc-iIUQWv iyTNjf"><div class="ReactTable sc-eBTqsU gQYKHg"><div class="rt-table" role="grid"><div class="rt-thead -header" style="min-width: 982px;"><div class="rt-tr" role="row"><div class="rt-th" role="columnheader" tabindex="-1" style="flex: 30 0 auto; width: 30px; max-width: 30px;"><div class=""></div></div><div class="rt-th rt-resizable-header" role="columnheader" tabindex="-1" style="flex: 50 0 auto; width: 50px; max-width: 50px;"><div class="rt-resizable-header-content"><div class="sc-hGPBjI iPwvZL"><label><input type="checkbox"></label></div></div><div class="rt-resizer"></div></div><div class="rt-th rt-resizable-header" role="columnheader" tabindex="-1" style="flex: 140 0 auto; width: 140px; max-width: 140px;"><div class="rt-resizable-header-content"><div class="sc-dkPtRN kNoshY">Graphic representation</div></div><div class="rt-resizer"></div></div><div class="rt-th rt-resizable-header -cursor-pointer" role="columnheader" tabindex="-1" style="flex: 134 0 auto; width: 134px;"><div class="rt-resizable-header-content">Trade mark name</div><div class="rt-resizer"></div></div><div class="rt-th rt-resizable-header -cursor-pointer" role="columnheader" tabindex="-1" style="flex: 120 0 auto; width: 120px; max-width: 120px;"><div class="rt-resizable-header-content">Application date</div><div class="rt-resizer"></div></div><div class="rt-th rt-resizable-header -cursor-pointer" role="columnheader" tabindex="-1" style="flex: 72 0 auto; width: 72px;"><div class="rt-resizable-header-content">Goods and Services</div><div class="rt-resizer"></div></div><div class="rt-th rt-resizable-header -cursor-pointer" role="columnheader" tabindex="-1" style="flex: 100 0 auto; width: 100px; max-width: 100px;"><div class="rt-resizable-header-content">Trade mark status</div><div class="rt-resizer"></div></div><div class="rt-th rt-resizable-header -cursor-pointer" role="columnheader" tabindex="-1" style="flex: 86 0 auto; width: 86px; max-width: 86px;"><div class="rt-resizable-header-content">Trade mark office</div><div class="rt-resizer"></div></div><div class="rt-th rt-resizable-header -cursor-pointer" role="columnheader" tabindex="-1" style="flex: 125 0 auto; width: 125px; max-width: 125px;"><div class="rt-resizable-header-content">Application number</div><div class="rt-resizer"></div></div><div class="rt-th rt-resizable-header -cursor-pointer" role="columnheader" tabindex="-1" style="flex: 125 0 auto; width: 125px;"><div class="rt-resizable-header-content">Applicant name</div><div class="rt-resizer"></div></div></div></div><div class="rt-tbody" style="min-width: 982px;"><div class="rt-tr-group" role="rowgroup"><div class="rt-tr -padRow -odd" role="row"><div class="rt-td" role="gridcell" style="flex: 30 0 auto; width: 30px; max-width: 30px;"><span>&nbsp;</span></div><div class="rt-td" role="gridcell" style="flex: 50 0 auto; width: 50px; max-width: 50px;"><span>&nbsp;</span></div><div class="rt-td" role="gridcell" style="flex: 140 0 auto; width: 140px; max-width: 140px;"><span>&nbsp;</span></div><div class="rt-td" role="gridcell" style="flex: 134 0 auto; width: 134px;"><span>&nbsp;</span></div><div class="rt-td" role="gridcell" style="flex: 120 0 auto; width: 120px; max-width: 120px;"><span>&nbsp;</span></div><div class="rt-td" role="gridcell" style="flex: 72 0 auto; width: 72px;"><span>&nbsp;</span></div><div class="rt-td" role="gridcell" style="flex: 100 0 auto; width: 100px; max-width: 100px;"><span>&nbsp;</span></div><div class="rt-td" role="gridcell" style="flex: 86 0 auto; width: 86px; max-width: 86px;"><span>&nbsp;</span></div><div class="rt-td" role="gridcell" style="flex: 125 0 auto; width: 125px; max-width: 125px;"><span>&nbsp;</span></div><div class="rt-td" role="gridcell" style="flex: 125 0 auto; width: 125px;"><span>&nbsp;</span></div></div></div></div></div><div class="rt-noData">No rows found</div><div></div></div><div class="sc-dkPtRN guDeRx"></div></div></div><div></div></div></div></div></div></div><div class="sc-dlVxhl hdFydZ"><footer id="app-footer" class="sc-jOxtWs sc-gEOWYS fytMCr XWSDT"><div class="sc-dkPtRN AsWDc"><div class="sc-dkPtRN iNqgTc"><nav class="sc-jlRLRk ljrswo"><a class="sc-lcepkR gyUaAe" href="#/tmview" data-test-id="search-link">Search</a><a class="sc-lcepkR gyUaAe" href="#/tmview/participating">Participating offices</a><a class="sc-lcepkR gyUaAe" href="#/tmview/help">Help</a><a class="sc-lcepkR gyUaAe">Your feedback</a></nav></div><div class="sc-dkPtRN iNqgTc"><label class="sc-eLwHnm fQIXZS"><a class="sc-lcepkR gyUaAe" href="https://euipn.org" rel="noopener noreferrer" target="_blank" data-test-id="search-link">EUIPN European Union Intellectual Property Network<span class="sc-gKclnd ifyfbH external-link-icon"><i content="&quot;\e99f&quot;" color="inherit" class="sc-iCfMLu ipbWay"></i><i content="&quot;\e9a0&quot;" color="inherit" class="sc-iCfMLu byIRUK"></i></span></a></label><label class="sc-bTfYFJ qgjKY"></label><label class="sc-eLwHnm fQIXZS">Avenida de Europa, 4, 03008 Alicante (SPAIN)</label><label class="sc-bTfYFJ qgjKY"></label><label class="sc-eLwHnm fQIXZS">Information Centre: +34 96 513 9100</label></div><div class="sc-dkPtRN iNqgTc navCopyright"><nav class="sc-jlRLRk ljrswo"><label class="sc-eLwHnm fQIXZS mr-3">Copyright 2007-2026 EUIPO</label><label class="sc-eLwHnm fQIXZS">This website is coordinated and maintained by:&nbsp;<strong>European Union Intellectual Property Office</strong></label></nav></div><div class="sc-dkPtRN iNqgTc navCopyright"><label class="sc-eLwHnm fQIXZS">The TMview and DesignView search tools do not constitute official registers and the information contained in the tools does not have any legal effect.</label><nav class="sc-jlRLRk ljrswo"><a class="sc-lcepkR gyUaAe" href="#/tmview/disclaimer" data-test-id="disclaimer-link">See Terms and Conditions</a></nav></div><div class="sc-dkPtRN iNqgTc navCopyright"><label class="sc-eLwHnm fQIXZS mr-3 nowrap">TMDSVIEW-4.4.1-RC1.1</label><nav class="sc-jlRLRk ljrswo"><a class="sc-lcepkR gyUaAe nowrap" href="https://tmdn.org/network/compatibility"><strong>Compatibility</strong></a><a class="sc-lcepkR gyUaAe" href="#/tmview/data-protection" data-test-id="data-protection-link"><strong>Data protection</strong></a><a class="sc-lcepkR gyUaAe" href="https://tmdn.org/network/legal-notices"><strong>Legal notice</strong></a><a class="sc-lcepkR gyUaAe" href="#/tmview/about" data-test-id="about-link">About</a></nav></div></div></footer></div><button class="sc-cVAmsi jOjZdF" style="display: none; right: 30px;"><i class="sc-jRQBWg cascoQ"></i>Back to top </button></div></div> <script src="index.94262c0a.js" defer=""></script> <div class="sortable-dropdown-portal"></div><div id="rbd-announcement-0" aria-live="assertive" aria-atomic="true" style="position: absolute; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(100%);"></div><div id="rbd-hidden-text-0-hidden-text-0" style="display: none;">
+  Press space bar to start a drag.
+  When dragging you can use the arrow keys to move the item around and escape to cancel.
+  Some screen readers may require you to be in focus mode or to use your pass through key
+</div></body></html>
