@@ -55,7 +55,7 @@
   min-height: 44px;
   padding: 6px 8px 6px 16px;
   border-radius: var(--r-s);
-  background: var(--brand);
+  background: var(--brand-gradient);
   color: var(--brand-ink);
   font-weight: 700;
   text-decoration: none;

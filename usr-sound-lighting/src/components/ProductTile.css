@@ -19,7 +19,7 @@
   background:
     radial-gradient(55% 45% at 50% 78%, color-mix(in srgb, var(--gel) 30%, transparent), transparent 70%),
     radial-gradient(80% 70% at 50% 0%, color-mix(in srgb, var(--gel) 10%, transparent), transparent 70%),
-    #151518;
+    var(--bg-deep);
   border-bottom: 1px solid var(--line);
 }
 .tile__media img {

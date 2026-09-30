@@ -624,12 +624,13 @@ export const packages: Package[] = [
 ];
 
 export const lightColours = [
-  { name: "USR purple", hex: "#9d55ff" },
-  { name: "Magenta", hex: "#ff5cc8" },
-  { name: "Ice blue", hex: "#5ec8ff" },
-  { name: "White", hex: "#f4efff" },
+  // the first three are the logo's own colours; the rest are common theme requests
+  { name: "USR purple", hex: "#9a4de0" },
+  { name: "Orchid", hex: "#c589e3" },
+  { name: "White", hex: "#f2eef6" },
+  { name: "Ice blue", hex: "#8fd3ff" },
+  { name: "Pink", hex: "#ff7ad0" },
   { name: "Amber", hex: "#ffa630" },
-  { name: "Green", hex: "#4be0a0" },
 ] as const;
 
 /** A colour name mid-sentence: "USR purple" keeps its capitals, "Magenta" becomes "magenta". */
@@ -637,10 +638,10 @@ export const colourPhrase = (name: string) => (/^[A-Z]{2,}/.test(name) ? name : 
 
 /** Colour a model's lights show before anyone picks one. */
 export const defaultLightColour: Record<Category, string> = {
-  sound: "#5ec8ff",
-  lighting: "#9d55ff",
-  staging: "#ff5cc8",
-  effects: "#f4efff",
+  sound: "#f2eef6",
+  lighting: "#9a4de0",
+  staging: "#c589e3",
+  effects: "#f2eef6",
 };
 
 export const productBySlug = (slug: string) => products.find((p) => p.slug === slug);

@@ -105,7 +105,7 @@ export function Beam({
   length = 6,
   lensRadius = 0.07,
   spread = 0.12,
-  color = "#9d55ff",
+  color = "#9a4de0",
   intensity = 1,
   materialRef,
 }: {
@@ -251,7 +251,7 @@ export function MovingHead({
         <RoundedBox args={[0.42, 0.16, 0.34]} radius={0.03} position={[0, 0.08, 0]} material={metal.body} castShadow />
         <mesh position={[0, 0.09, 0.172]}>
           <planeGeometry args={[0.1, 0.05]} />
-          <meshBasicMaterial color="#2d6cff" toneMapped={false} />
+          <meshBasicMaterial color="#c589e3" toneMapped={false} />
         </mesh>
         <group ref={yoke} position={[0, 0.16, 0]}>
           <mesh position={[0, 0.02, 0]} material={metal.body}>
@@ -283,7 +283,7 @@ export function MovingHead({
 /* ——— LED par can ——— */
 
 export function LedPar({
-  color = "#9d55ff",
+  color = "#9a4de0",
   beam = true,
   beamLength = 4,
   ...props
@@ -355,7 +355,7 @@ export function Speaker({ size = 12, ...props }: { size?: number } & ThreeElemen
       {/* badge */}
       <mesh position={[w * 0.32, h * 0.06, d / 2 + 0.006]}>
         <planeGeometry args={[w * 0.18, h * 0.03]} />
-        <meshBasicMaterial color="#f1f3fa" />
+        <meshBasicMaterial color="#e3e3e3" />
       </mesh>
     </group>
   );
@@ -482,7 +482,7 @@ export function DanceFloor({
   const top = useMemo(
     () =>
       new THREE.MeshStandardMaterial({
-        color: finish === "black" ? "#07070b" : "#e9eaf0",
+        color: finish === "black" ? "#0a0a0a" : "#ececec",
         roughness: 0.24,
         metalness: 0.3,
       }),
@@ -497,7 +497,7 @@ export function DanceFloor({
         <boxGeometry args={[w + 0.12, 0.016, d + 0.12]} />
       </mesh>
       <Tubes segments={seams} radius={0.003} material={metal.dark} />
-      <Sparkles count={Math.round(tilesX * tilesZ * 14)} area={area} y={0.034} size={finish === "black" ? 22 : 12} twinkle={twinkle} color={finish === "black" ? "#ffffff" : "#fff6e0"} />
+      <Sparkles count={Math.round(tilesX * tilesZ * 14)} area={area} y={0.034} size={finish === "black" ? 22 : 12} twinkle={twinkle} color="#ffffff" />
     </group>
   );
 }

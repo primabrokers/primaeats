@@ -136,7 +136,7 @@
   height: 54px;
   border-radius: 4px;
   border-left: 3px solid var(--gel);
-  background: radial-gradient(60% 60% at 50% 75%, color-mix(in srgb, var(--gel) 26%, transparent), transparent 70%), #151518;
+  background: radial-gradient(60% 60% at 50% 75%, color-mix(in srgb, var(--gel) 26%, transparent), transparent 70%), var(--bg-deep);
 }
 .line__thumb img {
   width: 100%;

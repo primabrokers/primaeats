@@ -158,7 +158,7 @@ function LineArray() {
 }
 
 function HandheldMic(props: ThreeElements["group"]) {
-  const grille = useMemo(() => new THREE.MeshStandardMaterial({ color: "#9aa0ad", roughness: 0.4, metalness: 0.9, wireframe: true }), []);
+  const grille = useMemo(() => new THREE.MeshStandardMaterial({ color: "#a8a8a8", roughness: 0.4, metalness: 0.9, wireframe: true }), []);
   return (
     <group {...props}>
       <mesh material={metal.body} position={[0, 0.1, 0]} castShadow>
@@ -175,7 +175,7 @@ function HandheldMic(props: ThreeElements["group"]) {
       </mesh>
       <mesh position={[0, 0.06, 0.018]}>
         <boxGeometry args={[0.01, 0.02, 0.004]} />
-        <meshBasicMaterial color="#6fe0a4" toneMapped={false} />
+        <meshBasicMaterial color="#c589e3" toneMapped={false} />
       </mesh>
     </group>
   );
@@ -187,7 +187,7 @@ function Mics() {
       <RoundedBox args={[0.42, 0.07, 0.22]} radius={0.01} position={[0, 0.035, -0.08]} material={metal.body} castShadow />
       <mesh position={[0, 0.045, 0.031]}>
         <planeGeometry args={[0.12, 0.03]} />
-        <meshBasicMaterial color="#6cc4ff" toneMapped={false} />
+        <meshBasicMaterial color="#c589e3" toneMapped={false} />
       </mesh>
       {[-0.17, 0.17].map((x) => (
         <mesh key={x} position={[x, 0.16, -0.17]} rotation-z={x < 0 ? 0.25 : -0.25} material={metal.dark}>
@@ -229,7 +229,7 @@ export function DjBooth({ colour }: { colour: string }) {
           </mesh>
           <mesh position={[0, 0.071, -0.13]}>
             <planeGeometry args={[0.16, 0.07]} />
-            <meshBasicMaterial color="#6cc4ff" toneMapped={false} side={THREE.DoubleSide} />
+            <meshBasicMaterial color="#c589e3" toneMapped={false} side={THREE.DoubleSide} />
           </mesh>
         </group>
       ))}
@@ -241,7 +241,7 @@ export function DjBooth({ colour }: { colour: string }) {
 /* ——— Lighting ——— */
 
 function Uplighters({ colour }: { colour: string }) {
-  const wall = useMemo(() => new THREE.MeshStandardMaterial({ color: "#1c1b25", roughness: 1 }), []);
+  const wall = useMemo(() => new THREE.MeshStandardMaterial({ color: "#262626", roughness: 1 }), []);
   return (
     <group>
       <mesh position={[0, 1.4, -0.45]} material={wall} receiveShadow>
@@ -307,7 +307,7 @@ function MovingHeadPair({ colour, animate }: { colour: string; animate: boolean 
 function TBar({ colour, animate }: { colour: string; animate: boolean }) {
   const controls = useHeadControls(2, colour);
   useSweep(controls, { tilt: 0.55, pan: 0.8, animate, speed: 0.9 });
-  const second = colour === "#ff5cc8" ? "#9d55ff" : "#ff5cc8";
+  const second = colour === "#f2eef6" ? "#9a4de0" : "#f2eef6";
   return (
     <group>
       <Tripod height={2.15} />
@@ -350,7 +350,7 @@ function StageWash({ colour, animate }: { colour: string; animate: boolean }) {
         </mesh>
       ))}
       {[-1.35, -0.45, 0.45, 1.35].map((x) => (
-        <LedPar key={x} color="#fff1d6" position={[x, h - 0.05, 0.25]} rotation-x={Math.PI - 0.6} beamLength={3.4} />
+        <LedPar key={x} color="#f2eef6" position={[x, h - 0.05, 0.25]} rotation-x={Math.PI - 0.6} beamLength={3.4} />
       ))}
       {controls.map((c, i) => (
         <MovingHead key={i} control={c} hanging position={[i ? 0.9 : -0.9, h - 0.02, -0.2]} beamLength={4} spread={0.05} />
@@ -358,7 +358,7 @@ function StageWash({ colour, animate }: { colour: string; animate: boolean }) {
       <group position={[0, 0, 0.9]}>
         <StageDeckRun cols={2} rows={1} height={0.4} />
       </group>
-      <Pool color="#fff1d6" size={3.2} intensity={0.35} position={[0, 0.42, 1.5]} />
+      <Pool color="#f2eef6" size={3.2} intensity={0.35} position={[0, 0.42, 1.5]} />
       <Sparkles count={160} area={[5, 3.2, 3]} y={0.3} size={12} twinkle={0.3} opacity={0.3} soft drift={0.25} />
     </group>
   );
@@ -415,7 +415,7 @@ function StageDeckRun({ cols, rows, height }: { cols: number; rows: number; heig
         }
     return segs;
   }, [cols, rows, height]);
-  const skirt = useMemo(() => new THREE.MeshStandardMaterial({ color: "#0b0b10", roughness: 1, transparent: true, opacity: 0.94 }), []);
+  const skirt = useMemo(() => new THREE.MeshStandardMaterial({ color: "#111111", roughness: 1, transparent: true, opacity: 0.94 }), []);
   return (
     <group>
       {Array.from({ length: cols * rows }, (_, i) => {
@@ -501,7 +501,7 @@ function LowFog() {
     <group>
       <DanceFloor tilesX={6} tilesZ={6} />
       <FogMachine position={[-2.3, 0, -1.2]} rotation-y={-0.5} />
-      <Sparkles count={340} area={[4.2, 0.3, 4.2]} y={0.05} size={560} twinkle={0} opacity={0.26} soft color="#dfe8ff" drift={0.35} />
+      <Sparkles count={340} area={[4.2, 0.3, 4.2]} y={0.05} size={560} twinkle={0} opacity={0.26} soft color="#e8e8e8" drift={0.35} />
     </group>
   );
 }
@@ -535,10 +535,10 @@ function Hazer() {
       </mesh>
       <mesh position={[0.14, 0.23, 0.152]}>
         <planeGeometry args={[0.06, 0.02]} />
-        <meshBasicMaterial color="#b89dff" toneMapped={false} />
+        <meshBasicMaterial color="#c589e3" toneMapped={false} />
       </mesh>
       <group position={[0, 0.15, 1.1]}>
-        <Sparkles count={200} area={[1.6, 0.8, 1.8]} y={-0.2} size={300} twinkle={0} opacity={0.2} soft color="#e3e6ff" drift={0.3} />
+        <Sparkles count={200} area={[1.6, 0.8, 1.8]} y={-0.2} size={300} twinkle={0} opacity={0.2} soft color="#e6e6e6" drift={0.3} />
       </group>
     </group>
   );

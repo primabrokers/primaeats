@@ -28,16 +28,15 @@ interface Cue {
 }
 
 function buildCues(): Cue[] {
+  // only the logo's colours: purple, orchid and white, like its bars
   const p = gel.beam();
-  const w = "#f4efff";
-  const s = gel.sound();
-  const m = gel.staging();
-  // the opening look alternates purple and white, like the bars in the logo
+  const w = gel.white();
+  const t = gel.top();
   return [
     { colours: [p, w, p, w, p], mode: "pointer", floor: 0.8, booth: p },
-    { colours: [s, s, w, s, s], mode: "speakers", floor: 0.45, booth: s },
-    { colours: [p, p, "#cfa8ff", p, p], mode: "fan", floor: 0.6, booth: p },
-    { colours: [m, p, m, p, m], mode: "floor", floor: 1, booth: m },
+    { colours: [w, w, p, w, w], mode: "speakers", floor: 0.45, booth: w },
+    { colours: [p, p, t, p, p], mode: "fan", floor: 0.6, booth: p },
+    { colours: [t, p, w, p, t], mode: "floor", floor: 1, booth: t },
   ];
 }
 
@@ -161,7 +160,7 @@ function Rig() {
           <Subwoofer size={18} />
           <mesh position={[0, 0.92, 0]}>
             <cylinderGeometry args={[0.018, 0.018, 0.6, 10]} />
-            <meshStandardMaterial color="#2a2c35" metalness={0.7} roughness={0.4} />
+            <meshStandardMaterial color="#2c2c2c" metalness={0.7} roughness={0.4} />
           </mesh>
           <Speaker size={15} position={[0, 1.2, 0]} />
         </group>
@@ -177,14 +176,14 @@ function Rig() {
       {/* room */}
       <mesh rotation-x={-Math.PI / 2} receiveShadow>
         <planeGeometry args={[80, 80]} />
-        <meshStandardMaterial color="#141417" roughness={0.42} metalness={0.25} />
+        <meshStandardMaterial color="#202020" roughness={0.42} metalness={0.25} />
       </mesh>
       <mesh position={[0, 6, -5]}>
         <planeGeometry args={[40, 14]} />
-        <meshStandardMaterial color="#1f1d24" roughness={1} />
+        <meshStandardMaterial color="#2a2a2a" roughness={1} />
       </mesh>
 
-      <Sparkles count={520} area={[20, 7.5, 10]} y={0} size={12} twinkle={0.5} opacity={0.3} soft drift={reduced ? 0 : 0.18} color="#cbc2dc" />
+      <Sparkles count={520} area={[20, 7.5, 10]} y={0} size={12} twinkle={0.5} opacity={0.3} soft drift={reduced ? 0 : 0.18} color="#d8d8d8" />
 
       <pointLight ref={lightA} position={[-3.5, 1.2, 2.4]} intensity={9} distance={14} decay={1.6} />
       <pointLight ref={lightB} position={[3.5, 1.2, 2.4]} intensity={9} distance={14} decay={1.6} />
@@ -215,7 +214,7 @@ function CameraRig() {
 
 export default function HeroStage({ active = true }: { active?: boolean }) {
   usePointer();
-  const bg = gel.bg();
+  const bg = gel.bgDeep();
   return (
     <Canvas
       dpr={[1, 1.6]}
@@ -227,7 +226,7 @@ export default function HeroStage({ active = true }: { active?: boolean }) {
       <color attach="background" args={[bg]} />
       <fog attach="fog" args={[bg, 12, 30]} />
       <ambientLight intensity={0.18} />
-      <hemisphereLight args={["#a58bd6", "#141417", 0.35]} />
+      <hemisphereLight args={["#b99ad6", "#202020", 0.35]} />
       <directionalLight position={[0, 8, 6]} intensity={0.5} />
       <Rig />
       <CameraRig />

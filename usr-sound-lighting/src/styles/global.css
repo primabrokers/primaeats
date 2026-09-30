@@ -177,7 +177,7 @@ p {
   cursor: not-allowed;
 }
 .btn-primary {
-  --btn-bg: var(--brand);
+  --btn-bg: var(--brand-gradient);
   --btn-fg: var(--brand-ink);
   --btn-border: var(--brand);
 }

@@ -1,35 +1,44 @@
 /*
- * Brand tokens, taken from the USR logo: purple and white on charcoal.
- * The 3D scenes read these values at runtime (src/lib/cssVar.ts), so this
- * file is the single place to change a colour.
+ * Brand tokens — every colour here is sampled from the USR logo:
+ *   charcoal #333333 (the logo's background)
+ *   purple gradient #C589E3 → #7A38B3 → #452854 (the bars, the S and the lights)
+ *   silver-white #E3E3E3 → #F5F5F5 (the bars and the lettering)
+ * The 3D scenes read these values at runtime (src/lib/cssVar.ts).
  */
 :root {
-  /* Base — the logo sits on #333333; the page goes a step darker so light reads */
-  --bg: #1b1b1f;
-  --surface: #252529;
-  --surface-2: #303035;
-  --line: #45444d;
-  --text: #f6f4f8; /* the logo's white */
-  --dim: #b8b4c0;
-  --faint: #8a8693;
+  /* Charcoal, neutral like the logo (no blue or violet tint) */
+  --bg: #333333; /* the logo background */
+  --bg-deep: #2a2a2a; /* alternate sections, footer, the stage */
+  --surface: #3b3b3b;
+  --surface-2: #444444;
+  --line: #555555;
 
-  /* Brand purple */
-  --brand: #7b2fc4; /* the logo's purple: fills and buttons */
-  --brand-hover: #8d40d9;
-  --brand-light: #b07bff; /* the same hue lifted for lines and text on dark */
+  /* Silver-white */
+  --text: #f5f5f5;
+  --dim: #c4c4c4;
+  --faint: #a3a3a3;
+
+  /* Purple gradient */
+  --brand-top: #c589e3; /* orchid, the tips of the bars */
+  --brand: #7a38b3; /* the logo's main purple */
+  --brand-bottom: #452854; /* the shadowed end of the gradient */
+  --brand-hover: #8d42d2;
+  --brand-light: #c589e3; /* lines, focus rings and text on charcoal */
   --brand-ink: #ffffff; /* text on purple */
+  --brand-gradient: linear-gradient(180deg, #8d42d2 0%, #7a38b3 55%, #632c92 100%);
 
-  /* Category colours, analogous to the purple so they sit with the logo */
-  --gel-sound: #5ec8ff;
-  --gel-lighting: #a064ff;
-  --gel-staging: #ff5cc8;
-  --gel-effects: #ece4fb;
+  /* Categories use the same logo colours: the white and purple bars */
+  --gel-sound: #e3e3e3;
+  --gel-lighting: #c589e3;
+  --gel-staging: #8d42d2;
+  --gel-effects: #b16ad4;
 
-  /* Colour of light in the 3D scenes (brighter than the print purple) */
-  --beam-brand: #9d55ff;
+  /* Colour of light in the 3D scenes (the logo purple, brightened to read as light) */
+  --beam-brand: #9a4de0;
+  --beam-white: #f2eef6;
 
-  --ok: #6fe0a4;
-  --error: #ff7b8a;
+  --ok: #c589e3;
+  --error: #ff8a8a;
 
   /* Type: a wide geometric display face to sit with the USR lettering */
   --font-display: "Unbounded Variable", "Arial Black", sans-serif;

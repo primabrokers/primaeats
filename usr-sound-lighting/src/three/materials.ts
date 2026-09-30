@@ -122,13 +122,13 @@ export function createSparkleMaterial(opts: {
 }
 
 export const metal = {
-  body: new THREE.MeshStandardMaterial({ color: "#272833", roughness: 0.5, metalness: 0.35 }),
-  dark: new THREE.MeshStandardMaterial({ color: "#0c0d12", roughness: 0.8, metalness: 0.2 }),
-  truss: new THREE.MeshStandardMaterial({ color: "#c9ccd6", roughness: 0.35, metalness: 0.85 }),
-  trussBlack: new THREE.MeshStandardMaterial({ color: "#2a2c35", roughness: 0.45, metalness: 0.7 }),
-  grille: new THREE.MeshStandardMaterial({ color: "#30313b", roughness: 0.85, metalness: 0.3 }),
-  cone: new THREE.MeshStandardMaterial({ color: "#121318", roughness: 0.95, metalness: 0, side: THREE.DoubleSide }),
-  chrome: new THREE.MeshStandardMaterial({ color: "#e6e8ef", roughness: 0.15, metalness: 1 }),
-  fabric: new THREE.MeshStandardMaterial({ color: "#0f1016", roughness: 1, metalness: 0 }),
-  deck: new THREE.MeshStandardMaterial({ color: "#16171d", roughness: 0.7, metalness: 0.1 }),
+  body: new THREE.MeshStandardMaterial({ color: "#2b2b2b", roughness: 0.5, metalness: 0.35 }),
+  dark: new THREE.MeshStandardMaterial({ color: "#111111", roughness: 0.8, metalness: 0.2 }),
+  truss: new THREE.MeshStandardMaterial({ color: "#d0d0d0", roughness: 0.35, metalness: 0.85 }),
+  trussBlack: new THREE.MeshStandardMaterial({ color: "#2c2c2c", roughness: 0.45, metalness: 0.7 }),
+  grille: new THREE.MeshStandardMaterial({ color: "#343434", roughness: 0.85, metalness: 0.3 }),
+  cone: new THREE.MeshStandardMaterial({ color: "#141414", roughness: 0.95, metalness: 0, side: THREE.DoubleSide }),
+  chrome: new THREE.MeshStandardMaterial({ color: "#e8e8e8", roughness: 0.15, metalness: 1 }),
+  fabric: new THREE.MeshStandardMaterial({ color: "#121212", roughness: 1, metalness: 0 }),
+  deck: new THREE.MeshStandardMaterial({ color: "#1b1b1b", roughness: 0.7, metalness: 0.1 }),
 };

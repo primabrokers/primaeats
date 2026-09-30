@@ -5,12 +5,13 @@ export function cssVar(name: string, fallback = "#ffffff"): string {
   return v || fallback;
 }
 
+/** Logo colours for the 3D scenes. */
 export const gel = {
-  beam: () => cssVar("--beam-brand", "#9d55ff"),
-  brand: () => cssVar("--brand", "#7b2fc4"),
-  sound: () => cssVar("--gel-sound", "#5ec8ff"),
-  staging: () => cssVar("--gel-staging", "#ff5cc8"),
-  effects: () => cssVar("--gel-effects", "#ece4fb"),
-  bg: () => cssVar("--bg", "#1b1b1f"),
-  text: () => cssVar("--text", "#f6f4f8"),
+  beam: () => cssVar("--beam-brand", "#9a4de0"),
+  white: () => cssVar("--beam-white", "#f2eef6"),
+  top: () => cssVar("--brand-top", "#c589e3"),
+  brand: () => cssVar("--brand", "#7a38b3"),
+  bg: () => cssVar("--bg", "#333333"),
+  bgDeep: () => cssVar("--bg-deep", "#2a2a2a"),
+  text: () => cssVar("--text", "#f5f5f5"),
 };

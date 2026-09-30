@@ -1,6 +1,6 @@
 .site-footer {
   border-top: 1px solid var(--line);
-  background: linear-gradient(180deg, var(--bg), #131316);
+  background: linear-gradient(180deg, var(--bg), var(--bg-deep));
   padding-top: clamp(48px, 7vw, 88px);
 }
 .site-footer__grid {
