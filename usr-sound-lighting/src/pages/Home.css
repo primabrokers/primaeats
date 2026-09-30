@@ -1,0 +1,283 @@
+/* ——— Stage: sticky 3D canvas with the hero and three cues scrolling over it ——— */
+
+.stage {
+  position: relative;
+}
+.stage__canvas {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+}
+.stage__canvas canvas {
+  touch-action: pan-y;
+}
+.stage__fallback {
+  position: absolute;
+  inset: 0;
+  background:
+    conic-gradient(from 200deg at 62% -10%, transparent 0 8deg, color-mix(in srgb, var(--amber) 30%, transparent) 10deg 13deg, transparent 15deg 30deg, color-mix(in srgb, var(--rose) 28%, transparent) 32deg 35deg, transparent 37deg),
+    radial-gradient(40% 25% at 62% 88%, color-mix(in srgb, var(--amber) 25%, transparent), transparent),
+    var(--congo);
+}
+/* keeps the headline legible over the beams without hiding the rig */
+.stage__scrim {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--congo) 88%, transparent) 0%, color-mix(in srgb, var(--congo) 40%, transparent) 38%, transparent 60%),
+    linear-gradient(0deg, var(--congo) 0%, transparent 18%);
+}
+.stage__content {
+  position: relative;
+  margin-top: -100vh;
+  margin-top: -100svh;
+  pointer-events: none;
+}
+.stage__content a,
+.stage__content button {
+  pointer-events: auto;
+}
+
+.hero {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: calc(var(--header-h) + 40px);
+  padding-bottom: clamp(48px, 9vh, 104px);
+}
+.hero__title {
+  font-family: var(--font-stencil);
+  font-weight: 800;
+  font-size: clamp(2.35rem, 1.2rem + 5vw, 6.6rem);
+  line-height: 0.9;
+  letter-spacing: 0.005em;
+  text-wrap: initial;
+}
+.hero__mask {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.04em;
+}
+.hero__line {
+  display: block;
+  white-space: nowrap;
+}
+.hero__lede {
+  margin-top: 26px;
+  max-width: 46ch;
+  font-size: var(--step-1);
+  line-height: 1.45;
+  color: var(--work);
+  text-shadow: 0 1px 18px var(--congo);
+}
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+.hero__hint {
+  margin-top: 28px;
+  font-size: var(--step--1);
+  color: var(--dim);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero__hint::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid var(--amber);
+  box-shadow: 0 0 0 5px color-mix(in srgb, var(--amber) 18%, transparent);
+}
+
+.cue {
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  padding-block: 12vh;
+}
+.cue .wrap {
+  width: 100%;
+}
+.cue__panel {
+  max-width: 470px;
+  display: grid;
+  gap: 16px;
+  padding: clamp(24px, 3vw, 36px);
+  border-radius: var(--r-m);
+  background: color-mix(in srgb, var(--congo) 72%, transparent);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--truss);
+  border-left: 4px solid var(--gel);
+  pointer-events: auto;
+  opacity: 0.55;
+  transition: opacity 0.4s, border-color 0.4s;
+}
+.cue.is-live .cue__panel {
+  opacity: 1;
+}
+.cue__panel p {
+  color: var(--dim);
+}
+
+/* ——— Sections ——— */
+
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px 32px;
+  margin-bottom: clamp(28px, 4vw, 48px);
+}
+.section-head .lede {
+  margin-top: 14px;
+}
+
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: 20px;
+}
+
+.packages-band {
+  background: var(--blackout);
+  border-block: 1px solid var(--truss);
+}
+.pkg-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border: 1px solid var(--truss);
+  border-radius: var(--r-m);
+  overflow: hidden;
+}
+.pkg-card {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 12px;
+  padding: 28px 24px 24px;
+  text-decoration: none;
+  background: var(--congo);
+  border-top: 5px solid var(--gel);
+  transition: background-color 0.2s;
+}
+.pkg-card + .pkg-card {
+  border-left: 1px solid var(--truss);
+}
+.pkg-card:hover {
+  background: color-mix(in srgb, var(--gel) 7%, var(--congo));
+}
+.pkg-card h3 {
+  font-size: 2rem;
+}
+.pkg-card p {
+  font-size: var(--step--1);
+}
+.pkg-card__price strong {
+  font-size: 1.5rem;
+  color: var(--work);
+}
+
+.steps {
+  list-style: none;
+  margin: clamp(28px, 4vw, 48px) 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  counter-reset: step;
+}
+.step {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+  padding-top: 20px;
+  border-top: 2px solid var(--truss);
+}
+.step__n {
+  font-family: var(--font-stencil);
+  font-size: 3.4rem;
+  line-height: 0.9;
+  color: var(--amber);
+}
+.step h3 {
+  font-size: 1.7rem;
+}
+.step p {
+  font-size: var(--step--1);
+}
+
+.coverage {
+  background:
+    radial-gradient(50% 80% at 100% 100%, color-mix(in srgb, var(--rose) 14%, transparent), transparent 70%),
+    radial-gradient(40% 70% at 0% 0%, color-mix(in srgb, var(--steel) 10%, transparent), transparent 70%);
+  border-top: 1px solid var(--truss);
+}
+.coverage__inner {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.coverage__inner h2 {
+  max-width: 18ch;
+}
+.coverage__inner .lede {
+  margin-top: 18px;
+}
+.coverage__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.coverage__list li {
+  padding: 8px 14px;
+  border: 1px solid var(--truss);
+  border-radius: 999px;
+  font-size: var(--step--1);
+  color: var(--dim);
+}
+
+@media (max-width: 1000px) {
+  .pkg-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pkg-card:nth-child(3) {
+    border-left: 0;
+  }
+  .pkg-card:nth-child(n + 3) {
+    border-top-width: 5px;
+  }
+  .steps {
+    grid-template-columns: 1fr 1fr;
+  }
+  .coverage__inner {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .stage__scrim {
+    background: linear-gradient(0deg, var(--congo) 5%, color-mix(in srgb, var(--congo) 70%, transparent) 45%, transparent 75%);
+  }
+  .pkg-row {
+    grid-template-columns: 1fr;
+  }
+  .pkg-card + .pkg-card {
+    border-left: 0;
+  }
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}

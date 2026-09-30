@@ -1,0 +1,83 @@
+.tile {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: var(--r-m);
+  background: var(--blackout);
+  border: 1px solid var(--truss);
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+.tile:hover,
+.tile:focus-within {
+  border-color: color-mix(in srgb, var(--gel) 70%, var(--truss));
+}
+/* the product sits in a pool of its category's light */
+.tile__media {
+  display: block;
+  aspect-ratio: 4 / 3;
+  background:
+    radial-gradient(55% 45% at 50% 78%, color-mix(in srgb, var(--gel) 30%, transparent), transparent 70%),
+    radial-gradient(80% 70% at 50% 0%, color-mix(in srgb, var(--gel) 10%, transparent), transparent 70%),
+    #0c0d25;
+  border-bottom: 1px solid var(--truss);
+}
+.tile__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.4s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.tile:hover .tile__media img {
+  transform: scale(1.04);
+}
+.tile__placeholder {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  font-family: var(--font-stencil);
+  font-size: 2rem;
+  color: var(--gel);
+  opacity: 0.6;
+}
+.tile__body {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 10px;
+  padding: 18px 20px 20px;
+}
+.tile__title {
+  font-size: 1.7rem;
+  line-height: 1;
+}
+.tile__title a {
+  text-decoration: none;
+}
+.tile__title a::after {
+  /* whole tile is clickable; the add button sits above this layer */
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.tile__summary {
+  color: var(--dim);
+  font-size: var(--step--1);
+}
+.tile__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 6px;
+}
+.tile__foot .btn {
+  position: relative;
+  z-index: 1;
+}
+.tile__price strong {
+  font-size: 1.25rem;
+}
+.tile__price span {
+  font-size: var(--step--1);
+}

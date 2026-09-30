@@ -1,0 +1,113 @@
+.hire {
+  padding-top: clamp(28px, 4vw, 48px);
+}
+.filters {
+  display: grid;
+  gap: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--truss);
+}
+.filters__cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.cat-chip {
+  --gel: var(--work);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 8px 16px;
+  border-radius: var(--r-s);
+  border: 1px solid var(--truss);
+  background: var(--blackout);
+  cursor: pointer;
+  font-weight: 600;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+.cat-chip:hover {
+  border-color: var(--dim);
+}
+.cat-chip[aria-pressed="true"] {
+  border-color: var(--gel);
+  background: color-mix(in srgb, var(--gel) 14%, var(--blackout));
+}
+.cat-chip__swatch {
+  width: 12px;
+  height: 18px;
+  border-radius: 3px 3px 1px 1px;
+  background: var(--gel);
+}
+.filters__tools {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px auto;
+  gap: 10px;
+  align-items: center;
+}
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid var(--truss);
+  border-radius: var(--r-s);
+  background: var(--blackout);
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.toggle input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--amber);
+}
+.hire__count {
+  margin: 20px 0 16px;
+  font-size: var(--step--1);
+}
+.empty {
+  display: grid;
+  justify-items: start;
+  gap: 14px;
+  padding: 48px 0;
+}
+.hire__help {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px 40px;
+  margin-top: clamp(40px, 6vw, 72px);
+  padding: clamp(24px, 3vw, 36px);
+  border: 1px dashed var(--truss);
+  border-radius: var(--r-m);
+}
+.hire__help h2 {
+  font-size: var(--step-2);
+  margin-bottom: 8px;
+}
+.hire__help-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+@media (max-width: 760px) {
+  .filters__tools {
+    grid-template-columns: 1fr 1fr;
+  }
+  .filters__tools .input {
+    grid-column: 1 / -1;
+  }
+  .filters__cats {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-inline: calc(var(--gutter) * -1);
+    padding-inline: var(--gutter);
+    scrollbar-width: none;
+  }
+  .cat-chip {
+    flex-shrink: 0;
+  }
+}
