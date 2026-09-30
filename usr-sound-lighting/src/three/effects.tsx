@@ -4,40 +4,49 @@ import * as THREE from "three";
 import { brand } from "../brand";
 
 /**
- * The brand logo drawn into a texture for gobo projections.
- * "metal": a white cut-out silhouette with a ring, tinted by the light colour.
- * "glass": the logo in its own colours, like a printed glass gobo.
+ * The brand logo drawn into a texture.
+ * "metal": a white cut-out silhouette with a ring, tinted by the light colour (metal gobo).
+ * "glass": the logo in its own colours on a square, like a printed glass gobo.
+ * "print": the logo in its own colours, full-bleed at its own aspect ratio (panels, signs).
  */
-export function useLogoTexture(kind: "metal" | "glass" = "metal") {
+export type LogoTextureKind = "metal" | "glass" | "print";
+
+export function useLogoTexture(kind: LogoTextureKind = "metal") {
   const [texture, setTexture] = useState<THREE.CanvasTexture | null>(null);
   useEffect(() => {
     let alive = true;
     const img = new Image();
     img.onload = () => {
       if (!alive) return;
-      const size = 1024;
-      const canvas = document.createElement("canvas");
-      canvas.width = canvas.height = size;
-      const ctx = canvas.getContext("2d")!;
       const aspect = (img.naturalWidth || brand.logo.width) / (img.naturalHeight || brand.logo.height);
-      const w = size * (kind === "glass" ? 0.86 : 0.7);
+      const canvas = document.createElement("canvas");
+      canvas.width = kind === "print" ? 2048 : 1024;
+      canvas.height = kind === "print" ? Math.round(2048 / aspect) : 1024;
+      const ctx = canvas.getContext("2d")!;
+      const w = kind === "print" ? canvas.width : canvas.width * (kind === "glass" ? 0.86 : 0.7);
       const h = w / aspect;
-      ctx.drawImage(img, (size - w) / 2, (size - h) / 2, w, h);
+      ctx.drawImage(img, (canvas.width - w) / 2, (canvas.height - h) / 2, w, h);
       if (kind === "metal") {
-        // metal gobos pass light through the cut-outs: keep the shape, make it white
-        ctx.globalCompositeOperation = "source-in";
-        ctx.fillStyle = "#fff";
-        ctx.fillRect(0, 0, size, size);
-        ctx.globalCompositeOperation = "source-over";
+        // metal gobos pass light through the cut-outs: keep the bright shapes, drop the dark outline
+        const data = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        const px = data.data;
+        for (let i = 0; i < px.length; i += 4) {
+          const lum = (px[i] + px[i + 1] + px[i + 2]) / 3;
+          const keep = Math.min(1, Math.max(0, (lum - 60) / 50));
+          px[i] = px[i + 1] = px[i + 2] = 255;
+          px[i + 3] = px[i + 3] * keep;
+        }
+        ctx.putImageData(data, 0, 0);
         ctx.strokeStyle = "#fff";
-        ctx.lineWidth = size * 0.018;
+        ctx.lineWidth = canvas.width * 0.018;
         ctx.beginPath();
-        ctx.arc(size / 2, size / 2, size * 0.46, 0, Math.PI * 2);
+        ctx.arc(canvas.width / 2, canvas.height / 2, canvas.width * 0.46, 0, Math.PI * 2);
         ctx.stroke();
       }
       const tex = new THREE.CanvasTexture(canvas);
       tex.colorSpace = THREE.SRGBColorSpace;
-      tex.anisotropy = 4;
+      tex.anisotropy = 8;
+      tex.userData.aspect = canvas.width / canvas.height;
       setTexture(tex);
     };
     img.src = brand.logo.src;
@@ -46,6 +55,21 @@ export function useLogoTexture(kind: "metal" | "glass" = "metal") {
     };
   }, [kind]);
   return texture;
+}
+
+/** The logo printed on a flat panel, sized by width. */
+export function LogoPanel({ width, ...props }: { width: number } & ThreeElements["group"]) {
+  const texture = useLogoTexture("print");
+  if (!texture) return null;
+  const aspect = (texture.userData.aspect as number) || brand.logo.width / brand.logo.height;
+  return (
+    <group {...props}>
+      <mesh renderOrder={2}>
+        <planeGeometry args={[width, width / aspect]} />
+        <meshBasicMaterial map={texture} transparent toneMapped={false} depthWrite={false} />
+      </mesh>
+    </group>
+  );
 }
 
 /** A gobo image landing on a surface: additive, tinted, with a soft halo. */

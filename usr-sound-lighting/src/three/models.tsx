@@ -18,7 +18,7 @@ import {
   Truss,
   Tubes,
 } from "./parts";
-import { GoboProjection, SparkFountain } from "./effects";
+import { GoboProjection, LogoPanel, SparkFountain } from "./effects";
 
 type V3 = [number, number, number];
 
@@ -220,6 +220,8 @@ export function DjBooth({ colour }: { colour: string }) {
       <mesh position={[0, 0.5, 0.315]} material={front}>
         <planeGeometry args={[1.38, 0.9]} />
       </mesh>
+      {/* the USR logo printed on the lit front */}
+      <LogoPanel width={1.08} position={[0, 0.53, 0.318]} />
       <Pool color={colour} size={2.4} intensity={0.45} position={[0, 0.005, 0.9]} />
       {[-0.42, 0.42].map((x) => (
         <group key={x} position={[x, 1.02, 0]}>

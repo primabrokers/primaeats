@@ -3,8 +3,8 @@
  * re-branded without touching page code.
  *
  * Colours live in src/styles/tokens.css (the 3D scenes read them from there).
- * The logo is a cut-out of the 200 px original (public/brand/usr-logo-original.jpg).
- * Swap in a larger or vector version when there is one: same path, or update logo.src.
+ * The logo is a vector redraw of the 200 px original (public/brand/usr-logo-original.jpg),
+ * with PNG exports at 1200 and 3000 px and square icons at 64, 180 and 512 px.
  *
  * Items marked VERIFY came from public listings (Companies House, Add to Event)
  * and should be checked with the owners before launch.
@@ -20,10 +20,11 @@ export const brand = {
   base: "Prestwich, Manchester",
 
   logo: {
-    src: "/brand/usr-logo.png",
-    width: 180,
-    height: 124,
-    icon: "/brand/usr-icon-180.png",
+    // vector redraw of the original; PNG exports sit next to it (usr-logo-3000.png etc.)
+    src: "/brand/usr-logo.svg",
+    width: 1646,
+    height: 1222,
+    icon: "/brand/usr-icon-512.png",
     alt: "USR Sound & Lighting",
   },
 
