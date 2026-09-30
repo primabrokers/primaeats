@@ -38,7 +38,7 @@ export function Header() {
     <header className={`site-header ${scrolled || open ? "is-solid" : ""}`}>
       <div className="wrap site-header__inner">
         <Link to="/" className="site-header__logo" aria-label="USR Sound & Lighting, home">
-          <Logo height={44} />
+          <Logo height={64} />
         </Link>
 
         <nav className="site-nav" aria-label="Main">

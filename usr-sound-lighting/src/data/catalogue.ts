@@ -59,22 +59,22 @@ export interface Product {
 export const categories: Record<Category, { label: string; gel: string; blurb: string }> = {
   sound: {
     label: "Sound",
-    gel: "var(--steel)",
+    gel: "var(--gel-sound)",
     blurb: "From a mic for the speeches to a line array for a thousand people.",
   },
   lighting: {
     label: "Lighting",
-    gel: "var(--amber)",
+    gel: "var(--gel-lighting)",
     blurb: "Uplighting in your colours, moving heads, stage washes and monogram gobos.",
   },
   staging: {
     label: "Staging & floors",
-    gel: "var(--rose)",
+    gel: "var(--gel-staging)",
     blurb: "Stage decks, truss and starlit LED dance floors.",
   },
   effects: {
     label: "Effects",
-    gel: "var(--lavender)",
+    gel: "var(--gel-effects)",
     blurb: "Low fog for the first dance, cold sparks and haze.",
   },
 };
@@ -566,7 +566,7 @@ export const packages: Package[] = [
     name: "Wedding day",
     forWho: "Ceremony, speeches and the evening party, all from one team.",
     from: 1150,
-    gel: "var(--amber)",
+    gel: "var(--gel-lighting)",
     includes: [
       { slug: "wireless-mics", label: "Wireless mics for the ceremony and speeches" },
       { slug: "club-pa", label: "Club PA for the evening" },
@@ -582,7 +582,7 @@ export const packages: Package[] = [
     name: "Party and celebration",
     forWho: "Birthdays, bar and bat mitzvahs, anniversaries and engagement parties.",
     from: 640,
-    gel: "var(--rose)",
+    gel: "var(--gel-staging)",
     includes: [
       { slug: "party-pa", label: "Party PA with a microphone" },
       { slug: "disco-package", label: "Disco lighting package" },
@@ -597,7 +597,7 @@ export const packages: Package[] = [
     name: "Live band and concert",
     forWho: "Gigs, school shows and community concerts with a proper stage.",
     from: 2350,
-    gel: "var(--steel)",
+    gel: "var(--gel-sound)",
     includes: [
       { slug: "line-array", label: "Line array system with sound engineer" },
       { slug: "stage-decks", label: "24 × 8 ft stage (six decks)" },
@@ -611,7 +611,7 @@ export const packages: Package[] = [
     name: "Conference and awards",
     forWho: "Presentations, product launches, dinners and award ceremonies.",
     from: 780,
-    gel: "var(--lavender)",
+    gel: "var(--gel-effects)",
     includes: [
       { slug: "party-pa", label: "Speech PA" },
       { slug: "wireless-mics", label: "Four wireless microphones" },
@@ -624,13 +624,24 @@ export const packages: Package[] = [
 ];
 
 export const lightColours = [
+  { name: "USR purple", hex: "#9d55ff" },
+  { name: "Magenta", hex: "#ff5cc8" },
+  { name: "Ice blue", hex: "#5ec8ff" },
+  { name: "White", hex: "#f4efff" },
   { name: "Amber", hex: "#ffa630" },
-  { name: "Pink", hex: "#ff5a9f" },
-  { name: "Ice blue", hex: "#6cc4ff" },
-  { name: "Lavender", hex: "#b89dff" },
-  { name: "Warm white", hex: "#fff1d6" },
   { name: "Green", hex: "#4be0a0" },
 ] as const;
+
+/** A colour name mid-sentence: "USR purple" keeps its capitals, "Magenta" becomes "magenta". */
+export const colourPhrase = (name: string) => (/^[A-Z]{2,}/.test(name) ? name : name.toLowerCase());
+
+/** Colour a model's lights show before anyone picks one. */
+export const defaultLightColour: Record<Category, string> = {
+  sound: "#5ec8ff",
+  lighting: "#9d55ff",
+  staging: "#ff5cc8",
+  effects: "#f4efff",
+};
 
 export const productBySlug = (slug: string) => products.find((p) => p.slug === slug);
 export const packageBySlug = (slug: string) => packages.find((p) => p.slug === slug);

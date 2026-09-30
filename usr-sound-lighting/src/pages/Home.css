@@ -17,9 +17,9 @@
   position: absolute;
   inset: 0;
   background:
-    conic-gradient(from 200deg at 62% -10%, transparent 0 8deg, color-mix(in srgb, var(--amber) 30%, transparent) 10deg 13deg, transparent 15deg 30deg, color-mix(in srgb, var(--rose) 28%, transparent) 32deg 35deg, transparent 37deg),
-    radial-gradient(40% 25% at 62% 88%, color-mix(in srgb, var(--amber) 25%, transparent), transparent),
-    var(--congo);
+    conic-gradient(from 200deg at 62% -10%, transparent 0 8deg, color-mix(in srgb, var(--brand) 30%, transparent) 10deg 13deg, transparent 15deg 30deg, color-mix(in srgb, var(--gel-staging) 28%, transparent) 32deg 35deg, transparent 37deg),
+    radial-gradient(40% 25% at 62% 88%, color-mix(in srgb, var(--brand) 25%, transparent), transparent),
+    var(--bg);
 }
 /* keeps the headline legible over the beams without hiding the rig */
 .stage__scrim {
@@ -27,8 +27,8 @@
   inset: 0;
   pointer-events: none;
   background:
-    linear-gradient(90deg, color-mix(in srgb, var(--congo) 88%, transparent) 0%, color-mix(in srgb, var(--congo) 40%, transparent) 38%, transparent 60%),
-    linear-gradient(0deg, var(--congo) 0%, transparent 18%);
+    linear-gradient(90deg, color-mix(in srgb, var(--bg) 88%, transparent) 0%, color-mix(in srgb, var(--bg) 40%, transparent) 38%, transparent 60%),
+    linear-gradient(0deg, var(--bg) 0%, transparent 18%);
 }
 .stage__content {
   position: relative;
@@ -51,11 +51,11 @@
   padding-bottom: clamp(48px, 9vh, 104px);
 }
 .hero__title {
-  font-family: var(--font-stencil);
+  font-family: var(--font-display);
   font-weight: 800;
-  font-size: clamp(2.35rem, 1.2rem + 5vw, 6.6rem);
-  line-height: 0.9;
-  letter-spacing: 0.005em;
+  font-size: clamp(1.75rem, 0.9rem + 2.9vw, 3.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
   text-wrap: initial;
 }
 .hero__mask {
@@ -72,8 +72,8 @@
   max-width: 46ch;
   font-size: var(--step-1);
   line-height: 1.45;
-  color: var(--work);
-  text-shadow: 0 1px 18px var(--congo);
+  color: var(--text);
+  text-shadow: 0 1px 18px var(--bg);
 }
 .hero__actions {
   display: flex;
@@ -94,8 +94,8 @@
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  border: 2px solid var(--amber);
-  box-shadow: 0 0 0 5px color-mix(in srgb, var(--amber) 18%, transparent);
+  border: 2px solid var(--brand-light);
+  box-shadow: 0 0 0 5px color-mix(in srgb, var(--brand-light) 20%, transparent);
 }
 
 .cue {
@@ -113,9 +113,9 @@
   gap: 16px;
   padding: clamp(24px, 3vw, 36px);
   border-radius: var(--r-m);
-  background: color-mix(in srgb, var(--congo) 72%, transparent);
+  background: color-mix(in srgb, var(--bg) 72%, transparent);
   backdrop-filter: blur(10px);
-  border: 1px solid var(--truss);
+  border: 1px solid var(--line);
   border-left: 4px solid var(--gel);
   pointer-events: auto;
   opacity: 0.55;
@@ -149,14 +149,14 @@
 }
 
 .packages-band {
-  background: var(--blackout);
-  border-block: 1px solid var(--truss);
+  background: var(--surface);
+  border-block: 1px solid var(--line);
 }
 .pkg-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0;
-  border: 1px solid var(--truss);
+  border: 1px solid var(--line);
   border-radius: var(--r-m);
   overflow: hidden;
 }
@@ -166,25 +166,25 @@
   gap: 12px;
   padding: 28px 24px 24px;
   text-decoration: none;
-  background: var(--congo);
+  background: var(--bg);
   border-top: 5px solid var(--gel);
   transition: background-color 0.2s;
 }
 .pkg-card + .pkg-card {
-  border-left: 1px solid var(--truss);
+  border-left: 1px solid var(--line);
 }
 .pkg-card:hover {
-  background: color-mix(in srgb, var(--gel) 7%, var(--congo));
+  background: color-mix(in srgb, var(--gel) 7%, var(--bg));
 }
 .pkg-card h3 {
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 .pkg-card p {
   font-size: var(--step--1);
 }
 .pkg-card__price strong {
   font-size: 1.5rem;
-  color: var(--work);
+  color: var(--text);
 }
 
 .steps {
@@ -201,16 +201,17 @@
   gap: 12px;
   align-content: start;
   padding-top: 20px;
-  border-top: 2px solid var(--truss);
+  border-top: 2px solid var(--line);
 }
 .step__n {
-  font-family: var(--font-stencil);
-  font-size: 3.4rem;
-  line-height: 0.9;
-  color: var(--amber);
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--brand-light);
 }
 .step h3 {
-  font-size: 1.7rem;
+  font-size: 1.15rem;
 }
 .step p {
   font-size: var(--step--1);
@@ -218,9 +219,9 @@
 
 .coverage {
   background:
-    radial-gradient(50% 80% at 100% 100%, color-mix(in srgb, var(--rose) 14%, transparent), transparent 70%),
-    radial-gradient(40% 70% at 0% 0%, color-mix(in srgb, var(--steel) 10%, transparent), transparent 70%);
-  border-top: 1px solid var(--truss);
+    radial-gradient(50% 80% at 100% 100%, color-mix(in srgb, var(--gel-staging) 14%, transparent), transparent 70%),
+    radial-gradient(40% 70% at 0% 0%, color-mix(in srgb, var(--gel-sound) 10%, transparent), transparent 70%);
+  border-top: 1px solid var(--line);
 }
 .coverage__inner {
   display: grid;
@@ -244,7 +245,7 @@
 }
 .coverage__list li {
   padding: 8px 14px;
-  border: 1px solid var(--truss);
+  border: 1px solid var(--line);
   border-radius: 999px;
   font-size: var(--step--1);
   color: var(--dim);
@@ -268,8 +269,11 @@
   }
 }
 @media (max-width: 640px) {
+  .hero__line {
+    white-space: normal;
+  }
   .stage__scrim {
-    background: linear-gradient(0deg, var(--congo) 5%, color-mix(in srgb, var(--congo) 70%, transparent) 45%, transparent 75%);
+    background: linear-gradient(0deg, var(--bg) 5%, color-mix(in srgb, var(--bg) 70%, transparent) 45%, transparent 75%);
   }
   .pkg-row {
     grid-template-columns: 1fr;

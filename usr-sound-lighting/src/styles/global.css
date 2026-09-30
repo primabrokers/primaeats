@@ -13,8 +13,8 @@ html {
 
 body {
   margin: 0;
-  background: var(--congo);
-  color: var(--work);
+  background: var(--bg);
+  color: var(--text);
   font-family: var(--font-body);
   font-size: var(--step-0);
   line-height: 1.55;
@@ -47,9 +47,9 @@ h2,
 h3,
 h4 {
   font-family: var(--font-display);
-  font-weight: 800;
-  line-height: 0.95;
-  letter-spacing: 0.005em;
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
   margin: 0;
   text-wrap: balance;
 }
@@ -62,12 +62,12 @@ h2 {
 }
 h3 {
   font-size: var(--step-2);
-  line-height: 1;
+  line-height: 1.1;
 }
 h4 {
   font-size: var(--step-1);
-  font-weight: 700;
-  line-height: 1.1;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 p {
@@ -77,14 +77,14 @@ p {
 }
 
 :focus-visible {
-  outline: 3px solid var(--amber);
+  outline: 3px solid var(--brand-light);
   outline-offset: 3px;
   border-radius: 4px;
 }
 
 ::selection {
-  background: var(--amber);
-  color: var(--amber-ink);
+  background: var(--brand);
+  color: var(--brand-ink);
 }
 
 .visually-hidden {
@@ -104,8 +104,8 @@ p {
   left: 16px;
   top: -60px;
   z-index: 100;
-  background: var(--amber);
-  color: var(--amber-ink);
+  background: var(--brand);
+  color: var(--brand-ink);
   padding: 10px 16px;
   border-radius: var(--r-s);
   font-weight: 600;
@@ -146,9 +146,9 @@ p {
 /* ——— Buttons ——— */
 
 .btn {
-  --btn-bg: var(--blackout-2);
-  --btn-fg: var(--work);
-  --btn-border: var(--truss);
+  --btn-bg: var(--surface-2);
+  --btn-fg: var(--text);
+  --btn-border: var(--line);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -177,13 +177,13 @@ p {
   cursor: not-allowed;
 }
 .btn-primary {
-  --btn-bg: var(--amber);
-  --btn-fg: var(--amber-ink);
-  --btn-border: var(--amber);
+  --btn-bg: var(--brand);
+  --btn-fg: var(--brand-ink);
+  --btn-border: var(--brand);
 }
 .btn-primary:hover {
-  --btn-bg: #ffb95a;
-  --btn-border: #ffb95a;
+  --btn-bg: var(--brand-hover);
+  --btn-border: var(--brand-hover);
 }
 .btn-ghost {
   --btn-bg: transparent;
@@ -198,26 +198,26 @@ p {
 }
 
 .text-link {
-  color: var(--work);
+  color: var(--text);
   text-decoration: underline;
-  text-decoration-color: var(--amber);
+  text-decoration-color: var(--brand-light);
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
 }
 .text-link:hover {
-  color: var(--amber);
+  color: var(--brand-light);
 }
 
 /* ——— Gel chip: a category colour swatch, like a page in a gel swatch book ——— */
 
 .gel {
-  --gel: var(--amber);
+  --gel: var(--gel-lighting);
   display: inline-flex;
   align-items: center;
   gap: 8px;
   font-size: var(--step--1);
   font-weight: 600;
-  color: var(--work);
+  color: var(--text);
 }
 .gel::before {
   content: "";
@@ -255,9 +255,9 @@ p {
   min-height: 48px;
   padding: 11px 14px;
   border-radius: var(--r-s);
-  border: 1px solid var(--truss);
-  background: var(--blackout-2);
-  color: var(--work);
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--text);
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 .textarea {
@@ -272,8 +272,8 @@ p {
 .select:focus,
 .textarea:focus {
   outline: none;
-  border-color: var(--amber);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--amber) 30%, transparent);
+  border-color: var(--brand-light);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand-light) 30%, transparent);
 }
 .input[aria-invalid="true"],
 .select[aria-invalid="true"],
@@ -296,25 +296,25 @@ p {
   gap: 4px 12px;
   align-items: start;
   padding: 14px 16px;
-  border: 1px solid var(--truss);
+  border: 1px solid var(--line);
   border-radius: var(--r-s);
-  background: var(--blackout);
+  background: var(--surface);
   cursor: pointer;
 }
 .choice:has(input:checked) {
-  border-color: var(--amber);
-  background: color-mix(in srgb, var(--amber) 8%, var(--blackout));
+  border-color: var(--brand-light);
+  background: color-mix(in srgb, var(--brand) 14%, var(--surface));
 }
 .choice:has(input:disabled) {
   opacity: 0.5;
   cursor: not-allowed;
 }
 .choice:has(input:focus-visible) {
-  outline: 3px solid var(--amber);
+  outline: 3px solid var(--brand-light);
   outline-offset: 2px;
 }
 .choice input {
-  accent-color: var(--amber);
+  accent-color: var(--brand-light);
   width: 18px;
   height: 18px;
   margin: 3px 0 0;
@@ -330,10 +330,10 @@ p {
 .stepper {
   display: inline-flex;
   align-items: stretch;
-  border: 1px solid var(--truss);
+  border: 1px solid var(--line);
   border-radius: var(--r-s);
   overflow: hidden;
-  background: var(--blackout-2);
+  background: var(--surface-2);
 }
 .stepper button {
   width: 44px;
@@ -343,7 +343,7 @@ p {
   font-size: 1.2rem;
 }
 .stepper button:hover {
-  background: var(--truss);
+  background: var(--line);
 }
 .stepper output {
   min-width: 44px;
@@ -358,10 +358,10 @@ p {
 .page-head {
   padding-top: calc(var(--header-h) + clamp(40px, 6vw, 80px));
   padding-bottom: clamp(32px, 4vw, 56px);
-  border-bottom: 1px solid var(--truss);
+  border-bottom: 1px solid var(--line);
   background:
-    radial-gradient(60% 120% at 85% 0%, color-mix(in srgb, var(--page-gel, var(--amber)) 16%, transparent), transparent 70%),
-    var(--congo);
+    radial-gradient(60% 120% at 85% 0%, color-mix(in srgb, var(--page-gel, var(--brand)) 16%, transparent), transparent 70%),
+    var(--bg);
 }
 .page-head h1 {
   margin-top: 14px;
@@ -391,7 +391,7 @@ p {
   text-decoration: none;
 }
 .breadcrumb a:hover {
-  color: var(--work);
+  color: var(--text);
 }
 
 /* text that changes in answer to an action, e.g. "Add" → "Added" */

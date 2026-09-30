@@ -1,6 +1,6 @@
 .site-footer {
-  border-top: 1px solid var(--truss);
-  background: linear-gradient(180deg, var(--congo), #0b0c24);
+  border-top: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--bg), #131316);
   padding-top: clamp(48px, 7vw, 88px);
 }
 .site-footer__grid {
@@ -36,7 +36,7 @@
   overflow-wrap: anywhere;
 }
 .site-footer ul a:hover {
-  color: var(--amber);
+  color: var(--brand-light);
 }
 .site-footer__legal {
   display: flex;
@@ -45,7 +45,7 @@
   gap: 12px 32px;
   margin-top: clamp(40px, 6vw, 72px);
   padding-block: 24px;
-  border-top: 1px solid var(--truss);
+  border-top: 1px solid var(--line);
   color: var(--faint);
   font-size: 0.8rem;
 }

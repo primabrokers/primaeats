@@ -41,8 +41,8 @@ npm run build      # production build in dist/
 
 ## Before launch: things to swap in
 
-1. **Logo.** `public/brand/usr-logo.svg` is a stand-in wordmark set in Big Shoulders Stencil. I couldn't fetch the real logo because the current site was blocked from this build environment. Put the real file in `public/brand/` and set `brand.logo.src` in `src/brand.ts`. Replace `usr-mark.svg` (the favicon) too.
-2. **Brand colours.** They're all in `src/styles/tokens.css`. The palette is built like a lighting gel swatch book, with one colour per kind of kit: amber for lighting, steel blue for sound, rose for staging, lavender for effects. Change the hex values to USR's real colours and the whole site follows, including the 3D beams.
+1. **Logo.** The site uses the real USR logo. `public/brand/usr-logo.png` is cut out of the 200 px original (`usr-logo-original.jpg`), and the favicons are made from it too. It looks sharp at header size, but a larger PNG or a vector file (SVG, PDF or AI) would look better on high-resolution screens. Drop it in at the same path, or point `brand.logo.src` in `src/brand.ts` at it and update the width and height.
+2. **Brand colours.** They're taken from the logo and live in `src/styles/tokens.css`: purple `#7B2FC4` and white on charcoal. A lighter purple (`--brand-light`) is used for focus rings, underlines and text on dark, so they meet contrast guidelines. Blue, purple, magenta and white code the four kit categories. The 3D scenes read the same values, so the beams follow any change.
 3. **Contact details.** `src/brand.ts` has the email (not yet verified), an empty phone number (a blank phone is hidden everywhere) and the Instagram handle.
 4. **Products and prices.** `src/data/catalogue.ts` is realistic **sample** content. Replace it with the real inventory and rates. To use real photos, set `image` on a product. Otherwise regenerate the 3D renders:
    ```bash

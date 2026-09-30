@@ -3,14 +3,14 @@
   padding-bottom: clamp(64px, 9vw, 120px);
 }
 .simple__card {
-  --gel: var(--amber);
+  --gel: var(--brand);
   max-width: 720px;
   display: grid;
   gap: 20px;
   padding: clamp(24px, 4vw, 48px);
   border-radius: var(--r-l);
-  background: var(--blackout);
-  border: 1px solid var(--truss);
+  background: var(--surface);
+  border: 1px solid var(--line);
   border-top: 6px solid var(--gel);
 }
 .simple__card h2 {
@@ -20,8 +20,8 @@
 .ref {
   padding: 14px 18px;
   border-radius: var(--r-s);
-  background: var(--blackout-2);
-  border: 1px dashed var(--truss);
+  background: var(--surface-2);
+  border: 1px dashed var(--line);
 }
 .ref strong {
   margin-left: 8px;

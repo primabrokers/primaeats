@@ -38,7 +38,7 @@ export default function Hire() {
 
   return (
     <>
-      <header className="page-head" style={{ ["--page-gel" as string]: active ? categories[active].gel : "var(--amber)" }}>
+      <header className="page-head" style={{ ["--page-gel" as string]: active ? categories[active].gel : "var(--brand)" }}>
         <div className="wrap">
           <ol className="breadcrumb">
             <li>

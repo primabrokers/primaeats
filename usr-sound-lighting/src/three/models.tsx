@@ -307,7 +307,7 @@ function MovingHeadPair({ colour, animate }: { colour: string; animate: boolean 
 function TBar({ colour, animate }: { colour: string; animate: boolean }) {
   const controls = useHeadControls(2, colour);
   useSweep(controls, { tilt: 0.55, pan: 0.8, animate, speed: 0.9 });
-  const second = colour === "#ffa630" ? "#ff5a9f" : "#ffa630";
+  const second = colour === "#ff5cc8" ? "#9d55ff" : "#ff5cc8";
   return (
     <group>
       <Tripod height={2.15} />

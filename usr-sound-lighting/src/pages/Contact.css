@@ -10,8 +10,8 @@
   gap: 18px;
   padding: clamp(20px, 3vw, 32px);
   border-radius: var(--r-m);
-  background: var(--blackout);
-  border: 1px solid var(--truss);
+  background: var(--surface);
+  border: 1px solid var(--line);
 }
 .contact__form .btn {
   justify-self: start;
@@ -46,8 +46,8 @@
   gap: 14px;
   padding: clamp(24px, 4vw, 40px);
   border-radius: var(--r-m);
-  background: var(--blackout);
-  border: 1px solid var(--truss);
+  background: var(--surface);
+  border: 1px solid var(--line);
   border-top: 5px solid var(--ok);
 }
 @media (max-width: 860px) {

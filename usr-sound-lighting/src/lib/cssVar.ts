@@ -6,10 +6,11 @@ export function cssVar(name: string, fallback = "#ffffff"): string {
 }
 
 export const gel = {
-  amber: () => cssVar("--amber", "#ffa630"),
-  steel: () => cssVar("--steel", "#6cc4ff"),
-  rose: () => cssVar("--rose", "#ff5a9f"),
-  lavender: () => cssVar("--lavender", "#b89dff"),
-  congo: () => cssVar("--congo", "#10112e"),
-  work: () => cssVar("--work", "#f1f3fa"),
+  beam: () => cssVar("--beam-brand", "#9d55ff"),
+  brand: () => cssVar("--brand", "#7b2fc4"),
+  sound: () => cssVar("--gel-sound", "#5ec8ff"),
+  staging: () => cssVar("--gel-staging", "#ff5cc8"),
+  effects: () => cssVar("--gel-effects", "#ece4fb"),
+  bg: () => cssVar("--bg", "#1b1b1f"),
+  text: () => cssVar("--text", "#f6f4f8"),
 };

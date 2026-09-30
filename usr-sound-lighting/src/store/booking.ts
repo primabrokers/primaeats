@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import {
+  categories,
   hireLengths,
   packageBySlug,
   productBySlug,
@@ -114,7 +115,7 @@ export function describeLine(line: BookingLine) {
     ? {
         name: p.name,
         unitPrice: p.dayRate,
-        gel: `var(--${gelFor(p.category)})`,
+        gel: categories[p.category].gel,
         dryHire: p.dryHire,
         crewed: p.crewed,
         href: `/hire/${p.slug}`,
@@ -124,10 +125,6 @@ export function describeLine(line: BookingLine) {
         image: productImage(p) as string | null,
       }
     : null;
-}
-
-function gelFor(c: string) {
-  return { sound: "steel", lighting: "amber", staging: "rose", effects: "lavender" }[c] ?? "amber";
 }
 
 export const lineTotal = (d: { unitPrice: number; perEvent: boolean }, qty: number, multiplier: number) =>

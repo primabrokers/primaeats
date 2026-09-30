@@ -28,15 +28,16 @@ interface Cue {
 }
 
 function buildCues(): Cue[] {
-  const a = gel.amber();
-  const r = gel.rose();
-  const s = gel.steel();
-  const l = gel.lavender();
+  const p = gel.beam();
+  const w = "#f4efff";
+  const s = gel.sound();
+  const m = gel.staging();
+  // the opening look alternates purple and white, like the bars in the logo
   return [
-    { colours: [a, r, a, r, a], mode: "pointer", floor: 0.8, booth: a },
-    { colours: [s, s, "#dff2ff", s, s], mode: "speakers", floor: 0.45, booth: s },
-    { colours: [a, a, "#ffd79a", a, a], mode: "fan", floor: 0.6, booth: a },
-    { colours: [r, l, r, l, r], mode: "floor", floor: 1, booth: r },
+    { colours: [p, w, p, w, p], mode: "pointer", floor: 0.8, booth: p },
+    { colours: [s, s, w, s, s], mode: "speakers", floor: 0.45, booth: s },
+    { colours: [p, p, "#cfa8ff", p, p], mode: "fan", floor: 0.6, booth: p },
+    { colours: [m, p, m, p, m], mode: "floor", floor: 1, booth: m },
   ];
 }
 
@@ -171,19 +172,19 @@ function Rig() {
       </group>
 
       <DanceFloor tilesX={10} tilesZ={6} position={[0, 0, FLOOR_Z]} twinkle={1} />
-      <GoboProjection color="#f1f3fa" size={2.3} intensity={active.mode === "floor" ? 0.9 : 0.55} position={[0, 0.04, FLOOR_Z]} spin={reduced ? 0 : 0.12} />
+      <GoboProjection glass color="#ffffff" size={3.2} intensity={active.mode === "floor" ? 1.5 : 1.1} position={[0, 0.04, FLOOR_Z]} spin={reduced ? 0 : 0.12} />
 
       {/* room */}
       <mesh rotation-x={-Math.PI / 2} receiveShadow>
         <planeGeometry args={[80, 80]} />
-        <meshStandardMaterial color="#0b0c22" roughness={0.42} metalness={0.25} />
+        <meshStandardMaterial color="#141417" roughness={0.42} metalness={0.25} />
       </mesh>
       <mesh position={[0, 6, -5]}>
         <planeGeometry args={[40, 14]} />
-        <meshStandardMaterial color="#12143a" roughness={1} />
+        <meshStandardMaterial color="#1f1d24" roughness={1} />
       </mesh>
 
-      <Sparkles count={520} area={[20, 7.5, 10]} y={0} size={12} twinkle={0.5} opacity={0.3} soft drift={reduced ? 0 : 0.18} color="#aab2e6" />
+      <Sparkles count={520} area={[20, 7.5, 10]} y={0} size={12} twinkle={0.5} opacity={0.3} soft drift={reduced ? 0 : 0.18} color="#cbc2dc" />
 
       <pointLight ref={lightA} position={[-3.5, 1.2, 2.4]} intensity={9} distance={14} decay={1.6} />
       <pointLight ref={lightB} position={[3.5, 1.2, 2.4]} intensity={9} distance={14} decay={1.6} />
@@ -214,7 +215,7 @@ function CameraRig() {
 
 export default function HeroStage({ active = true }: { active?: boolean }) {
   usePointer();
-  const congo = gel.congo();
+  const bg = gel.bg();
   return (
     <Canvas
       dpr={[1, 1.6]}
@@ -223,10 +224,10 @@ export default function HeroStage({ active = true }: { active?: boolean }) {
       gl={{ antialias: true, powerPreference: "high-performance" }}
       aria-hidden
     >
-      <color attach="background" args={[congo]} />
-      <fog attach="fog" args={[congo, 12, 30]} />
+      <color attach="background" args={[bg]} />
+      <fog attach="fog" args={[bg, 12, 30]} />
       <ambientLight intensity={0.18} />
-      <hemisphereLight args={["#8190ff", "#0b0c22", 0.35]} />
+      <hemisphereLight args={["#a58bd6", "#141417", 0.35]} />
       <directionalLight position={[0, 8, 6]} intensity={0.5} />
       <Rig />
       <CameraRig />

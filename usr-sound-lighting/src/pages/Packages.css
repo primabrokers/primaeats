@@ -8,7 +8,7 @@
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
   gap: clamp(24px, 4vw, 64px);
   padding-block: clamp(32px, 4vw, 56px);
-  border-top: 1px solid var(--truss);
+  border-top: 1px solid var(--line);
   scroll-margin-top: calc(var(--header-h) + 8px);
 }
 .pkg:first-child {
@@ -22,12 +22,12 @@
   border-left: 5px solid var(--gel);
 }
 .pkg__intro h2 {
-  font-size: var(--step-3);
+  font-size: var(--step-2);
 }
 .pkg__price strong {
   font-family: var(--font-display);
-  font-size: 2.6rem;
-  font-weight: 800;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 .pkg__actions {
   display: flex;
@@ -49,8 +49,8 @@
   gap: 14px;
   padding: 10px;
   border-radius: var(--r-s);
-  background: var(--blackout);
-  border: 1px solid var(--truss);
+  background: var(--surface);
+  border: 1px solid var(--line);
   min-height: 76px;
 }
 .pkg__thumb {
@@ -58,7 +58,7 @@
   width: 72px;
   height: 54px;
   border-radius: 4px;
-  background: radial-gradient(60% 60% at 50% 75%, color-mix(in srgb, var(--gel) 26%, transparent), transparent 70%), #0c0d25;
+  background: radial-gradient(60% 60% at 50% 75%, color-mix(in srgb, var(--gel) 26%, transparent), transparent 70%), #151518;
 }
 .pkg__thumb img {
   width: 100%;
@@ -70,7 +70,7 @@
   font-weight: 500;
 }
 .pkg__item-link:hover {
-  color: var(--amber);
+  color: var(--brand-light);
   text-decoration: underline;
 }
 .pkg__note {

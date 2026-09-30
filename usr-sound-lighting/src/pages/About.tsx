@@ -26,7 +26,7 @@ export default function About() {
   usePageTitle("About us");
   return (
     <>
-      <header className="page-head" style={{ ["--page-gel" as string]: "var(--rose)" }}>
+      <header className="page-head" style={{ ["--page-gel" as string]: "var(--gel-staging)" }}>
         <div className="wrap">
           <ol className="breadcrumb">
             <li>

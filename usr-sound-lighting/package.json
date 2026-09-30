@@ -11,9 +11,8 @@
     "renders": "node scripts/render-thumbnails.mjs"
   },
   "dependencies": {
-    "@fontsource-variable/big-shoulders-display": "^5.3.0",
     "@fontsource-variable/instrument-sans": "^5.3.0",
-    "@fontsource/big-shoulders-stencil-display": "^5.3.0",
+    "@fontsource-variable/unbounded": "^5.3.0",
     "@react-three/drei": "^10.7.9",
     "@react-three/fiber": "^9.8.1",
     "framer-motion": "^13.4.6",

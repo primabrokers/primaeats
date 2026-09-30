@@ -9,11 +9,10 @@
   gap: 20px;
 }
 .about__opening {
-  font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: 500;
   font-size: var(--step-2);
-  line-height: 1.12;
-  max-width: 26ch;
+  line-height: 1.35;
+  max-width: 34ch;
 }
 .about__actions {
   display: flex;
@@ -34,7 +33,7 @@
   display: grid;
   gap: 6px;
   padding: 18px 0;
-  border-bottom: 1px solid var(--truss);
+  border-bottom: 1px solid var(--line);
 }
 .principles h3 {
   font-size: var(--step-1);

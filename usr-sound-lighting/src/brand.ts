@@ -3,7 +3,8 @@
  * re-branded without touching page code.
  *
  * Colours live in src/styles/tokens.css (the 3D scenes read them from there).
- * To use the real logo, drop the file into public/brand/ and point logo.src at it.
+ * The logo is a cut-out of the 200 px original (public/brand/usr-logo-original.jpg).
+ * Swap in a larger or vector version when there is one: same path, or update logo.src.
  *
  * Items marked VERIFY came from public listings (Companies House, Add to Event)
  * and should be checked with the owners before launch.
@@ -19,8 +20,10 @@ export const brand = {
   base: "Prestwich, Manchester",
 
   logo: {
-    src: "/brand/usr-logo.svg",
-    mark: "/brand/usr-mark.svg",
+    src: "/brand/usr-logo.png",
+    width: 180,
+    height: 124,
+    icon: "/brand/usr-icon-180.png",
     alt: "USR Sound & Lighting",
   },
 

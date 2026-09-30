@@ -3,8 +3,12 @@ import { useFrame, type ThreeElements } from "@react-three/fiber";
 import * as THREE from "three";
 import { brand } from "../brand";
 
-/** The brand logo drawn into a texture, for gobo projections. White on transparent. */
-export function useLogoTexture() {
+/**
+ * The brand logo drawn into a texture for gobo projections.
+ * "metal": a white cut-out silhouette with a ring, tinted by the light colour.
+ * "glass": the logo in its own colours, like a printed glass gobo.
+ */
+export function useLogoTexture(kind: "metal" | "glass" = "metal") {
   const [texture, setTexture] = useState<THREE.CanvasTexture | null>(null);
   useEffect(() => {
     let alive = true;
@@ -15,21 +19,22 @@ export function useLogoTexture() {
       const canvas = document.createElement("canvas");
       canvas.width = canvas.height = size;
       const ctx = canvas.getContext("2d")!;
-      const aspect = (img.naturalWidth || 156) / (img.naturalHeight || 122);
-      const w = size * 0.62;
+      const aspect = (img.naturalWidth || brand.logo.width) / (img.naturalHeight || brand.logo.height);
+      const w = size * (kind === "glass" ? 0.86 : 0.7);
       const h = w / aspect;
       ctx.drawImage(img, (size - w) / 2, (size - h) / 2, w, h);
-      // gobos pass light through the cut-outs: keep the shape, make it white
-      ctx.globalCompositeOperation = "source-in";
-      ctx.fillStyle = "#fff";
-      ctx.fillRect(0, 0, size, size);
-      // outer ring, like a monogram gobo
-      ctx.globalCompositeOperation = "source-over";
-      ctx.strokeStyle = "#fff";
-      ctx.lineWidth = size * 0.018;
-      ctx.beginPath();
-      ctx.arc(size / 2, size / 2, size * 0.46, 0, Math.PI * 2);
-      ctx.stroke();
+      if (kind === "metal") {
+        // metal gobos pass light through the cut-outs: keep the shape, make it white
+        ctx.globalCompositeOperation = "source-in";
+        ctx.fillStyle = "#fff";
+        ctx.fillRect(0, 0, size, size);
+        ctx.globalCompositeOperation = "source-over";
+        ctx.strokeStyle = "#fff";
+        ctx.lineWidth = size * 0.018;
+        ctx.beginPath();
+        ctx.arc(size / 2, size / 2, size * 0.46, 0, Math.PI * 2);
+        ctx.stroke();
+      }
       const tex = new THREE.CanvasTexture(canvas);
       tex.colorSpace = THREE.SRGBColorSpace;
       tex.anisotropy = 4;
@@ -39,7 +44,7 @@ export function useLogoTexture() {
     return () => {
       alive = false;
     };
-  }, []);
+  }, [kind]);
   return texture;
 }
 
@@ -49,9 +54,16 @@ export function GoboProjection({
   size = 1.8,
   spin = 0.08,
   intensity = 1,
+  glass = false,
   ...props
-}: { color: THREE.ColorRepresentation; size?: number; spin?: number; intensity?: number } & ThreeElements["group"]) {
-  const texture = useLogoTexture();
+}: {
+  color: THREE.ColorRepresentation;
+  size?: number;
+  spin?: number;
+  intensity?: number;
+  glass?: boolean;
+} & ThreeElements["group"]) {
+  const texture = useLogoTexture(glass ? "glass" : "metal");
   const material = useMemo(
     () =>
       new THREE.ShaderMaterial({
@@ -60,6 +72,7 @@ export function GoboProjection({
           uColor: { value: new THREE.Color(color) },
           uIntensity: { value: intensity },
           uAngle: { value: 0 },
+          uGlass: { value: 0 },
         },
         vertexShader: /* glsl */ `
           varying vec2 vUv;
@@ -70,16 +83,20 @@ export function GoboProjection({
           uniform vec3 uColor;
           uniform float uIntensity;
           uniform float uAngle;
+          uniform float uGlass;
           varying vec2 vUv;
           void main() {
             vec2 p = vUv - 0.5;
             float c = cos(uAngle), s = sin(uAngle);
             vec2 r = vec2(c * p.x - s * p.y, s * p.x + c * p.y) + 0.5;
-            float shape = texture2D(uMap, r).a;
+            vec4 t = texture2D(uMap, r);
             float d = length(p) * 2.0;
             float halo = smoothstep(1.0, 0.0, d) * 0.12;
-            float a = (shape * 0.95 + halo) * uIntensity;
-            gl_FragColor = vec4(uColor * a, a);
+            // metal: tint the silhouette; glass: project the artwork's own colours
+            vec3 art = mix(uColor, t.rgb * uColor * 1.25, uGlass);
+            vec3 col = art * t.a * 0.95 + uColor * halo;
+            float a = (t.a * 0.95 + halo) * uIntensity;
+            gl_FragColor = vec4(col * uIntensity, a);
           }
         `,
         transparent: true,
@@ -92,7 +109,8 @@ export function GoboProjection({
     material.uniforms.uMap.value = texture;
     material.uniforms.uColor.value.set(color);
     material.uniforms.uIntensity.value = intensity;
-  }, [texture, color, intensity, material]);
+    material.uniforms.uGlass.value = glass ? 1 : 0;
+  }, [texture, color, intensity, glass, material]);
   useFrame((_, dt) => {
     material.uniforms.uAngle.value += dt * spin;
   });

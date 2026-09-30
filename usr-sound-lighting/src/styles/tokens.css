@@ -1,41 +1,46 @@
 /*
- * Brand tokens. The palette is built like a lighting gel swatch book:
- * a house-lights-down base, and one gel colour per kind of kit.
+ * Brand tokens, taken from the USR logo: purple and white on charcoal.
  * The 3D scenes read these values at runtime (src/lib/cssVar.ts), so this
  * file is the single place to change a colour.
  */
 :root {
-  /* Base */
-  --congo: #10112e; /* page: the room with house lights down */
-  --blackout: #181a3c; /* raised surfaces */
-  --blackout-2: #21244d; /* inputs, hover */
-  --truss: #373c6e; /* hairlines and borders */
-  --work: #f1f3fa; /* primary text: work-light white */
-  --dim: #a9afd0; /* secondary text */
-  --faint: #767ca6; /* tertiary text, placeholders */
+  /* Base — the logo sits on #333333; the page goes a step darker so light reads */
+  --bg: #1b1b1f;
+  --surface: #252529;
+  --surface-2: #303035;
+  --line: #45444d;
+  --text: #f6f4f8; /* the logo's white */
+  --dim: #b8b4c0;
+  --faint: #8a8693;
 
-  /* Gels — each one codes a category */
-  --amber: #ffa630; /* lighting, and the primary action */
-  --steel: #6cc4ff; /* sound */
-  --rose: #ff5a9f; /* staging and dance floors */
-  --lavender: #b89dff; /* special effects */
-  --amber-ink: #231200; /* text on amber */
+  /* Brand purple */
+  --brand: #7b2fc4; /* the logo's purple: fills and buttons */
+  --brand-hover: #8d40d9;
+  --brand-light: #b07bff; /* the same hue lifted for lines and text on dark */
+  --brand-ink: #ffffff; /* text on purple */
+
+  /* Category colours, analogous to the purple so they sit with the logo */
+  --gel-sound: #5ec8ff;
+  --gel-lighting: #a064ff;
+  --gel-staging: #ff5cc8;
+  --gel-effects: #ece4fb;
+
+  /* Colour of light in the 3D scenes (brighter than the print purple) */
+  --beam-brand: #9d55ff;
 
   --ok: #6fe0a4;
-  --error: #ff7b7b;
+  --error: #ff7b8a;
 
-  /* Type */
-  --font-display: "Big Shoulders Display Variable", "Arial Narrow", sans-serif;
-  --font-stencil: "Big Shoulders Stencil Display", "Big Shoulders Display Variable", sans-serif;
+  /* Type: a wide geometric display face to sit with the USR lettering */
+  --font-display: "Unbounded Variable", "Arial Black", sans-serif;
   --font-body: "Instrument Sans Variable", "Segoe UI", system-ui, sans-serif;
 
-  /* Scale (1.25 minor third on body, display steps hand-tuned for the condensed face) */
   --step--1: 0.875rem;
   --step-0: 1.0625rem;
-  --step-1: 1.3rem;
-  --step-2: clamp(1.7rem, 1.4rem + 1vw, 2.2rem);
-  --step-3: clamp(2.3rem, 1.8rem + 2vw, 3.4rem);
-  --step-4: clamp(3rem, 2rem + 4.5vw, 6.2rem);
+  --step-1: 1.25rem;
+  --step-2: clamp(1.35rem, 1.1rem + 0.9vw, 1.8rem);
+  --step-3: clamp(1.8rem, 1.35rem + 1.7vw, 2.7rem);
+  --step-4: clamp(2.1rem, 1.4rem + 2.8vw, 3.9rem);
 
   /* Shape: small for controls, medium for panels, large for media wells */
   --r-s: 6px;
@@ -44,5 +49,5 @@
 
   --page-max: 1240px;
   --gutter: clamp(16px, 4vw, 40px);
-  --header-h: 72px;
+  --header-h: 82px;
 }

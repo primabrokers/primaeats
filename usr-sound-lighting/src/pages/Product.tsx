@@ -2,19 +2,12 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ProductScene } from "../components/Scene";
 import { ProductTile } from "../components/ProductTile";
-import { categories, hireLengths, lightColours, productBySlug, productImage, products } from "../data/catalogue";
+import { categories, colourPhrase, defaultLightColour, hireLengths, lightColours, productBySlug, productImage, products } from "../data/catalogue";
 import { gel } from "../lib/cssVar";
 import { money, prefersReducedMotion, usePageTitle } from "../lib/format";
 import { useBooking } from "../store/booking";
 import NotFound from "./NotFound";
 import "./Product.css";
-
-const defaultColour: Record<string, string> = {
-  sound: "#6cc4ff",
-  lighting: "#ffa630",
-  staging: "#ff5a9f",
-  effects: "#b89dff",
-};
 
 export default function Product() {
   const { slug = "" } = useParams();
@@ -22,13 +15,13 @@ export default function Product() {
   usePageTitle(product ? `${product.name} hire` : "Not found");
   const add = useBooking((s) => s.add);
   const [qty, setQty] = useState(1);
-  const [colour, setColour] = useState<string>(product ? defaultColour[product.category] : gel.amber());
+  const [colour, setColour] = useState<string>(product ? defaultLightColour[product.category] : gel.beam());
   const [animate, setAnimate] = useState(() => !prefersReducedMotion());
   const [justAdded, setJustAdded] = useState(false);
 
   useEffect(() => {
     setQty(1);
-    if (product) setColour(product.colourPick ? lightColours[0].hex : defaultColour[product.category]);
+    if (product) setColour(product.colourPick ? lightColours[0].hex : defaultLightColour[product.category]);
   }, [slug]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
@@ -120,7 +113,7 @@ export default function Product() {
             <fieldset className="swatches">
               <legend>Colour</legend>
               <p className="swatches__note muted">
-                Showing {colourName?.toLowerCase()}. We can change colours through the night too.
+                Showing {colourName ? colourPhrase(colourName) : "this colour"}. We can change colours through the night too.
               </p>
               <div className="swatches__row">
                 {lightColours.map((c) => (

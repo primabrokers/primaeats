@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { hireLengths, serviceLevels } from "../data/catalogue";
+import { colourPhrase, hireLengths, serviceLevels } from "../data/catalogue";
 import { money, usePageTitle } from "../lib/format";
 import { sendRequest } from "../lib/submit";
 import { describeLine, lineTotal, useBooking, useTotals, type EventDetails } from "../store/booking";
@@ -49,8 +49,8 @@ export default function Booking() {
 
   // collection only works when everything is dry-hire kit
   useEffect(() => {
-    if (service === "collect" && !totals.allDryHire) setService("delivered");
-  }, [service, totals.allDryHire, setService]);
+    if (service === "collect" && lines.length > 0 && !totals.allDryHire) setService("delivered");
+  }, [service, lines.length, totals.allDryHire, setService]);
 
   useEffect(() => {
     if (submitted) setErrors(validate(details, lines.length));
@@ -206,7 +206,7 @@ export default function Booking() {
                           <span className="muted line__meta">
                             {d.fromPrice ? "from " : ""}
                             {money(d.unitPrice)} {d.unit}
-                            {l.colour ? `, ${l.colour.toLowerCase()}` : ""}
+                            {l.colour ? `, ${colourPhrase(l.colour)}` : ""}
                           </span>
                         </div>
                         <div className="stepper stepper--small" role="group" aria-label={`Quantity of ${d.name}`}>
@@ -321,7 +321,7 @@ export default function Booking() {
             </h2>
             <div className="choice-grid">
               {serviceLevels.map((s) => {
-                const disabled = s.id === "collect" && !totals.allDryHire;
+                const disabled = s.id === "collect" && lines.length > 0 && !totals.allDryHire;
                 return (
                   <label key={s.id} className="choice">
                     <input type="radio" name="service" value={s.id} checked={service === s.id} disabled={disabled} onChange={() => setService(s.id)} />

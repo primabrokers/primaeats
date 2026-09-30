@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="wrap site-footer__grid">
         <div className="site-footer__brand">
-          <Logo height={64} />
+          <Logo height={110} />
           <p className="muted">
             Sound, lighting and staging for weddings, parties, concerts and corporate events. Based in {brand.base}, working
             across the North West since {brand.founded}.

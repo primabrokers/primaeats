@@ -105,7 +105,7 @@ export function Beam({
   length = 6,
   lensRadius = 0.07,
   spread = 0.12,
-  color = "#ffa630",
+  color = "#9d55ff",
   intensity = 1,
   materialRef,
 }: {
@@ -283,7 +283,7 @@ export function MovingHead({
 /* ——— LED par can ——— */
 
 export function LedPar({
-  color = "#ffa630",
+  color = "#9d55ff",
   beam = true,
   beamLength = 4,
   ...props

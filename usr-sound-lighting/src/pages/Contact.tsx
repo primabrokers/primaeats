@@ -70,7 +70,7 @@ export default function Contact() {
 
   return (
     <>
-      <header className="page-head" style={{ ["--page-gel" as string]: "var(--steel)" }}>
+      <header className="page-head" style={{ ["--page-gel" as string]: "var(--gel-sound)" }}>
         <div className="wrap">
           <ol className="breadcrumb">
             <li>
